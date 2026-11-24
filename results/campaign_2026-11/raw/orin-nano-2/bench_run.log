@@ -1,0 +1,5774 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734_env.txt
+============================================================
+FlexStack Benchmark — <host> (orin-nano)
+Started: Mon Nov 23 14:27:47 CET 2026
+Results: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+============================================================
+
+================================================================
+  rust | security-verify | security=on | rate=max
+================================================================
+[14:27:47] rust | security-verify | on | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85190 ops (1420/s)
+
+  Results:
+    Total        : 85190
+    Throughput   : 1419.8 CAMs/s
+    Latency mean : 704.04 μs
+    Latency p50  : 669.20 μs
+    Latency p95  : 674.77 μs
+    Latency p99  : 677.30 μs
+    CPU          : 95.1 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.79 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:29:02] rust | security-verify | on | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85108 ops (1418/s)
+
+  Results:
+    Total        : 85108
+    Throughput   : 1418.5 CAMs/s
+    Latency mean : 704.73 μs
+    Latency p50  : 669.33 μs
+    Latency p95  : 674.77 μs
+    Latency p99  : 677.30 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:30:17] rust | security-verify | on | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85017 ops (1417/s)
+
+  Results:
+    Total        : 85017
+    Throughput   : 1416.9 CAMs/s
+    Latency mean : 705.49 μs
+    Latency p50  : 670.03 μs
+    Latency p95  : 675.34 μs
+    Latency p99  : 677.75 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:31:32] rust | security-verify | on | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85028 ops (1417/s)
+
+  Results:
+    Total        : 85028
+    Throughput   : 1417.1 CAMs/s
+    Latency mean : 705.39 μs
+    Latency p50  : 669.94 μs
+    Latency p95  : 675.54 μs
+    Latency p99  : 678.16 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.65 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:32:47] rust | security-verify | on | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85068 ops (1418/s)
+
+  Results:
+    Total        : 85068
+    Throughput   : 1417.8 CAMs/s
+    Latency mean : 705.06 μs
+    Latency p50  : 669.62 μs
+    Latency p95  : 675.09 μs
+    Latency p99  : 677.58 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.71 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:34:02] rust | security-verify | on | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85150 ops (1419/s)
+
+  Results:
+    Total        : 85150
+    Throughput   : 1419.2 CAMs/s
+    Latency mean : 704.37 μs
+    Latency p50  : 668.94 μs
+    Latency p95  : 674.61 μs
+    Latency p99  : 677.20 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:35:17] rust | security-verify | on | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85000 ops (1417/s)
+
+  Results:
+    Total        : 85000
+    Throughput   : 1416.7 CAMs/s
+    Latency mean : 705.63 μs
+    Latency p50  : 670.16 μs
+    Latency p95  : 675.92 μs
+    Latency p99  : 678.45 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:36:32] rust | security-verify | on | run 8/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85089 ops (1418/s)
+
+  Results:
+    Total        : 85089
+    Throughput   : 1418.1 CAMs/s
+    Latency mean : 704.88 μs
+    Latency p50  : 669.39 μs
+    Latency p95  : 674.86 μs
+    Latency p99  : 677.39 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.77 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:37:47] rust | security-verify | on | run 9/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85096 ops (1418/s)
+
+  Results:
+    Total        : 85096
+    Throughput   : 1418.3 CAMs/s
+    Latency mean : 704.85 μs
+    Latency p50  : 669.42 μs
+    Latency p95  : 674.83 μs
+    Latency p99  : 677.26 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:39:02] rust | security-verify | on | run 10/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85154 ops (1419/s)
+
+  Results:
+    Total        : 85154
+    Throughput   : 1419.2 CAMs/s
+    Latency mean : 704.35 μs
+    Latency p50  : 668.91 μs
+    Latency p95  : 674.23 μs
+    Latency p99  : 677.14 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:40:18] rust | security-verify | on | run 11/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85055 ops (1418/s)
+
+  Results:
+    Total        : 85055
+    Throughput   : 1417.6 CAMs/s
+    Latency mean : 705.16 μs
+    Latency p50  : 669.71 μs
+    Latency p95  : 675.06 μs
+    Latency p99  : 677.65 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.40 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:41:33] rust | security-verify | on | run 12/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85048 ops (1417/s)
+
+  Results:
+    Total        : 85048
+    Throughput   : 1417.5 CAMs/s
+    Latency mean : 705.23 μs
+    Latency p50  : 669.78 μs
+    Latency p95  : 675.35 μs
+    Latency p99  : 677.84 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:42:48] rust | security-verify | on | run 13/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85055 ops (1418/s)
+
+  Results:
+    Total        : 85055
+    Throughput   : 1417.6 CAMs/s
+    Latency mean : 705.17 μs
+    Latency p50  : 669.74 μs
+    Latency p95  : 675.15 μs
+    Latency p99  : 677.65 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:44:03] rust | security-verify | on | run 14/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85092 ops (1418/s)
+
+  Results:
+    Total        : 85092
+    Throughput   : 1418.2 CAMs/s
+    Latency mean : 704.86 μs
+    Latency p50  : 669.42 μs
+    Latency p95  : 674.90 μs
+    Latency p99  : 677.36 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.15 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:45:18] rust | security-verify | on | run 15/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85095 ops (1418/s)
+
+  Results:
+    Total        : 85095
+    Throughput   : 1418.2 CAMs/s
+    Latency mean : 704.83 μs
+    Latency p50  : 669.33 μs
+    Latency p95  : 674.93 μs
+    Latency p99  : 677.46 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:46:33] rust | security-verify | on | run 16/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85175 ops (1420/s)
+
+  Results:
+    Total        : 85175
+    Throughput   : 1419.6 CAMs/s
+    Latency mean : 704.16 μs
+    Latency p50  : 669.33 μs
+    Latency p95  : 674.90 μs
+    Latency p99  : 677.43 μs
+    CPU          : 95.1 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:47:48] rust | security-verify | on | run 17/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85057 ops (1418/s)
+
+  Results:
+    Total        : 85057
+    Throughput   : 1417.6 CAMs/s
+    Latency mean : 705.15 μs
+    Latency p50  : 669.74 μs
+    Latency p95  : 675.35 μs
+    Latency p99  : 677.81 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:49:03] rust | security-verify | on | run 18/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85057 ops (1418/s)
+
+  Results:
+    Total        : 85057
+    Throughput   : 1417.6 CAMs/s
+    Latency mean : 705.14 μs
+    Latency p50  : 670.26 μs
+    Latency p95  : 675.66 μs
+    Latency p99  : 678.42 μs
+    CPU          : 95.1 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:50:18] rust | security-verify | on | run 19/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 84674 ops (1411/s)
+
+  Results:
+    Total        : 84674
+    Throughput   : 1411.2 CAMs/s
+    Latency mean : 708.34 μs
+    Latency p50  : 672.75 μs
+    Latency p95  : 678.29 μs
+    Latency p99  : 680.78 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.79 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:51:33] rust | security-verify | on | run 20/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85037 ops (1417/s)
+
+  Results:
+    Total        : 85037
+    Throughput   : 1417.3 CAMs/s
+    Latency mean : 705.32 μs
+    Latency p50  : 669.84 μs
+    Latency p95  : 675.38 μs
+    Latency p99  : 677.87 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:52:48] rust | security-verify | on | run 21/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85021 ops (1417/s)
+
+  Results:
+    Total        : 85021
+    Throughput   : 1417.0 CAMs/s
+    Latency mean : 705.46 μs
+    Latency p50  : 670.61 μs
+    Latency p95  : 675.95 μs
+    Latency p99  : 678.38 μs
+    CPU          : 95.1 % (100 = one core)
+    RSS start    : 2.14 MB, peak 6.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:54:04] rust | security-verify | on | run 22/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 84965 ops (1416/s)
+
+  Results:
+    Total        : 84965
+    Throughput   : 1416.1 CAMs/s
+    Latency mean : 705.91 μs
+    Latency p50  : 670.42 μs
+    Latency p95  : 675.79 μs
+    Latency p99  : 678.64 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.79 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:55:19] rust | security-verify | on | run 23/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85183 ops (1420/s)
+
+  Results:
+    Total        : 85183
+    Throughput   : 1419.7 CAMs/s
+    Latency mean : 704.11 μs
+    Latency p50  : 669.30 μs
+    Latency p95  : 674.67 μs
+    Latency p99  : 677.10 μs
+    CPU          : 95.1 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.40 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:56:34] rust | security-verify | on | run 24/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85032 ops (1417/s)
+
+  Results:
+    Total        : 85032
+    Throughput   : 1417.2 CAMs/s
+    Latency mean : 705.35 μs
+    Latency p50  : 669.94 μs
+    Latency p95  : 675.15 μs
+    Latency p99  : 677.78 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:57:49] rust | security-verify | on | run 25/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85024 ops (1417/s)
+
+  Results:
+    Total        : 85024
+    Throughput   : 1417.1 CAMs/s
+    Latency mean : 705.42 μs
+    Latency p50  : 669.97 μs
+    Latency p95  : 675.53 μs
+    Latency p99  : 677.87 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[14:59:04] rust | security-verify | on | run 26/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85159 ops (1419/s)
+
+  Results:
+    Total        : 85159
+    Throughput   : 1419.3 CAMs/s
+    Latency mean : 704.30 μs
+    Latency p50  : 669.49 μs
+    Latency p95  : 675.09 μs
+    Latency p99  : 677.46 μs
+    CPU          : 95.1 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:00:19] rust | security-verify | on | run 27/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 84992 ops (1417/s)
+
+  Results:
+    Total        : 84992
+    Throughput   : 1416.5 CAMs/s
+    Latency mean : 705.70 μs
+    Latency p50  : 670.22 μs
+    Latency p95  : 675.92 μs
+    Latency p99  : 678.51 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:01:34] rust | security-verify | on | run 28/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 84960 ops (1416/s)
+
+  Results:
+    Total        : 84960
+    Throughput   : 1416.0 CAMs/s
+    Latency mean : 705.95 μs
+    Latency p50  : 670.45 μs
+    Latency p95  : 676.21 μs
+    Latency p99  : 678.70 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.79 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:02:49] rust | security-verify | on | run 29/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 85053 ops (1418/s)
+
+  Results:
+    Total        : 85053
+    Throughput   : 1417.5 CAMs/s
+    Latency mean : 705.20 μs
+    Latency p50  : 669.81 μs
+    Latency p95  : 675.15 μs
+    Latency p99  : 677.65 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 4.15 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:04:04] rust | security-verify | on | run 30/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 84990 ops (1416/s)
+
+  Results:
+    Total        : 84990
+    Throughput   : 1416.5 CAMs/s
+    Latency mean : 705.70 μs
+    Latency p50  : 670.22 μs
+    Latency p95  : 675.76 μs
+    Latency p99  : 678.38 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 2.14 MB, peak 2.79 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  cpython | security-verify | security=on | rate=max
+================================================================
+[15:05:09] cpython | security-verify | on | run 1/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4900 ops (82/s)
+
+  Results:
+    Total        : 4900
+    Throughput   : 81.7 CAMs/s
+    Latency mean : 12243.64 μs
+    Latency p50  : 11650.96 μs
+    Latency p95  : 11734.57 μs
+    Latency p99  : 58761.13 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.27 MB, peak 68.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:06:28] cpython | security-verify | on | run 2/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4882 ops (81/s)
+
+  Results:
+    Total        : 4882
+    Throughput   : 81.4 CAMs/s
+    Latency mean : 12288.50 μs
+    Latency p50  : 11692.82 μs
+    Latency p95  : 11779.00 μs
+    Latency p99  : 59577.24 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:07:46] cpython | security-verify | on | run 3/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4977 ops (83/s)
+
+  Results:
+    Total        : 4977
+    Throughput   : 82.9 CAMs/s
+    Latency mean : 12054.59 μs
+    Latency p50  : 11465.64 μs
+    Latency p95  : 11578.36 μs
+    Latency p99  : 59552.38 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.35 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:09:05] cpython | security-verify | on | run 4/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4926 ops (82/s)
+
+  Results:
+    Total        : 4926
+    Throughput   : 82.1 CAMs/s
+    Latency mean : 12179.10 μs
+    Latency p50  : 11587.79 μs
+    Latency p95  : 11681.22 μs
+    Latency p99  : 56534.62 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:10:23] cpython | security-verify | on | run 5/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4872 ops (81/s)
+
+  Results:
+    Total        : 4872
+    Throughput   : 81.2 CAMs/s
+    Latency mean : 12314.48 μs
+    Latency p50  : 11717.99 μs
+    Latency p95  : 11797.64 μs
+    Latency p99  : 58269.64 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:11:42] cpython | security-verify | on | run 6/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4958 ops (83/s)
+
+  Results:
+    Total        : 4958
+    Throughput   : 82.6 CAMs/s
+    Latency mean : 12100.97 μs
+    Latency p50  : 11513.51 μs
+    Latency p95  : 11601.99 μs
+    Latency p99  : 58453.95 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:13:00] cpython | security-verify | on | run 7/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4922 ops (82/s)
+
+  Results:
+    Total        : 4922
+    Throughput   : 82.0 CAMs/s
+    Latency mean : 12189.15 μs
+    Latency p50  : 11596.31 μs
+    Latency p95  : 11689.96 μs
+    Latency p99  : 58416.39 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:14:19] cpython | security-verify | on | run 8/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4929 ops (82/s)
+
+  Results:
+    Total        : 4929
+    Throughput   : 82.1 CAMs/s
+    Latency mean : 12162.13 μs
+    Latency p50  : 11581.69 μs
+    Latency p95  : 11658.97 μs
+    Latency p99  : 59683.58 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:15:37] cpython | security-verify | on | run 9/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4957 ops (83/s)
+
+  Results:
+    Total        : 4957
+    Throughput   : 82.6 CAMs/s
+    Latency mean : 12102.93 μs
+    Latency p50  : 11515.70 μs
+    Latency p95  : 11612.23 μs
+    Latency p99  : 59605.60 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:16:56] cpython | security-verify | on | run 10/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4837 ops (81/s)
+
+  Results:
+    Total        : 4837
+    Throughput   : 80.6 CAMs/s
+    Latency mean : 12402.50 μs
+    Latency p50  : 11799.77 μs
+    Latency p95  : 11886.48 μs
+    Latency p99  : 59846.75 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.28 MB, peak 68.29 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:18:14] cpython | security-verify | on | run 11/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4890 ops (81/s)
+
+  Results:
+    Total        : 4890
+    Throughput   : 81.5 CAMs/s
+    Latency mean : 12269.06 μs
+    Latency p50  : 11672.15 μs
+    Latency p95  : 11763.82 μs
+    Latency p99  : 58818.59 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.27 MB, peak 68.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:19:33] cpython | security-verify | on | run 12/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4932 ops (82/s)
+
+  Results:
+    Total        : 4932
+    Throughput   : 82.2 CAMs/s
+    Latency mean : 12163.12 μs
+    Latency p50  : 11571.51 μs
+    Latency p95  : 11665.90 μs
+    Latency p99  : 59634.10 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:20:51] cpython | security-verify | on | run 13/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4897 ops (82/s)
+
+  Results:
+    Total        : 4897
+    Throughput   : 81.6 CAMs/s
+    Latency mean : 12249.93 μs
+    Latency p50  : 11655.23 μs
+    Latency p95  : 11747.13 μs
+    Latency p99  : 58257.71 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.27 MB, peak 68.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:22:10] cpython | security-verify | on | run 14/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4878 ops (81/s)
+
+  Results:
+    Total        : 4878
+    Throughput   : 81.3 CAMs/s
+    Latency mean : 12298.84 μs
+    Latency p50  : 11705.58 μs
+    Latency p95  : 11805.77 μs
+    Latency p99  : 57649.43 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.62 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:23:28] cpython | security-verify | on | run 15/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4894 ops (82/s)
+
+  Results:
+    Total        : 4894
+    Throughput   : 81.6 CAMs/s
+    Latency mean : 12259.40 μs
+    Latency p50  : 11665.92 μs
+    Latency p95  : 11747.79 μs
+    Latency p99  : 59705.46 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:24:47] cpython | security-verify | on | run 16/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4946 ops (82/s)
+
+  Results:
+    Total        : 4946
+    Throughput   : 82.4 CAMs/s
+    Latency mean : 12129.62 μs
+    Latency p50  : 11540.73 μs
+    Latency p95  : 11628.76 μs
+    Latency p99  : 59608.32 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:26:05] cpython | security-verify | on | run 17/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4884 ops (81/s)
+
+  Results:
+    Total        : 4884
+    Throughput   : 81.4 CAMs/s
+    Latency mean : 12283.80 μs
+    Latency p50  : 11689.18 μs
+    Latency p95  : 11760.77 μs
+    Latency p99  : 59753.16 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:27:24] cpython | security-verify | on | run 18/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4850 ops (81/s)
+
+  Results:
+    Total        : 4850
+    Throughput   : 80.8 CAMs/s
+    Latency mean : 12369.21 μs
+    Latency p50  : 11767.89 μs
+    Latency p95  : 11861.22 μs
+    Latency p99  : 58511.32 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:28:42] cpython | security-verify | on | run 19/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4941 ops (82/s)
+
+  Results:
+    Total        : 4941
+    Throughput   : 82.3 CAMs/s
+    Latency mean : 12141.65 μs
+    Latency p50  : 11551.77 μs
+    Latency p95  : 11643.52 μs
+    Latency p99  : 59651.98 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:30:00] cpython | security-verify | on | run 20/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4852 ops (81/s)
+
+  Results:
+    Total        : 4852
+    Throughput   : 80.9 CAMs/s
+    Latency mean : 12363.59 μs
+    Latency p50  : 11764.59 μs
+    Latency p95  : 11846.49 μs
+    Latency p99  : 57898.12 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:31:19] cpython | security-verify | on | run 21/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4915 ops (82/s)
+
+  Results:
+    Total        : 4915
+    Throughput   : 81.9 CAMs/s
+    Latency mean : 12206.63 μs
+    Latency p50  : 11616.51 μs
+    Latency p95  : 11694.86 μs
+    Latency p99  : 56693.98 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:32:37] cpython | security-verify | on | run 22/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4872 ops (81/s)
+
+  Results:
+    Total        : 4872
+    Throughput   : 81.2 CAMs/s
+    Latency mean : 12313.86 μs
+    Latency p50  : 11719.01 μs
+    Latency p95  : 11791.75 μs
+    Latency p99  : 59766.88 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:33:56] cpython | security-verify | on | run 23/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4919 ops (82/s)
+
+  Results:
+    Total        : 4919
+    Throughput   : 82.0 CAMs/s
+    Latency mean : 12196.97 μs
+    Latency p50  : 11605.82 μs
+    Latency p95  : 11685.63 μs
+    Latency p99  : 56666.23 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:35:14] cpython | security-verify | on | run 24/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4858 ops (81/s)
+
+  Results:
+    Total        : 4858
+    Throughput   : 81.0 CAMs/s
+    Latency mean : 12349.45 μs
+    Latency p50  : 11751.19 μs
+    Latency p95  : 11833.48 μs
+    Latency p99  : 56460.26 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:36:33] cpython | security-verify | on | run 25/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4914 ops (82/s)
+
+  Results:
+    Total        : 4914
+    Throughput   : 81.9 CAMs/s
+    Latency mean : 12208.37 μs
+    Latency p50  : 11616.25 μs
+    Latency p95  : 11711.10 μs
+    Latency p99  : 57526.20 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.50 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:37:51] cpython | security-verify | on | run 26/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4907 ops (82/s)
+
+  Results:
+    Total        : 4907
+    Throughput   : 81.8 CAMs/s
+    Latency mean : 12225.36 μs
+    Latency p50  : 11633.80 μs
+    Latency p95  : 11717.33 μs
+    Latency p99  : 56256.29 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:39:10] cpython | security-verify | on | run 27/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4861 ops (81/s)
+
+  Results:
+    Total        : 4861
+    Throughput   : 81.0 CAMs/s
+    Latency mean : 12341.15 μs
+    Latency p50  : 11742.37 μs
+    Latency p95  : 11837.22 μs
+    Latency p99  : 60177.57 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:40:28] cpython | security-verify | on | run 28/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4840 ops (81/s)
+
+  Results:
+    Total        : 4840
+    Throughput   : 80.7 CAMs/s
+    Latency mean : 12394.57 μs
+    Latency p50  : 11794.59 μs
+    Latency p95  : 11878.80 μs
+    Latency p99  : 59860.88 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:41:47] cpython | security-verify | on | run 29/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4915 ops (82/s)
+
+  Results:
+    Total        : 4915
+    Throughput   : 81.9 CAMs/s
+    Latency mean : 12204.98 μs
+    Latency p50  : 11612.89 μs
+    Latency p95  : 11703.45 μs
+    Latency p99  : 59662.79 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:43:05] cpython | security-verify | on | run 30/30
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 4897 ops (82/s)
+
+  Results:
+    Total        : 4897
+    Throughput   : 81.6 CAMs/s
+    Latency mean : 12251.90 μs
+    Latency p50  : 11657.24 μs
+    Latency p95  : 11751.56 μs
+    Latency p99  : 59712.34 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  pypy | security-verify | security=on | rate=max
+================================================================
+[15:44:14] pypy | security-verify | on | run 1/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4909 ops (82/s)
+
+  Results:
+    Total        : 4909
+    Throughput   : 81.7 CAMs/s
+    Latency mean : 12223.25 μs
+    Latency p50  : 11380.49 μs
+    Latency p95  : 12210.43 μs
+    Latency p99  : 59145.87 μs
+    CPU          : 94.9 % (100 = one core)
+    RSS start    : 166.42 MB, peak 179.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:45:47] pypy | security-verify | on | run 2/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4893 ops (82/s)
+
+  Results:
+    Total        : 4893
+    Throughput   : 81.5 CAMs/s
+    Latency mean : 12253.02 μs
+    Latency p50  : 11397.48 μs
+    Latency p95  : 12269.40 μs
+    Latency p99  : 56744.29 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 166.30 MB, peak 176.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:47:19] pypy | security-verify | on | run 3/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4940 ops (82/s)
+
+  Results:
+    Total        : 4940
+    Throughput   : 82.3 CAMs/s
+    Latency mean : 12136.25 μs
+    Latency p50  : 11297.16 μs
+    Latency p95  : 12143.66 μs
+    Latency p99  : 58522.60 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 169.73 MB, peak 179.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:48:52] pypy | security-verify | on | run 4/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4948 ops (82/s)
+
+  Results:
+    Total        : 4948
+    Throughput   : 82.5 CAMs/s
+    Latency mean : 12117.74 μs
+    Latency p50  : 11301.52 μs
+    Latency p95  : 12040.44 μs
+    Latency p99  : 57049.18 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.61 MB, peak 177.69 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:50:25] pypy | security-verify | on | run 5/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4994 ops (83/s)
+
+  Results:
+    Total        : 4994
+    Throughput   : 83.2 CAMs/s
+    Latency mean : 12004.59 μs
+    Latency p50  : 11206.75 μs
+    Latency p95  : 11976.33 μs
+    Latency p99  : 56442.87 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 164.21 MB, peak 175.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:51:57] pypy | security-verify | on | run 6/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4970 ops (83/s)
+
+  Results:
+    Total        : 4970
+    Throughput   : 82.8 CAMs/s
+    Latency mean : 12063.41 μs
+    Latency p50  : 11268.99 μs
+    Latency p95  : 12034.77 μs
+    Latency p99  : 59148.81 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.43 MB, peak 175.94 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:53:29] pypy | security-verify | on | run 7/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4934 ops (82/s)
+
+  Results:
+    Total        : 4934
+    Throughput   : 82.2 CAMs/s
+    Latency mean : 12152.91 μs
+    Latency p50  : 11322.66 μs
+    Latency p95  : 12116.24 μs
+    Latency p99  : 58294.67 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 164.23 MB, peak 176.78 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:55:02] pypy | security-verify | on | run 8/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4943 ops (82/s)
+
+  Results:
+    Total        : 4943
+    Throughput   : 82.4 CAMs/s
+    Latency mean : 12129.98 μs
+    Latency p50  : 11299.23 μs
+    Latency p95  : 12102.33 μs
+    Latency p99  : 58262.52 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 170.34 MB, peak 179.11 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:56:35] pypy | security-verify | on | run 9/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4980 ops (83/s)
+
+  Results:
+    Total        : 4980
+    Throughput   : 83.0 CAMs/s
+    Latency mean : 12029.68 μs
+    Latency p50  : 11196.41 μs
+    Latency p95  : 12110.10 μs
+    Latency p99  : 57526.43 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 168.05 MB, peak 178.86 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:58:07] pypy | security-verify | on | run 10/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4957 ops (83/s)
+
+  Results:
+    Total        : 4957
+    Throughput   : 82.6 CAMs/s
+    Latency mean : 12095.06 μs
+    Latency p50  : 11260.16 μs
+    Latency p95  : 12288.37 μs
+    Latency p99  : 55873.98 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.32 MB, peak 178.49 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[15:59:40] pypy | security-verify | on | run 11/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 5010 ops (83/s)
+
+  Results:
+    Total        : 5010
+    Throughput   : 83.5 CAMs/s
+    Latency mean : 11958.67 μs
+    Latency p50  : 11178.30 μs
+    Latency p95  : 11904.70 μs
+    Latency p99  : 55541.15 μs
+    CPU          : 95.1 % (100 = one core)
+    RSS start    : 168.80 MB, peak 179.81 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:01:13] pypy | security-verify | on | run 12/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4891 ops (82/s)
+
+  Results:
+    Total        : 4891
+    Throughput   : 81.5 CAMs/s
+    Latency mean : 12259.31 μs
+    Latency p50  : 11377.25 μs
+    Latency p95  : 12394.83 μs
+    Latency p99  : 59002.67 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 166.34 MB, peak 178.50 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:02:46] pypy | security-verify | on | run 13/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4952 ops (83/s)
+
+  Results:
+    Total        : 4952
+    Throughput   : 82.5 CAMs/s
+    Latency mean : 12108.36 μs
+    Latency p50  : 11324.72 μs
+    Latency p95  : 12079.57 μs
+    Latency p99  : 57429.26 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 171.38 MB, peak 179.84 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:04:18] pypy | security-verify | on | run 14/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4948 ops (82/s)
+
+  Results:
+    Total        : 4948
+    Throughput   : 82.5 CAMs/s
+    Latency mean : 12118.36 μs
+    Latency p50  : 11259.84 μs
+    Latency p95  : 12137.96 μs
+    Latency p99  : 59123.38 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.71 MB, peak 178.23 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:05:51] pypy | security-verify | on | run 15/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4939 ops (82/s)
+
+  Results:
+    Total        : 4939
+    Throughput   : 82.3 CAMs/s
+    Latency mean : 12139.38 μs
+    Latency p50  : 11286.45 μs
+    Latency p95  : 12181.28 μs
+    Latency p99  : 56866.40 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 168.92 MB, peak 178.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:07:24] pypy | security-verify | on | run 16/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4960 ops (83/s)
+
+  Results:
+    Total        : 4960
+    Throughput   : 82.7 CAMs/s
+    Latency mean : 12088.13 μs
+    Latency p50  : 11246.69 μs
+    Latency p95  : 12231.84 μs
+    Latency p99  : 57391.26 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.21 MB, peak 177.73 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:08:56] pypy | security-verify | on | run 17/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4991 ops (83/s)
+
+  Results:
+    Total        : 4991
+    Throughput   : 83.2 CAMs/s
+    Latency mean : 12013.07 μs
+    Latency p50  : 11198.35 μs
+    Latency p95  : 12000.55 μs
+    Latency p99  : 59304.94 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 165.07 MB, peak 176.49 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:10:29] pypy | security-verify | on | run 18/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4958 ops (83/s)
+
+  Results:
+    Total        : 4958
+    Throughput   : 82.6 CAMs/s
+    Latency mean : 12093.09 μs
+    Latency p50  : 11257.00 μs
+    Latency p95  : 12105.16 μs
+    Latency p99  : 58573.53 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 164.30 MB, peak 176.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:12:02] pypy | security-verify | on | run 19/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4937 ops (82/s)
+
+  Results:
+    Total        : 4937
+    Throughput   : 82.3 CAMs/s
+    Latency mean : 12145.36 μs
+    Latency p50  : 11303.77 μs
+    Latency p95  : 12142.48 μs
+    Latency p99  : 55919.26 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 166.94 MB, peak 177.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:13:34] pypy | security-verify | on | run 20/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4939 ops (82/s)
+
+  Results:
+    Total        : 4939
+    Throughput   : 82.3 CAMs/s
+    Latency mean : 12140.17 μs
+    Latency p50  : 11319.93 μs
+    Latency p95  : 12173.80 μs
+    Latency p99  : 57576.55 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 165.64 MB, peak 176.77 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:15:07] pypy | security-verify | on | run 21/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4914 ops (82/s)
+
+  Results:
+    Total        : 4914
+    Throughput   : 81.9 CAMs/s
+    Latency mean : 12201.15 μs
+    Latency p50  : 11337.67 μs
+    Latency p95  : 12255.01 μs
+    Latency p99  : 58903.54 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.45 MB, peak 177.98 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:16:39] pypy | security-verify | on | run 22/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 5001 ops (83/s)
+
+  Results:
+    Total        : 5001
+    Throughput   : 83.3 CAMs/s
+    Latency mean : 11989.39 μs
+    Latency p50  : 11145.08 μs
+    Latency p95  : 12075.69 μs
+    Latency p99  : 55970.10 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 166.02 MB, peak 176.88 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:18:12] pypy | security-verify | on | run 23/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4914 ops (82/s)
+
+  Results:
+    Total        : 4914
+    Throughput   : 81.9 CAMs/s
+    Latency mean : 12202.74 μs
+    Latency p50  : 11386.63 μs
+    Latency p95  : 12061.09 μs
+    Latency p99  : 57479.74 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.11 MB, peak 178.13 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:19:45] pypy | security-verify | on | run 24/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4931 ops (82/s)
+
+  Results:
+    Total        : 4931
+    Throughput   : 82.2 CAMs/s
+    Latency mean : 12158.54 μs
+    Latency p50  : 11318.36 μs
+    Latency p95  : 12230.30 μs
+    Latency p99  : 59067.21 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 162.89 MB, peak 176.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:21:17] pypy | security-verify | on | run 25/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4929 ops (82/s)
+
+  Results:
+    Total        : 4929
+    Throughput   : 82.1 CAMs/s
+    Latency mean : 12164.43 μs
+    Latency p50  : 11334.62 μs
+    Latency p95  : 12218.10 μs
+    Latency p99  : 58453.64 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.54 MB, peak 177.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:22:49] pypy | security-verify | on | run 26/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 5029 ops (84/s)
+
+  Results:
+    Total        : 5029
+    Throughput   : 83.8 CAMs/s
+    Latency mean : 11922.55 μs
+    Latency p50  : 11090.17 μs
+    Latency p95  : 11980.96 μs
+    Latency p99  : 57430.89 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 169.59 MB, peak 179.84 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:24:22] pypy | security-verify | on | run 27/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4925 ops (82/s)
+
+  Results:
+    Total        : 4925
+    Throughput   : 82.1 CAMs/s
+    Latency mean : 12174.80 μs
+    Latency p50  : 11327.58 μs
+    Latency p95  : 12291.60 μs
+    Latency p99  : 58988.90 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.67 MB, peak 178.84 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:25:55] pypy | security-verify | on | run 28/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4902 ops (82/s)
+
+  Results:
+    Total        : 4902
+    Throughput   : 81.7 CAMs/s
+    Latency mean : 12232.18 μs
+    Latency p50  : 11390.97 μs
+    Latency p95  : 12218.40 μs
+    Latency p99  : 59335.49 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 168.37 MB, peak 178.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:27:28] pypy | security-verify | on | run 29/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4918 ops (82/s)
+
+  Results:
+    Total        : 4918
+    Throughput   : 82.0 CAMs/s
+    Latency mean : 12191.95 μs
+    Latency p50  : 11350.30 μs
+    Latency p95  : 12223.50 μs
+    Latency p99  : 57749.92 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 165.75 MB, peak 177.45 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:29:00] pypy | security-verify | on | run 30/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Verify: 4981 ops (83/s)
+
+  Results:
+    Total        : 4981
+    Throughput   : 83.0 CAMs/s
+    Latency mean : 12036.83 μs
+    Latency p50  : 11221.46 μs
+    Latency p95  : 11984.17 μs
+    Latency p99  : 57286.51 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 165.30 MB, peak 176.57 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  rust | tx | security=on | rate=10
+================================================================
+[16:30:23] rust | tx | on | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 232.40 μs
+    Latency p50  : 215.62 μs
+    Latency p95  : 504.49 μs
+    Latency p99  : 537.77 μs
+    CPU          : 90.2 % (100 = one core)
+    RSS start    : 35.32 MB, peak 37.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:31:38] rust | tx | on | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 4337.43 μs
+    Latency p50  : 217.57 μs
+    Latency p95  : 43589.89 μs
+    Latency p99  : 43798.63 μs
+    CPU          : 99.3 % (100 = one core)
+    RSS start    : 32.95 MB, peak 34.78 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:32:53] rust | tx | on | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 259.35 μs
+    Latency p50  : 242.02 μs
+    Latency p95  : 528.24 μs
+    Latency p99  : 588.40 μs
+    CPU          : 80.9 % (100 = one core)
+    RSS start    : 28.30 MB, peak 29.83 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:34:09] rust | tx | on | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 225.79 μs
+    Latency p50  : 210.21 μs
+    Latency p95  : 515.21 μs
+    Latency p99  : 561.71 μs
+    CPU          : 90.0 % (100 = one core)
+    RSS start    : 31.01 MB, peak 32.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:35:24] rust | tx | on | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 4563.45 μs
+    Latency p50  : 217.99 μs
+    Latency p95  : 43844.62 μs
+    Latency p99  : 43979.05 μs
+    CPU          : 102.1 % (100 = one core)
+    RSS start    : 35.27 MB, peak 36.71 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:36:40] rust | tx | on | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 4359.93 μs
+    Latency p50  : 237.64 μs
+    Latency p95  : 43777.90 μs
+    Latency p99  : 43965.96 μs
+    CPU          : 97.6 % (100 = one core)
+    RSS start    : 32.04 MB, peak 33.49 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:37:55] rust | tx | on | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 4572.09 μs
+    Latency p50  : 226.89 μs
+    Latency p95  : 43883.95 μs
+    Latency p99  : 44020.97 μs
+    CPU          : 102.3 % (100 = one core)
+    RSS start    : 36.17 MB, peak 39.85 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:39:10] rust | tx | on | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 216.32 μs
+    Latency p50  : 204.68 μs
+    Latency p95  : 380.30 μs
+    Latency p99  : 518.73 μs
+    CPU          : 94.7 % (100 = one core)
+    RSS start    : 32.48 MB, peak 34.01 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:40:25] rust | tx | on | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2293.57 μs
+    Latency p50  : 220.49 μs
+    Latency p95  : 21083.60 μs
+    Latency p99  : 21208.60 μs
+    CPU          : 99.8 % (100 = one core)
+    RSS start    : 35.49 MB, peak 37.25 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:41:41] rust | tx | on | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 4115.09 μs
+    Latency p50  : 250.44 μs
+    Latency p95  : 43246.15 μs
+    Latency p99  : 43426.67 μs
+    CPU          : 93.2 % (100 = one core)
+    RSS start    : 31.04 MB, peak 32.60 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  cpython | tx | security=on | rate=10
+================================================================
+[16:42:46] cpython | tx | on | run 1/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2134.96 μs
+    Latency p50  : 2101.78 μs
+    Latency p95  : 2490.70 μs
+    Latency p99  : 2647.92 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.75 MB, peak 68.75 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:44:05] cpython | tx | on | run 2/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2128.41 μs
+    Latency p50  : 2100.85 μs
+    Latency p95  : 2471.79 μs
+    Latency p99  : 2651.99 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.76 MB, peak 68.76 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:45:24] cpython | tx | on | run 3/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2127.54 μs
+    Latency p50  : 2085.33 μs
+    Latency p95  : 2475.33 μs
+    Latency p99  : 2555.96 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.80 MB, peak 68.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:46:42] cpython | tx | on | run 4/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2153.45 μs
+    Latency p50  : 2104.85 μs
+    Latency p95  : 2539.89 μs
+    Latency p99  : 2682.83 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.77 MB, peak 68.77 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:48:01] cpython | tx | on | run 5/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2115.29 μs
+    Latency p50  : 2083.22 μs
+    Latency p95  : 2426.96 μs
+    Latency p99  : 2539.77 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.78 MB, peak 68.78 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:49:20] cpython | tx | on | run 6/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2121.19 μs
+    Latency p50  : 2079.14 μs
+    Latency p95  : 2459.95 μs
+    Latency p99  : 2690.87 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.79 MB, peak 68.79 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:50:39] cpython | tx | on | run 7/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2124.68 μs
+    Latency p50  : 2081.04 μs
+    Latency p95  : 2468.46 μs
+    Latency p99  : 2628.94 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.77 MB, peak 68.77 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:51:57] cpython | tx | on | run 8/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2142.58 μs
+    Latency p50  : 2098.68 μs
+    Latency p95  : 2524.20 μs
+    Latency p99  : 2643.55 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.80 MB, peak 68.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:53:16] cpython | tx | on | run 9/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2116.07 μs
+    Latency p50  : 2079.91 μs
+    Latency p95  : 2440.92 μs
+    Latency p99  : 2578.26 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.79 MB, peak 68.79 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:54:35] cpython | tx | on | run 10/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2137.94 μs
+    Latency p50  : 2098.00 μs
+    Latency p95  : 2492.92 μs
+    Latency p99  : 2646.67 μs
+    CPU          : 2.3 % (100 = one core)
+    RSS start    : 68.78 MB, peak 68.78 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  pypy | tx | security=on | rate=10
+================================================================
+[16:55:44] pypy | tx | on | run 1/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2696.97 μs
+    Latency p50  : 2358.41 μs
+    Latency p95  : 3727.76 μs
+    Latency p99  : 13216.13 μs
+    CPU          : 3.1 % (100 = one core)
+    RSS start    : 168.02 MB, peak 170.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:57:17] pypy | tx | on | run 2/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2644.48 μs
+    Latency p50  : 2410.76 μs
+    Latency p95  : 3838.36 μs
+    Latency p99  : 6079.19 μs
+    CPU          : 3.1 % (100 = one core)
+    RSS start    : 163.39 MB, peak 165.43 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[16:58:50] pypy | tx | on | run 3/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2855.87 μs
+    Latency p50  : 2557.92 μs
+    Latency p95  : 3986.86 μs
+    Latency p99  : 10686.66 μs
+    CPU          : 3.3 % (100 = one core)
+    RSS start    : 164.00 MB, peak 164.75 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:00:22] pypy | tx | on | run 4/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2673.84 μs
+    Latency p50  : 2334.36 μs
+    Latency p95  : 3692.91 μs
+    Latency p99  : 13375.47 μs
+    CPU          : 3.1 % (100 = one core)
+    RSS start    : 167.15 MB, peak 168.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:01:55] pypy | tx | on | run 5/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2695.23 μs
+    Latency p50  : 2397.80 μs
+    Latency p95  : 3654.42 μs
+    Latency p99  : 11729.34 μs
+    CPU          : 3.1 % (100 = one core)
+    RSS start    : 168.59 MB, peak 169.96 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:03:28] pypy | tx | on | run 6/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2677.20 μs
+    Latency p50  : 2393.72 μs
+    Latency p95  : 3684.17 μs
+    Latency p99  : 12466.90 μs
+    CPU          : 3.1 % (100 = one core)
+    RSS start    : 168.25 MB, peak 168.45 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:05:01] pypy | tx | on | run 7/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2687.32 μs
+    Latency p50  : 2403.72 μs
+    Latency p95  : 3794.55 μs
+    Latency p99  : 7024.19 μs
+    CPU          : 3.1 % (100 = one core)
+    RSS start    : 164.43 MB, peak 165.93 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:06:34] pypy | tx | on | run 8/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2546.13 μs
+    Latency p50  : 2377.36 μs
+    Latency p95  : 3633.18 μs
+    Latency p99  : 4199.63 μs
+    CPU          : 3.0 % (100 = one core)
+    RSS start    : 167.47 MB, peak 168.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:08:06] pypy | tx | on | run 9/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2639.70 μs
+    Latency p50  : 2336.09 μs
+    Latency p95  : 3826.90 μs
+    Latency p99  : 12149.38 μs
+    CPU          : 3.0 % (100 = one core)
+    RSS start    : 167.02 MB, peak 167.77 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:09:39] pypy | tx | on | run 10/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 2693.33 μs
+    Latency p50  : 2378.27 μs
+    Latency p95  : 3824.43 μs
+    Latency p99  : 12895.69 μs
+    CPU          : 3.1 % (100 = one core)
+    RSS start    : 166.47 MB, peak 167.60 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  rust | security-verify | security=on | rate=100
+================================================================
+[17:11:02] rust | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 685.99 μs
+    Latency p50  : 686.29 μs
+    Latency p95  : 700.21 μs
+    Latency p99  : 716.47 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:12:17] rust | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 686.98 μs
+    Latency p50  : 686.45 μs
+    Latency p95  : 702.96 μs
+    Latency p99  : 750.36 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:13:32] rust | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 685.69 μs
+    Latency p50  : 685.75 μs
+    Latency p95  : 700.56 μs
+    Latency p99  : 740.11 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:14:47] rust | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 686.14 μs
+    Latency p50  : 686.38 μs
+    Latency p95  : 699.99 μs
+    Latency p99  : 736.24 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:16:02] rust | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 691.11 μs
+    Latency p50  : 688.66 μs
+    Latency p95  : 709.62 μs
+    Latency p99  : 740.11 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:17:17] rust | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 686.20 μs
+    Latency p50  : 686.03 μs
+    Latency p95  : 701.23 μs
+    Latency p99  : 751.19 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:18:32] rust | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 686.38 μs
+    Latency p50  : 686.22 μs
+    Latency p95  : 701.65 μs
+    Latency p99  : 741.59 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:19:48] rust | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 691.91 μs
+    Latency p50  : 689.46 μs
+    Latency p95  : 709.81 μs
+    Latency p99  : 754.20 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:21:03] rust | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 685.39 μs
+    Latency p50  : 685.68 μs
+    Latency p95  : 698.32 μs
+    Latency p99  : 741.20 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 4.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:22:18] rust | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (0 late releases)
+  Verify: 6000 ops (100/s)
+
+  Results:
+    Total        : 6000
+    Throughput   : 100.0 CAMs/s
+    Latency mean : 686.62 μs
+    Latency p50  : 686.23 μs
+    Latency p95  : 701.26 μs
+    Latency p99  : 746.93 μs
+    CPU          : 6.9 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  cpython | security-verify | security=on | rate=100
+================================================================
+[17:23:23] cpython | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4842 late releases)
+  Verify: 4843 ops (81/s)
+
+  Results:
+    Total        : 4843
+    Throughput   : 80.7 CAMs/s
+    Latency mean : 12384.41 μs
+    Latency p50  : 11783.58 μs
+    Latency p95  : 11858.63 μs
+    Latency p99  : 57907.48 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:24:41] cpython | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4936 late releases)
+  Verify: 4937 ops (82/s)
+
+  Results:
+    Total        : 4937
+    Throughput   : 82.3 CAMs/s
+    Latency mean : 12148.85 μs
+    Latency p50  : 11559.32 μs
+    Latency p95  : 11653.20 μs
+    Latency p99  : 59868.66 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:26:00] cpython | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4885 late releases)
+  Verify: 4886 ops (81/s)
+
+  Results:
+    Total        : 4886
+    Throughput   : 81.4 CAMs/s
+    Latency mean : 12275.44 μs
+    Latency p50  : 11680.38 μs
+    Latency p95  : 11764.21 μs
+    Latency p99  : 58124.35 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.27 MB, peak 68.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:27:18] cpython | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4892 late releases)
+  Verify: 4893 ops (82/s)
+
+  Results:
+    Total        : 4893
+    Throughput   : 81.5 CAMs/s
+    Latency mean : 12258.02 μs
+    Latency p50  : 11663.84 μs
+    Latency p95  : 11746.16 μs
+    Latency p99  : 56550.84 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.27 MB, peak 68.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:28:37] cpython | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4854 late releases)
+  Verify: 4855 ops (81/s)
+
+  Results:
+    Total        : 4855
+    Throughput   : 80.9 CAMs/s
+    Latency mean : 12353.25 μs
+    Latency p50  : 11752.07 μs
+    Latency p95  : 11847.82 μs
+    Latency p99  : 57153.41 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:29:55] cpython | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4860 late releases)
+  Verify: 4861 ops (81/s)
+
+  Results:
+    Total        : 4861
+    Throughput   : 81.0 CAMs/s
+    Latency mean : 12338.43 μs
+    Latency p50  : 11739.81 μs
+    Latency p95  : 11825.38 μs
+    Latency p99  : 59350.81 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:31:13] cpython | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4910 late releases)
+  Verify: 4911 ops (82/s)
+
+  Results:
+    Total        : 4911
+    Throughput   : 81.8 CAMs/s
+    Latency mean : 12212.27 μs
+    Latency p50  : 11619.39 μs
+    Latency p95  : 11701.52 μs
+    Latency p99  : 60061.28 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.27 MB, peak 68.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:32:32] cpython | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4883 late releases)
+  Verify: 4884 ops (81/s)
+
+  Results:
+    Total        : 4884
+    Throughput   : 81.4 CAMs/s
+    Latency mean : 12280.08 μs
+    Latency p50  : 11684.78 μs
+    Latency p95  : 11765.99 μs
+    Latency p99  : 59745.48 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:33:50] cpython | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4928 late releases)
+  Verify: 4929 ops (82/s)
+
+  Results:
+    Total        : 4929
+    Throughput   : 82.1 CAMs/s
+    Latency mean : 12169.47 μs
+    Latency p50  : 11578.14 μs
+    Latency p95  : 11669.18 μs
+    Latency p99  : 58742.35 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:35:09] cpython | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4916 late releases)
+  Verify: 4917 ops (82/s)
+
+  Results:
+    Total        : 4917
+    Throughput   : 81.9 CAMs/s
+    Latency mean : 12197.66 μs
+    Latency p50  : 11606.91 μs
+    Latency p95  : 11699.35 μs
+    Latency p99  : 58967.68 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.27 MB, peak 68.45 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  pypy | security-verify | security=on | rate=100
+================================================================
+[17:36:17] pypy | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4960 late releases)
+  Verify: 4961 ops (83/s)
+
+  Results:
+    Total        : 4961
+    Throughput   : 82.7 CAMs/s
+    Latency mean : 12075.82 μs
+    Latency p50  : 11234.61 μs
+    Latency p95  : 12194.03 μs
+    Latency p99  : 58571.00 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 166.55 MB, peak 178.81 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:37:50] pypy | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4973 late releases)
+  Verify: 4974 ops (83/s)
+
+  Results:
+    Total        : 4974
+    Throughput   : 82.9 CAMs/s
+    Latency mean : 12043.71 μs
+    Latency p50  : 11206.82 μs
+    Latency p95  : 12054.16 μs
+    Latency p99  : 58346.46 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 163.24 MB, peak 176.15 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:39:22] pypy | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4968 late releases)
+  Verify: 4969 ops (83/s)
+
+  Results:
+    Total        : 4969
+    Throughput   : 82.8 CAMs/s
+    Latency mean : 12057.20 μs
+    Latency p50  : 11230.74 μs
+    Latency p95  : 11996.44 μs
+    Latency p99  : 56414.63 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 168.48 MB, peak 176.87 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:40:55] pypy | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4949 late releases)
+  Verify: 4950 ops (82/s)
+
+  Results:
+    Total        : 4950
+    Throughput   : 82.5 CAMs/s
+    Latency mean : 12101.59 μs
+    Latency p50  : 11257.43 μs
+    Latency p95  : 12204.39 μs
+    Latency p99  : 59368.76 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 170.59 MB, peak 180.71 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:42:28] pypy | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4962 late releases)
+  Verify: 4963 ops (83/s)
+
+  Results:
+    Total        : 4963
+    Throughput   : 82.7 CAMs/s
+    Latency mean : 12069.86 μs
+    Latency p50  : 11265.78 μs
+    Latency p95  : 11998.69 μs
+    Latency p99  : 57773.81 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 165.12 MB, peak 177.51 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:44:00] pypy | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4893 late releases)
+  Verify: 4894 ops (82/s)
+
+  Results:
+    Total        : 4894
+    Throughput   : 81.6 CAMs/s
+    Latency mean : 12239.87 μs
+    Latency p50  : 11396.28 μs
+    Latency p95  : 12227.97 μs
+    Latency p99  : 57218.58 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 171.10 MB, peak 181.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:45:33] pypy | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4935 late releases)
+  Verify: 4936 ops (82/s)
+
+  Results:
+    Total        : 4936
+    Throughput   : 82.3 CAMs/s
+    Latency mean : 12134.53 μs
+    Latency p50  : 11266.20 μs
+    Latency p95  : 12242.66 μs
+    Latency p99  : 57100.12 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 168.39 MB, peak 180.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:47:06] pypy | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4997 late releases)
+  Verify: 4998 ops (83/s)
+
+  Results:
+    Total        : 4998
+    Throughput   : 83.3 CAMs/s
+    Latency mean : 11985.75 μs
+    Latency p50  : 11184.55 μs
+    Latency p95  : 11963.81 μs
+    Latency p99  : 55796.25 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.26 MB, peak 177.33 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:48:39] pypy | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4963 late releases)
+  Verify: 4964 ops (83/s)
+
+  Results:
+    Total        : 4964
+    Throughput   : 82.7 CAMs/s
+    Latency mean : 12066.49 μs
+    Latency p50  : 11225.84 μs
+    Latency p95  : 12088.03 μs
+    Latency p99  : 57628.32 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 169.61 MB, peak 180.43 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:50:12] pypy | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 100 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 100 msg/s (4905 late releases)
+  Verify: 4906 ops (82/s)
+
+  Results:
+    Total        : 4906
+    Throughput   : 81.8 CAMs/s
+    Latency mean : 12210.31 μs
+    Latency p50  : 11392.36 μs
+    Latency p95  : 12176.54 μs
+    Latency p99  : 59306.63 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 163.96 MB, peak 175.89 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  rust | security-verify | security=on | rate=1000
+================================================================
+[17:51:34] rust | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 675.90 μs
+    Latency p50  : 673.65 μs
+    Latency p95  : 684.37 μs
+    Latency p99  : 695.44 μs
+    CPU          : 67.7 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:52:49] rust | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 673.69 μs
+    Latency p50  : 672.94 μs
+    Latency p95  : 677.81 μs
+    Latency p99  : 688.98 μs
+    CPU          : 67.6 % (100 = one core)
+    RSS start    : 2.16 MB, peak 4.48 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:54:04] rust | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 675.86 μs
+    Latency p50  : 673.65 μs
+    Latency p95  : 683.95 μs
+    Latency p99  : 694.45 μs
+    CPU          : 67.7 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:55:19] rust | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 680.22 μs
+    Latency p50  : 677.97 μs
+    Latency p95  : 688.37 μs
+    Latency p99  : 699.18 μs
+    CPU          : 68.1 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:56:35] rust | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 675.78 μs
+    Latency p50  : 673.59 μs
+    Latency p95  : 684.08 μs
+    Latency p99  : 695.41 μs
+    CPU          : 67.7 % (100 = one core)
+    RSS start    : 2.16 MB, peak 4.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:57:50] rust | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 675.31 μs
+    Latency p50  : 673.14 μs
+    Latency p95  : 683.70 μs
+    Latency p99  : 694.67 μs
+    CPU          : 67.6 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[17:59:05] rust | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 673.96 μs
+    Latency p50  : 673.26 μs
+    Latency p95  : 677.42 μs
+    Latency p99  : 688.72 μs
+    CPU          : 67.7 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:00:20] rust | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 674.15 μs
+    Latency p50  : 673.39 μs
+    Latency p95  : 678.07 μs
+    Latency p99  : 689.01 μs
+    CPU          : 67.7 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:01:35] rust | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 673.97 μs
+    Latency p50  : 673.23 μs
+    Latency p95  : 677.97 μs
+    Latency p99  : 688.69 μs
+    CPU          : 67.7 % (100 = one core)
+    RSS start    : 2.16 MB, peak 4.17 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:02:50] rust | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (0 late releases)
+  Verify: 60000 ops (1000/s)
+
+  Results:
+    Total        : 60000
+    Throughput   : 1000.0 CAMs/s
+    Latency mean : 675.94 μs
+    Latency p50  : 673.75 μs
+    Latency p95  : 684.05 μs
+    Latency p99  : 695.35 μs
+    CPU          : 67.7 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  cpython | security-verify | security=on | rate=1000
+================================================================
+[18:03:55] cpython | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4949 late releases)
+  Verify: 4950 ops (82/s)
+
+  Results:
+    Total        : 4950
+    Throughput   : 82.5 CAMs/s
+    Latency mean : 12116.88 μs
+    Latency p50  : 11530.25 μs
+    Latency p95  : 11607.70 μs
+    Latency p99  : 56639.81 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.27 MB, peak 68.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:05:14] cpython | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4917 late releases)
+  Verify: 4918 ops (82/s)
+
+  Results:
+    Total        : 4918
+    Throughput   : 82.0 CAMs/s
+    Latency mean : 12195.77 μs
+    Latency p50  : 11604.70 μs
+    Latency p95  : 11690.55 μs
+    Latency p99  : 59643.58 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.43 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:06:32] cpython | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4929 late releases)
+  Verify: 4930 ops (82/s)
+
+  Results:
+    Total        : 4930
+    Throughput   : 82.2 CAMs/s
+    Latency mean : 12166.84 μs
+    Latency p50  : 11577.09 μs
+    Latency p95  : 11658.26 μs
+    Latency p99  : 57884.25 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:07:51] cpython | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4891 late releases)
+  Verify: 4892 ops (82/s)
+
+  Results:
+    Total        : 4892
+    Throughput   : 81.5 CAMs/s
+    Latency mean : 12260.20 μs
+    Latency p50  : 11679.65 μs
+    Latency p95  : 11757.74 μs
+    Latency p99  : 59727.13 μs
+    CPU          : 95.1 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:09:09] cpython | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4904 late releases)
+  Verify: 4905 ops (82/s)
+
+  Results:
+    Total        : 4905
+    Throughput   : 81.7 CAMs/s
+    Latency mean : 12228.42 μs
+    Latency p50  : 11636.61 μs
+    Latency p95  : 11711.72 μs
+    Latency p99  : 58230.14 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.27 MB, peak 68.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:10:28] cpython | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4910 late releases)
+  Verify: 4911 ops (82/s)
+
+  Results:
+    Total        : 4911
+    Throughput   : 81.8 CAMs/s
+    Latency mean : 12213.87 μs
+    Latency p50  : 11620.80 μs
+    Latency p95  : 11703.36 μs
+    Latency p99  : 58081.59 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:11:46] cpython | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4916 late releases)
+  Verify: 4917 ops (82/s)
+
+  Results:
+    Total        : 4917
+    Throughput   : 81.9 CAMs/s
+    Latency mean : 12197.52 μs
+    Latency p50  : 11606.05 μs
+    Latency p95  : 11704.31 μs
+    Latency p99  : 58697.95 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.25 MB, peak 68.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:13:04] cpython | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4906 late releases)
+  Verify: 4907 ops (82/s)
+
+  Results:
+    Total        : 4907
+    Throughput   : 81.8 CAMs/s
+    Latency mean : 12223.96 μs
+    Latency p50  : 11630.94 μs
+    Latency p95  : 11716.86 μs
+    Latency p99  : 58376.21 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:14:23] cpython | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4897 late releases)
+  Verify: 4898 ops (82/s)
+
+  Results:
+    Total        : 4898
+    Throughput   : 81.6 CAMs/s
+    Latency mean : 12246.30 μs
+    Latency p50  : 11651.26 μs
+    Latency p95  : 11741.51 μs
+    Latency p99  : 59814.28 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:15:41] cpython | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark — cpython 3.12.3
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4849 late releases)
+  Verify: 4850 ops (81/s)
+
+  Results:
+    Total        : 4850
+    Throughput   : 80.8 CAMs/s
+    Latency mean : 12367.03 μs
+    Latency p50  : 11767.11 μs
+    Latency p95  : 11848.54 μs
+    Latency p99  : 57581.67 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 68.26 MB, peak 68.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+================================================================
+  pypy | security-verify | security=on | rate=1000
+================================================================
+[18:16:50] pypy | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4965 late releases)
+  Verify: 4966 ops (83/s)
+
+  Results:
+    Total        : 4966
+    Throughput   : 82.8 CAMs/s
+    Latency mean : 12062.36 μs
+    Latency p50  : 11233.64 μs
+    Latency p95  : 12216.49 μs
+    Latency p99  : 57103.42 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 168.27 MB, peak 177.32 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:18:22] pypy | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4940 late releases)
+  Verify: 4941 ops (82/s)
+
+  Results:
+    Total        : 4941
+    Throughput   : 82.3 CAMs/s
+    Latency mean : 12114.07 μs
+    Latency p50  : 11268.66 μs
+    Latency p95  : 12208.85 μs
+    Latency p99  : 56106.29 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 164.57 MB, peak 177.17 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:19:55] pypy | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4995 late releases)
+  Verify: 4996 ops (83/s)
+
+  Results:
+    Total        : 4996
+    Throughput   : 83.3 CAMs/s
+    Latency mean : 11990.60 μs
+    Latency p50  : 11178.02 μs
+    Latency p95  : 11989.15 μs
+    Latency p99  : 56825.62 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 170.80 MB, peak 179.77 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:21:28] pypy | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4924 late releases)
+  Verify: 4925 ops (82/s)
+
+  Results:
+    Total        : 4925
+    Throughput   : 82.1 CAMs/s
+    Latency mean : 12161.56 μs
+    Latency p50  : 11314.78 μs
+    Latency p95  : 12196.88 μs
+    Latency p99  : 58030.93 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 164.54 MB, peak 175.98 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:23:00] pypy | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4977 late releases)
+  Verify: 4978 ops (83/s)
+
+  Results:
+    Total        : 4978
+    Throughput   : 83.0 CAMs/s
+    Latency mean : 12033.72 μs
+    Latency p50  : 11220.81 μs
+    Latency p95  : 11960.54 μs
+    Latency p99  : 55647.60 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 166.33 MB, peak 177.39 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:24:33] pypy | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (5037 late releases)
+  Verify: 5038 ops (84/s)
+
+  Results:
+    Total        : 5038
+    Throughput   : 84.0 CAMs/s
+    Latency mean : 11889.88 μs
+    Latency p50  : 11097.86 μs
+    Latency p95  : 11766.69 μs
+    Latency p99  : 55874.10 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.26 MB, peak 177.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:26:05] pypy | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4930 late releases)
+  Verify: 4931 ops (82/s)
+
+  Results:
+    Total        : 4931
+    Throughput   : 82.2 CAMs/s
+    Latency mean : 12148.36 μs
+    Latency p50  : 11313.57 μs
+    Latency p95  : 12117.78 μs
+    Latency p99  : 57164.30 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 165.20 MB, peak 176.73 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:27:38] pypy | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4968 late releases)
+  Verify: 4969 ops (83/s)
+
+  Results:
+    Total        : 4969
+    Throughput   : 82.8 CAMs/s
+    Latency mean : 12053.82 μs
+    Latency p50  : 11237.47 μs
+    Latency p95  : 11958.66 μs
+    Latency p99  : 57927.57 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 168.51 MB, peak 178.01 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:29:10] pypy | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4910 late releases)
+  Verify: 4911 ops (82/s)
+
+  Results:
+    Total        : 4911
+    Throughput   : 81.8 CAMs/s
+    Latency mean : 12198.06 μs
+    Latency p50  : 11332.41 μs
+    Latency p95  : 12206.48 μs
+    Latency p99  : 59204.75 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 167.24 MB, peak 178.39 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+  Cooling down (10s)...
+[18:30:43] pypy | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4877 late releases)
+  Verify: 4878 ops (81/s)
+
+  Results:
+    Total        : 4878
+    Throughput   : 81.3 CAMs/s
+    Latency mean : 12269.58 μs
+    Latency p50  : 11421.63 μs
+    Latency p95  : 12253.01 μs
+    Latency p99  : 58985.45 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 165.37 MB, peak 177.57 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+============================================================
+All benchmarks complete: Mon Nov 23 18:32:06 CET 2026
+Results: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+============================================================
+ace: lo
+  Run ID   : 10
+  Rate     : 1000 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (15s)...
+  Measurement phase (60s)...
+  Paced at 1000 msg/s (4877 late releases)
+  Verify: 4878 ops (81/s)
+
+  Results:
+    Total        : 4878
+    Throughput   : 81.3 CAMs/s
+    Latency mean : 12269.58 μs
+    Latency p50  : 11421.63 μs
+    Latency p95  : 12253.01 μs
+    Latency p99  : 58985.45 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 165.37 MB, peak 177.57 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+
+============================================================
+All benchmarks complete: Mon Nov 23 18:32:06 CET 2026
+Results: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_20261123T142734.csv
+============================================================

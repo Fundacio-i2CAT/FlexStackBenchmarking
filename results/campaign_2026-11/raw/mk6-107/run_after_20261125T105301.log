@@ -1,0 +1,3495 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+================================================================
+  rust-cv2x | codec-encode | security=off | rate=0 | runs=30
+================================================================
+[10:53:01] rust-cv2x | codec-encode | off | run 1/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 466346
+    Throughput   : 7772.4 CAMs/s
+    Latency mean : 127.92 μs
+    Latency p50  : 126.76 μs
+    Latency p95  : 133.26 μs
+    Latency p99  : 147.51 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.07 MB, peak 12.70 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[10:54:17] rust-cv2x | codec-encode | off | run 2/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 472430
+    Throughput   : 7873.8 CAMs/s
+    Latency mean : 126.28 μs
+    Latency p50  : 125.13 μs
+    Latency p95  : 131.14 μs
+    Latency p99  : 145.64 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.04 MB, peak 12.81 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[10:55:32] rust-cv2x | codec-encode | off | run 3/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 471656
+    Throughput   : 7860.9 CAMs/s
+    Latency mean : 126.51 μs
+    Latency p50  : 125.38 μs
+    Latency p95  : 131.76 μs
+    Latency p99  : 145.51 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.92 MB, peak 12.95 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[10:56:47] rust-cv2x | codec-encode | off | run 4/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 466909
+    Throughput   : 7781.8 CAMs/s
+    Latency mean : 127.79 μs
+    Latency p50  : 126.63 μs
+    Latency p95  : 133.01 μs
+    Latency p99  : 147.01 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.01 MB, peak 12.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[10:58:02] rust-cv2x | codec-encode | off | run 5/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 472562
+    Throughput   : 7876.0 CAMs/s
+    Latency mean : 126.23 μs
+    Latency p50  : 125.13 μs
+    Latency p95  : 131.13 μs
+    Latency p99  : 145.26 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.08 MB, peak 13.18 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[10:59:17] rust-cv2x | codec-encode | off | run 6/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 475491
+    Throughput   : 7924.8 CAMs/s
+    Latency mean : 125.45 μs
+    Latency p50  : 124.38 μs
+    Latency p95  : 130.51 μs
+    Latency p99  : 144.64 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.94 MB, peak 12.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:00:32] rust-cv2x | codec-encode | off | run 7/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 466828
+    Throughput   : 7780.5 CAMs/s
+    Latency mean : 127.82 μs
+    Latency p50  : 126.63 μs
+    Latency p95  : 133.13 μs
+    Latency p99  : 147.39 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.04 MB, peak 13.15 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:01:48] rust-cv2x | codec-encode | off | run 8/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 474460
+    Throughput   : 7907.7 CAMs/s
+    Latency mean : 125.72 μs
+    Latency p50  : 124.63 μs
+    Latency p95  : 130.88 μs
+    Latency p99  : 145.01 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.79 MB, peak 12.44 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:03:03] rust-cv2x | codec-encode | off | run 9/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 467523
+    Throughput   : 7792.0 CAMs/s
+    Latency mean : 127.63 μs
+    Latency p50  : 126.51 μs
+    Latency p95  : 133.01 μs
+    Latency p99  : 147.89 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.98 MB, peak 10.98 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:04:18] rust-cv2x | codec-encode | off | run 10/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 472453
+    Throughput   : 7874.2 CAMs/s
+    Latency mean : 126.28 μs
+    Latency p50  : 125.13 μs
+    Latency p95  : 131.26 μs
+    Latency p99  : 145.89 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.03 MB, peak 11.86 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:05:33] rust-cv2x | codec-encode | off | run 11/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 472247
+    Throughput   : 7870.8 CAMs/s
+    Latency mean : 126.33 μs
+    Latency p50  : 125.26 μs
+    Latency p95  : 131.38 μs
+    Latency p99  : 145.26 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.96 MB, peak 12.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:06:48] rust-cv2x | codec-encode | off | run 12/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 475192
+    Throughput   : 7919.9 CAMs/s
+    Latency mean : 125.52 μs
+    Latency p50  : 124.38 μs
+    Latency p95  : 130.64 μs
+    Latency p99  : 145.01 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.88 MB, peak 12.53 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:08:04] rust-cv2x | codec-encode | off | run 13/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 467563
+    Throughput   : 7792.7 CAMs/s
+    Latency mean : 127.58 μs
+    Latency p50  : 126.76 μs
+    Latency p95  : 132.26 μs
+    Latency p99  : 140.01 μs
+    CPU          : 99.8 % (100 = one core)
+    RSS start    : 6.96 MB, peak 12.65 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:09:19] rust-cv2x | codec-encode | off | run 14/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 471668
+    Throughput   : 7861.1 CAMs/s
+    Latency mean : 126.49 μs
+    Latency p50  : 125.38 μs
+    Latency p95  : 131.64 μs
+    Latency p99  : 145.89 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.10 MB, peak 13.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:10:34] rust-cv2x | codec-encode | off | run 15/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 465735
+    Throughput   : 7762.2 CAMs/s
+    Latency mean : 128.11 μs
+    Latency p50  : 127.26 μs
+    Latency p95  : 132.64 μs
+    Latency p99  : 140.51 μs
+    CPU          : 99.7 % (100 = one core)
+    RSS start    : 6.98 MB, peak 11.18 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:11:49] rust-cv2x | codec-encode | off | run 16/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 473037
+    Throughput   : 7883.9 CAMs/s
+    Latency mean : 126.08 μs
+    Latency p50  : 125.01 μs
+    Latency p95  : 130.88 μs
+    Latency p99  : 145.26 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.02 MB, peak 13.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:13:04] rust-cv2x | codec-encode | off | run 17/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 467168
+    Throughput   : 7786.1 CAMs/s
+    Latency mean : 127.70 μs
+    Latency p50  : 126.63 μs
+    Latency p95  : 132.76 μs
+    Latency p99  : 147.26 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.03 MB, peak 11.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:14:20] rust-cv2x | codec-encode | off | run 18/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 475189
+    Throughput   : 7919.8 CAMs/s
+    Latency mean : 125.53 μs
+    Latency p50  : 124.51 μs
+    Latency p95  : 130.39 μs
+    Latency p99  : 144.51 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.91 MB, peak 12.65 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:15:35] rust-cv2x | codec-encode | off | run 19/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 463670
+    Throughput   : 7727.8 CAMs/s
+    Latency mean : 128.69 μs
+    Latency p50  : 127.51 μs
+    Latency p95  : 134.01 μs
+    Latency p99  : 148.76 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.95 MB, peak 11.08 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:16:50] rust-cv2x | codec-encode | off | run 20/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 474576
+    Throughput   : 7909.6 CAMs/s
+    Latency mean : 125.69 μs
+    Latency p50  : 124.63 μs
+    Latency p95  : 130.51 μs
+    Latency p99  : 145.14 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.07 MB, peak 13.17 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:18:05] rust-cv2x | codec-encode | off | run 21/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 467147
+    Throughput   : 7785.8 CAMs/s
+    Latency mean : 127.71 μs
+    Latency p50  : 126.63 μs
+    Latency p95  : 132.89 μs
+    Latency p99  : 147.51 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.94 MB, peak 12.86 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:19:20] rust-cv2x | codec-encode | off | run 22/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 466344
+    Throughput   : 7772.4 CAMs/s
+    Latency mean : 127.94 μs
+    Latency p50  : 126.76 μs
+    Latency p95  : 133.01 μs
+    Latency p99  : 147.26 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.88 MB, peak 12.41 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:20:35] rust-cv2x | codec-encode | off | run 23/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 472895
+    Throughput   : 7881.6 CAMs/s
+    Latency mean : 126.16 μs
+    Latency p50  : 125.01 μs
+    Latency p95  : 131.13 μs
+    Latency p99  : 145.39 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.02 MB, peak 12.30 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:21:51] rust-cv2x | codec-encode | off | run 24/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 463363
+    Throughput   : 7722.7 CAMs/s
+    Latency mean : 128.79 μs
+    Latency p50  : 127.63 μs
+    Latency p95  : 134.01 μs
+    Latency p99  : 149.14 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.01 MB, peak 12.41 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:23:06] rust-cv2x | codec-encode | off | run 25/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 472709
+    Throughput   : 7878.5 CAMs/s
+    Latency mean : 126.19 μs
+    Latency p50  : 125.13 μs
+    Latency p95  : 131.13 μs
+    Latency p99  : 145.14 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.91 MB, peak 12.79 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:24:21] rust-cv2x | codec-encode | off | run 26/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 473192
+    Throughput   : 7886.5 CAMs/s
+    Latency mean : 126.09 μs
+    Latency p50  : 125.01 μs
+    Latency p95  : 130.88 μs
+    Latency p99  : 144.89 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.95 MB, peak 12.01 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:25:36] rust-cv2x | codec-encode | off | run 27/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 463004
+    Throughput   : 7716.7 CAMs/s
+    Latency mean : 128.89 μs
+    Latency p50  : 127.76 μs
+    Latency p95  : 134.01 μs
+    Latency p99  : 149.26 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.07 MB, peak 12.40 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:26:51] rust-cv2x | codec-encode | off | run 28/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 464157
+    Throughput   : 7735.9 CAMs/s
+    Latency mean : 128.55 μs
+    Latency p50  : 127.38 μs
+    Latency p95  : 133.63 μs
+    Latency p99  : 148.01 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.07 MB, peak 12.90 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:28:07] rust-cv2x | codec-encode | off | run 29/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 474458
+    Throughput   : 7907.6 CAMs/s
+    Latency mean : 125.74 μs
+    Latency p50  : 124.64 μs
+    Latency p95  : 130.39 μs
+    Latency p99  : 144.14 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.94 MB, peak 11.75 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:29:22] rust-cv2x | codec-encode | off | run 30/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 466584
+    Throughput   : 7776.4 CAMs/s
+    Latency mean : 127.87 μs
+    Latency p50  : 126.76 μs
+    Latency p95  : 133.01 μs
+    Latency p99  : 148.01 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.92 MB, peak 10.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+================================================================
+  rust-cv2x | codec-decode | security=off | rate=0 | runs=30
+================================================================
+[11:30:27] rust-cv2x | codec-decode | off | run 1/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1632831
+    Throughput   : 27213.8 CAMs/s
+    Latency mean : 36.13 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 42.00 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.06 MB, peak 21.94 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:31:42] rust-cv2x | codec-decode | off | run 2/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1617741
+    Throughput   : 26962.3 CAMs/s
+    Latency mean : 36.46 μs
+    Latency p50  : 36.25 μs
+    Latency p95  : 36.75 μs
+    Latency p99  : 45.00 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.88 MB, peak 20.10 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:32:58] rust-cv2x | codec-decode | off | run 3/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1629725
+    Throughput   : 27162.1 CAMs/s
+    Latency mean : 36.13 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 42.25 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.03 MB, peak 21.99 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:34:13] rust-cv2x | codec-decode | off | run 4/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1644577
+    Throughput   : 27409.6 CAMs/s
+    Latency mean : 35.88 μs
+    Latency p50  : 35.63 μs
+    Latency p95  : 36.13 μs
+    Latency p99  : 41.50 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.02 MB, peak 20.49 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:35:28] rust-cv2x | codec-decode | off | run 5/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1618171
+    Throughput   : 26969.5 CAMs/s
+    Latency mean : 36.44 μs
+    Latency p50  : 36.25 μs
+    Latency p95  : 36.63 μs
+    Latency p99  : 45.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.91 MB, peak 20.68 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:36:43] rust-cv2x | codec-decode | off | run 6/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1602149
+    Throughput   : 26702.5 CAMs/s
+    Latency mean : 36.82 μs
+    Latency p50  : 36.63 μs
+    Latency p95  : 37.13 μs
+    Latency p99  : 43.63 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.06 MB, peak 21.06 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:37:59] rust-cv2x | codec-decode | off | run 7/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1619232
+    Throughput   : 26987.2 CAMs/s
+    Latency mean : 36.42 μs
+    Latency p50  : 36.13 μs
+    Latency p95  : 36.63 μs
+    Latency p99  : 45.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.88 MB, peak 21.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:39:14] rust-cv2x | codec-decode | off | run 8/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1632221
+    Throughput   : 27203.7 CAMs/s
+    Latency mean : 36.06 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.25 μs
+    Latency p99  : 42.38 μs
+    CPU          : 99.7 % (100 = one core)
+    RSS start    : 6.86 MB, peak 21.88 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:40:29] rust-cv2x | codec-decode | off | run 9/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1630225
+    Throughput   : 27170.4 CAMs/s
+    Latency mean : 36.10 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 43.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.97 MB, peak 21.42 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:41:45] rust-cv2x | codec-decode | off | run 10/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1629728
+    Throughput   : 27162.1 CAMs/s
+    Latency mean : 36.12 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 43.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.91 MB, peak 21.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:43:00] rust-cv2x | codec-decode | off | run 11/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1649225
+    Throughput   : 27487.1 CAMs/s
+    Latency mean : 35.76 μs
+    Latency p50  : 35.50 μs
+    Latency p95  : 36.00 μs
+    Latency p99  : 41.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.05 MB, peak 21.42 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:44:15] rust-cv2x | codec-decode | off | run 12/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1628493
+    Throughput   : 27141.5 CAMs/s
+    Latency mean : 36.15 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 43.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.01 MB, peak 21.11 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:45:31] rust-cv2x | codec-decode | off | run 13/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1601092
+    Throughput   : 26684.9 CAMs/s
+    Latency mean : 36.80 μs
+    Latency p50  : 36.50 μs
+    Latency p95  : 37.00 μs
+    Latency p99  : 44.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.07 MB, peak 20.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:46:46] rust-cv2x | codec-decode | off | run 14/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1644721
+    Throughput   : 27412.0 CAMs/s
+    Latency mean : 35.87 μs
+    Latency p50  : 35.63 μs
+    Latency p95  : 36.13 μs
+    Latency p99  : 41.25 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.04 MB, peak 21.15 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:48:01] rust-cv2x | codec-decode | off | run 15/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1630530
+    Throughput   : 27175.5 CAMs/s
+    Latency mean : 36.11 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 42.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.09 MB, peak 20.73 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:49:16] rust-cv2x | codec-decode | off | run 16/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1629948
+    Throughput   : 27165.8 CAMs/s
+    Latency mean : 36.12 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 42.88 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.94 MB, peak 20.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:50:32] rust-cv2x | codec-decode | off | run 17/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1623394
+    Throughput   : 27056.6 CAMs/s
+    Latency mean : 36.32 μs
+    Latency p50  : 36.13 μs
+    Latency p95  : 36.63 μs
+    Latency p99  : 44.63 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.00 MB, peak 20.30 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:51:47] rust-cv2x | codec-decode | off | run 18/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1650173
+    Throughput   : 27502.9 CAMs/s
+    Latency mean : 35.75 μs
+    Latency p50  : 35.63 μs
+    Latency p95  : 36.00 μs
+    Latency p99  : 39.88 μs
+    CPU          : 99.8 % (100 = one core)
+    RSS start    : 6.96 MB, peak 20.56 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:53:02] rust-cv2x | codec-decode | off | run 19/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1600329
+    Throughput   : 26672.1 CAMs/s
+    Latency mean : 36.82 μs
+    Latency p50  : 36.63 μs
+    Latency p95  : 37.13 μs
+    Latency p99  : 43.88 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.01 MB, peak 20.19 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:54:18] rust-cv2x | codec-decode | off | run 20/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1621161
+    Throughput   : 27019.3 CAMs/s
+    Latency mean : 36.37 μs
+    Latency p50  : 36.13 μs
+    Latency p95  : 36.63 μs
+    Latency p99  : 44.38 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.02 MB, peak 20.45 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:55:33] rust-cv2x | codec-decode | off | run 21/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1629989
+    Throughput   : 27166.5 CAMs/s
+    Latency mean : 36.13 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 43.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.91 MB, peak 21.00 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:56:48] rust-cv2x | codec-decode | off | run 22/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1600233
+    Throughput   : 26670.5 CAMs/s
+    Latency mean : 36.81 μs
+    Latency p50  : 36.63 μs
+    Latency p95  : 37.13 μs
+    Latency p99  : 44.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.95 MB, peak 21.42 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:58:04] rust-cv2x | codec-decode | off | run 23/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1650763
+    Throughput   : 27512.7 CAMs/s
+    Latency mean : 35.74 μs
+    Latency p50  : 35.50 μs
+    Latency p95  : 36.00 μs
+    Latency p99  : 41.25 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.06 MB, peak 22.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[11:59:19] rust-cv2x | codec-decode | off | run 24/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1619008
+    Throughput   : 26983.4 CAMs/s
+    Latency mean : 36.41 μs
+    Latency p50  : 36.25 μs
+    Latency p95  : 36.75 μs
+    Latency p99  : 42.88 μs
+    CPU          : 99.8 % (100 = one core)
+    RSS start    : 6.96 MB, peak 20.98 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:00:34] rust-cv2x | codec-decode | off | run 25/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1600931
+    Throughput   : 26682.2 CAMs/s
+    Latency mean : 36.80 μs
+    Latency p50  : 36.50 μs
+    Latency p95  : 37.00 μs
+    Latency p99  : 43.88 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.92 MB, peak 20.50 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:01:49] rust-cv2x | codec-decode | off | run 26/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1644463
+    Throughput   : 27407.7 CAMs/s
+    Latency mean : 35.87 μs
+    Latency p50  : 35.63 μs
+    Latency p95  : 36.13 μs
+    Latency p99  : 41.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.01 MB, peak 22.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:03:05] rust-cv2x | codec-decode | off | run 27/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1629723
+    Throughput   : 27162.0 CAMs/s
+    Latency mean : 36.12 μs
+    Latency p50  : 35.88 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 42.50 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.09 MB, peak 20.88 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:04:20] rust-cv2x | codec-decode | off | run 28/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1603230
+    Throughput   : 26720.5 CAMs/s
+    Latency mean : 36.73 μs
+    Latency p50  : 36.63 μs
+    Latency p95  : 37.00 μs
+    Latency p99  : 42.75 μs
+    CPU          : 99.8 % (100 = one core)
+    RSS start    : 6.96 MB, peak 21.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:05:35] rust-cv2x | codec-decode | off | run 29/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1620156
+    Throughput   : 27002.6 CAMs/s
+    Latency mean : 36.40 μs
+    Latency p50  : 36.13 μs
+    Latency p95  : 36.63 μs
+    Latency p99  : 45.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.00 MB, peak 21.67 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:06:51] rust-cv2x | codec-decode | off | run 30/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1647662
+    Throughput   : 27461.0 CAMs/s
+    Latency mean : 35.81 μs
+    Latency p50  : 35.63 μs
+    Latency p95  : 36.00 μs
+    Latency p99  : 41.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.90 MB, peak 21.86 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+================================================================
+  rust-cv2x | security-sign | security=on | rate=0 | runs=30
+================================================================
+[12:07:56] rust-cv2x | security-sign | on | run 1/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33655 ops (561/s)
+
+  Results:
+    Total        : 33655
+    Throughput   : 560.9 CAMs/s
+    Latency mean : 1781.38 μs
+    Latency p50  : 1764.26 μs
+    Latency p95  : 1884.27 μs
+    Latency p99  : 1920.15 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.96 MB, peak 10.54 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:09:11] rust-cv2x | security-sign | on | run 2/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33648 ops (561/s)
+
+  Results:
+    Total        : 33648
+    Throughput   : 560.8 CAMs/s
+    Latency mean : 1781.77 μs
+    Latency p50  : 1764.39 μs
+    Latency p95  : 1884.64 μs
+    Latency p99  : 1921.77 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.88 MB, peak 10.45 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:10:26] rust-cv2x | security-sign | on | run 3/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33658 ops (561/s)
+
+  Results:
+    Total        : 33658
+    Throughput   : 561.0 CAMs/s
+    Latency mean : 1781.30 μs
+    Latency p50  : 1765.63 μs
+    Latency p95  : 1882.64 μs
+    Latency p99  : 1919.27 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.08 MB, peak 8.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:11:41] rust-cv2x | security-sign | on | run 4/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33669 ops (561/s)
+
+  Results:
+    Total        : 33669
+    Throughput   : 561.1 CAMs/s
+    Latency mean : 1780.65 μs
+    Latency p50  : 1763.51 μs
+    Latency p95  : 1882.39 μs
+    Latency p99  : 1919.15 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.99 MB, peak 8.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:12:57] rust-cv2x | security-sign | on | run 5/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33650 ops (561/s)
+
+  Results:
+    Total        : 33650
+    Throughput   : 560.8 CAMs/s
+    Latency mean : 1781.68 μs
+    Latency p50  : 1764.39 μs
+    Latency p95  : 1884.14 μs
+    Latency p99  : 1921.90 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.04 MB, peak 8.67 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:14:12] rust-cv2x | security-sign | on | run 6/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33685 ops (561/s)
+
+  Results:
+    Total        : 33685
+    Throughput   : 561.4 CAMs/s
+    Latency mean : 1779.86 μs
+    Latency p50  : 1763.26 μs
+    Latency p95  : 1880.64 μs
+    Latency p99  : 1917.90 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.08 MB, peak 8.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:15:27] rust-cv2x | security-sign | on | run 7/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33633 ops (561/s)
+
+  Results:
+    Total        : 33633
+    Throughput   : 560.5 CAMs/s
+    Latency mean : 1782.47 μs
+    Latency p50  : 1766.26 μs
+    Latency p95  : 1882.90 μs
+    Latency p99  : 1921.52 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.07 MB, peak 9.07 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:16:42] rust-cv2x | security-sign | on | run 8/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33779 ops (563/s)
+
+  Results:
+    Total        : 33779
+    Throughput   : 563.0 CAMs/s
+    Latency mean : 1774.91 μs
+    Latency p50  : 1763.76 μs
+    Latency p95  : 1869.89 μs
+    Latency p99  : 1910.02 μs
+    CPU          : 99.7 % (100 = one core)
+    RSS start    : 7.07 MB, peak 8.60 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:17:57] rust-cv2x | security-sign | on | run 9/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33845 ops (564/s)
+
+  Results:
+    Total        : 33845
+    Throughput   : 564.1 CAMs/s
+    Latency mean : 1771.45 μs
+    Latency p50  : 1760.13 μs
+    Latency p95  : 1860.89 μs
+    Latency p99  : 1900.52 μs
+    CPU          : 99.7 % (100 = one core)
+    RSS start    : 7.05 MB, peak 8.62 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:19:12] rust-cv2x | security-sign | on | run 10/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33659 ops (561/s)
+
+  Results:
+    Total        : 33659
+    Throughput   : 561.0 CAMs/s
+    Latency mean : 1781.25 μs
+    Latency p50  : 1765.26 μs
+    Latency p95  : 1882.02 μs
+    Latency p99  : 1920.90 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.05 MB, peak 8.56 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:20:28] rust-cv2x | security-sign | on | run 11/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33651 ops (561/s)
+
+  Results:
+    Total        : 33651
+    Throughput   : 560.8 CAMs/s
+    Latency mean : 1781.51 μs
+    Latency p50  : 1764.76 μs
+    Latency p95  : 1884.64 μs
+    Latency p99  : 1920.77 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.04 MB, peak 8.50 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:21:43] rust-cv2x | security-sign | on | run 12/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33653 ops (561/s)
+
+  Results:
+    Total        : 33653
+    Throughput   : 560.9 CAMs/s
+    Latency mean : 1781.48 μs
+    Latency p50  : 1764.01 μs
+    Latency p95  : 1885.89 μs
+    Latency p99  : 1922.65 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.06 MB, peak 8.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:22:58] rust-cv2x | security-sign | on | run 13/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33616 ops (560/s)
+
+  Results:
+    Total        : 33616
+    Throughput   : 560.3 CAMs/s
+    Latency mean : 1783.46 μs
+    Latency p50  : 1765.76 μs
+    Latency p95  : 1886.90 μs
+    Latency p99  : 1923.02 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.04 MB, peak 8.68 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:24:13] rust-cv2x | security-sign | on | run 14/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33671 ops (561/s)
+
+  Results:
+    Total        : 33671
+    Throughput   : 561.2 CAMs/s
+    Latency mean : 1780.56 μs
+    Latency p50  : 1764.01 μs
+    Latency p95  : 1882.39 μs
+    Latency p99  : 1919.02 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 6.95 MB, peak 8.58 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:25:28] rust-cv2x | security-sign | on | run 15/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33663 ops (561/s)
+
+  Results:
+    Total        : 33663
+    Throughput   : 561.0 CAMs/s
+    Latency mean : 1780.96 μs
+    Latency p50  : 1764.39 μs
+    Latency p95  : 1882.77 μs
+    Latency p99  : 1921.15 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.07 MB, peak 8.64 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:26:43] rust-cv2x | security-sign | on | run 16/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33664 ops (561/s)
+
+  Results:
+    Total        : 33664
+    Throughput   : 561.1 CAMs/s
+    Latency mean : 1780.89 μs
+    Latency p50  : 1764.14 μs
+    Latency p95  : 1882.77 μs
+    Latency p99  : 1919.90 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.03 MB, peak 8.54 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:27:59] rust-cv2x | security-sign | on | run 17/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33639 ops (561/s)
+
+  Results:
+    Total        : 33639
+    Throughput   : 560.6 CAMs/s
+    Latency mean : 1782.17 μs
+    Latency p50  : 1764.76 μs
+    Latency p95  : 1884.39 μs
+    Latency p99  : 1920.02 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.06 MB, peak 8.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:29:14] rust-cv2x | security-sign | on | run 18/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33651 ops (561/s)
+
+  Results:
+    Total        : 33651
+    Throughput   : 560.8 CAMs/s
+    Latency mean : 1781.58 μs
+    Latency p50  : 1764.26 μs
+    Latency p95  : 1883.02 μs
+    Latency p99  : 1918.77 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.33 MB, peak 8.50 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:30:29] rust-cv2x | security-sign | on | run 19/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33663 ops (561/s)
+
+  Results:
+    Total        : 33663
+    Throughput   : 561.0 CAMs/s
+    Latency mean : 1781.04 μs
+    Latency p50  : 1763.89 μs
+    Latency p95  : 1884.89 μs
+    Latency p99  : 1922.65 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.08 MB, peak 8.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:31:44] rust-cv2x | security-sign | on | run 20/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33653 ops (561/s)
+
+  Results:
+    Total        : 33653
+    Throughput   : 560.9 CAMs/s
+    Latency mean : 1781.54 μs
+    Latency p50  : 1764.01 μs
+    Latency p95  : 1885.27 μs
+    Latency p99  : 1923.65 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.42 MB, peak 8.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:32:59] rust-cv2x | security-sign | on | run 21/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33660 ops (561/s)
+
+  Results:
+    Total        : 33660
+    Throughput   : 561.0 CAMs/s
+    Latency mean : 1781.12 μs
+    Latency p50  : 1763.76 μs
+    Latency p95  : 1883.65 μs
+    Latency p99  : 1922.27 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.41 MB, peak 8.53 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:34:14] rust-cv2x | security-sign | on | run 22/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33673 ops (561/s)
+
+  Results:
+    Total        : 33673
+    Throughput   : 561.2 CAMs/s
+    Latency mean : 1780.43 μs
+    Latency p50  : 1763.76 μs
+    Latency p95  : 1881.64 μs
+    Latency p99  : 1918.27 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.58 MB, peak 8.74 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:35:29] rust-cv2x | security-sign | on | run 23/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33665 ops (561/s)
+
+  Results:
+    Total        : 33665
+    Throughput   : 561.1 CAMs/s
+    Latency mean : 1780.81 μs
+    Latency p50  : 1764.38 μs
+    Latency p95  : 1881.65 μs
+    Latency p99  : 1919.40 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.48 MB, peak 8.66 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:36:45] rust-cv2x | security-sign | on | run 24/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33659 ops (561/s)
+
+  Results:
+    Total        : 33659
+    Throughput   : 561.0 CAMs/s
+    Latency mean : 1781.11 μs
+    Latency p50  : 1764.39 μs
+    Latency p95  : 1883.39 μs
+    Latency p99  : 1921.40 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.41 MB, peak 8.64 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:38:00] rust-cv2x | security-sign | on | run 25/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33654 ops (561/s)
+
+  Results:
+    Total        : 33654
+    Throughput   : 560.9 CAMs/s
+    Latency mean : 1781.43 μs
+    Latency p50  : 1764.39 μs
+    Latency p95  : 1883.02 μs
+    Latency p99  : 1919.52 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.48 MB, peak 8.70 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:39:15] rust-cv2x | security-sign | on | run 26/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33631 ops (561/s)
+
+  Results:
+    Total        : 33631
+    Throughput   : 560.5 CAMs/s
+    Latency mean : 1782.55 μs
+    Latency p50  : 1764.89 μs
+    Latency p95  : 1884.27 μs
+    Latency p99  : 1922.15 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.41 MB, peak 8.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:40:30] rust-cv2x | security-sign | on | run 27/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33826 ops (564/s)
+
+  Results:
+    Total        : 33826
+    Throughput   : 563.8 CAMs/s
+    Latency mean : 1772.41 μs
+    Latency p50  : 1760.26 μs
+    Latency p95  : 1862.89 μs
+    Latency p99  : 1900.40 μs
+    CPU          : 99.7 % (100 = one core)
+    RSS start    : 7.50 MB, peak 8.62 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:41:45] rust-cv2x | security-sign | on | run 28/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33633 ops (561/s)
+
+  Results:
+    Total        : 33633
+    Throughput   : 560.5 CAMs/s
+    Latency mean : 1782.50 μs
+    Latency p50  : 1764.01 μs
+    Latency p95  : 1885.15 μs
+    Latency p99  : 1919.15 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.39 MB, peak 9.39 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:43:00] rust-cv2x | security-sign | on | run 29/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33634 ops (561/s)
+
+  Results:
+    Total        : 33634
+    Throughput   : 560.6 CAMs/s
+    Latency mean : 1782.54 μs
+    Latency p50  : 1764.14 μs
+    Latency p95  : 1886.77 μs
+    Latency p99  : 1921.40 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.48 MB, peak 8.65 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:44:16] rust-cv2x | security-sign | on | run 30/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-sign
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Sign: 33644 ops (561/s)
+
+  Results:
+    Total        : 33644
+    Throughput   : 560.7 CAMs/s
+    Latency mean : 1781.85 μs
+    Latency p50  : 1764.14 μs
+    Latency p95  : 1884.39 μs
+    Latency p99  : 1920.40 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.33 MB, peak 8.50 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+================================================================
+  rust-cv2x | security-verify | security=on | rate=0 | runs=30
+================================================================
+[12:45:21] rust-cv2x | security-verify | on | run 1/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19474 ops (325/s)
+
+  Results:
+    Total        : 19474
+    Throughput   : 324.6 CAMs/s
+    Latency mean : 3079.44 μs
+    Latency p50  : 3026.11 μs
+    Latency p95  : 3288.13 μs
+    Latency p99  : 3323.13 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.43 MB, peak 7.43 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:46:36] rust-cv2x | security-verify | on | run 2/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19455 ops (324/s)
+
+  Results:
+    Total        : 19455
+    Throughput   : 324.2 CAMs/s
+    Latency mean : 3082.40 μs
+    Latency p50  : 3031.36 μs
+    Latency p95  : 3288.88 μs
+    Latency p99  : 3324.01 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.49 MB, peak 7.49 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:47:51] rust-cv2x | security-verify | on | run 3/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19427 ops (324/s)
+
+  Results:
+    Total        : 19427
+    Throughput   : 323.8 CAMs/s
+    Latency mean : 3086.93 μs
+    Latency p50  : 3038.99 μs
+    Latency p95  : 3288.88 μs
+    Latency p99  : 3322.01 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.46 MB, peak 7.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:49:06] rust-cv2x | security-verify | on | run 4/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19446 ops (324/s)
+
+  Results:
+    Total        : 19446
+    Throughput   : 324.1 CAMs/s
+    Latency mean : 3083.83 μs
+    Latency p50  : 3035.48 μs
+    Latency p95  : 3290.63 μs
+    Latency p99  : 3325.01 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.27 MB, peak 7.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:50:21] rust-cv2x | security-verify | on | run 5/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19495 ops (325/s)
+
+  Results:
+    Total        : 19495
+    Throughput   : 324.9 CAMs/s
+    Latency mean : 3076.18 μs
+    Latency p50  : 3025.73 μs
+    Latency p95  : 3285.88 μs
+    Latency p99  : 3319.01 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.47 MB, peak 7.47 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:51:37] rust-cv2x | security-verify | on | run 6/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19494 ops (325/s)
+
+  Results:
+    Total        : 19494
+    Throughput   : 324.9 CAMs/s
+    Latency mean : 3076.32 μs
+    Latency p50  : 3025.61 μs
+    Latency p95  : 3288.25 μs
+    Latency p99  : 3321.13 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.46 MB, peak 7.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:52:52] rust-cv2x | security-verify | on | run 7/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19514 ops (325/s)
+
+  Results:
+    Total        : 19514
+    Throughput   : 325.2 CAMs/s
+    Latency mean : 3072.98 μs
+    Latency p50  : 3023.11 μs
+    Latency p95  : 3284.00 μs
+    Latency p99  : 3318.63 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.37 MB, peak 7.37 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:54:07] rust-cv2x | security-verify | on | run 8/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19481 ops (325/s)
+
+  Results:
+    Total        : 19481
+    Throughput   : 324.7 CAMs/s
+    Latency mean : 3078.37 μs
+    Latency p50  : 3028.86 μs
+    Latency p95  : 3288.38 μs
+    Latency p99  : 3322.63 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.41 MB, peak 7.41 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:55:22] rust-cv2x | security-verify | on | run 9/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19469 ops (324/s)
+
+  Results:
+    Total        : 19469
+    Throughput   : 324.5 CAMs/s
+    Latency mean : 3080.19 μs
+    Latency p50  : 3030.86 μs
+    Latency p95  : 3290.25 μs
+    Latency p99  : 3323.76 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.51 MB, peak 7.51 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:56:37] rust-cv2x | security-verify | on | run 10/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19482 ops (325/s)
+
+  Results:
+    Total        : 19482
+    Throughput   : 324.7 CAMs/s
+    Latency mean : 3078.21 μs
+    Latency p50  : 3029.23 μs
+    Latency p95  : 3288.88 μs
+    Latency p99  : 3321.76 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.34 MB, peak 7.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:57:52] rust-cv2x | security-verify | on | run 11/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19447 ops (324/s)
+
+  Results:
+    Total        : 19447
+    Throughput   : 324.1 CAMs/s
+    Latency mean : 3083.46 μs
+    Latency p50  : 3035.11 μs
+    Latency p95  : 3289.50 μs
+    Latency p99  : 3322.51 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.45 MB, peak 7.45 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[12:59:07] rust-cv2x | security-verify | on | run 12/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19479 ops (325/s)
+
+  Results:
+    Total        : 19479
+    Throughput   : 324.6 CAMs/s
+    Latency mean : 3078.65 μs
+    Latency p50  : 3028.48 μs
+    Latency p95  : 3288.63 μs
+    Latency p99  : 3322.88 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.60 MB, peak 7.60 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:00:23] rust-cv2x | security-verify | on | run 13/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19462 ops (324/s)
+
+  Results:
+    Total        : 19462
+    Throughput   : 324.4 CAMs/s
+    Latency mean : 3081.28 μs
+    Latency p50  : 3031.61 μs
+    Latency p95  : 3291.25 μs
+    Latency p99  : 3324.13 μs
+    CPU          : 99.6 % (100 = one core)
+    RSS start    : 7.51 MB, peak 7.51 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:01:38] rust-cv2x | security-verify | on | run 14/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19483 ops (325/s)
+
+  Results:
+    Total        : 19483
+    Throughput   : 324.7 CAMs/s
+    Latency mean : 3077.97 μs
+    Latency p50  : 3027.73 μs
+    Latency p95  : 3289.63 μs
+    Latency p99  : 3323.51 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.39 MB, peak 7.39 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:02:53] rust-cv2x | security-verify | on | run 15/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19472 ops (325/s)
+
+  Results:
+    Total        : 19472
+    Throughput   : 324.5 CAMs/s
+    Latency mean : 3079.68 μs
+    Latency p50  : 3028.86 μs
+    Latency p95  : 3290.50 μs
+    Latency p99  : 3323.63 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.57 MB, peak 7.57 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:04:08] rust-cv2x | security-verify | on | run 16/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19462 ops (324/s)
+
+  Results:
+    Total        : 19462
+    Throughput   : 324.4 CAMs/s
+    Latency mean : 3081.40 μs
+    Latency p50  : 3032.86 μs
+    Latency p95  : 3289.88 μs
+    Latency p99  : 3323.26 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.49 MB, peak 7.49 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:05:23] rust-cv2x | security-verify | on | run 17/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19583 ops (326/s)
+
+  Results:
+    Total        : 19583
+    Throughput   : 326.4 CAMs/s
+    Latency mean : 3062.39 μs
+    Latency p50  : 3029.48 μs
+    Latency p95  : 3268.63 μs
+    Latency p99  : 3305.63 μs
+    CPU          : 99.7 % (100 = one core)
+    RSS start    : 7.52 MB, peak 7.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:06:38] rust-cv2x | security-verify | on | run 18/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19496 ops (325/s)
+
+  Results:
+    Total        : 19496
+    Throughput   : 324.9 CAMs/s
+    Latency mean : 3075.93 μs
+    Latency p50  : 3025.48 μs
+    Latency p95  : 3286.75 μs
+    Latency p99  : 3321.63 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.51 MB, peak 7.51 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:07:54] rust-cv2x | security-verify | on | run 19/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19445 ops (324/s)
+
+  Results:
+    Total        : 19445
+    Throughput   : 324.1 CAMs/s
+    Latency mean : 3084.09 μs
+    Latency p50  : 3035.98 μs
+    Latency p95  : 3290.88 μs
+    Latency p99  : 3324.76 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.50 MB, peak 7.50 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:09:09] rust-cv2x | security-verify | on | run 20/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19467 ops (324/s)
+
+  Results:
+    Total        : 19467
+    Throughput   : 324.4 CAMs/s
+    Latency mean : 3080.49 μs
+    Latency p50  : 3032.48 μs
+    Latency p95  : 3288.00 μs
+    Latency p99  : 3321.51 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.42 MB, peak 7.42 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:10:24] rust-cv2x | security-verify | on | run 21/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19461 ops (324/s)
+
+  Results:
+    Total        : 19461
+    Throughput   : 324.3 CAMs/s
+    Latency mean : 3081.36 μs
+    Latency p50  : 3032.48 μs
+    Latency p95  : 3288.13 μs
+    Latency p99  : 3322.38 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.52 MB, peak 7.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:11:39] rust-cv2x | security-verify | on | run 22/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19475 ops (325/s)
+
+  Results:
+    Total        : 19475
+    Throughput   : 324.6 CAMs/s
+    Latency mean : 3079.15 μs
+    Latency p50  : 3030.48 μs
+    Latency p95  : 3287.38 μs
+    Latency p99  : 3322.88 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 6.92 MB, peak 8.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:12:54] rust-cv2x | security-verify | on | run 23/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19488 ops (325/s)
+
+  Results:
+    Total        : 19488
+    Throughput   : 324.8 CAMs/s
+    Latency mean : 3077.00 μs
+    Latency p50  : 3026.73 μs
+    Latency p95  : 3287.38 μs
+    Latency p99  : 3320.26 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.51 MB, peak 7.51 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:14:09] rust-cv2x | security-verify | on | run 24/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19471 ops (325/s)
+
+  Results:
+    Total        : 19471
+    Throughput   : 324.5 CAMs/s
+    Latency mean : 3079.92 μs
+    Latency p50  : 3029.61 μs
+    Latency p95  : 3291.63 μs
+    Latency p99  : 3324.38 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.23 MB, peak 7.23 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:15:25] rust-cv2x | security-verify | on | run 25/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19486 ops (325/s)
+
+  Results:
+    Total        : 19486
+    Throughput   : 324.8 CAMs/s
+    Latency mean : 3077.40 μs
+    Latency p50  : 3028.98 μs
+    Latency p95  : 3285.50 μs
+    Latency p99  : 3319.26 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.47 MB, peak 9.47 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:16:40] rust-cv2x | security-verify | on | run 26/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19481 ops (325/s)
+
+  Results:
+    Total        : 19481
+    Throughput   : 324.7 CAMs/s
+    Latency mean : 3078.32 μs
+    Latency p50  : 3030.11 μs
+    Latency p95  : 3285.25 μs
+    Latency p99  : 3318.76 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.46 MB, peak 7.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:17:55] rust-cv2x | security-verify | on | run 27/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19470 ops (324/s)
+
+  Results:
+    Total        : 19470
+    Throughput   : 324.5 CAMs/s
+    Latency mean : 3079.91 μs
+    Latency p50  : 3029.73 μs
+    Latency p95  : 3288.25 μs
+    Latency p99  : 3323.63 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.47 MB, peak 7.47 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:19:10] rust-cv2x | security-verify | on | run 28/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19455 ops (324/s)
+
+  Results:
+    Total        : 19455
+    Throughput   : 324.2 CAMs/s
+    Latency mean : 3082.45 μs
+    Latency p50  : 3034.73 μs
+    Latency p95  : 3291.00 μs
+    Latency p99  : 3325.38 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.47 MB, peak 7.47 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:20:25] rust-cv2x | security-verify | on | run 29/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19487 ops (325/s)
+
+  Results:
+    Total        : 19487
+    Throughput   : 324.8 CAMs/s
+    Latency mean : 3077.31 μs
+    Latency p50  : 3027.48 μs
+    Latency p95  : 3287.13 μs
+    Latency p99  : 3319.00 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.40 MB, peak 7.40 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[13:21:40] rust-cv2x | security-verify | on | run 30/30
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : security-verify
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : mk6
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Verify: 19492 ops (325/s)
+
+  Results:
+    Total        : 19492
+    Throughput   : 324.9 CAMs/s
+    Latency mean : 3076.56 μs
+    Latency p50  : 3026.48 μs
+    Latency p95  : 3288.00 μs
+    Latency p99  : 3321.76 μs
+    CPU          : 99.5 % (100 = one core)
+    RSS start    : 7.52 MB, peak 7.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv
+[2026-11-25 13:22:45] all cells done: /home/<user>/FlexStackBenchmarking/results/results_mk6_after_20261125T105301.csv

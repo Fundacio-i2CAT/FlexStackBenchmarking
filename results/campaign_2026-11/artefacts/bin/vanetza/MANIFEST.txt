@@ -1,0 +1,8 @@
+# Vanetza harness bundles that were measured (campaign_2026-11)
+# The bundles of dist/vanetza/<arch>/ built by scripts/prepare_campaign.sh (vanetza/build.sh),
+# Vanetza commit 3b9a54446685979f467aefbeaaf6065c3c7dd902, each with its own glibc and libraries.
+# Packed with: tar --sort=name --owner=0 --group=0 --numeric-owner --mtime='2026-11-23 00:00:00Z' | gzip -n -9
+# Unpacked, every file matches ../../vanetza_bundles.sha256 (vanetza/<arch>/ = flexstack-bench-vanetza-<arch>-linux/).
+## sha256
+47df30e959a659b76ca451a6193828269d706bb34d89e728a4442a0fd86dbb2f  flexstack-bench-vanetza-aarch64-linux.tar.gz
+d8f791d26e5ace7231bd5f2b526e3cb01662ebcbed2118b11f5ea1829bb98b2d  flexstack-bench-vanetza-x86_64-linux.tar.gz

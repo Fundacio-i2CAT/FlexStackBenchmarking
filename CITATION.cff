@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this benchmark suite or its data, please cite it as below."
+title: "FlexStack Benchmarking: Performance Evaluation Suite for V2X FlexStack"
+type: software
+authors:
+  - family-names: "Marias-i-Parella"
+    given-names: "Jordi"
+repository-code: "https://github.com/Fundacio-i2CAT/FlexStackBenchmarking"
+license: AGPL-3.0-only
+keywords:
+  - V2X
+  - ETSI C-ITS
+  - benchmark
+  - FlexStack
+  - Vanetza

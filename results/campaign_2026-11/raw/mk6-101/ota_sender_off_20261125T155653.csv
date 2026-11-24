@@ -1,0 +1,2 @@
+run_id,implementation,platform,security,benchmark,duration_s,total_cams,throughput_cams_s,latency_mean_us,latency_std_us,latency_p50_us,latency_p95_us,latency_p99_us,latency_min_us,latency_max_us,sign_latency_mean_us,cpu_pct,rss_start_mb,peak_rss_mb,target_rate
+1,rust-cv2x,mk6,off,tx,2700.000,12704234,4705.3,211.54,33.78,201.01,258.27,385.65,185.89,6801.01,0.00,153.8,14.22,112.62,0

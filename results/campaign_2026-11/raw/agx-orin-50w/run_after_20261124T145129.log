@@ -1,0 +1,2275 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+================================================================
+  rust | tx | security=off | rate=0 | runs=30
+================================================================
+[14:51:31] rust | tx | off | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1693269
+    Throughput   : 28221.1 CAMs/s
+    Latency mean : 35.29 μs
+    Latency p50  : 33.22 μs
+    Latency p95  : 36.26 μs
+    Latency p99  : 41.06 μs
+    CPU          : 155.4 % (100 = one core)
+    RSS start    : 4.39 MB, peak 18.19 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[14:52:46] rust | tx | off | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1695404
+    Throughput   : 28256.7 CAMs/s
+    Latency mean : 35.24 μs
+    Latency p50  : 33.15 μs
+    Latency p95  : 36.23 μs
+    Latency p99  : 41.06 μs
+    CPU          : 155.3 % (100 = one core)
+    RSS start    : 2.11 MB, peak 15.53 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[14:54:01] rust | tx | off | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1679203
+    Throughput   : 27986.7 CAMs/s
+    Latency mean : 35.55 μs
+    Latency p50  : 33.47 μs
+    Latency p95  : 36.58 μs
+    Latency p99  : 41.44 μs
+    CPU          : 155.8 % (100 = one core)
+    RSS start    : 2.10 MB, peak 15.66 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[14:55:17] rust | tx | off | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1694127
+    Throughput   : 28235.4 CAMs/s
+    Latency mean : 35.27 μs
+    Latency p50  : 33.18 μs
+    Latency p95  : 36.32 μs
+    Latency p99  : 41.12 μs
+    CPU          : 155.3 % (100 = one core)
+    RSS start    : 2.11 MB, peak 16.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[14:56:32] rust | tx | off | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1691960
+    Throughput   : 28199.3 CAMs/s
+    Latency mean : 35.31 μs
+    Latency p50  : 33.22 μs
+    Latency p95  : 36.32 μs
+    Latency p99  : 41.15 μs
+    CPU          : 155.9 % (100 = one core)
+    RSS start    : 2.41 MB, peak 18.25 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[14:57:47] rust | tx | off | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1690401
+    Throughput   : 28173.3 CAMs/s
+    Latency mean : 35.35 μs
+    Latency p50  : 33.25 μs
+    Latency p95  : 36.32 μs
+    Latency p99  : 41.15 μs
+    CPU          : 155.2 % (100 = one core)
+    RSS start    : 2.40 MB, peak 16.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[14:59:03] rust | tx | off | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1692962
+    Throughput   : 28216.0 CAMs/s
+    Latency mean : 35.29 μs
+    Latency p50  : 33.22 μs
+    Latency p95  : 36.29 μs
+    Latency p99  : 41.15 μs
+    CPU          : 156.1 % (100 = one core)
+    RSS start    : 2.17 MB, peak 15.30 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:00:18] rust | tx | off | run 8/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1677668
+    Throughput   : 27961.1 CAMs/s
+    Latency mean : 35.62 μs
+    Latency p50  : 33.50 μs
+    Latency p95  : 36.61 μs
+    Latency p99  : 41.47 μs
+    CPU          : 155.8 % (100 = one core)
+    RSS start    : 2.11 MB, peak 15.91 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:01:33] rust | tx | off | run 9/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1696166
+    Throughput   : 28269.4 CAMs/s
+    Latency mean : 35.23 μs
+    Latency p50  : 33.15 μs
+    Latency p95  : 36.19 μs
+    Latency p99  : 41.09 μs
+    CPU          : 155.5 % (100 = one core)
+    RSS start    : 2.12 MB, peak 16.32 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:02:49] rust | tx | off | run 10/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1679926
+    Throughput   : 27998.8 CAMs/s
+    Latency mean : 35.57 μs
+    Latency p50  : 33.44 μs
+    Latency p95  : 36.58 μs
+    Latency p99  : 41.54 μs
+    CPU          : 156.2 % (100 = one core)
+    RSS start    : 2.13 MB, peak 15.86 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:04:04] rust | tx | off | run 11/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1686211
+    Throughput   : 28103.5 CAMs/s
+    Latency mean : 35.44 μs
+    Latency p50  : 33.34 μs
+    Latency p95  : 36.42 μs
+    Latency p99  : 41.28 μs
+    CPU          : 155.3 % (100 = one core)
+    RSS start    : 2.40 MB, peak 16.39 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:05:19] rust | tx | off | run 12/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1693143
+    Throughput   : 28219.0 CAMs/s
+    Latency mean : 35.26 μs
+    Latency p50  : 33.18 μs
+    Latency p95  : 36.29 μs
+    Latency p99  : 41.22 μs
+    CPU          : 155.4 % (100 = one core)
+    RSS start    : 2.10 MB, peak 16.60 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:06:35] rust | tx | off | run 13/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1690002
+    Throughput   : 28166.7 CAMs/s
+    Latency mean : 35.35 μs
+    Latency p50  : 33.25 μs
+    Latency p95  : 36.38 μs
+    Latency p99  : 41.15 μs
+    CPU          : 155.6 % (100 = one core)
+    RSS start    : 2.50 MB, peak 15.43 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:07:50] rust | tx | off | run 14/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1675738
+    Throughput   : 27929.0 CAMs/s
+    Latency mean : 35.66 μs
+    Latency p50  : 33.57 μs
+    Latency p95  : 36.64 μs
+    Latency p99  : 41.57 μs
+    CPU          : 156.0 % (100 = one core)
+    RSS start    : 2.09 MB, peak 15.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:09:05] rust | tx | off | run 15/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1672849
+    Throughput   : 27880.8 CAMs/s
+    Latency mean : 35.72 μs
+    Latency p50  : 33.60 μs
+    Latency p95  : 36.74 μs
+    Latency p99  : 41.70 μs
+    CPU          : 156.8 % (100 = one core)
+    RSS start    : 2.21 MB, peak 16.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:10:21] rust | tx | off | run 16/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1681770
+    Throughput   : 28029.5 CAMs/s
+    Latency mean : 35.50 μs
+    Latency p50  : 33.41 μs
+    Latency p95  : 36.54 μs
+    Latency p99  : 41.38 μs
+    CPU          : 156.2 % (100 = one core)
+    RSS start    : 2.11 MB, peak 16.68 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:11:36] rust | tx | off | run 17/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1686643
+    Throughput   : 28110.7 CAMs/s
+    Latency mean : 35.42 μs
+    Latency p50  : 33.34 μs
+    Latency p95  : 36.42 μs
+    Latency p99  : 41.31 μs
+    CPU          : 155.5 % (100 = one core)
+    RSS start    : 2.13 MB, peak 15.07 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:12:51] rust | tx | off | run 18/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1688511
+    Throughput   : 28130.6 CAMs/s
+    Latency mean : 35.40 μs
+    Latency p50  : 33.28 μs
+    Latency p95  : 36.35 μs
+    Latency p99  : 41.22 μs
+    CPU          : 155.4 % (100 = one core)
+    RSS start    : 2.43 MB, peak 15.91 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:14:07] rust | tx | off | run 19/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1675526
+    Throughput   : 27925.4 CAMs/s
+    Latency mean : 35.63 μs
+    Latency p50  : 33.54 μs
+    Latency p95  : 36.64 μs
+    Latency p99  : 41.50 μs
+    CPU          : 155.7 % (100 = one core)
+    RSS start    : 2.40 MB, peak 15.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:15:22] rust | tx | off | run 20/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1683015
+    Throughput   : 28050.2 CAMs/s
+    Latency mean : 35.50 μs
+    Latency p50  : 33.41 μs
+    Latency p95  : 36.48 μs
+    Latency p99  : 41.38 μs
+    CPU          : 155.9 % (100 = one core)
+    RSS start    : 2.40 MB, peak 15.64 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:16:37] rust | tx | off | run 21/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1693509
+    Throughput   : 28225.1 CAMs/s
+    Latency mean : 35.28 μs
+    Latency p50  : 33.18 μs
+    Latency p95  : 36.26 μs
+    Latency p99  : 41.12 μs
+    CPU          : 155.3 % (100 = one core)
+    RSS start    : 2.16 MB, peak 15.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:17:53] rust | tx | off | run 22/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1697776
+    Throughput   : 28296.3 CAMs/s
+    Latency mean : 35.19 μs
+    Latency p50  : 33.12 μs
+    Latency p95  : 36.19 μs
+    Latency p99  : 41.02 μs
+    CPU          : 155.0 % (100 = one core)
+    RSS start    : 2.12 MB, peak 17.00 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:19:08] rust | tx | off | run 23/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1699746
+    Throughput   : 28329.1 CAMs/s
+    Latency mean : 35.15 μs
+    Latency p50  : 33.06 μs
+    Latency p95  : 36.10 μs
+    Latency p99  : 40.93 μs
+    CPU          : 154.9 % (100 = one core)
+    RSS start    : 2.41 MB, peak 16.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:20:23] rust | tx | off | run 24/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1702444
+    Throughput   : 28374.1 CAMs/s
+    Latency mean : 35.10 μs
+    Latency p50  : 32.99 μs
+    Latency p95  : 36.06 μs
+    Latency p99  : 41.02 μs
+    CPU          : 155.7 % (100 = one core)
+    RSS start    : 2.49 MB, peak 16.40 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:21:39] rust | tx | off | run 25/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1691538
+    Throughput   : 28192.3 CAMs/s
+    Latency mean : 35.32 μs
+    Latency p50  : 33.22 μs
+    Latency p95  : 36.29 μs
+    Latency p99  : 41.18 μs
+    CPU          : 155.7 % (100 = one core)
+    RSS start    : 2.40 MB, peak 15.65 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:22:54] rust | tx | off | run 26/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1698924
+    Throughput   : 28315.4 CAMs/s
+    Latency mean : 35.14 μs
+    Latency p50  : 33.09 μs
+    Latency p95  : 36.19 μs
+    Latency p99  : 41.09 μs
+    CPU          : 155.6 % (100 = one core)
+    RSS start    : 2.10 MB, peak 17.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:24:10] rust | tx | off | run 27/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1682761
+    Throughput   : 28046.0 CAMs/s
+    Latency mean : 35.51 μs
+    Latency p50  : 33.41 μs
+    Latency p95  : 36.45 μs
+    Latency p99  : 41.31 μs
+    CPU          : 155.1 % (100 = one core)
+    RSS start    : 2.41 MB, peak 18.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:25:25] rust | tx | off | run 28/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1683428
+    Throughput   : 28057.1 CAMs/s
+    Latency mean : 35.41 μs
+    Latency p50  : 33.41 μs
+    Latency p95  : 36.48 μs
+    Latency p99  : 41.34 μs
+    CPU          : 155.5 % (100 = one core)
+    RSS start    : 4.09 MB, peak 17.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:26:40] rust | tx | off | run 29/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1700653
+    Throughput   : 28344.2 CAMs/s
+    Latency mean : 35.13 μs
+    Latency p50  : 33.06 μs
+    Latency p95  : 36.16 μs
+    Latency p99  : 40.93 μs
+    CPU          : 155.3 % (100 = one core)
+    RSS start    : 2.40 MB, peak 15.94 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:27:55] rust | tx | off | run 30/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1693223
+    Throughput   : 28220.4 CAMs/s
+    Latency mean : 35.29 μs
+    Latency p50  : 33.22 μs
+    Latency p95  : 36.29 μs
+    Latency p99  : 41.15 μs
+    CPU          : 155.7 % (100 = one core)
+    RSS start    : 2.18 MB, peak 15.43 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+================================================================
+  rust | tx | security=on | rate=0 | runs=30
+================================================================
+[15:29:01] rust | tx | on | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144751
+    Throughput   : 2412.5 CAMs/s
+    Latency mean : 414.36 μs
+    Latency p50  : 393.28 μs
+    Latency p95  : 399.49 μs
+    Latency p99  : 402.91 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.93 MB, peak 5.75 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:30:16] rust | tx | on | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144769
+    Throughput   : 2412.8 CAMs/s
+    Latency mean : 414.31 μs
+    Latency p50  : 393.31 μs
+    Latency p95  : 399.68 μs
+    Latency p99  : 402.79 μs
+    CPU          : 187.7 % (100 = one core)
+    RSS start    : 2.96 MB, peak 5.29 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:31:31] rust | tx | on | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 143902
+    Throughput   : 2398.4 CAMs/s
+    Latency mean : 416.80 μs
+    Latency p50  : 395.78 μs
+    Latency p95  : 401.86 μs
+    Latency p99  : 405.35 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.53 MB, peak 4.77 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:32:47] rust | tx | on | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144037
+    Throughput   : 2400.6 CAMs/s
+    Latency mean : 416.41 μs
+    Latency p50  : 395.49 μs
+    Latency p95  : 401.09 μs
+    Latency p99  : 405.15 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.46 MB, peak 5.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:34:02] rust | tx | on | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144124
+    Throughput   : 2402.1 CAMs/s
+    Latency mean : 416.17 μs
+    Latency p50  : 395.20 μs
+    Latency p95  : 401.22 μs
+    Latency p99  : 404.74 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 3.03 MB, peak 5.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:35:17] rust | tx | on | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144422
+    Throughput   : 2407.0 CAMs/s
+    Latency mean : 415.30 μs
+    Latency p50  : 394.53 μs
+    Latency p95  : 401.25 μs
+    Latency p99  : 404.96 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.84 MB, peak 7.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:36:33] rust | tx | on | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144818
+    Throughput   : 2413.6 CAMs/s
+    Latency mean : 414.17 μs
+    Latency p50  : 393.31 μs
+    Latency p95  : 398.95 μs
+    Latency p99  : 402.75 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.81 MB, peak 5.85 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:37:48] rust | tx | on | run 8/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 143759
+    Throughput   : 2396.0 CAMs/s
+    Latency mean : 417.21 μs
+    Latency p50  : 396.42 μs
+    Latency p95  : 402.31 μs
+    Latency p99  : 406.12 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.86 MB, peak 4.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:39:03] rust | tx | on | run 9/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144084
+    Throughput   : 2401.4 CAMs/s
+    Latency mean : 416.27 μs
+    Latency p50  : 396.48 μs
+    Latency p95  : 402.08 μs
+    Latency p99  : 406.40 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.45 MB, peak 6.00 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:40:18] rust | tx | on | run 10/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144682
+    Throughput   : 2411.4 CAMs/s
+    Latency mean : 414.22 μs
+    Latency p50  : 393.60 μs
+    Latency p95  : 399.75 μs
+    Latency p99  : 403.07 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.82 MB, peak 4.04 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:41:34] rust | tx | on | run 11/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144008
+    Throughput   : 2400.1 CAMs/s
+    Latency mean : 416.49 μs
+    Latency p50  : 395.59 μs
+    Latency p95  : 401.35 μs
+    Latency p99  : 405.19 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.45 MB, peak 4.54 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:42:49] rust | tx | on | run 12/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144036
+    Throughput   : 2400.6 CAMs/s
+    Latency mean : 416.41 μs
+    Latency p50  : 395.39 μs
+    Latency p95  : 401.67 μs
+    Latency p99  : 405.00 μs
+    CPU          : 187.7 % (100 = one core)
+    RSS start    : 4.99 MB, peak 8.61 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:44:04] rust | tx | on | run 13/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144282
+    Throughput   : 2404.7 CAMs/s
+    Latency mean : 415.70 μs
+    Latency p50  : 394.66 μs
+    Latency p95  : 400.74 μs
+    Latency p99  : 404.13 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.88 MB, peak 4.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:45:20] rust | tx | on | run 14/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144326
+    Throughput   : 2405.4 CAMs/s
+    Latency mean : 415.57 μs
+    Latency p50  : 394.63 μs
+    Latency p95  : 400.93 μs
+    Latency p99  : 404.19 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 3.00 MB, peak 8.41 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:46:35] rust | tx | on | run 15/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144330
+    Throughput   : 2405.5 CAMs/s
+    Latency mean : 415.56 μs
+    Latency p50  : 394.63 μs
+    Latency p95  : 400.77 μs
+    Latency p99  : 404.26 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.53 MB, peak 4.68 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:47:50] rust | tx | on | run 16/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144304
+    Throughput   : 2405.1 CAMs/s
+    Latency mean : 415.64 μs
+    Latency p50  : 394.66 μs
+    Latency p95  : 400.90 μs
+    Latency p99  : 404.16 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.57 MB, peak 5.53 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:49:06] rust | tx | on | run 17/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144288
+    Throughput   : 2404.8 CAMs/s
+    Latency mean : 415.68 μs
+    Latency p50  : 394.72 μs
+    Latency p95  : 400.87 μs
+    Latency p99  : 404.26 μs
+    CPU          : 187.5 % (100 = one core)
+    RSS start    : 2.84 MB, peak 5.90 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:50:21] rust | tx | on | run 18/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144831
+    Throughput   : 2413.8 CAMs/s
+    Latency mean : 414.13 μs
+    Latency p50  : 393.15 μs
+    Latency p95  : 399.39 μs
+    Latency p99  : 402.72 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.46 MB, peak 5.85 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:51:36] rust | tx | on | run 19/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144766
+    Throughput   : 2412.8 CAMs/s
+    Latency mean : 414.31 μs
+    Latency p50  : 393.44 μs
+    Latency p95  : 399.20 μs
+    Latency p99  : 402.88 μs
+    CPU          : 187.5 % (100 = one core)
+    RSS start    : 2.82 MB, peak 7.58 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:52:51] rust | tx | on | run 20/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144530
+    Throughput   : 2408.8 CAMs/s
+    Latency mean : 414.99 μs
+    Latency p50  : 393.67 μs
+    Latency p95  : 400.93 μs
+    Latency p99  : 404.03 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.96 MB, peak 6.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:54:07] rust | tx | on | run 21/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 143497
+    Throughput   : 2391.6 CAMs/s
+    Latency mean : 417.97 μs
+    Latency p50  : 396.93 μs
+    Latency p95  : 403.01 μs
+    Latency p99  : 406.43 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.45 MB, peak 6.17 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:55:22] rust | tx | on | run 22/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144204
+    Throughput   : 2403.4 CAMs/s
+    Latency mean : 415.93 μs
+    Latency p50  : 396.07 μs
+    Latency p95  : 401.89 μs
+    Latency p99  : 406.02 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.47 MB, peak 5.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:56:37] rust | tx | on | run 23/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144719
+    Throughput   : 2412.0 CAMs/s
+    Latency mean : 414.45 μs
+    Latency p50  : 393.35 μs
+    Latency p95  : 400.13 μs
+    Latency p99  : 403.04 μs
+    CPU          : 187.5 % (100 = one core)
+    RSS start    : 2.98 MB, peak 6.13 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:57:53] rust | tx | on | run 24/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144694
+    Throughput   : 2411.6 CAMs/s
+    Latency mean : 414.52 μs
+    Latency p50  : 393.51 μs
+    Latency p95  : 400.07 μs
+    Latency p99  : 403.17 μs
+    CPU          : 187.5 % (100 = one core)
+    RSS start    : 2.46 MB, peak 4.57 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[15:59:08] rust | tx | on | run 25/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144532
+    Throughput   : 2408.9 CAMs/s
+    Latency mean : 414.98 μs
+    Latency p50  : 393.63 μs
+    Latency p95  : 401.09 μs
+    Latency p99  : 404.61 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.88 MB, peak 5.61 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:00:23] rust | tx | on | run 26/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144675
+    Throughput   : 2411.2 CAMs/s
+    Latency mean : 414.57 μs
+    Latency p50  : 393.44 μs
+    Latency p95  : 400.39 μs
+    Latency p99  : 403.24 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.89 MB, peak 4.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:01:39] rust | tx | on | run 27/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 143839
+    Throughput   : 2397.3 CAMs/s
+    Latency mean : 416.98 μs
+    Latency p50  : 396.42 μs
+    Latency p95  : 402.31 μs
+    Latency p99  : 406.08 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.84 MB, peak 5.91 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:02:54] rust | tx | on | run 28/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 143696
+    Throughput   : 2394.9 CAMs/s
+    Latency mean : 417.40 μs
+    Latency p50  : 396.42 μs
+    Latency p95  : 402.66 μs
+    Latency p99  : 406.12 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.80 MB, peak 4.18 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:04:09] rust | tx | on | run 29/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144096
+    Throughput   : 2401.6 CAMs/s
+    Latency mean : 416.24 μs
+    Latency p50  : 395.27 μs
+    Latency p95  : 401.51 μs
+    Latency p99  : 404.90 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.45 MB, peak 4.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:05:25] rust | tx | on | run 30/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 144137
+    Throughput   : 2402.3 CAMs/s
+    Latency mean : 416.12 μs
+    Latency p50  : 395.11 μs
+    Latency p95  : 401.44 μs
+    Latency p99  : 404.67 μs
+    CPU          : 187.6 % (100 = one core)
+    RSS start    : 2.46 MB, peak 5.53 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+================================================================
+  rust | tx | security=off | rate=10 | runs=10
+================================================================
+[16:06:30] rust | tx | off | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 40.22 μs
+    Latency p50  : 39.68 μs
+    Latency p95  : 43.91 μs
+    Latency p99  : 48.58 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.10 MB, peak 2.10 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:07:45] rust | tx | off | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 39.98 μs
+    Latency p50  : 39.43 μs
+    Latency p95  : 43.14 μs
+    Latency p99  : 48.42 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.13 MB, peak 2.13 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:09:00] rust | tx | off | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 41.39 μs
+    Latency p50  : 39.39 μs
+    Latency p95  : 54.85 μs
+    Latency p99  : 64.03 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.41 MB, peak 2.42 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:10:15] rust | tx | off | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 46.67 μs
+    Latency p50  : 43.87 μs
+    Latency p95  : 57.15 μs
+    Latency p99  : 66.53 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.11 MB, peak 2.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:11:31] rust | tx | off | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 44.64 μs
+    Latency p50  : 40.99 μs
+    Latency p95  : 58.27 μs
+    Latency p99  : 67.01 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.18 MB, peak 2.19 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:12:46] rust | tx | off | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 43.77 μs
+    Latency p50  : 41.73 μs
+    Latency p95  : 52.90 μs
+    Latency p99  : 55.30 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.10 MB, peak 2.10 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:14:01] rust | tx | off | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 45.99 μs
+    Latency p50  : 40.96 μs
+    Latency p95  : 78.91 μs
+    Latency p99  : 85.60 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.09 MB, peak 2.10 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:15:16] rust | tx | off | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 45.65 μs
+    Latency p50  : 40.48 μs
+    Latency p95  : 75.17 μs
+    Latency p99  : 81.92 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.41 MB, peak 2.42 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:16:31] rust | tx | off | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 47.33 μs
+    Latency p50  : 43.46 μs
+    Latency p95  : 75.10 μs
+    Latency p99  : 82.78 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.11 MB, peak 2.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:17:47] rust | tx | off | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 46.11 μs
+    Latency p50  : 41.12 μs
+    Latency p95  : 76.06 μs
+    Latency p99  : 87.62 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.12 MB, peak 2.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+================================================================
+  rust | tx | security=on | rate=10 | runs=10
+================================================================
+[16:18:52] rust | tx | on | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 401.31 μs
+    Latency p50  : 400.48 μs
+    Latency p95  : 408.64 μs
+    Latency p99  : 417.41 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 2.46 MB, peak 2.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:20:07] rust | tx | on | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 401.33 μs
+    Latency p50  : 400.42 μs
+    Latency p95  : 408.58 μs
+    Latency p99  : 414.11 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 2.45 MB, peak 2.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:21:22] rust | tx | on | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 401.46 μs
+    Latency p50  : 400.45 μs
+    Latency p95  : 409.70 μs
+    Latency p99  : 416.93 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 2.99 MB, peak 3.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:22:37] rust | tx | on | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 401.85 μs
+    Latency p50  : 401.15 μs
+    Latency p95  : 408.90 μs
+    Latency p99  : 413.31 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 4.97 MB, peak 5.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:23:53] rust | tx | on | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 403.26 μs
+    Latency p50  : 401.15 μs
+    Latency p95  : 414.60 μs
+    Latency p99  : 420.19 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 2.82 MB, peak 4.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:25:08] rust | tx | on | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 403.13 μs
+    Latency p50  : 401.44 μs
+    Latency p95  : 413.06 μs
+    Latency p99  : 417.22 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 2.45 MB, peak 2.46 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:26:23] rust | tx | on | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 401.76 μs
+    Latency p50  : 401.09 μs
+    Latency p95  : 405.79 μs
+    Latency p99  : 411.56 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 2.52 MB, peak 2.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:27:38] rust | tx | on | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 403.06 μs
+    Latency p50  : 401.00 μs
+    Latency p95  : 416.51 μs
+    Latency p99  : 424.90 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 2.99 MB, peak 3.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:28:54] rust | tx | on | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 402.78 μs
+    Latency p50  : 402.05 μs
+    Latency p95  : 410.56 μs
+    Latency p99  : 414.95 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 3.00 MB, peak 3.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[16:30:09] rust | tx | on | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 403.42 μs
+    Latency p50  : 401.95 μs
+    Latency p95  : 413.86 μs
+    Latency p99  : 417.86 μs
+    CPU          : 0.8 % (100 = one core)
+    RSS start    : 2.52 MB, peak 2.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv
+[2026-11-24 16:31:14] all cells done: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261124T145129.csv

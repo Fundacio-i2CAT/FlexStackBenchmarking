@@ -10,7 +10,7 @@
 # stack encoding: CAM → BTP → GN → Link Layer.
 #
 # Usage:
-#   sudo ./send_packets_for_rx_benchmarks.sh <interface> [duration] [security]
+#   sudo ./send_packets_for_rx_benchmarks.sh <interface> [duration] [security] [rate]
 #
 # Arguments:
 #   interface   — L2 network interface connected to the receiver (e.g. eth0)
@@ -19,6 +19,10 @@
 #   security    — "off" or "on" (default: off)
 #                 Use "off" when receiver runs security=off benchmarks,
 #                 switch to "on" for security=on benchmarks.
+#   rate        — msg/s to send (default: 0 = as fast as possible). For a
+#                 fixed-rate RX measurement, pass the same value as the
+#                 receiver's 5th argument (run_rx_benchmarks.sh) so it is
+#                 recorded in the results.
 #
 # Examples:
 #   # Send unsecured CAMs for 2 hours on eth0
@@ -27,15 +31,19 @@
 #   # Send secured CAMs for 1 hour on enp3s0
 #   sudo ./send_packets_for_rx_benchmarks.sh enp3s0 3600 on
 #
+#   # Send secured CAMs at 1000 msg/s (100 neighbours at 10 Hz)
+#   sudo ./send_packets_for_rx_benchmarks.sh eth0 7200 on 1000
+#
 # Note: The receiver's RX benchmark must be started AFTER or concurrently
 #       with this sender. The sender will keep transmitting until the
 #       duration expires or it is stopped with Ctrl+C.
 
 set -euo pipefail
 
-INTERFACE="${1:?Usage: $0 <interface> [duration] [security]}"
+INTERFACE="${1:?Usage: $0 <interface> [duration] [security] [rate msg/s, 0 = max]}"
 DURATION="${2:-7200}"
 SECURITY="${3:-off}"
+RATE="${4:-0}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
@@ -53,11 +61,12 @@ echo "============================================================"
 echo "  Interface : $INTERFACE"
 echo "  Duration  : ${DURATION}s"
 echo "  Security  : $SECURITY"
+echo "  Rate      : $( [ "$RATE" = "0" ] && echo max || echo "$RATE msg/s")"
 echo "  Binary    : $RUST_BIN"
 echo "============================================================"
 echo
-echo "  Sending CAMs at max rate. Stop with Ctrl+C."
-echo "  Start the receiver now: sudo ./run_rx_benchmarks.sh <platform> <runs> <duration> $INTERFACE"
+echo "  Sending CAMs ($( [ "$RATE" = "0" ] && echo "max rate" || echo "$RATE msg/s")). Stop with Ctrl+C."
+echo "  Start the receiver now: sudo ./run_rx_benchmarks.sh <platform> <runs> <duration> $INTERFACE $RATE"
 echo
 
 # Use warmup=0 — we want to start sending immediately.
@@ -65,6 +74,9 @@ echo
 exec "$RUST_BIN" \
   --mode tx \
   --security "$SECURITY" \
+  --at 1 \
+  --certs-dir "$PROJECT_DIR/certs" \
+  --rate "$RATE" \
   --duration "$DURATION" \
   --warmup 0 \
   --interface "$INTERFACE" \

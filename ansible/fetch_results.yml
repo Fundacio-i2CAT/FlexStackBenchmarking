@@ -54,7 +54,10 @@
     - name: Find result CSV files on remote host
       find:
         paths: "{{ bench_dir }}/results"
-        patterns: "results_*.csv"
+        patterns:
+          - "results_*.csv"
+          - "results_*_env.txt"
+          - "results_*_MANIFEST.txt"
       register: result_files
 
     - name: Show found files

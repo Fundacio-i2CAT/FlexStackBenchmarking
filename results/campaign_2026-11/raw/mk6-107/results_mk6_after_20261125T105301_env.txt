@@ -1,0 +1,50 @@
+# FlexStack benchmark environment
+date_utc                : 2026-11-25T10:53:01Z
+platform                : mk6
+hostname                : <host>
+kernel                  : Linux 5.4.70+ #1 SMP Mon Jun 19 23:49:39 ACST 2023 aarch64
+os                      : Ubuntu 20.04.6 LTS
+cpu_model               : 
+board                   : Cohda MK6
+online_cpus             : 0-3
+smt_active              : 0
+intel_no_turbo          : 
+pinned_cores            : 2,3
+cpu2_governor           : performance
+cpu2_freq_khz           : 1200000
+cpu2_max_freq_khz       : 1200000
+cpu3_governor           : performance
+cpu3_freq_khz           : 1200000
+cpu3_max_freq_khz       : 1200000
+mem_total               : 792408 kB
+swap_active             : 0 device(s)
+soc_temp_c              : 70.0
+throttle_state          : 
+
+# Software under test
+rust_bin                : /home/<user>/FlexStackBenchmarking/rust/target/release/flexstack-bench-cv2x
+rust_bin_size_bytes     : 2347992
+rust_bin_sha256         : d292aadd5aad8c01015391ebe22251677f5c4467b7cf6542fce1a4baf81061dc
+
+# Running services (background load)
+  bluetooth.service
+  busybox-syslogd.service
+  chrony.service
+  cron.service
+  cv2x.service
+  dbus.service
+  getty@tty1.service
+  gpsd.service
+  netmgrd.service
+  QCMAP_ConnectionManagerd.service
+  qrtr_ns.service
+  rng-tools.service
+  serial-getty@ttyLP0.service
+  snmpd.service
+  ssh.service
+  systemd-journald.service
+  systemd-logind.service
+  systemd-resolved.service
+  systemd-udevd.service
+  user@999.service
+  wpa_supplicant.service

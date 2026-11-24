@@ -1,0 +1,2275 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+================================================================
+  rust | tx | security=off | rate=0 | runs=30
+================================================================
+[11:24:56] rust | tx | off | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1627490
+    Throughput   : 27124.8 CAMs/s
+    Latency mean : 36.76 μs
+    Latency p50  : 35.22 μs
+    Latency p95  : 36.86 μs
+    Latency p99  : 40.27 μs
+    CPU          : 162.1 % (100 = one core)
+    RSS start    : 1.88 MB, peak 14.30 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:26:11] rust | tx | off | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1628875
+    Throughput   : 27147.9 CAMs/s
+    Latency mean : 36.70 μs
+    Latency p50  : 35.07 μs
+    Latency p95  : 36.77 μs
+    Latency p99  : 40.18 μs
+    CPU          : 161.6 % (100 = one core)
+    RSS start    : 1.81 MB, peak 14.49 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:27:27] rust | tx | off | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1628676
+    Throughput   : 27144.6 CAMs/s
+    Latency mean : 36.74 μs
+    Latency p50  : 35.02 μs
+    Latency p95  : 36.84 μs
+    Latency p99  : 40.30 μs
+    CPU          : 161.6 % (100 = one core)
+    RSS start    : 2.08 MB, peak 14.47 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:28:42] rust | tx | off | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1627284
+    Throughput   : 27121.4 CAMs/s
+    Latency mean : 36.77 μs
+    Latency p50  : 35.10 μs
+    Latency p95  : 36.73 μs
+    Latency p99  : 40.13 μs
+    CPU          : 161.5 % (100 = one core)
+    RSS start    : 1.90 MB, peak 14.65 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:29:58] rust | tx | off | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1627359
+    Throughput   : 27122.6 CAMs/s
+    Latency mean : 36.77 μs
+    Latency p50  : 35.19 μs
+    Latency p95  : 36.69 μs
+    Latency p99  : 40.06 μs
+    CPU          : 161.7 % (100 = one core)
+    RSS start    : 1.86 MB, peak 14.42 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:31:13] rust | tx | off | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1622595
+    Throughput   : 27043.2 CAMs/s
+    Latency mean : 36.87 μs
+    Latency p50  : 35.26 μs
+    Latency p95  : 36.89 μs
+    Latency p99  : 40.35 μs
+    CPU          : 161.6 % (100 = one core)
+    RSS start    : 2.13 MB, peak 14.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:32:28] rust | tx | off | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1628561
+    Throughput   : 27142.7 CAMs/s
+    Latency mean : 36.71 μs
+    Latency p50  : 35.10 μs
+    Latency p95  : 36.90 μs
+    Latency p99  : 40.29 μs
+    CPU          : 161.7 % (100 = one core)
+    RSS start    : 1.83 MB, peak 14.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:33:44] rust | tx | off | run 8/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1622921
+    Throughput   : 27048.7 CAMs/s
+    Latency mean : 36.87 μs
+    Latency p50  : 35.20 μs
+    Latency p95  : 37.01 μs
+    Latency p99  : 40.37 μs
+    CPU          : 161.6 % (100 = one core)
+    RSS start    : 1.90 MB, peak 14.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:35:00] rust | tx | off | run 9/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1629752
+    Throughput   : 27162.5 CAMs/s
+    Latency mean : 36.71 μs
+    Latency p50  : 35.05 μs
+    Latency p95  : 36.72 μs
+    Latency p99  : 40.10 μs
+    CPU          : 161.7 % (100 = one core)
+    RSS start    : 1.76 MB, peak 14.44 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:36:15] rust | tx | off | run 10/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1630302
+    Throughput   : 27171.7 CAMs/s
+    Latency mean : 36.70 μs
+    Latency p50  : 35.12 μs
+    Latency p95  : 36.88 μs
+    Latency p99  : 40.21 μs
+    CPU          : 162.1 % (100 = one core)
+    RSS start    : 1.81 MB, peak 14.58 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:37:31] rust | tx | off | run 11/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1619218
+    Throughput   : 26987.0 CAMs/s
+    Latency mean : 36.95 μs
+    Latency p50  : 35.32 μs
+    Latency p95  : 36.92 μs
+    Latency p99  : 40.35 μs
+    CPU          : 161.8 % (100 = one core)
+    RSS start    : 2.09 MB, peak 14.53 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:38:46] rust | tx | off | run 12/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1625172
+    Throughput   : 27086.2 CAMs/s
+    Latency mean : 36.82 μs
+    Latency p50  : 35.18 μs
+    Latency p95  : 36.77 μs
+    Latency p99  : 40.11 μs
+    CPU          : 161.6 % (100 = one core)
+    RSS start    : 1.98 MB, peak 14.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:40:02] rust | tx | off | run 13/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1622145
+    Throughput   : 27035.7 CAMs/s
+    Latency mean : 36.88 μs
+    Latency p50  : 35.22 μs
+    Latency p95  : 36.80 μs
+    Latency p99  : 40.13 μs
+    CPU          : 161.6 % (100 = one core)
+    RSS start    : 1.87 MB, peak 14.39 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:41:17] rust | tx | off | run 14/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1634151
+    Throughput   : 27235.8 CAMs/s
+    Latency mean : 36.61 μs
+    Latency p50  : 35.07 μs
+    Latency p95  : 36.61 μs
+    Latency p99  : 39.92 μs
+    CPU          : 162.4 % (100 = one core)
+    RSS start    : 2.28 MB, peak 14.67 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:42:33] rust | tx | off | run 15/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1623513
+    Throughput   : 27058.5 CAMs/s
+    Latency mean : 36.85 μs
+    Latency p50  : 35.23 μs
+    Latency p95  : 36.80 μs
+    Latency p99  : 40.26 μs
+    CPU          : 162.0 % (100 = one core)
+    RSS start    : 1.80 MB, peak 14.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:43:48] rust | tx | off | run 16/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1627384
+    Throughput   : 27123.1 CAMs/s
+    Latency mean : 36.77 μs
+    Latency p50  : 35.16 μs
+    Latency p95  : 36.65 μs
+    Latency p99  : 40.00 μs
+    CPU          : 161.8 % (100 = one core)
+    RSS start    : 1.84 MB, peak 14.32 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:45:04] rust | tx | off | run 17/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1621636
+    Throughput   : 27027.3 CAMs/s
+    Latency mean : 36.86 μs
+    Latency p50  : 35.29 μs
+    Latency p95  : 36.92 μs
+    Latency p99  : 40.25 μs
+    CPU          : 161.6 % (100 = one core)
+    RSS start    : 2.00 MB, peak 14.48 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:46:19] rust | tx | off | run 18/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1619015
+    Throughput   : 26983.6 CAMs/s
+    Latency mean : 36.93 μs
+    Latency p50  : 35.25 μs
+    Latency p95  : 36.96 μs
+    Latency p99  : 40.37 μs
+    CPU          : 161.8 % (100 = one core)
+    RSS start    : 2.16 MB, peak 14.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:47:35] rust | tx | off | run 19/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1632763
+    Throughput   : 27212.7 CAMs/s
+    Latency mean : 36.64 μs
+    Latency p50  : 35.17 μs
+    Latency p95  : 36.77 μs
+    Latency p99  : 40.02 μs
+    CPU          : 162.4 % (100 = one core)
+    RSS start    : 1.80 MB, peak 14.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:48:50] rust | tx | off | run 20/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1617009
+    Throughput   : 26950.1 CAMs/s
+    Latency mean : 37.00 μs
+    Latency p50  : 35.31 μs
+    Latency p95  : 36.98 μs
+    Latency p99  : 40.34 μs
+    CPU          : 161.4 % (100 = one core)
+    RSS start    : 2.09 MB, peak 14.68 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:50:06] rust | tx | off | run 21/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1624526
+    Throughput   : 27075.4 CAMs/s
+    Latency mean : 36.83 μs
+    Latency p50  : 35.11 μs
+    Latency p95  : 36.78 μs
+    Latency p99  : 40.07 μs
+    CPU          : 161.6 % (100 = one core)
+    RSS start    : 2.20 MB, peak 14.60 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:51:21] rust | tx | off | run 22/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1617385
+    Throughput   : 26956.4 CAMs/s
+    Latency mean : 36.99 μs
+    Latency p50  : 35.27 μs
+    Latency p95  : 36.98 μs
+    Latency p99  : 40.34 μs
+    CPU          : 161.4 % (100 = one core)
+    RSS start    : 1.97 MB, peak 14.54 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:52:37] rust | tx | off | run 23/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1623519
+    Throughput   : 27058.6 CAMs/s
+    Latency mean : 36.85 μs
+    Latency p50  : 35.21 μs
+    Latency p95  : 37.06 μs
+    Latency p99  : 40.38 μs
+    CPU          : 162.1 % (100 = one core)
+    RSS start    : 2.14 MB, peak 14.56 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:53:53] rust | tx | off | run 24/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1633021
+    Throughput   : 27217.0 CAMs/s
+    Latency mean : 36.64 μs
+    Latency p50  : 35.04 μs
+    Latency p95  : 36.75 μs
+    Latency p99  : 40.09 μs
+    CPU          : 161.9 % (100 = one core)
+    RSS start    : 1.91 MB, peak 14.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:55:08] rust | tx | off | run 25/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1615076
+    Throughput   : 26917.9 CAMs/s
+    Latency mean : 37.04 μs
+    Latency p50  : 35.32 μs
+    Latency p95  : 37.11 μs
+    Latency p99  : 40.40 μs
+    CPU          : 161.4 % (100 = one core)
+    RSS start    : 2.10 MB, peak 14.64 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:56:24] rust | tx | off | run 26/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1619732
+    Throughput   : 26995.5 CAMs/s
+    Latency mean : 36.94 μs
+    Latency p50  : 35.19 μs
+    Latency p95  : 37.02 μs
+    Latency p99  : 40.27 μs
+    CPU          : 161.4 % (100 = one core)
+    RSS start    : 1.95 MB, peak 14.51 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:57:39] rust | tx | off | run 27/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1618318
+    Throughput   : 26972.0 CAMs/s
+    Latency mean : 36.97 μs
+    Latency p50  : 35.44 μs
+    Latency p95  : 37.34 μs
+    Latency p99  : 40.51 μs
+    CPU          : 162.4 % (100 = one core)
+    RSS start    : 1.88 MB, peak 14.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[11:58:54] rust | tx | off | run 28/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1615746
+    Throughput   : 26929.1 CAMs/s
+    Latency mean : 37.03 μs
+    Latency p50  : 35.29 μs
+    Latency p95  : 37.13 μs
+    Latency p99  : 40.40 μs
+    CPU          : 161.3 % (100 = one core)
+    RSS start    : 2.16 MB, peak 14.64 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:00:10] rust | tx | off | run 29/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1606931
+    Throughput   : 26782.2 CAMs/s
+    Latency mean : 37.20 μs
+    Latency p50  : 35.51 μs
+    Latency p95  : 37.27 μs
+    Latency p99  : 40.58 μs
+    CPU          : 161.0 % (100 = one core)
+    RSS start    : 2.09 MB, peak 14.70 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:01:25] rust | tx | off | run 30/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1618103
+    Throughput   : 26968.4 CAMs/s
+    Latency mean : 36.98 μs
+    Latency p50  : 35.28 μs
+    Latency p95  : 37.02 μs
+    Latency p99  : 40.37 μs
+    CPU          : 161.5 % (100 = one core)
+    RSS start    : 2.06 MB, peak 14.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+================================================================
+  rust | tx | security=on | rate=0 | runs=30
+================================================================
+[12:02:31] rust | tx | on | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159570
+    Throughput   : 2659.5 CAMs/s
+    Latency mean : 375.90 μs
+    Latency p50  : 357.20 μs
+    Latency p95  : 361.73 μs
+    Latency p99  : 364.41 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.95 MB, peak 4.51 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:03:46] rust | tx | on | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159498
+    Throughput   : 2658.3 CAMs/s
+    Latency mean : 376.07 μs
+    Latency p50  : 357.35 μs
+    Latency p95  : 361.87 μs
+    Latency p99  : 364.70 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.94 MB, peak 4.29 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:05:01] rust | tx | on | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159710
+    Throughput   : 2661.8 CAMs/s
+    Latency mean : 375.57 μs
+    Latency p50  : 357.23 μs
+    Latency p95  : 361.79 μs
+    Latency p99  : 364.68 μs
+    CPU          : 187.2 % (100 = one core)
+    RSS start    : 2.93 MB, peak 4.25 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:06:17] rust | tx | on | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159394
+    Throughput   : 2656.6 CAMs/s
+    Latency mean : 376.32 μs
+    Latency p50  : 357.60 μs
+    Latency p95  : 362.27 μs
+    Latency p99  : 365.15 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 3.07 MB, peak 4.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:07:32] rust | tx | on | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159552
+    Throughput   : 2659.2 CAMs/s
+    Latency mean : 375.94 μs
+    Latency p50  : 357.26 μs
+    Latency p95  : 361.78 μs
+    Latency p99  : 364.73 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.68 MB, peak 4.33 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:08:47] rust | tx | on | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159488
+    Throughput   : 2658.1 CAMs/s
+    Latency mean : 376.09 μs
+    Latency p50  : 357.39 μs
+    Latency p95  : 361.92 μs
+    Latency p99  : 364.85 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.93 MB, peak 4.32 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:10:03] rust | tx | on | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159464
+    Throughput   : 2657.7 CAMs/s
+    Latency mean : 376.15 μs
+    Latency p50  : 357.46 μs
+    Latency p95  : 361.92 μs
+    Latency p99  : 364.69 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.94 MB, peak 4.29 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:11:18] rust | tx | on | run 8/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159461
+    Throughput   : 2657.7 CAMs/s
+    Latency mean : 376.15 μs
+    Latency p50  : 357.27 μs
+    Latency p95  : 361.81 μs
+    Latency p99  : 364.74 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.93 MB, peak 4.54 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:12:33] rust | tx | on | run 9/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159696
+    Throughput   : 2661.6 CAMs/s
+    Latency mean : 375.61 μs
+    Latency p50  : 357.10 μs
+    Latency p95  : 361.54 μs
+    Latency p99  : 364.64 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 2.98 MB, peak 4.29 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:13:49] rust | tx | on | run 10/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159677
+    Throughput   : 2661.3 CAMs/s
+    Latency mean : 375.65 μs
+    Latency p50  : 357.20 μs
+    Latency p95  : 361.74 μs
+    Latency p99  : 364.67 μs
+    CPU          : 187.2 % (100 = one core)
+    RSS start    : 2.99 MB, peak 4.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:15:04] rust | tx | on | run 11/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159634
+    Throughput   : 2660.6 CAMs/s
+    Latency mean : 375.75 μs
+    Latency p50  : 357.27 μs
+    Latency p95  : 361.80 μs
+    Latency p99  : 364.62 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 3.01 MB, peak 4.04 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:16:20] rust | tx | on | run 12/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159565
+    Throughput   : 2659.4 CAMs/s
+    Latency mean : 375.91 μs
+    Latency p50  : 357.22 μs
+    Latency p95  : 361.68 μs
+    Latency p99  : 364.37 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 2.96 MB, peak 4.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:17:35] rust | tx | on | run 13/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159589
+    Throughput   : 2659.8 CAMs/s
+    Latency mean : 375.86 μs
+    Latency p50  : 357.23 μs
+    Latency p95  : 361.59 μs
+    Latency p99  : 364.59 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 1.52 MB, peak 3.98 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:18:50] rust | tx | on | run 14/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159605
+    Throughput   : 2660.1 CAMs/s
+    Latency mean : 375.82 μs
+    Latency p50  : 357.15 μs
+    Latency p95  : 361.57 μs
+    Latency p99  : 364.45 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.96 MB, peak 4.07 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:20:06] rust | tx | on | run 15/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159521
+    Throughput   : 2658.7 CAMs/s
+    Latency mean : 376.02 μs
+    Latency p50  : 357.35 μs
+    Latency p95  : 361.76 μs
+    Latency p99  : 364.68 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.92 MB, peak 4.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:21:21] rust | tx | on | run 16/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159468
+    Throughput   : 2657.8 CAMs/s
+    Latency mean : 376.14 μs
+    Latency p50  : 357.32 μs
+    Latency p95  : 361.84 μs
+    Latency p99  : 364.71 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.97 MB, peak 4.81 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:22:36] rust | tx | on | run 17/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159592
+    Throughput   : 2659.9 CAMs/s
+    Latency mean : 375.85 μs
+    Latency p50  : 357.27 μs
+    Latency p95  : 361.69 μs
+    Latency p99  : 364.51 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 2.95 MB, peak 4.50 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:23:52] rust | tx | on | run 18/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159661
+    Throughput   : 2661.0 CAMs/s
+    Latency mean : 375.69 μs
+    Latency p50  : 357.06 μs
+    Latency p95  : 361.36 μs
+    Latency p99  : 364.25 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.95 MB, peak 4.15 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:25:07] rust | tx | on | run 19/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159496
+    Throughput   : 2658.3 CAMs/s
+    Latency mean : 376.08 μs
+    Latency p50  : 357.34 μs
+    Latency p95  : 361.75 μs
+    Latency p99  : 364.37 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.98 MB, peak 4.84 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:26:22] rust | tx | on | run 20/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159564
+    Throughput   : 2659.4 CAMs/s
+    Latency mean : 375.92 μs
+    Latency p50  : 357.22 μs
+    Latency p95  : 361.66 μs
+    Latency p99  : 364.40 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.93 MB, peak 4.23 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:27:38] rust | tx | on | run 21/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159674
+    Throughput   : 2661.2 CAMs/s
+    Latency mean : 375.66 μs
+    Latency p50  : 357.04 μs
+    Latency p95  : 361.59 μs
+    Latency p99  : 364.48 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 2.94 MB, peak 4.50 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:28:53] rust | tx | on | run 22/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159550
+    Throughput   : 2659.2 CAMs/s
+    Latency mean : 375.95 μs
+    Latency p50  : 357.29 μs
+    Latency p95  : 361.87 μs
+    Latency p99  : 364.56 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 2.87 MB, peak 4.71 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:30:08] rust | tx | on | run 23/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159584
+    Throughput   : 2659.7 CAMs/s
+    Latency mean : 375.87 μs
+    Latency p50  : 357.32 μs
+    Latency p95  : 361.68 μs
+    Latency p99  : 364.53 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 2.94 MB, peak 4.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:31:24] rust | tx | on | run 24/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159556
+    Throughput   : 2659.3 CAMs/s
+    Latency mean : 375.93 μs
+    Latency p50  : 357.21 μs
+    Latency p95  : 361.68 μs
+    Latency p99  : 364.75 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.93 MB, peak 4.31 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:32:39] rust | tx | on | run 25/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159647
+    Throughput   : 2660.8 CAMs/s
+    Latency mean : 375.72 μs
+    Latency p50  : 357.16 μs
+    Latency p95  : 361.62 μs
+    Latency p99  : 364.45 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 2.86 MB, peak 4.15 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:33:54] rust | tx | on | run 26/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159504
+    Throughput   : 2658.4 CAMs/s
+    Latency mean : 376.06 μs
+    Latency p50  : 357.36 μs
+    Latency p95  : 361.81 μs
+    Latency p99  : 364.46 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.93 MB, peak 4.08 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:35:10] rust | tx | on | run 27/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159660
+    Throughput   : 2661.0 CAMs/s
+    Latency mean : 375.69 μs
+    Latency p50  : 357.04 μs
+    Latency p95  : 361.40 μs
+    Latency p99  : 364.04 μs
+    CPU          : 187.0 % (100 = one core)
+    RSS start    : 2.94 MB, peak 4.08 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:36:25] rust | tx | on | run 28/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159508
+    Throughput   : 2658.5 CAMs/s
+    Latency mean : 376.05 μs
+    Latency p50  : 357.41 μs
+    Latency p95  : 361.88 μs
+    Latency p99  : 364.65 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 2.68 MB, peak 4.25 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:37:40] rust | tx | on | run 29/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159603
+    Throughput   : 2660.0 CAMs/s
+    Latency mean : 375.82 μs
+    Latency p50  : 357.19 μs
+    Latency p95  : 361.64 μs
+    Latency p99  : 364.31 μs
+    CPU          : 187.1 % (100 = one core)
+    RSS start    : 3.05 MB, peak 4.66 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:38:56] rust | tx | on | run 30/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 159517
+    Throughput   : 2658.6 CAMs/s
+    Latency mean : 376.03 μs
+    Latency p50  : 357.32 μs
+    Latency p95  : 361.73 μs
+    Latency p99  : 364.39 μs
+    CPU          : 186.9 % (100 = one core)
+    RSS start    : 2.93 MB, peak 4.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+================================================================
+  rust | tx | security=off | rate=10 | runs=10
+================================================================
+[12:40:01] rust | tx | off | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 191.19 μs
+    Latency p50  : 190.81 μs
+    Latency p95  : 204.76 μs
+    Latency p99  : 212.15 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 2.29 MB, peak 2.29 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:41:16] rust | tx | off | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 192.35 μs
+    Latency p50  : 192.41 μs
+    Latency p95  : 208.16 μs
+    Latency p99  : 213.92 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 2.16 MB, peak 2.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:42:31] rust | tx | off | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 194.93 μs
+    Latency p50  : 194.19 μs
+    Latency p95  : 207.78 μs
+    Latency p99  : 219.64 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 1.74 MB, peak 1.74 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:43:47] rust | tx | off | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 189.13 μs
+    Latency p50  : 187.07 μs
+    Latency p95  : 201.46 μs
+    Latency p99  : 217.62 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 2.03 MB, peak 2.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:45:02] rust | tx | off | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 196.24 μs
+    Latency p50  : 195.61 μs
+    Latency p95  : 209.19 μs
+    Latency p99  : 213.98 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 2.12 MB, peak 2.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:46:18] rust | tx | off | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 182.77 μs
+    Latency p50  : 184.58 μs
+    Latency p95  : 197.74 μs
+    Latency p99  : 207.12 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 1.93 MB, peak 1.93 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:47:33] rust | tx | off | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 189.50 μs
+    Latency p50  : 188.83 μs
+    Latency p95  : 199.83 μs
+    Latency p99  : 213.24 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 1.88 MB, peak 1.88 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:48:48] rust | tx | off | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 193.17 μs
+    Latency p50  : 192.07 μs
+    Latency p95  : 207.58 μs
+    Latency p99  : 252.69 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 2.09 MB, peak 2.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:50:03] rust | tx | off | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 186.92 μs
+    Latency p50  : 185.70 μs
+    Latency p95  : 197.83 μs
+    Latency p99  : 205.95 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 1.97 MB, peak 1.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:51:18] rust | tx | off | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 189.61 μs
+    Latency p50  : 188.04 μs
+    Latency p95  : 204.66 μs
+    Latency p99  : 229.58 μs
+    CPU          : 0.3 % (100 = one core)
+    RSS start    : 1.81 MB, peak 1.81 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+================================================================
+  rust | tx | security=on | rate=10 | runs=10
+================================================================
+[12:52:24] rust | tx | on | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 542.14 μs
+    Latency p50  : 542.99 μs
+    Latency p95  : 560.30 μs
+    Latency p99  : 566.98 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.94 MB, peak 2.94 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:53:39] rust | tx | on | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 544.81 μs
+    Latency p50  : 544.41 μs
+    Latency p95  : 559.87 μs
+    Latency p99  : 570.30 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 3.01 MB, peak 3.01 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:54:54] rust | tx | on | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 535.33 μs
+    Latency p50  : 535.80 μs
+    Latency p95  : 556.66 μs
+    Latency p99  : 565.89 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.68 MB, peak 2.68 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:56:09] rust | tx | on | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 538.61 μs
+    Latency p50  : 536.95 μs
+    Latency p95  : 554.82 μs
+    Latency p99  : 566.23 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.90 MB, peak 2.90 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:57:25] rust | tx | on | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 543.98 μs
+    Latency p50  : 543.50 μs
+    Latency p95  : 562.75 μs
+    Latency p99  : 570.32 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.92 MB, peak 2.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:58:40] rust | tx | on | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 544.11 μs
+    Latency p50  : 544.15 μs
+    Latency p95  : 559.61 μs
+    Latency p99  : 570.68 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.95 MB, peak 2.95 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[12:59:55] rust | tx | on | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 543.54 μs
+    Latency p50  : 543.69 μs
+    Latency p95  : 561.31 μs
+    Latency p99  : 569.41 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.92 MB, peak 2.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[13:01:11] rust | tx | on | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 527.30 μs
+    Latency p50  : 530.41 μs
+    Latency p95  : 554.12 μs
+    Latency p99  : 583.13 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.91 MB, peak 2.91 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[13:02:26] rust | tx | on | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 528.96 μs
+    Latency p50  : 534.05 μs
+    Latency p95  : 551.36 μs
+    Latency p99  : 557.01 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.94 MB, peak 2.94 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[13:03:41] rust | tx | on | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 543.70 μs
+    Latency p50  : 546.17 μs
+    Latency p95  : 570.23 μs
+    Latency p99  : 579.99 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 3.00 MB, peak 3.00 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv
+[2026-11-25 13:04:46] all cells done: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T112454.csv

@@ -1,0 +1,53 @@
+# FlexStack benchmark environment
+date_utc                : 2026-11-23T23:35:15Z
+platform                : rpi3
+hostname                : <host>
+kernel                  : Linux 6.12.62+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.62-1+rpt1 (2025-12-18) aarch64
+os                      : Debian GNU/Linux 13 (trixie)
+cpu_model               : 
+board                   : Raspberry Pi 3 Model B Rev 1.2
+online_cpus             : 0-3
+smt_active              : 0
+intel_no_turbo          : 
+pinned_cores            : 2,3
+cpu2_governor           : performance
+cpu2_freq_khz           : 1200000
+cpu2_max_freq_khz       : 1200000
+cpu3_governor           : performance
+cpu3_freq_khz           : 1200000
+cpu3_max_freq_khz       : 1200000
+mem_total               : 927724 kB
+swap_active             : 1 device(s)
+soc_temp_c              : 74.1
+throttle_state          : 0x20000
+rpi_firmware            : version cd866525580337c0aee4b25880e1f5f9f674fb24 (clean) (release) (start)
+
+# Software under test
+rust_bin                : /home/<user>/FlexStackBenchmarking/rust/target/release/flexstack-bench
+rust_bin_size_bytes     : 2388856
+rust_bin_sha256         : 2989b8dc3e15ac003dec50313fe140491e575b8f6e78350a7fad591b5075c738
+interpreter             : /home/<user>/FlexStackBenchmarking/venv/bin/python3 | 3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+  v2xflexstack          : 0.12.0
+  v2xflexstack_size_kb  : 5796
+  asn1tools             : 0.165.0
+  cryptography          : 50.0.2
+interpreter             : /home/<user>/FlexStackBenchmarking/pypy/bin/pypy3 | 3.11.15 (2a098039edb5, Mar 12 2026, 16:01:16) [PyPy 7.3.21 with GCC 10.2.1 20210130 (Red Hat 10.2.1-11)]
+  v2xflexstack          : 0.12.0
+  v2xflexstack_size_kb  : 5908
+  asn1tools             : 0.165.0
+  cryptography          : 50.0.2
+
+# Running services (background load)
+  cron.service
+  dbus.service
+  getty@tty1.service
+  ModemManager.service
+  NetworkManager.service
+  polkit.service
+  ssh.service
+  systemd-journald.service
+  systemd-logind.service
+  systemd-timesyncd.service
+  systemd-udevd.service
+  user@1000.service
+  wpa_supplicant.service

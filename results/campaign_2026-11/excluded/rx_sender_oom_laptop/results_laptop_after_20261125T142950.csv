@@ -1,0 +1,2 @@
+run_id,implementation,platform,security,benchmark,duration_s,total_cams,throughput_cams_s,latency_mean_us,latency_std_us,latency_p50_us,latency_p95_us,latency_p99_us,latency_min_us,latency_max_us,sign_latency_mean_us,cpu_pct,rss_start_mb,peak_rss_mb,target_rate
+1,rust,laptop,off,rx,60.000,6097858,101630.9,119.25,41.14,121.53,183.52,211.65,21.62,656.94,0.00,116.8,4.50,67.80,0

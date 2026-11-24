@@ -1,0 +1,15 @@
+protocol,implementation,tps,covered,partial,untested,not_implemented,not_applicable
+BTP,python,5,5,0,0,0,0
+BTP,rust,5,5,0,0,0,0
+GN,python,138,129,0,0,1,8
+GN,rust,138,129,0,0,1,8
+CAM,python,32,30,0,0,0,2
+CAM,rust,32,30,0,0,0,2
+DEN,python,57,56,0,0,1,0
+DEN,rust,57,56,0,0,1,0
+SEC,python,91,91,0,0,0,0
+SEC,rust,91,91,0,0,0,0
+PKI,python,76,69,0,0,6,1
+PKI,rust,76,69,0,0,6,1
+ALL,python,399,380,0,0,8,11
+ALL,rust,399,380,0,0,8,11

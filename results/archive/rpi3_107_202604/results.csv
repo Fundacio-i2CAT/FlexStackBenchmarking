@@ -1,0 +1,5 @@
+run_id,implementation,platform,security,benchmark,duration_s,total_cams,throughput_cams_s,latency_mean_us,latency_std_us,latency_p50_us,latency_p95_us,latency_p99_us,latency_min_us,latency_max_us,sign_latency_mean_us
+1,rust,laptop,off,tx,60.000,264189,4403.1,223.73,53.74,233.44,313.18,381.20,109.01,871.35,0.00
+1,rust,laptop,on,tx,60.000,291443,4857.4,202.69,59.88,219.90,284.53,390.68,107.29,924.11,0.00
+1,rust,laptop,on,tx,60.000,218186,3636.4,270.40,130.35,240.99,452.50,698.33,102.71,8501.08,0.00
+1,rust,laptop,on,tx,60.000,270557,4509.3,218.32,47.74,222.66,297.45,374.48,103.18,1968.49,0.00

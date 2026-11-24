@@ -3,35 +3,34 @@
 Rigorous benchmarking harness for [V2X FlexStack](https://flexstack.eu/) performance evaluation across Python (CPython, PyPy) and Rust implementations.
 
 
+## Reproducing the paper
+
+The raw data of every benchmark run reported in the V2X FlexStack paper is in
+[`results/campaign_2026-11/`](results/campaign_2026-11/README.md), with the
+exact commands each host executed, the environment and thermal record of every
+run, and checksums. [`REPRODUCING.md`](REPRODUCING.md) explains how to verify
+and re-analyse that data, how to re-run a single benchmark cell on your own
+machine, and how to repeat the whole campaign.
+
 ## Project Structure
 
 ```
 FlexStackBenchmarking/
-├── python/
-│   ├── benchmark.py            # Python benchmark (CPython + PyPy)
-│   ├── generate_certs.py       # ECDSA certificate chain generator
-│   └── requirements.txt
-├── rust/
-│   ├── Cargo.toml              # Rust benchmark project
-│   └── src/
-│       └── main.rs             # Rust benchmark binary
-├── scripts/
-│   ├── prepare_system.sh       # System preparation (CPU governor, etc.)
-│   └── run_benchmarks.sh       # Full orchestrator (all combinations)
-├── ansible/
-│   ├── inventory.yml           # Host inventory and benchmark variables
-│   ├── setup.yml               # Playbook: install dependencies
-│   ├── run.yml                 # Playbook: run benchmarks + fetch results
-│   └── tasks/
-│       └── run_cell.yml        # Included task: single benchmark cell
-├── analysis/
-│   ├── analyze_results.py      # Statistical analysis + LaTeX tables
-│   ├── generate_plots.py       # Box plots, security comparison, CDF
-│   └── requirements.txt
-├── certs/                      # Generated certificates (auto-created)
-├── results/                    # Benchmark CSV output (auto-created)
-├── next_steps2.md              # Detailed requirements specification
-└── README.md                   # This file
+├── python/                 # Python harness (CPython + PyPy), certificate generator
+├── rust/                   # Rust harness (rustflexstack), C-V2X variant, interop node
+├── vanetza/                # Vanetza harness (same benchmarks on Vanetza, Docker build)
+├── scripts/                # system preparation, campaign build, orchestrators, monitoring
+├── ansible/                # multi-host set-up and campaign playbooks
+├── analysis/               # statistical analysis, LaTeX tables, plots
+├── interop/                # signed interoperability test (FlexStack Python, Rust, Vanetza)
+├── conformance/            # traceability of the unit tests to ETSI test purposes
+├── results/
+│   ├── campaign_2026-11/   # raw data of the paper (see its README)
+│   ├── interop/            # signed interoperability runs (captures, verdicts)
+│   └── archive/            # earlier campaigns on pre-release versions, not used in the paper
+├── REPRODUCING.md          # how to check, re-analyse and re-run
+├── CAMPAIGN_RERUN.md       # the procedure used for the 2026-11 campaign
+└── README.md               # this file
 ```
 
 ## Benchmark Matrix
@@ -54,18 +53,18 @@ Each cell: **30 independent runs × 60s measurement** with warm-up discard (5s C
 
 ```bash
 # CPython 3.13
-pip install v2xflexstack==0.11.1 numpy
+pip install -r python/requirements.txt     # v2xflexstack (pinned, PyPI) + numpy
 
 # PyPy (optional)
-pypy3 -m pip install v2xflexstack==0.11.1 numpy
+pypy3 -m pip install -r python/requirements.txt
 ```
 
 #### Rust Binary
 
-The fastest way to get started is to download the pre-built binary directly from the latest GitHub release — no Rust toolchain required:
+The fastest way to get started is to download the pre-built binary directly from the latest GitHub release — no Rust toolchain required. The release binaries are the files measured in the paper campaign (in the Rust ones only the build user name in embedded source paths is overwritten; see the release notes for which cells each one measured; the Vanetza bundles and the Cohda MK6 C-V2X binaries `flexstack-bench-cv2x-mk6-fw19|mk6-fw20|mk6c` are attached too):
 
 ```bash
-wget https://github.com/JordiMarias/FlexStackBenchmarking/releases/download/v0.2.0/flexstack-bench-$(uname -m)-linux
+wget https://github.com/Fundacio-i2CAT/FlexStackBenchmarking/releases/latest/download/flexstack-bench-$(uname -m)-linux
 chmod +x flexstack-bench-$(uname -m)-linux
 ./flexstack-bench-$(uname -m)-linux --help
 ```
@@ -86,7 +85,13 @@ cd python
 python3 generate_certs.py
 ```
 
-This creates an ECDSA-P256 certificate chain under `certs/` (Root CA → AA → AT1, AT2) used by both Python and Rust benchmarks.
+This creates an ECDSA-P256 certificate chain under `certs/` (Root CA → AA → AT1, AT2) used by both Python and Rust benchmarks:
+
+- `*.cert`: COER-encoded ETSI TS 103 097 certificates
+- `*.pem`: PEM private keys (Python harness)
+- `*.key`: the same keys as raw 32-byte P-256 scalars (Rust harness, `import_signing_key`)
+
+Generate the chain with the pinned FlexStack: from `v2xflexstack` 0.12.0 / `rustflexstack` 0.4.0 on, messages and certificates are signed over Hash(Hash(data) ‖ Hash(signer)) (IEEE 1609.2 clause 5.3.1), so chains and stations of earlier versions do not interoperate with them. Copy the same `certs/` directory to every host so that sender and receiver share one trust chain.
 
 ### 3. Run Individual Benchmarks
 
@@ -155,6 +160,18 @@ python3 analyze_results.py --input ../results/results_laptop_*.csv
 # With LaTeX table output
 python3 analyze_results.py --input ../results/results.csv --latex
 
+# Paper campaign: summary with latency CIs + TX/RX latency tables (p50/p95/p99 ± 95% CI)
+python3 analyze_results.py --input ../results/general.csv \
+    --output-summary ../results/out.csv --latex-dir ../results/tables
+```
+
+Statistics: every cell value is the mean of the N per-run values (throughput, latency
+mean, p50, p95, p99) with a two-sided Student-t 95% confidence interval (df = N − 1).
+Runs outside Tukey's 1.5·IQR fences are listed as diagnostics together with how much
+excluding them would change each mean, but no run is ever removed.
+
+```bash
+
 # Generate plots
 python3 generate_plots.py --input ../results/results.csv
 ```
@@ -189,6 +206,44 @@ In-memory UPER encode/decode of CAM messages. No networking involved. Measures p
 
 In-memory ECDSA-P256 signing or verification of a CAM-sized payload. No networking involved. Measures pure cryptographic throughput of the security layer.
 
+### Fixed-rate mode (`--rate R`)
+
+All modes above run as fast as possible by default, so CPU utilisation is that of
+a saturated stack. `--rate R` (msg/s) instead releases message *i* at
+`start + i/R` and **sleeps** in between, so `cpu_pct` is the cost of handling R
+messages per second: the CPU and memory needed at a realistic load. It applies to
+`tx`, `concurrent`, `codec-*` and `security-*` (Rust: `rust/src/pacing.rs`,
+Python: `Pacer` in `python/benchmark.py`). A late message is released at once and
+counted, never bursted to catch up, so an implementation that cannot keep up shows
+an achieved throughput below R. `analyze_results.py` flags such cells (< 98 %).
+
+`rx` is never paced, because the remote sender sets the load. Pace the sender and
+label the receiver with the same rate:
+
+```bash
+# sender (e.g. laptop): secured CAMs at 1000 msg/s = 100 neighbours at 10 Hz
+sudo ./send_packets_for_rx_benchmarks.sh eth0 7200 on 1000
+# receiver (device under test), 5th argument = sender rate
+sudo ./run_rx_benchmarks.sh rpi5 10 60 eth0 1000
+```
+
+Single-machine sweep (TX unsecured/secured and in-memory verification, all
+implementations; default rates 10, 100 and 1000 msg/s):
+
+```bash
+sudo ./prepare_system.sh rpi5          # 'performance' governor is essential here
+sudo ./run_rate_benchmarks.sh rpi5 10 60          # or: ... 10 60 10 100 1000 2000
+```
+
+Use the `performance` governor (`prepare_system.sh`). Otherwise the CPU clocks down
+between paced messages and every operation becomes slower; the script warns about
+this. The remaining extra per-message cost at low rates (wake-up from idle, cold
+caches) is real and part of what the mode measures.
+
+The rate is recorded in the `target_rate` column (0 = max rate) and in the
+thermal sidecar. With Ansible, add `rate:` to a `bench_modes` cell
+(`inventory.yml`) or pass `-e rx_rate=N` to `run_rx.yml`.
+
 ## CLI Interface
 
 Both Python and Rust benchmarks share the same CLI:
@@ -216,8 +271,36 @@ Each run appends one row:
 ```
 run_id, implementation, platform, security, benchmark, duration_s, total_cams,
 throughput_cams_s, latency_mean_us, latency_std_us, latency_p50_us, latency_p95_us,
-latency_p99_us, latency_min_us, latency_max_us, sign_latency_mean_us
+latency_p99_us, latency_min_us, latency_max_us, sign_latency_mean_us,
+cpu_pct, rss_start_mb, peak_rss_mb, target_rate
 ```
+
+- `sign_latency_mean_us`: mean ECDSA sign time (`security-sign`), verify time
+  (`security-verify`) or, for secured `rx`, the mean verify time inside the stack.
+- `cpu_pct`: process user + system CPU time during the measurement window divided
+  by its wall time × 100 (100 = one core busy; max 100 × pinned cores). The
+  benchmarks run at maximum rate, so this describes a saturated stack.
+- `rss_start_mb`: resident memory when the measurement window opens (stack
+  initialised and warmed up, before any latency sample is stored), i.e. the
+  stack's footprint.
+- `target_rate`: `--rate` in msg/s (0 = as fast as possible; for `rx`, the
+  remote sender's rate).
+- `peak_rss_mb`: VmHWM. Includes the harness's latency sample buffer, so it is
+  an upper bound.
+
+Rust and Python read the same `/proc/self` counters (`rust/src/resources.rs`,
+`ResourceSnapshot` in `python/benchmark.py`). A run refuses to append to an
+existing CSV with an older header (since harness v0.2.9).
+
+Alongside each results file, the orchestrators (shell scripts and Ansible) write:
+
+- `<results>_env.txt`: kernel, CPU, governor, turbo/SMT, swap, running services,
+  interpreter / `v2xflexstack` / crate versions, Rust binary size and SHA-256,
+  installed package size.
+- `<results>_thermal.csv`: per run, SoC temperature, CPU frequency and
+  throttling state before and after (`vcgencmd get_throttled` on Raspberry Pi,
+  `core_throttle_count` on x86). `analyze_results.py` joins it automatically
+  and lists runs whose throttling state changed; they are kept, not removed.
 
 ## Statistical Methodology
 
@@ -244,7 +327,7 @@ Applied before every benchmark session (documented in paper):
 | CPU governor | `performance` | `performance` |
 | Turbo Boost | Disabled | N/A |
 | Process pinning | `taskset -c 2,3` | `taskset -c 2,3` |
-| RT priority | `chrt -f 50` | `chrt -f 50` |
+| RT priority | `chrt -r 50` (SCHED_RR; SCHED_FIFO starved stack threads on two pinned cores, 2026-11-23) | `chrt -r 50` |
 | Swap | Disabled | Disabled |
 | Background services | Stopped | Stopped |
 
@@ -262,11 +345,13 @@ cargo build --release --target aarch64-unknown-linux-gnu
 
 | Component | Version |
 |-----------|---------|
-| Python FlexStack | v2xflexstack 0.11.1 |
-| Rust FlexStack | rustflexstack 0.3.0 |
+| Python FlexStack | pinned in `python/requirements.txt` |
+| Rust FlexStack | pinned in `rust/Cargo.toml` / `Cargo.lock` |
 | CPython | 3.13 |
 | PyPy | 3.11 |
 | Rust | stable (1.75+), `--release`, LTO |
+
+The exact versions used in a campaign are recorded in its `<results>_env.txt`.
 
 ## License
 

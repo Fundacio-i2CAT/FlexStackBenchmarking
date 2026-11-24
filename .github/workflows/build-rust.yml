@@ -47,6 +47,11 @@ jobs:
           workspaces: rust
           key: ${{ matrix.target }}
 
+      - name: Unit tests
+        if: matrix.target == 'x86_64-unknown-linux-musl'
+        working-directory: rust
+        run: cargo test --locked
+
       - name: Build release binary (x86_64)
         if: matrix.target == 'x86_64-unknown-linux-musl'
         working-directory: rust

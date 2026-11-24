@@ -1,0 +1,17 @@
+# Cells measured again after the campaign (README, known issues 7 and 12). For
+# each host folder, the rows of <implementation>,<benchmark> in every results
+# file other than <rerun_file> are dropped by the analysis; the raw files stay
+# unchanged. An empty security replaces both security modes of the cell; "off"
+# or "on" replaces only that mode.
+dir,rerun_file,implementation,benchmark,security
+laptop,results_laptop_after_20261125T112454.csv,rust,tx,
+rpi5,results_rpi5_after_20261125T112500.csv,rust,tx,
+rpi3,results_rpi3_after_20261125T130019.csv,rust,tx,
+agx-orin-50w,results_agx-orin_after_20261124T145129.csv,rust,tx,
+agx-orin-30w,results_agx-orin_after_20261124T145135.csv,rust,tx,
+orin-nano-1,results_orin-nano_after_20261124T145141.csv,rust,tx,
+orin-nano-2,results_orin-nano_after_20261124T145146.csv,rust,tx,
+orin-nano-4,results_orin-nano_after_20261124T145152.csv,rust,tx,
+laptop,results_laptop_after_20261125T211526.csv,pypy_3.11,rx,off
+rpi5,results_rpi5_after_20261125T211526.csv,pypy_3.11,rx,off
+rpi3-a,results_rpi3_after_20261125T201529.csv,pypy_3.11,rx,off

@@ -7,7 +7,7 @@
 # machine, transmitting CAMs on the same L2 interface.
 #
 # Usage:
-#   sudo ./run_rx_benchmarks.sh [platform] [runs] [duration] [interface]
+#   sudo ./run_rx_benchmarks.sh [platform] [runs] [duration] [interface] [sender_rate]
 #
 # Examples:
 #   sudo ./run_rx_benchmarks.sh rpi5 30 60 eth0
@@ -27,6 +27,9 @@ PLATFORM="${1:-laptop}"
 RUNS="${2:-30}"
 DURATION="${3:-60}"
 INTERFACE="${4:-eth0}"
+# Rate of the remote sender in msg/s (0 = max). Only recorded, the receiver
+# does not pace: it must match the sender's 4th argument.
+SENDER_RATE="${5:-0}"
 COOLDOWN=10
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 OUTPUT="../results/results_rx_${PLATFORM}_${TIMESTAMP}.csv"
@@ -50,6 +53,7 @@ echo "  Runs/cell  : $RUNS"
 echo "  Duration   : ${DURATION}s"
 echo "  Cooldown   : ${COOLDOWN}s"
 echo "  Interface  : $INTERFACE"
+echo "  Sender rate: $SENDER_RATE (0 = max)"
 echo "  Output     : $OUTPUT"
 echo "  Rust binary: $RUST_BIN"
 echo "  CPython    : $CPYTHON"
@@ -69,6 +73,15 @@ if [ ! -f "$RUST_BIN" ]; then
   exit 1
 fi
 
+# ── Environment record + per-run thermal/throttling sidecar ─────────────────
+# shellcheck source=lib_monitor.sh
+source "$SCRIPT_DIR/lib_monitor.sh"
+ENV_FILE="${OUTPUT%.csv}_env.txt"
+THERMAL_CSV="${OUTPUT%.csv}_thermal.csv"
+CARGO_LOCK="$PROJECT_DIR/rust/Cargo.lock"
+record_environment "$ENV_FILE" "$PLATFORM" "$BENCH_CORES"
+monitor_init "$THERMAL_CSV" "$BENCH_CORES"
+
 # ── Helper: run a single benchmark cell ─────────────────────────────────────
 run_cell() {
   local IMPL="$1"
@@ -85,35 +98,38 @@ run_cell() {
     echo "[$(date '+%H:%M:%S')] $IMPL | $SECURITY | rx | run $RUN/$RUNS"
     echo "──────────────────────────────────────────────────────────"
 
+    monitor_run_start
     case "$IMPL" in
       rust)
-        chrt -f 50 taskset -c "$BENCH_CORES" \
+        chrt -r 50 taskset -c "$BENCH_CORES" \
           "$RUST_BIN" \
-          --mode rx --security "$SECURITY" \
+          --mode rx --security "$SECURITY" --at 2 --rate "$SENDER_RATE" \
           --duration "$DURATION" --warmup "$WARMUP" \
           --output "$OUTPUT" --run-id "$RUN" \
           --platform "$PLATFORM" --interface "$INTERFACE" \
+          --certs-dir "$PROJECT_DIR/certs" \
           2>&1 || echo "  [WARN] Rust benchmark exited with error"
         ;;
       cpython)
-        chrt -f 50 taskset -c "$BENCH_CORES" \
+        chrt -r 50 taskset -c "$BENCH_CORES" \
           "$CPYTHON" "$PYTHON_BENCH" \
-          --mode rx --security "$SECURITY" \
+          --mode rx --security "$SECURITY" --rate "$SENDER_RATE" \
           --duration "$DURATION" --warmup "$WARMUP" \
           --output "$OUTPUT" --run-id "$RUN" \
           --platform "$PLATFORM" --interface "$INTERFACE" \
           2>&1 || echo "  [WARN] CPython benchmark exited with error"
         ;;
       pypy)
-        chrt -f 50 taskset -c "$BENCH_CORES" \
+        chrt -r 50 taskset -c "$BENCH_CORES" \
           "$PYPY" "$PYTHON_BENCH" \
-          --mode rx --security "$SECURITY" \
+          --mode rx --security "$SECURITY" --rate "$SENDER_RATE" \
           --duration "$DURATION" --warmup "$WARMUP" \
           --output "$OUTPUT" --run-id "$RUN" \
           --platform "$PLATFORM" --interface "$INTERFACE" \
           2>&1 || echo "  [WARN] PyPy benchmark exited with error"
         ;;
     esac
+    monitor_run_end "$IMPL" "$SECURITY" "rx" "$RUN" "$SENDER_RATE"
 
     if [ "$RUN" -lt "$RUNS" ]; then
       echo "  Cooling down (${COOLDOWN}s)..."
@@ -147,4 +163,6 @@ echo "============================================================"
 echo "RX benchmarks complete!"
 echo "  Total time : ${TOTAL_HOURS}h ${TOTAL_MINS}m"
 echo "  Results    : $OUTPUT"
+echo "  Environment: $ENV_FILE"
+echo "  Thermal    : $THERMAL_CSV"
 echo "============================================================"

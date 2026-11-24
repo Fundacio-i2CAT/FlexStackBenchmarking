@@ -1,0 +1,7 @@
+run_id,implementation,platform,security,benchmark,duration_s,total_cams,throughput_cams_s,latency_mean_us,latency_std_us,latency_p50_us,latency_p95_us,latency_p99_us,latency_min_us,latency_max_us,sign_latency_mean_us,cpu_pct,rss_start_mb,peak_rss_mb,target_rate
+1,rust,rpi3,off,codec-decode,60.000,1687261,28121.0,33.26,12.00,23.18,47.45,52.66,22.34,917.81,0.00,100.0,1.45,14.35,0
+2,rust,rpi3,off,codec-decode,60.000,1682916,28048.6,33.35,12.48,23.18,47.60,52.92,22.24,4182.85,0.00,100.0,1.45,14.31,0
+3,rust,rpi3,off,codec-decode,60.000,1746605,29110.1,32.13,11.72,23.07,46.93,52.55,22.34,711.72,0.00,100.0,1.45,14.80,0
+4,rust,rpi3,off,codec-decode,60.000,1727558,28792.6,32.49,11.78,23.12,47.14,52.76,22.34,517.60,0.00,100.0,1.45,14.66,0
+5,rust,rpi3,off,codec-decode,60.000,1949195,32486.6,28.79,12.47,23.02,46.35,52.40,22.34,9869.82,0.00,100.0,1.46,16.35,0
+6,rust,rpi3,off,codec-decode,60.000,1764961,29416.0,31.80,19.89,23.07,46.82,52.55,22.34,18619.79,0.00,99.9,1.45,14.94,0

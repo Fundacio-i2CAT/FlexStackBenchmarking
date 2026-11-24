@@ -1,0 +1,1811 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+================================================================
+  pypy | rx | security=off | rate=0 | runs=30
+================================================================
+[21:15:27] pypy | rx | off | run 1/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 558390 packets
+  Measurement phase (60s)...
+  RX: 2296159 CAMs (38269/s)
+
+  Results:
+    Total        : 2296159
+    Throughput   : 38269.1 CAMs/s
+    Latency mean : 23.56 μs
+    Latency p50  : 22.15 μs
+    Latency p95  : 23.57 μs
+    Latency p99  : 33.72 μs
+    CPU          : 96.7 % (100 = one core)
+    RSS start    : 190.00 MB, peak 239.64 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:17:00] pypy | rx | off | run 2/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 536049 packets
+  Measurement phase (60s)...
+  RX: 2285089 CAMs (38085/s)
+
+  Results:
+    Total        : 2285089
+    Throughput   : 38084.7 CAMs/s
+    Latency mean : 23.56 μs
+    Latency p50  : 22.05 μs
+    Latency p95  : 23.35 μs
+    Latency p99  : 33.86 μs
+    CPU          : 95.9 % (100 = one core)
+    RSS start    : 177.79 MB, peak 237.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:18:32] pypy | rx | off | run 3/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 536049 packets
+  Measurement phase (60s)...
+  RX: 2277817 CAMs (37964/s)
+
+  Results:
+    Total        : 2277817
+    Throughput   : 37963.5 CAMs/s
+    Latency mean : 23.79 μs
+    Latency p50  : 22.29 μs
+    Latency p95  : 23.77 μs
+    Latency p99  : 35.27 μs
+    CPU          : 97.5 % (100 = one core)
+    RSS start    : 181.83 MB, peak 241.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:20:04] pypy | rx | off | run 4/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 534787 packets
+  Measurement phase (60s)...
+  RX: 2248540 CAMs (37476/s)
+
+  Results:
+    Total        : 2248540
+    Throughput   : 37475.5 CAMs/s
+    Latency mean : 24.15 μs
+    Latency p50  : 22.30 μs
+    Latency p95  : 23.76 μs
+    Latency p99  : 33.60 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 182.38 MB, peak 238.31 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:21:36] pypy | rx | off | run 5/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 535439 packets
+  Measurement phase (60s)...
+  RX: 2247680 CAMs (37461/s)
+
+  Results:
+    Total        : 2247680
+    Throughput   : 37461.2 CAMs/s
+    Latency mean : 23.88 μs
+    Latency p50  : 22.22 μs
+    Latency p95  : 23.53 μs
+    Latency p99  : 33.63 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 185.19 MB, peak 239.07 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:23:09] pypy | rx | off | run 6/30
+Exception in thread Thread-1 (_timer_loop):
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 543335 packets
+  Measurement phase (60s)...
+  RX: 2300920 CAMs (38348/s)
+
+  Results:
+    Total        : 2300920
+    Throughput   : 38348.5 CAMs/s
+    Latency mean : 23.61 μs
+    Latency p50  : 22.30 μs
+    Latency p95  : 23.54 μs
+    Latency p99  : 33.56 μs
+    CPU          : 97.1 % (100 = one core)
+    RSS start    : 186.78 MB, peak 226.45 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Traceback (most recent call last):
+[21:24:41] pypy | rx | off | run 7/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 550486 packets
+  Measurement phase (60s)...
+  RX: 2316032 CAMs (38600/s)
+
+  Results:
+    Total        : 2316032
+    Throughput   : 38600.4 CAMs/s
+    Latency mean : 23.25 μs
+    Latency p50  : 22.10 μs
+    Latency p95  : 23.23 μs
+    Latency p99  : 33.73 μs
+    CPU          : 97.4 % (100 = one core)
+    RSS start    : 194.69 MB, peak 235.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:26:14] pypy | rx | off | run 8/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 533115 packets
+  Measurement phase (60s)...
+  RX: 2218635 CAMs (36977/s)
+
+  Results:
+    Total        : 2218635
+    Throughput   : 36977.2 CAMs/s
+    Latency mean : 24.34 μs
+    Latency p50  : 22.92 μs
+    Latency p95  : 24.18 μs
+    Latency p99  : 34.50 μs
+    CPU          : 96.3 % (100 = one core)
+    RSS start    : 185.94 MB, peak 241.13 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:27:46] pypy | rx | off | run 9/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 550800 packets
+  Measurement phase (60s)...
+  RX: 2335043 CAMs (38917/s)
+
+  Results:
+    Total        : 2335043
+    Throughput   : 38917.2 CAMs/s
+    Latency mean : 23.11 μs
+    Latency p50  : 22.11 μs
+    Latency p95  : 23.40 μs
+    Latency p99  : 33.62 μs
+    CPU          : 98.2 % (100 = one core)
+    RSS start    : 187.43 MB, peak 237.54 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:29:18] pypy | rx | off | run 10/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 548314 packets
+  Measurement phase (60s)...
+  RX: 2300564 CAMs (38343/s)
+
+  Results:
+    Total        : 2300564
+    Throughput   : 38342.5 CAMs/s
+    Latency mean : 23.49 μs
+    Latency p50  : 22.41 μs
+    Latency p95  : 23.70 μs
+    Latency p99  : 34.05 μs
+    CPU          : 98.0 % (100 = one core)
+    RSS start    : 194.38 MB, peak 234.93 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:30:50] pypy | rx | off | run 11/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 549280 packets
+  Measurement phase (60s)...
+  RX: 2282925 CAMs (38049/s)
+
+  Results:
+    Total        : 2282925
+    Throughput   : 38048.6 CAMs/s
+    Latency mean : 23.75 μs
+    Latency p50  : 22.55 μs
+    Latency p95  : 23.95 μs
+    Latency p99  : 34.41 μs
+    CPU          : 97.8 % (100 = one core)
+    RSS start    : 186.26 MB, peak 226.99 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:32:22] pypy | rx | off | run 12/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 552219 packets
+  Measurement phase (60s)...
+  RX: 2290403 CAMs (38173/s)
+
+  Results:
+    Total        : 2290403
+    Throughput   : 38173.2 CAMs/s
+    Latency mean : 23.64 μs
+    Latency p50  : 22.09 μs
+    Latency p95  : 23.30 μs
+    Latency p99  : 33.86 μs
+    CPU          : 96.1 % (100 = one core)
+    RSS start    : 184.55 MB, peak 226.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:33:55] pypy | rx | off | run 13/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 534627 packets
+  Measurement phase (60s)...
+  RX: 2284318 CAMs (38072/s)
+
+  Results:
+    Total        : 2284318
+    Throughput   : 38071.9 CAMs/s
+    Latency mean : 23.69 μs
+    Latency p50  : 22.57 μs
+    Latency p95  : 23.82 μs
+    Latency p99  : 33.89 μs
+    CPU          : 97.7 % (100 = one core)
+    RSS start    : 179.42 MB, peak 239.35 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:35:27] pypy | rx | off | run 14/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 539990 packets
+  Measurement phase (60s)...
+  RX: 2224848 CAMs (37081/s)
+
+  Results:
+    Total        : 2224848
+    Throughput   : 37080.6 CAMs/s
+    Latency mean : 24.33 μs
+    Latency p50  : 22.57 μs
+    Latency p95  : 23.93 μs
+    Latency p99  : 35.23 μs
+    CPU          : 95.9 % (100 = one core)
+    RSS start    : 182.79 MB, peak 232.99 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:36:59] pypy | rx | off | run 15/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 539258 packets
+  Measurement phase (60s)...
+  RX: 2263348 CAMs (37722/s)
+
+  Results:
+    Total        : 2263348
+    Throughput   : 37722.0 CAMs/s
+    Latency mean : 23.92 μs
+    Latency p50  : 22.06 μs
+    Latency p95  : 23.50 μs
+    Latency p99  : 33.95 μs
+    CPU          : 95.2 % (100 = one core)
+    RSS start    : 195.75 MB, peak 239.54 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:38:31] pypy | rx | off | run 16/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 544845 packets
+  Measurement phase (60s)...
+  RX: 2312228 CAMs (38537/s)
+
+  Results:
+    Total        : 2312228
+    Throughput   : 38536.9 CAMs/s
+    Latency mean : 23.38 μs
+    Latency p50  : 22.32 μs
+    Latency p95  : 24.06 μs
+    Latency p99  : 33.90 μs
+    CPU          : 97.9 % (100 = one core)
+    RSS start    : 186.28 MB, peak 235.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:40:04] pypy | rx | off | run 17/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 549904 packets
+  Measurement phase (60s)...
+  RX: 2300495 CAMs (38341/s)
+
+  Results:
+    Total        : 2300495
+    Throughput   : 38341.4 CAMs/s
+    Latency mean : 23.48 μs
+    Latency p50  : 22.26 μs
+    Latency p95  : 24.10 μs
+    Latency p99  : 34.66 μs
+    CPU          : 97.5 % (100 = one core)
+    RSS start    : 184.23 MB, peak 228.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:41:36] pypy | rx | off | run 18/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 545445 packets
+  Measurement phase (60s)...
+  RX: 2283256 CAMs (38054/s)
+
+  Results:
+    Total        : 2283256
+    Throughput   : 38054.1 CAMs/s
+    Latency mean : 23.76 μs
+    Latency p50  : 22.51 μs
+    Latency p95  : 24.18 μs
+    Latency p99  : 34.77 μs
+    CPU          : 97.4 % (100 = one core)
+    RSS start    : 187.44 MB, peak 235.83 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:43:08] pypy | rx | off | run 19/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 530309 packets
+  Measurement phase (60s)...
+  RX: 2277366 CAMs (37956/s)
+
+  Results:
+    Total        : 2277366
+    Throughput   : 37956.0 CAMs/s
+    Latency mean : 23.77 μs
+    Latency p50  : 22.34 μs
+    Latency p95  : 23.95 μs
+    Latency p99  : 34.02 μs
+    CPU          : 96.6 % (100 = one core)
+    RSS start    : 178.81 MB, peak 237.13 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:44:40] pypy | rx | off | run 20/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 536076 packets
+  Measurement phase (60s)...
+  RX: 2258995 CAMs (37650/s)
+
+  Results:
+    Total        : 2258995
+    Throughput   : 37649.7 CAMs/s
+    Latency mean : 24.18 μs
+    Latency p50  : 22.29 μs
+    Latency p95  : 24.02 μs
+    Latency p99  : 33.72 μs
+    CPU          : 95.3 % (100 = one core)
+    RSS start    : 183.06 MB, peak 242.94 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:46:12] pypy | rx | off | run 21/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 538260 packets
+  Measurement phase (60s)...
+  RX: 2232527 CAMs (37209/s)
+
+  Results:
+    Total        : 2232527
+    Throughput   : 37208.7 CAMs/s
+    Latency mean : 24.18 μs
+    Latency p50  : 22.50 μs
+    Latency p95  : 24.32 μs
+    Latency p99  : 34.21 μs
+    CPU          : 95.5 % (100 = one core)
+    RSS start    : 187.76 MB, peak 235.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:47:45] pypy | rx | off | run 22/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 539088 packets
+  Measurement phase (60s)...
+  RX: 2266979 CAMs (37783/s)
+
+  Results:
+    Total        : 2266979
+    Throughput   : 37782.9 CAMs/s
+    Latency mean : 23.90 μs
+    Latency p50  : 22.17 μs
+    Latency p95  : 23.89 μs
+    Latency p99  : 33.92 μs
+    CPU          : 95.5 % (100 = one core)
+    RSS start    : 196.31 MB, peak 239.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:49:17] pypy | rx | off | run 23/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 534594 packets
+  Measurement phase (60s)...
+  RX: 2259558 CAMs (37659/s)
+
+  Results:
+    Total        : 2259558
+    Throughput   : 37659.1 CAMs/s
+    Latency mean : 23.90 μs
+    Latency p50  : 22.30 μs
+    Latency p95  : 23.80 μs
+    Latency p99  : 33.75 μs
+    CPU          : 95.5 % (100 = one core)
+    RSS start    : 179.70 MB, peak 237.72 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:50:50] pypy | rx | off | run 24/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 537336 packets
+  Measurement phase (60s)...
+  RX: 2280509 CAMs (38008/s)
+
+  Results:
+    Total        : 2280509
+    Throughput   : 38008.3 CAMs/s
+    Latency mean : 23.73 μs
+    Latency p50  : 22.18 μs
+    Latency p95  : 24.07 μs
+    Latency p99  : 33.83 μs
+    CPU          : 96.1 % (100 = one core)
+    RSS start    : 186.98 MB, peak 227.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:52:22] pypy | rx | off | run 25/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 546287 packets
+  Measurement phase (60s)...
+  RX: 2282937 CAMs (38049/s)
+
+  Results:
+    Total        : 2282937
+    Throughput   : 38048.7 CAMs/s
+    Latency mean : 23.69 μs
+    Latency p50  : 22.12 μs
+    Latency p95  : 23.75 μs
+    Latency p99  : 34.29 μs
+    CPU          : 96.2 % (100 = one core)
+    RSS start    : 188.74 MB, peak 238.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:53:54] pypy | rx | off | run 26/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 536312 packets
+  Measurement phase (60s)...
+  RX: 2280672 CAMs (38011/s)
+
+  Results:
+    Total        : 2280672
+    Throughput   : 38011.1 CAMs/s
+    Latency mean : 23.78 μs
+    Latency p50  : 22.15 μs
+    Latency p95  : 23.90 μs
+    Latency p99  : 34.30 μs
+    CPU          : 96.1 % (100 = one core)
+    RSS start    : 189.02 MB, peak 228.00 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:55:26] pypy | rx | off | run 27/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 539184 packets
+  Measurement phase (60s)...
+  RX: 2277569 CAMs (37959/s)
+
+  Results:
+    Total        : 2277569
+    Throughput   : 37959.3 CAMs/s
+    Latency mean : 23.72 μs
+    Latency p50  : 22.20 μs
+    Latency p95  : 24.04 μs
+    Latency p99  : 34.32 μs
+    CPU          : 96.2 % (100 = one core)
+    RSS start    : 184.55 MB, peak 242.61 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:56:59] pypy | rx | off | run 28/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 532794 packets
+  Measurement phase (60s)...
+  RX: 2232718 CAMs (37212/s)
+
+  Results:
+    Total        : 2232718
+    Throughput   : 37211.8 CAMs/s
+    Latency mean : 24.25 μs
+    Latency p50  : 22.75 μs
+    Latency p95  : 24.42 μs
+    Latency p99  : 34.74 μs
+    CPU          : 96.5 % (100 = one core)
+    RSS start    : 189.99 MB, peak 237.76 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[21:58:31] pypy | rx | off | run 29/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 533390 packets
+  Measurement phase (60s)...
+  RX: 2269111 CAMs (37818/s)
+
+  Results:
+    Total        : 2269111
+    Throughput   : 37818.3 CAMs/s
+    Latency mean : 23.81 μs
+    Latency p50  : 22.36 μs
+    Latency p95  : 24.02 μs
+    Latency p99  : 34.58 μs
+    CPU          : 96.6 % (100 = one core)
+    RSS start    : 183.27 MB, peak 231.23 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+[22:00:03] pypy | rx | off | run 30/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 535859 packets
+  Measurement phase (60s)...
+  RX: 2289964 CAMs (38163/s)
+
+  Results:
+    Total        : 2289964
+    Throughput   : 38163.2 CAMs/s
+    Latency mean : 23.61 μs
+    Latency p50  : 22.25 μs
+    Latency p95  : 23.78 μs
+    Latency p99  : 34.07 μs
+    CPU          : 96.9 % (100 = one core)
+    RSS start    : 190.46 MB, peak 251.88 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+================================================================
+  vanetza | rx | security=off | rate=0 | runs=30
+================================================================
+[22:01:26] vanetza | rx | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:01:26.894932
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6003113 CAMs, 14 frames not delivered as CAM
+    Throughput   : 100051.9 CAMs/s
+    Latency p50  : 6.34 us
+    CPU          : 86.4 %
+[22:02:42] vanetza | rx | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:02:42.571857
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6010620 CAMs, 11 frames not delivered as CAM
+    Throughput   : 100177.0 CAMs/s
+    Latency p50  : 6.33 us
+    CPU          : 86.5 %
+[22:03:58] vanetza | rx | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:03:58.248321
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6021335 CAMs, 20 frames not delivered as CAM
+    Throughput   : 100355.6 CAMs/s
+    Latency p50  : 6.32 us
+    CPU          : 86.4 %
+[22:05:13] vanetza | rx | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:05:13.924318
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6032337 CAMs, 6 frames not delivered as CAM
+    Throughput   : 100538.8 CAMs/s
+    Latency p50  : 6.33 us
+    CPU          : 86.9 %
+[22:06:29] vanetza | rx | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:06:29.620392
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6057769 CAMs, 22 frames not delivered as CAM
+    Throughput   : 100962.8 CAMs/s
+    Latency p50  : 6.32 us
+    CPU          : 86.9 %
+[22:07:45] vanetza | rx | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:07:45.316405
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6048145 CAMs, 9 frames not delivered as CAM
+    Throughput   : 100802.4 CAMs/s
+    Latency p50  : 6.33 us
+    CPU          : 87.2 %
+[22:09:00] vanetza | rx | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:09:00.991721
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6011646 CAMs, 16 frames not delivered as CAM
+    Throughput   : 100194.1 CAMs/s
+    Latency p50  : 6.32 us
+    CPU          : 86.3 %
+[22:10:16] vanetza | rx | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:10:16.672347
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6054923 CAMs, 16 frames not delivered as CAM
+    Throughput   : 100915.4 CAMs/s
+    Latency p50  : 6.23 us
+    CPU          : 86.3 %
+[22:11:32] vanetza | rx | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:11:32.344289
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6030406 CAMs, 10 frames not delivered as CAM
+    Throughput   : 100506.7 CAMs/s
+    Latency p50  : 6.23 us
+    CPU          : 85.9 %
+[22:12:47] vanetza | rx | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:12:48.020522
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6027006 CAMs, 21 frames not delivered as CAM
+    Throughput   : 100450.1 CAMs/s
+    Latency p50  : 6.36 us
+    CPU          : 86.9 %
+[22:14:03] vanetza | rx | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:14:03.703963
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6029868 CAMs, 6 frames not delivered as CAM
+    Throughput   : 100497.8 CAMs/s
+    Latency p50  : 6.31 us
+    CPU          : 86.5 %
+[22:15:19] vanetza | rx | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:15:19.363528
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6041573 CAMs, 20 frames not delivered as CAM
+    Throughput   : 100692.9 CAMs/s
+    Latency p50  : 6.39 us
+    CPU          : 87.3 %
+[22:16:35] vanetza | rx | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:16:35.063864
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6052079 CAMs, 11 frames not delivered as CAM
+    Throughput   : 100868.0 CAMs/s
+    Latency p50  : 6.34 us
+    CPU          : 87.0 %
+[22:17:50] vanetza | rx | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:17:50.751906
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6048543 CAMs, 15 frames not delivered as CAM
+    Throughput   : 100809.0 CAMs/s
+    Latency p50  : 6.23 us
+    CPU          : 86.2 %
+[22:19:06] vanetza | rx | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:19:06.428426
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 5993909 CAMs, 17 frames not delivered as CAM
+    Throughput   : 99898.5 CAMs/s
+    Latency p50  : 6.33 us
+    CPU          : 86.1 %
+[22:20:22] vanetza | rx | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:20:22.112027
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6028182 CAMs, 9 frames not delivered as CAM
+    Throughput   : 100469.7 CAMs/s
+    Latency p50  : 6.28 us
+    CPU          : 86.0 %
+[22:21:37] vanetza | rx | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:21:37.771678
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6005728 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100095.5 CAMs/s
+    Latency p50  : 6.43 us
+    CPU          : 87.1 %
+[22:22:53] vanetza | rx | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:22:53.456181
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6024475 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100407.9 CAMs/s
+    Latency p50  : 6.31 us
+    CPU          : 86.4 %
+[22:24:09] vanetza | rx | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:24:09.155604
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6032289 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100538.1 CAMs/s
+    Latency p50  : 6.34 us
+    CPU          : 86.9 %
+[22:25:24] vanetza | rx | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:25:24.823564
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6047537 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100792.3 CAMs/s
+    Latency p50  : 6.31 us
+    CPU          : 86.9 %
+[22:26:40] vanetza | rx | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:26:40.496321
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6010473 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100174.5 CAMs/s
+    Latency p50  : 6.29 us
+    CPU          : 86.3 %
+[22:27:56] vanetza | rx | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:27:56.172388
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6048627 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100810.4 CAMs/s
+    Latency p50  : 6.22 us
+    CPU          : 86.1 %
+[22:29:11] vanetza | rx | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:29:11.851877
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6029289 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100488.1 CAMs/s
+    Latency p50  : 6.32 us
+    CPU          : 86.6 %
+[22:30:27] vanetza | rx | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:30:27.528237
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6035365 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100589.4 CAMs/s
+    Latency p50  : 6.20 us
+    CPU          : 85.7 %
+[22:31:43] vanetza | rx | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:31:43.212079
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6042643 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100710.7 CAMs/s
+    Latency p50  : 6.20 us
+    CPU          : 86.2 %
+[22:32:58] vanetza | rx | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:32:58.895931
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6043195 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100719.9 CAMs/s
+    Latency p50  : 6.24 us
+    CPU          : 86.2 %
+[22:34:14] vanetza | rx | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:34:14.571906
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6020424 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100340.4 CAMs/s
+    Latency p50  : 6.41 us
+    CPU          : 87.4 %
+[22:35:30] vanetza | rx | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:35:30.256136
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 5996366 CAMs, 5 frames not delivered as CAM
+    Throughput   : 99939.4 CAMs/s
+    Latency p50  : 6.33 us
+    CPU          : 86.0 %
+[22:36:45] vanetza | rx | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:36:45.928082
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6029194 CAMs, 5 frames not delivered as CAM
+    Throughput   : 100486.5 CAMs/s
+    Latency p50  : 6.24 us
+    CPU          : 85.7 %
+[22:38:01] vanetza | rx | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv
+Starting runtime at 2026-Nov-25 21:38:01.611805
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 4890608 CAMs, 3 frames not delivered as CAM
+    Throughput   : 81510.1 CAMs/s
+    Latency p50  : 6.24 us
+    CPU          : 69.0 %
+[2026-11-25 22:39:07] all cells done: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T211526.csv

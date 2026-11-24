@@ -1,0 +1,75 @@
+# FlexStack benchmark environment
+date_utc                : 2026-11-25T13:31:56Z
+platform                : laptop
+hostname                : <host>
+kernel                  : Linux 5.15.0-139-generic #149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025 x86_64
+os                      : Linux Mint 20.3
+cpu_model               : 11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz
+online_cpus             : 0-5
+smt_active              : 1
+intel_no_turbo          : 1
+pinned_cores            : 2,3
+cpu2_governor           : performance
+cpu2_freq_khz           : 707788
+cpu2_max_freq_khz       : 1800000
+cpu3_governor           : performance
+cpu3_freq_khz           : 519366
+cpu3_max_freq_khz       : 1800000
+mem_total               : 15740784 kB
+swap_active             : 0 device(s)
+soc_temp_c              : 40.0
+throttle_state          : 0
+
+# Software under test
+rust_bin                : /home/<user>/FlexStackBenchmarking/rust/target/release/flexstack-bench
+rust_bin_size_bytes     : 2873440
+rust_bin_sha256         : 7fc044cdf7649429abfca84cf9d2a12f83b303a18135ba1406ab2afd4c08325d
+interpreter             : /home/<user>/FlexStackBenchmarking/venv/bin/python3 | 3.13.7 (main, Sep  4 2025, 12:08:00) [GCC 9.4.0]
+  v2xflexstack          : 0.12.0
+  v2xflexstack_size_kb  : 5796
+  asn1tools             : 0.165.0
+  cryptography          : 50.0.2
+interpreter             : /home/<user>/FlexStackBenchmarking/pypy/bin/pypy3 | 3.11.15 (2a098039edb5, Mar 12 2026, 16:45:13) [PyPy 7.3.21 with GCC 10.2.1 20210130 (Red Hat 10.2.1-11)]
+  v2xflexstack          : 0.12.0
+  v2xflexstack_size_kb  : 5912
+  asn1tools             : 0.165.0
+  cryptography          : 50.0.2
+
+# Running services (background load)
+  accounts-daemon.service
+  acpid.service
+  bluetooth.service
+  bolt.service
+  colord.service
+  containerd.service
+  cron.service
+  dbus.service
+  docker.service
+  forticlient.service
+  getty@tty1.service
+  irqbalance.service
+  kerneloops.service
+  lightdm.service
+  ModemManager.service
+  networkd-dispatcher.service
+  NetworkManager.service
+  ollama.service
+  polkit.service
+  rsyslog.service
+  rtkit-daemon.service
+  ssh.service
+  systemd-journald.service
+  systemd-logind.service
+  systemd-resolved.service
+  systemd-timesyncd.service
+  systemd-udevd.service
+  tailscaled.service
+  teamviewerd.service
+  thermald.service
+  udisks2.service
+  upower.service
+  user@1000.service
+  user@116.service
+  vpnagentd.service
+  warp-svc.service
+  wpa_supplicant.service

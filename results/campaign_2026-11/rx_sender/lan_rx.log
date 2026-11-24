@@ -1,0 +1,152 @@
+[2026-11-25 14:08:08] RPi3 b still running its TX rerun: waiting
+[2026-11-25 14:09:09] RPi3 b still running its TX rerun: waiting
+[2026-11-25 14:10:10] RPi3 b still running its TX rerun: waiting
+[2026-11-25 14:11:11] RPi3 b still running its TX rerun: waiting
+[2026-11-25 14:12:12] RPi3 b still running its TX rerun: waiting
+[2026-11-25 14:12:27] RPi3 b still running its TX rerun: waiting
+[2026-11-25 14:13:28] RPi3 b still running its TX rerun: waiting
+[2026-11-25 14:14:29] RPi3 b still running its TX rerun: waiting
+ssh: connect to host <ip> port 22: Connection timed out
+[2026-11-25 14:16:50] receivers idle; RPi3 b idle or disconnected
+[2026-11-25 14:16:53] switch isolated from the router: removing the IPv4 addresses of the wired data plane
+[2026-11-25 14:17:10] <ip> (Wi-Fi control): wired enp0s31f6 = up
+[2026-11-25 14:17:10] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:17:12] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:17:12] data plane: wired, no IP; control plane: Wi-Fi
+[2026-11-25 14:17:12] phase rx off: starting 3 senders on enp3s0
+[2026-11-25 14:19:28] RPi3 b still running its TX rerun (not yet on Wi-Fi): waiting
+[2026-11-25 14:22:21] RPi3 b still running its TX rerun (not yet on Wi-Fi): waiting
+[2026-11-25 14:24:21] RPi3 b done (unplugged)
+[2026-11-25 14:24:24] receivers idle; RPi3 b idle or disconnected
+[2026-11-25 14:24:27] switch isolated from the router: removing the IPv4 addresses of the wired data plane
+[2026-11-25 14:24:44] <ip> (Wi-Fi control): wired enp0s31f6 = up
+[2026-11-25 14:24:44] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:24:46] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:24:46] data plane: wired, no IP; control plane: Wi-Fi
+[2026-11-25 14:24:46] phase rx off: starting 3 senders on enp3s0
+[2026-11-25 14:25:02] phase rx off: sender rate ~12553 frames/s on enp3s0
+tee: /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor: Invalid argument
+tee: /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor: Invalid argument
+[2026-11-25 14:29:08] restart: Rust sender too slow (12.5k/s); sender = Vanetza harness; aborted partial runs: laptop/rpi5 run_after_20261125T142503, rpi3-a run_after_20261125T132505
+[2026-11-25 14:29:08] RPi3 b done (unplugged)
+[2026-11-25 14:29:12] receivers idle; RPi3 b idle or disconnected
+[2026-11-25 14:29:15] switch isolated from the router: removing the IPv4 addresses of the wired data plane
+[2026-11-25 14:29:32] <ip> (Wi-Fi control): wired enp0s31f6 = up
+[2026-11-25 14:29:32] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:29:34] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:29:34] data plane: wired, no IP; control plane: Wi-Fi
+[2026-11-25 14:29:34] phase rx off: starting 2 Vanetza senders on enp3s0
+[2026-11-25 14:29:50] phase rx off: sender rate ~101704 frames/s on enp3s0
+tee: /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor: Invalid argument
+tee: /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor: Invalid argument
+[2026-11-25 14:30:54] phase rx off: running, sender ~101499 frames/s average
+[2026-11-25 14:31:15] restart: receivers had the first run_after.sh (no cpython/pypy); aborted partial: laptop run_after_20261125T142950, rpi5 run_after_20261125T142951, rpi3-a run_after_20261125T132953
+[2026-11-25 14:31:15] RPi3 b done (unplugged)
+[2026-11-25 14:31:17] receivers idle; RPi3 b idle or disconnected
+[2026-11-25 14:31:21] switch isolated from the router: removing the IPv4 addresses of the wired data plane
+[2026-11-25 14:31:38] <ip> (Wi-Fi control): wired enp0s31f6 = up
+[2026-11-25 14:31:38] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:31:40] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:31:40] data plane: wired, no IP; control plane: Wi-Fi
+[2026-11-25 14:31:40] phase rx off: starting 2 Vanetza senders on enp3s0
+[2026-11-25 14:31:55] phase rx off: sender rate ~101704 frames/s on enp3s0
+tee: /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor: Invalid argument
+tee: /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor: Invalid argument
+[2026-11-25 14:32:59] phase rx off: running, sender ~101381 frames/s average
+[2026-11-25 14:38:00] phase rx off: running, sender ~98752 frames/s average
+[2026-11-25 14:43:00] phase rx off: running, sender ~83663 frames/s average
+[2026-11-25 14:48:01] phase rx off: running, sender ~57594 frames/s average
+[2026-11-25 14:53:01] phase rx off: running, sender ~43946 frames/s average
+[2026-11-25 14:57:20] restart: Vanetza senders OOM-killed at 14:41 (6.2 GB each); rolling 60 s sender chunks; invalid partial: laptop/rpi5 run_after_20261125T143156, rpi3-a run_after_20261125T133159
+[2026-11-25 14:57:20] RPi3 b done (unplugged)
+[2026-11-25 14:57:23] receivers idle; RPi3 b idle or disconnected
+[2026-11-25 14:57:26] switch isolated from the router: removing the IPv4 addresses of the wired data plane
+[2026-11-25 14:57:43] <ip> (Wi-Fi control): wired enp0s31f6 = up
+[2026-11-25 14:57:44] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:57:46] <ip> (Wi-Fi control): wired eth0 = up
+[2026-11-25 14:57:46] data plane: wired, no IP; control plane: Wi-Fi
+[2026-11-25 14:57:46] phase rx off: starting 3 rolling Vanetza sender slots on enp3s0
+[2026-11-25 14:58:31] phase rx off: sender rate ~101699 frames/s on enp3s0
+tee: /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor: Invalid argument
+tee: /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor: Invalid argument
+[2026-11-25 14:59:34] phase rx off: running, sender ~102856 frames/s average
+[2026-11-25 15:04:35] phase rx off: running, sender ~101372 frames/s average
+[2026-11-25 15:09:35] phase rx off: running, sender ~101152 frames/s average
+[2026-11-25 15:14:35] phase rx off: running, sender ~101000 frames/s average
+[2026-11-25 15:19:36] phase rx off: running, sender ~100784 frames/s average
+[2026-11-25 15:24:36] phase rx off: running, sender ~100579 frames/s average
+[2026-11-25 15:29:36] phase rx off: running, sender ~100510 frames/s average
+[2026-11-25 15:34:37] phase rx off: running, sender ~100496 frames/s average
+[2026-11-25 15:39:37] phase rx off: running, sender ~100500 frames/s average
+[2026-11-25 15:44:37] phase rx off: running, sender ~100487 frames/s average
+[2026-11-25 15:49:38] phase rx off: running, sender ~100469 frames/s average
+[2026-11-25 15:54:38] phase rx off: running, sender ~100432 frames/s average
+[2026-11-25 15:59:38] phase rx off: running, sender ~100415 frames/s average
+[2026-11-25 16:04:39] phase rx off: running, sender ~100404 frames/s average
+[2026-11-25 16:09:39] phase rx off: running, sender ~100424 frames/s average
+[2026-11-25 16:14:39] phase rx off: running, sender ~100433 frames/s average
+[2026-11-25 16:19:39] phase rx off: running, sender ~100438 frames/s average
+[2026-11-25 16:24:40] phase rx off: running, sender ~100429 frames/s average
+[2026-11-25 16:29:40] phase rx off: running, sender ~100437 frames/s average
+[2026-11-25 16:34:40] phase rx off: running, sender ~100447 frames/s average
+[2026-11-25 16:39:41] phase rx off: running, sender ~100443 frames/s average
+[2026-11-25 16:44:41] phase rx off: running, sender ~100446 frames/s average
+[2026-11-25 16:49:41] phase rx off: running, sender ~100447 frames/s average
+[2026-11-25 16:54:42] phase rx off: running, sender ~100422 frames/s average
+[2026-11-25 16:59:42] phase rx off: running, sender ~100407 frames/s average
+[2026-11-25 17:04:42] phase rx off: running, sender ~100392 frames/s average
+[2026-11-25 17:09:43] phase rx off: running, sender ~100373 frames/s average
+[2026-11-25 17:14:43] phase rx off: running, sender ~100374 frames/s average
+[2026-11-25 17:19:43] phase rx off: running, sender ~100372 frames/s average
+[2026-11-25 17:24:44] phase rx off: running, sender ~100311 frames/s average
+[2026-11-25 17:29:44] phase rx off: running, sender ~100284 frames/s average
+[2026-11-25 17:34:44] phase rx off: running, sender ~100294 frames/s average
+[2026-11-25 17:39:47] phase rx off: running, sender ~100297 frames/s average
+[2026-11-25 17:44:50] phase rx off: running, sender ~100305 frames/s average
+[2026-11-25 17:49:53] phase rx off: running, sender ~100307 frames/s average
+[2026-11-25 17:54:55] phase rx off: running, sender ~100320 frames/s average
+[2026-11-25 17:59:58] phase rx off: running, sender ~100322 frames/s average
+[2026-11-25 18:05:00] phase rx off: running, sender ~100331 frames/s average
+[2026-11-25 18:10:04] phase rx off: receivers done; sender average 100330 frames/s over 11498 s
+[2026-11-25 18:11:09] phase rx on: starting 3 rolling Vanetza sender slots on enp3s0
+[2026-11-25 18:11:54] phase rx on: sender rate ~11635 frames/s on enp3s0
+tee: /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor: Invalid argument
+tee: /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor: Invalid argument
+[2026-11-25 18:12:58] phase rx on: running, sender ~10312 frames/s average
+[2026-11-25 18:17:58] phase rx on: running, sender ~9746 frames/s average
+[2026-11-25 18:22:58] phase rx on: running, sender ~9613 frames/s average
+[2026-11-25 18:27:58] phase rx on: running, sender ~9563 frames/s average
+[2026-11-25 18:32:59] phase rx on: running, sender ~9542 frames/s average
+[2026-11-25 18:37:59] phase rx on: running, sender ~9521 frames/s average
+[2026-11-25 18:42:59] phase rx on: running, sender ~9531 frames/s average
+[2026-11-25 18:48:00] phase rx on: running, sender ~9530 frames/s average
+[2026-11-25 18:53:00] phase rx on: running, sender ~9533 frames/s average
+[2026-11-25 18:58:00] phase rx on: running, sender ~9520 frames/s average
+[2026-11-25 19:03:00] phase rx on: running, sender ~9526 frames/s average
+[2026-11-25 19:08:01] phase rx on: running, sender ~9523 frames/s average
+[2026-11-25 19:13:01] phase rx on: running, sender ~9526 frames/s average
+[2026-11-25 19:18:01] phase rx on: running, sender ~9524 frames/s average
+[2026-11-25 19:23:02] phase rx on: running, sender ~9521 frames/s average
+[2026-11-25 19:28:02] phase rx on: running, sender ~9485 frames/s average
+[2026-11-25 19:33:02] phase rx on: running, sender ~9489 frames/s average
+[2026-11-25 19:38:03] phase rx on: running, sender ~9486 frames/s average
+[2026-11-25 19:43:03] phase rx on: running, sender ~9491 frames/s average
+[2026-11-25 19:48:04] phase rx on: running, sender ~9483 frames/s average
+[2026-11-25 19:53:04] phase rx on: running, sender ~9484 frames/s average
+[2026-11-25 19:58:04] phase rx on: running, sender ~9484 frames/s average
+[2026-11-25 20:03:05] phase rx on: running, sender ~9479 frames/s average
+[2026-11-25 20:08:05] phase rx on: running, sender ~9476 frames/s average
+[2026-11-25 20:13:05] phase rx on: running, sender ~9472 frames/s average
+[2026-11-25 20:18:05] phase rx on: running, sender ~9470 frames/s average
+[2026-11-25 20:23:06] phase rx on: running, sender ~9469 frames/s average
+[2026-11-25 20:28:06] phase rx on: running, sender ~9471 frames/s average
+[2026-11-25 20:33:06] phase rx on: running, sender ~9472 frames/s average
+[2026-11-25 20:38:07] phase rx on: running, sender ~9475 frames/s average
+[2026-11-25 20:43:07] phase rx on: running, sender ~9479 frames/s average
+[2026-11-25 20:48:07] phase rx on: running, sender ~9481 frames/s average
+[2026-11-25 20:53:09] phase rx on: running, sender ~9482 frames/s average
+[2026-11-25 20:58:12] phase rx on: running, sender ~9484 frames/s average
+[2026-11-25 21:03:14] phase rx on: running, sender ~9484 frames/s average
+[2026-11-25 21:08:16] phase rx on: running, sender ~9486 frames/s average
+[2026-11-25 21:13:19] phase rx on: receivers done; sender average 9487 frames/s over 10890 s
+[2026-11-25 21:14:25] LAN RX done

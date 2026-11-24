@@ -1,0 +1,217 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427_env.txt
+============================================================
+FlexStack Benchmark — rpi3-b (rpi3)
+Started: Mon Nov 23 14:54:54 GMT 2026
+Results: /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+============================================================
+
+================================================================
+  rust | codec-decode | security=off | rate=max
+================================================================
+[14:54:54] rust | codec-decode | off | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1687261
+    Throughput   : 28121.0 CAMs/s
+    Latency mean : 33.26 μs
+    Latency p50  : 23.18 μs
+    Latency p95  : 47.45 μs
+    Latency p99  : 52.66 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 1.45 MB, peak 14.35 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+  Cooling down (10s)...
+[14:56:10] rust | codec-decode | off | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1682916
+    Throughput   : 28048.6 CAMs/s
+    Latency mean : 33.35 μs
+    Latency p50  : 23.18 μs
+    Latency p95  : 47.60 μs
+    Latency p99  : 52.92 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 1.45 MB, peak 14.31 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+  Cooling down (10s)...
+[14:57:25] rust | codec-decode | off | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1746605
+    Throughput   : 29110.1 CAMs/s
+    Latency mean : 32.13 μs
+    Latency p50  : 23.07 μs
+    Latency p95  : 46.93 μs
+    Latency p99  : 52.55 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 1.45 MB, peak 14.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+  Cooling down (10s)...
+[14:58:40] rust | codec-decode | off | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1727558
+    Throughput   : 28792.6 CAMs/s
+    Latency mean : 32.49 μs
+    Latency p50  : 23.12 μs
+    Latency p95  : 47.14 μs
+    Latency p99  : 52.76 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 1.45 MB, peak 14.66 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+  Cooling down (10s)...
+[14:59:56] rust | codec-decode | off | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1949195
+    Throughput   : 32486.6 CAMs/s
+    Latency mean : 28.79 μs
+    Latency p50  : 23.02 μs
+    Latency p95  : 46.35 μs
+    Latency p99  : 52.40 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 1.46 MB, peak 16.35 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+  Cooling down (10s)...
+[15:01:11] rust | codec-decode | off | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 1764961
+    Throughput   : 29416.0 CAMs/s
+    Latency mean : 31.80 μs
+    Latency p50  : 23.07 μs
+    Latency p95  : 46.82 μs
+    Latency p99  : 52.55 μs
+    CPU          : 99.9 % (100 = one core)
+    RSS start    : 1.45 MB, peak 14.94 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+  Cooling down (10s)...
+[15:02:27] rust | codec-decode | off | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+===============================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_20261123T145427.csv
+
+  CAM encoded size: 41 bytes
+  Warm-up phase (5s)...
+  Measurement phase (60s)...

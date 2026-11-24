@@ -1,0 +1,2 @@
+run_id,implementation,security,benchmark,start_utc,end_utc,temp_start_c,temp_end_c,freq_start_khz,freq_end_khz,throttle_start,throttle_end,target_rate
+1,rust,off,rx,2026-11-25T13:29:52Z,2026-11-25T13:30:57Z,57.1,60.9,2400000,2400000,0x0,0x0,0

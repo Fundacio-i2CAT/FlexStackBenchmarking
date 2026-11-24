@@ -1,0 +1,34 @@
+{
+  "aa": {
+    "hashedid8": "699226deda96161a",
+    "hashedid8_check": "699226deda96161a"
+  },
+  "at_python": {
+    "hashedid8": "0e1e3439b8ade641",
+    "hashedid8_check": "0e1e3439b8ade641"
+  },
+  "at_rogue": {
+    "hashedid8": "575cfa3a1afb9439",
+    "hashedid8_check": "575cfa3a1afb9439"
+  },
+  "at_rust": {
+    "hashedid8": "cf8d285be45bb3e2",
+    "hashedid8_check": "cf8d285be45bb3e2"
+  },
+  "at_vanetza": {
+    "hashedid8": "bd2438c32627de7c",
+    "hashedid8_check": "bd2438c32627de7c"
+  },
+  "rogue_aa": {
+    "hashedid8": "2f037204a89e2eaa",
+    "hashedid8_check": "2f037204a89e2eaa"
+  },
+  "rogue_root_ca": {
+    "hashedid8": "d292ca7bf69800d6",
+    "hashedid8_check": "d292ca7bf69800d6"
+  },
+  "root_ca": {
+    "hashedid8": "cbc0b58397ad03df",
+    "hashedid8_check": "cbc0b58397ad03df"
+  }
+}

@@ -1,0 +1,24 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T142503_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T142503.csv
+unsupported impl cpython
+unsupported impl pypy
+================================================================
+  rust | rx | security=off | rate=0 | runs=30
+================================================================
+[14:25:04] rust | rx | off | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T142503.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 63415 packets
+  Measurement phase (60s)...

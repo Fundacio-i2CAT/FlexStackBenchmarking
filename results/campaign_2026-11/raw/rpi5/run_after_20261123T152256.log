@@ -1,0 +1,3875 @@
+[2026-11-23 15:22:56] waiting for the campaign (PID 4079) to finish
+[2026-11-24 05:01:13] campaign finished
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+================================================================
+  vanetza | tx | security=off | rate=0 | runs=30
+================================================================
+[05:01:13] vanetza | tx | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:01:13.911227
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76798.2 CAMs/s
+    Latency p50  : 12.89 us
+    CPU          : 100.0 %
+[05:02:29] vanetza | tx | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:02:29.430612
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76447.9 CAMs/s
+    Latency p50  : 12.95 us
+    CPU          : 100.0 %
+[05:03:44] vanetza | tx | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:03:44.938722
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76843.0 CAMs/s
+    Latency p50  : 12.89 us
+    CPU          : 100.0 %
+[05:05:00] vanetza | tx | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:05:00.554014
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 77020.1 CAMs/s
+    Latency p50  : 12.85 us
+    CPU          : 100.0 %
+[05:06:16] vanetza | tx | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:06:16.070642
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76651.8 CAMs/s
+    Latency p50  : 12.93 us
+    CPU          : 100.0 %
+[05:07:31] vanetza | tx | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:07:31.575468
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76901.1 CAMs/s
+    Latency p50  : 12.87 us
+    CPU          : 100.0 %
+[05:08:47] vanetza | tx | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:08:47.091872
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 77724.2 CAMs/s
+    Latency p50  : 12.74 us
+    CPU          : 100.0 %
+[05:10:02] vanetza | tx | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:10:02.626764
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 77092.4 CAMs/s
+    Latency p50  : 12.85 us
+    CPU          : 100.0 %
+[05:11:18] vanetza | tx | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:11:18.156007
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76562.7 CAMs/s
+    Latency p50  : 12.93 us
+    CPU          : 100.0 %
+[05:12:33] vanetza | tx | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:12:33.654824
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76555.5 CAMs/s
+    Latency p50  : 12.94 us
+    CPU          : 100.0 %
+[05:13:49] vanetza | tx | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:13:49.176562
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76422.0 CAMs/s
+    Latency p50  : 12.96 us
+    CPU          : 100.0 %
+[05:15:04] vanetza | tx | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:15:04.793272
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 77512.2 CAMs/s
+    Latency p50  : 12.78 us
+    CPU          : 100.0 %
+[05:16:20] vanetza | tx | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:16:20.317537
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 75723.0 CAMs/s
+    Latency p50  : 13.07 us
+    CPU          : 100.0 %
+[05:17:35] vanetza | tx | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:17:35.836394
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76500.4 CAMs/s
+    Latency p50  : 12.95 us
+    CPU          : 100.0 %
+[05:18:51] vanetza | tx | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:18:51.353316
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 77508.3 CAMs/s
+    Latency p50  : 12.76 us
+    CPU          : 100.0 %
+[05:20:06] vanetza | tx | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:20:06.857496
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 75700.9 CAMs/s
+    Latency p50  : 13.07 us
+    CPU          : 100.0 %
+[05:21:22] vanetza | tx | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:21:22.481100
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76969.6 CAMs/s
+    Latency p50  : 12.87 us
+    CPU          : 100.0 %
+[05:22:37] vanetza | tx | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:22:37.988480
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 77155.4 CAMs/s
+    Latency p50  : 12.83 us
+    CPU          : 100.0 %
+[05:23:53] vanetza | tx | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:23:53.525551
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 75913.0 CAMs/s
+    Latency p50  : 13.04 us
+    CPU          : 100.0 %
+[05:25:09] vanetza | tx | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:25:09.036585
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76049.7 CAMs/s
+    Latency p50  : 13.02 us
+    CPU          : 100.0 %
+[05:26:24] vanetza | tx | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:26:24.549817
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76618.8 CAMs/s
+    Latency p50  : 12.93 us
+    CPU          : 100.0 %
+[05:27:40] vanetza | tx | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:27:40.065919
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76855.9 CAMs/s
+    Latency p50  : 12.89 us
+    CPU          : 100.0 %
+[05:28:55] vanetza | tx | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:28:55.570159
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76239.2 CAMs/s
+    Latency p50  : 12.98 us
+    CPU          : 100.0 %
+[05:30:11] vanetza | tx | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:30:11.069370
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76504.7 CAMs/s
+    Latency p50  : 12.94 us
+    CPU          : 100.0 %
+[05:31:26] vanetza | tx | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:31:26.579054
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 77239.0 CAMs/s
+    Latency p50  : 12.81 us
+    CPU          : 100.0 %
+[05:32:42] vanetza | tx | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:32:42.111379
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76059.8 CAMs/s
+    Latency p50  : 13.02 us
+    CPU          : 100.0 %
+[05:33:57] vanetza | tx | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:33:57.626545
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 77995.1 CAMs/s
+    Latency p50  : 12.69 us
+    CPU          : 100.0 %
+[05:35:13] vanetza | tx | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:35:13.136396
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76170.5 CAMs/s
+    Latency p50  : 13.00 us
+    CPU          : 100.0 %
+[05:36:28] vanetza | tx | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:36:28.633086
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 76279.0 CAMs/s
+    Latency p50  : 12.98 us
+    CPU          : 100.0 %
+[05:37:44] vanetza | tx | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:37:44.142726
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 77349.1 CAMs/s
+    Latency p50  : 12.80 us
+    CPU          : 100.0 %
+================================================================
+  vanetza | tx | security=on | rate=0 | runs=30
+================================================================
+[05:38:49] vanetza | tx | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:38:49.663825
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3117.5 CAMs/s
+    Latency p50  : 319.46 us
+    CPU          : 100.0 %
+[05:40:04] vanetza | tx | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:40:04.759555
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3185.9 CAMs/s
+    Latency p50  : 313.37 us
+    CPU          : 100.0 %
+[05:41:19] vanetza | tx | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:41:19.860030
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3220.0 CAMs/s
+    Latency p50  : 309.85 us
+    CPU          : 100.0 %
+[05:42:34] vanetza | tx | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:42:34.953496
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3216.3 CAMs/s
+    Latency p50  : 310.20 us
+    CPU          : 100.0 %
+[05:43:50] vanetza | tx | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:43:50.051839
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3186.5 CAMs/s
+    Latency p50  : 313.33 us
+    CPU          : 100.0 %
+[05:45:05] vanetza | tx | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:45:05.150431
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3158.5 CAMs/s
+    Latency p50  : 316.26 us
+    CPU          : 100.0 %
+[05:46:20] vanetza | tx | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:46:20.244776
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3201.0 CAMs/s
+    Latency p50  : 311.52 us
+    CPU          : 100.0 %
+[05:47:35] vanetza | tx | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:47:35.344098
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3154.6 CAMs/s
+    Latency p50  : 315.70 us
+    CPU          : 100.0 %
+[05:48:50] vanetza | tx | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:48:50.443237
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3194.2 CAMs/s
+    Latency p50  : 312.11 us
+    CPU          : 100.0 %
+[05:50:05] vanetza | tx | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:50:05.559964
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3206.5 CAMs/s
+    Latency p50  : 310.78 us
+    CPU          : 100.0 %
+[05:51:20] vanetza | tx | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:51:20.651670
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3213.7 CAMs/s
+    Latency p50  : 310.48 us
+    CPU          : 100.0 %
+[05:52:35] vanetza | tx | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:52:35.752225
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3196.8 CAMs/s
+    Latency p50  : 312.17 us
+    CPU          : 100.0 %
+[05:53:50] vanetza | tx | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:53:50.859200
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3201.3 CAMs/s
+    Latency p50  : 311.63 us
+    CPU          : 100.0 %
+[05:55:05] vanetza | tx | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:55:05.948067
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3199.9 CAMs/s
+    Latency p50  : 311.41 us
+    CPU          : 100.0 %
+[05:56:21] vanetza | tx | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:56:21.040292
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3187.2 CAMs/s
+    Latency p50  : 313.09 us
+    CPU          : 100.0 %
+[05:57:36] vanetza | tx | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:57:36.148073
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3184.4 CAMs/s
+    Latency p50  : 313.74 us
+    CPU          : 100.0 %
+[05:58:51] vanetza | tx | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 04:58:51.241007
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3146.8 CAMs/s
+    Latency p50  : 316.70 us
+    CPU          : 100.0 %
+[06:00:06] vanetza | tx | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:00:06.347797
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3145.6 CAMs/s
+    Latency p50  : 315.69 us
+    CPU          : 100.0 %
+[06:01:21] vanetza | tx | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:01:21.446817
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3206.1 CAMs/s
+    Latency p50  : 311.30 us
+    CPU          : 100.0 %
+[06:02:36] vanetza | tx | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:02:36.547255
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3209.0 CAMs/s
+    Latency p50  : 310.89 us
+    CPU          : 100.0 %
+[06:03:51] vanetza | tx | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:03:51.651911
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3202.6 CAMs/s
+    Latency p50  : 311.39 us
+    CPU          : 100.0 %
+[06:05:06] vanetza | tx | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:05:06.745269
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3187.9 CAMs/s
+    Latency p50  : 313.04 us
+    CPU          : 100.0 %
+[06:06:21] vanetza | tx | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:06:21.828393
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3191.9 CAMs/s
+    Latency p50  : 311.67 us
+    CPU          : 100.0 %
+[06:07:36] vanetza | tx | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:07:37.028442
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3205.9 CAMs/s
+    Latency p50  : 311.17 us
+    CPU          : 100.0 %
+[06:08:52] vanetza | tx | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:08:52.115572
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3178.7 CAMs/s
+    Latency p50  : 314.00 us
+    CPU          : 100.0 %
+[06:10:07] vanetza | tx | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:10:07.220031
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3202.4 CAMs/s
+    Latency p50  : 311.44 us
+    CPU          : 100.0 %
+[06:11:22] vanetza | tx | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:11:22.315397
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3172.0 CAMs/s
+    Latency p50  : 314.85 us
+    CPU          : 100.0 %
+[06:12:37] vanetza | tx | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:12:37.424273
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3199.0 CAMs/s
+    Latency p50  : 311.61 us
+    CPU          : 100.0 %
+[06:13:52] vanetza | tx | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:13:52.508040
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3165.0 CAMs/s
+    Latency p50  : 315.06 us
+    CPU          : 100.0 %
+[06:15:07] vanetza | tx | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 05:15:07.615532
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3185.4 CAMs/s
+    Latency p50  : 313.80 us
+    CPU          : 100.0 %
+================================================================
+  vanetza | codec-encode | security=off | rate=0 | runs=30
+================================================================
+[06:16:12] vanetza | codec-encode | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 333183.3 CAMs/s
+    Latency p50  : 2.91 us
+    CPU          : 100.0 %
+[06:17:28] vanetza | codec-encode | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326603.4 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:18:44] vanetza | codec-encode | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 333095.3 CAMs/s
+    Latency p50  : 2.91 us
+    CPU          : 100.0 %
+[06:19:59] vanetza | codec-encode | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326528.6 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:21:15] vanetza | codec-encode | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326134.1 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:22:31] vanetza | codec-encode | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 325693.7 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:23:47] vanetza | codec-encode | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326532.1 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:25:03] vanetza | codec-encode | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 331737.1 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:26:18] vanetza | codec-encode | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332295.4 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:27:34] vanetza | codec-encode | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 325811.6 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:28:50] vanetza | codec-encode | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332678.3 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:30:06] vanetza | codec-encode | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332484.8 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:31:21] vanetza | codec-encode | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 325751.5 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:32:37] vanetza | codec-encode | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326497.6 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:33:53] vanetza | codec-encode | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332693.2 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:35:09] vanetza | codec-encode | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 325866.5 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:36:24] vanetza | codec-encode | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326041.5 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:37:40] vanetza | codec-encode | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326311.4 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:38:56] vanetza | codec-encode | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 333120.3 CAMs/s
+    Latency p50  : 2.92 us
+    CPU          : 100.0 %
+[06:40:12] vanetza | codec-encode | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332381.1 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:41:28] vanetza | codec-encode | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326365.1 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:42:43] vanetza | codec-encode | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326898.7 CAMs/s
+    Latency p50  : 2.96 us
+    CPU          : 100.0 %
+[06:43:59] vanetza | codec-encode | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332785.2 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:45:15] vanetza | codec-encode | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332404.0 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:46:31] vanetza | codec-encode | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332992.9 CAMs/s
+    Latency p50  : 2.92 us
+    CPU          : 100.0 %
+[06:47:46] vanetza | codec-encode | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332837.7 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:49:02] vanetza | codec-encode | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 326134.8 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:50:18] vanetza | codec-encode | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 325839.3 CAMs/s
+    Latency p50  : 2.98 us
+    CPU          : 100.0 %
+[06:51:34] vanetza | codec-encode | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 332544.6 CAMs/s
+    Latency p50  : 2.93 us
+    CPU          : 100.0 %
+[06:52:49] vanetza | codec-encode | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 333126.1 CAMs/s
+    Latency p50  : 2.91 us
+    CPU          : 100.0 %
+================================================================
+  vanetza | codec-decode | security=off | rate=0 | runs=30
+================================================================
+[06:53:55] vanetza | codec-decode | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 302548.0 CAMs/s
+    Latency p50  : 3.22 us
+    CPU          : 100.0 %
+[06:55:11] vanetza | codec-decode | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 309795.4 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[06:56:27] vanetza | codec-decode | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 300190.2 CAMs/s
+    Latency p50  : 3.24 us
+    CPU          : 100.0 %
+[06:57:42] vanetza | codec-decode | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 311036.6 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[06:58:58] vanetza | codec-decode | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 300710.3 CAMs/s
+    Latency p50  : 3.24 us
+    CPU          : 100.0 %
+[07:00:14] vanetza | codec-decode | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 311099.3 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:01:29] vanetza | codec-decode | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 312046.6 CAMs/s
+    Latency p50  : 3.11 us
+    CPU          : 100.0 %
+[07:02:45] vanetza | codec-decode | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 311928.4 CAMs/s
+    Latency p50  : 3.11 us
+    CPU          : 100.0 %
+[07:04:01] vanetza | codec-decode | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 300713.8 CAMs/s
+    Latency p50  : 3.24 us
+    CPU          : 100.0 %
+[07:05:17] vanetza | codec-decode | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 311290.0 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:06:32] vanetza | codec-decode | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 300542.0 CAMs/s
+    Latency p50  : 3.24 us
+    CPU          : 100.0 %
+[07:07:48] vanetza | codec-decode | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 311052.4 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:09:04] vanetza | codec-decode | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 312150.9 CAMs/s
+    Latency p50  : 3.11 us
+    CPU          : 100.0 %
+[07:10:19] vanetza | codec-decode | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 310343.3 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:11:35] vanetza | codec-decode | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 311959.1 CAMs/s
+    Latency p50  : 3.11 us
+    CPU          : 100.0 %
+[07:12:51] vanetza | codec-decode | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 302202.5 CAMs/s
+    Latency p50  : 3.22 us
+    CPU          : 100.0 %
+[07:14:07] vanetza | codec-decode | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 312059.2 CAMs/s
+    Latency p50  : 3.11 us
+    CPU          : 100.0 %
+[07:15:22] vanetza | codec-decode | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 310194.2 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:16:38] vanetza | codec-decode | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 310366.2 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:17:54] vanetza | codec-decode | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 299457.6 CAMs/s
+    Latency p50  : 3.26 us
+    CPU          : 100.0 %
+[07:19:09] vanetza | codec-decode | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 300582.6 CAMs/s
+    Latency p50  : 3.24 us
+    CPU          : 100.0 %
+[07:20:25] vanetza | codec-decode | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 310368.3 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:21:41] vanetza | codec-decode | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 311046.9 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:22:57] vanetza | codec-decode | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 309939.1 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:24:12] vanetza | codec-decode | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 311865.6 CAMs/s
+    Latency p50  : 3.13 us
+    CPU          : 100.0 %
+[07:25:28] vanetza | codec-decode | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 300995.6 CAMs/s
+    Latency p50  : 3.24 us
+    CPU          : 100.0 %
+[07:26:44] vanetza | codec-decode | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 312429.7 CAMs/s
+    Latency p50  : 3.11 us
+    CPU          : 100.0 %
+[07:27:59] vanetza | codec-decode | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 301345.8 CAMs/s
+    Latency p50  : 3.24 us
+    CPU          : 100.0 %
+[07:29:15] vanetza | codec-decode | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 312111.9 CAMs/s
+    Latency p50  : 3.11 us
+    CPU          : 100.0 %
+[07:30:31] vanetza | codec-decode | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 300923.0 CAMs/s
+    Latency p50  : 3.24 us
+    CPU          : 100.0 %
+================================================================
+  vanetza | security-sign | security=on | rate=0 | runs=30
+================================================================
+[07:31:37] vanetza | security-sign | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:31:37.062383
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3569.6 CAMs/s
+    Latency p50  : 279.79 us
+    CPU          : 100.0 %
+[07:32:52] vanetza | security-sign | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:32:52.097076
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3582.1 CAMs/s
+    Latency p50  : 278.83 us
+    CPU          : 100.0 %
+[07:34:07] vanetza | security-sign | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:34:07.132625
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3578.6 CAMs/s
+    Latency p50  : 279.11 us
+    CPU          : 100.0 %
+[07:35:22] vanetza | security-sign | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:35:22.167410
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3586.3 CAMs/s
+    Latency p50  : 278.50 us
+    CPU          : 100.0 %
+[07:36:37] vanetza | security-sign | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:36:37.202132
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3570.9 CAMs/s
+    Latency p50  : 279.70 us
+    CPU          : 100.0 %
+[07:37:52] vanetza | security-sign | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:37:52.236981
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3584.2 CAMs/s
+    Latency p50  : 278.67 us
+    CPU          : 100.0 %
+[07:39:07] vanetza | security-sign | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:39:07.271227
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3577.4 CAMs/s
+    Latency p50  : 279.22 us
+    CPU          : 100.0 %
+[07:40:22] vanetza | security-sign | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:40:22.305998
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3579.2 CAMs/s
+    Latency p50  : 279.05 us
+    CPU          : 100.0 %
+[07:41:37] vanetza | security-sign | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:41:37.341199
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3584.3 CAMs/s
+    Latency p50  : 278.67 us
+    CPU          : 100.0 %
+[07:42:52] vanetza | security-sign | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:42:52.376118
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3587.2 CAMs/s
+    Latency p50  : 278.46 us
+    CPU          : 100.0 %
+[07:44:07] vanetza | security-sign | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:44:07.411196
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3576.2 CAMs/s
+    Latency p50  : 279.31 us
+    CPU          : 100.0 %
+[07:45:22] vanetza | security-sign | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:45:22.446048
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3584.0 CAMs/s
+    Latency p50  : 278.68 us
+    CPU          : 100.0 %
+[07:46:37] vanetza | security-sign | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:46:37.480960
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3572.0 CAMs/s
+    Latency p50  : 279.63 us
+    CPU          : 100.0 %
+[07:47:52] vanetza | security-sign | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:47:52.515709
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3579.1 CAMs/s
+    Latency p50  : 279.07 us
+    CPU          : 100.0 %
+[07:49:07] vanetza | security-sign | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:49:07.549946
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3584.3 CAMs/s
+    Latency p50  : 278.65 us
+    CPU          : 100.0 %
+[07:50:22] vanetza | security-sign | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:50:22.584442
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3579.0 CAMs/s
+    Latency p50  : 279.09 us
+    CPU          : 100.0 %
+[07:51:37] vanetza | security-sign | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:51:37.619235
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3578.7 CAMs/s
+    Latency p50  : 279.12 us
+    CPU          : 100.0 %
+[07:52:52] vanetza | security-sign | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:52:52.654374
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3570.1 CAMs/s
+    Latency p50  : 279.78 us
+    CPU          : 100.0 %
+[07:54:07] vanetza | security-sign | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:54:07.689307
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3586.1 CAMs/s
+    Latency p50  : 278.52 us
+    CPU          : 100.0 %
+[07:55:22] vanetza | security-sign | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:55:22.724135
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3581.2 CAMs/s
+    Latency p50  : 278.91 us
+    CPU          : 100.0 %
+[07:56:37] vanetza | security-sign | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:56:37.759967
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3581.0 CAMs/s
+    Latency p50  : 278.91 us
+    CPU          : 100.0 %
+[07:57:52] vanetza | security-sign | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:57:52.794654
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3576.4 CAMs/s
+    Latency p50  : 279.28 us
+    CPU          : 100.0 %
+[07:59:07] vanetza | security-sign | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 06:59:07.829262
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3587.4 CAMs/s
+    Latency p50  : 278.45 us
+    CPU          : 100.0 %
+[08:00:22] vanetza | security-sign | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:00:22.964805
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3580.0 CAMs/s
+    Latency p50  : 278.98 us
+    CPU          : 100.0 %
+[08:01:37] vanetza | security-sign | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:01:37.999584
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3579.9 CAMs/s
+    Latency p50  : 279.02 us
+    CPU          : 100.0 %
+[08:02:53] vanetza | security-sign | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:02:53.034462
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3583.5 CAMs/s
+    Latency p50  : 278.74 us
+    CPU          : 100.0 %
+[08:04:08] vanetza | security-sign | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:04:08.069190
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3576.8 CAMs/s
+    Latency p50  : 279.24 us
+    CPU          : 100.0 %
+[08:05:23] vanetza | security-sign | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:05:23.103976
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3583.1 CAMs/s
+    Latency p50  : 278.74 us
+    CPU          : 100.0 %
+[08:06:38] vanetza | security-sign | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:06:38.138711
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3579.8 CAMs/s
+    Latency p50  : 279.02 us
+    CPU          : 100.0 %
+[08:07:53] vanetza | security-sign | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:07:53.173673
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3583.1 CAMs/s
+    Latency p50  : 278.74 us
+    CPU          : 100.0 %
+================================================================
+  vanetza | security-verify | security=on | rate=0 | runs=30
+================================================================
+[08:08:58] vanetza | security-verify | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:08:58.208474
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2288.6 CAMs/s
+    Latency p50  : 436.52 us
+    CPU          : 100.0 %
+[08:10:13] vanetza | security-verify | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:10:13.240929
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2287.8 CAMs/s
+    Latency p50  : 436.67 us
+    CPU          : 100.0 %
+[08:11:28] vanetza | security-verify | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:11:28.272641
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2288.9 CAMs/s
+    Latency p50  : 436.45 us
+    CPU          : 100.0 %
+[08:12:43] vanetza | security-verify | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:12:43.304514
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2281.6 CAMs/s
+    Latency p50  : 437.85 us
+    CPU          : 100.0 %
+[08:13:58] vanetza | security-verify | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:13:58.436227
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2285.1 CAMs/s
+    Latency p50  : 437.19 us
+    CPU          : 100.0 %
+[08:15:13] vanetza | security-verify | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:15:13.467629
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2286.8 CAMs/s
+    Latency p50  : 436.85 us
+    CPU          : 100.0 %
+[08:16:28] vanetza | security-verify | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:16:28.499390
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2286.0 CAMs/s
+    Latency p50  : 436.96 us
+    CPU          : 100.0 %
+[08:17:43] vanetza | security-verify | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:17:43.531254
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2283.2 CAMs/s
+    Latency p50  : 437.52 us
+    CPU          : 100.0 %
+[08:18:58] vanetza | security-verify | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:18:58.563170
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2287.9 CAMs/s
+    Latency p50  : 436.61 us
+    CPU          : 100.0 %
+[08:20:13] vanetza | security-verify | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:20:13.594779
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2289.0 CAMs/s
+    Latency p50  : 436.43 us
+    CPU          : 100.0 %
+[08:21:28] vanetza | security-verify | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:21:28.627652
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2284.4 CAMs/s
+    Latency p50  : 437.30 us
+    CPU          : 100.0 %
+[08:22:43] vanetza | security-verify | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:22:43.659428
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2297.1 CAMs/s
+    Latency p50  : 434.93 us
+    CPU          : 100.0 %
+[08:23:58] vanetza | security-verify | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:23:58.690674
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2284.1 CAMs/s
+    Latency p50  : 437.37 us
+    CPU          : 100.0 %
+[08:25:13] vanetza | security-verify | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:25:13.722354
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2287.0 CAMs/s
+    Latency p50  : 436.78 us
+    CPU          : 100.0 %
+[08:26:28] vanetza | security-verify | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:26:28.755034
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2288.0 CAMs/s
+    Latency p50  : 436.62 us
+    CPU          : 100.0 %
+[08:27:43] vanetza | security-verify | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:27:43.787752
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2288.7 CAMs/s
+    Latency p50  : 436.50 us
+    CPU          : 100.0 %
+[08:28:58] vanetza | security-verify | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:28:58.819471
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2287.4 CAMs/s
+    Latency p50  : 436.73 us
+    CPU          : 100.0 %
+[08:30:13] vanetza | security-verify | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:30:13.850870
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2286.2 CAMs/s
+    Latency p50  : 436.97 us
+    CPU          : 100.0 %
+[08:31:28] vanetza | security-verify | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:31:28.882564
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2296.9 CAMs/s
+    Latency p50  : 434.93 us
+    CPU          : 100.0 %
+[08:32:43] vanetza | security-verify | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:32:43.914495
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2288.2 CAMs/s
+    Latency p50  : 436.58 us
+    CPU          : 100.0 %
+[08:33:58] vanetza | security-verify | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:33:58.946276
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2287.6 CAMs/s
+    Latency p50  : 436.67 us
+    CPU          : 100.0 %
+[08:35:13] vanetza | security-verify | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:35:13.978244
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2287.1 CAMs/s
+    Latency p50  : 436.80 us
+    CPU          : 100.0 %
+[08:36:28] vanetza | security-verify | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:36:29.010362
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2288.4 CAMs/s
+    Latency p50  : 436.56 us
+    CPU          : 100.0 %
+[08:37:44] vanetza | security-verify | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:37:44.041867
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2288.6 CAMs/s
+    Latency p50  : 436.50 us
+    CPU          : 100.0 %
+[08:38:59] vanetza | security-verify | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:38:59.074514
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2287.0 CAMs/s
+    Latency p50  : 436.78 us
+    CPU          : 100.0 %
+[08:40:14] vanetza | security-verify | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:40:14.106388
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2297.9 CAMs/s
+    Latency p50  : 434.78 us
+    CPU          : 100.0 %
+[08:41:29] vanetza | security-verify | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:41:29.137878
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2286.9 CAMs/s
+    Latency p50  : 436.83 us
+    CPU          : 100.0 %
+[08:42:44] vanetza | security-verify | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:42:44.169990
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2283.3 CAMs/s
+    Latency p50  : 437.52 us
+    CPU          : 100.0 %
+[08:43:59] vanetza | security-verify | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:43:59.202823
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2284.3 CAMs/s
+    Latency p50  : 437.33 us
+    CPU          : 100.0 %
+[08:45:14] vanetza | security-verify | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:45:14.234740
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2287.0 CAMs/s
+    Latency p50  : 436.80 us
+    CPU          : 100.0 %
+================================================================
+  vanetza | tx | security=off | rate=10 | runs=10
+================================================================
+[08:46:19] vanetza | tx | off | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:46:19.266402
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.55 us
+    CPU          : 0.0 %
+[08:47:34] vanetza | tx | off | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:47:34.254072
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.37 us
+    CPU          : 0.0 %
+[08:48:49] vanetza | tx | off | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:48:49.246183
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.35 us
+    CPU          : 0.0 %
+[08:50:04] vanetza | tx | off | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:50:04.238745
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.44 us
+    CPU          : 0.0 %
+[08:51:19] vanetza | tx | off | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:51:19.226574
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.43 us
+    CPU          : 0.0 %
+[08:52:34] vanetza | tx | off | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:52:34.230732
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.59 us
+    CPU          : 0.0 %
+[08:53:49] vanetza | tx | off | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:53:49.218110
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.57 us
+    CPU          : 0.0 %
+[08:55:04] vanetza | tx | off | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:55:04.218550
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.50 us
+    CPU          : 0.0 %
+[08:56:19] vanetza | tx | off | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:56:19.198444
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.48 us
+    CPU          : 0.0 %
+[08:57:34] vanetza | tx | off | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:57:34.182857
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 14.70 us
+    CPU          : 0.0 %
+================================================================
+  vanetza | tx | security=on | rate=10 | runs=10
+================================================================
+[08:58:39] vanetza | tx | on | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:58:39.173400
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 332.76 us
+    CPU          : 0.4 %
+[08:59:54] vanetza | tx | on | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 07:59:54.154627
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 328.98 us
+    CPU          : 0.3 %
+[09:01:09] vanetza | tx | on | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:01:09.122478
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 326.70 us
+    CPU          : 0.4 %
+[09:02:24] vanetza | tx | on | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:02:24.102070
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 330.56 us
+    CPU          : 0.3 %
+[09:03:39] vanetza | tx | on | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:03:39.070339
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 328.35 us
+    CPU          : 0.3 %
+[09:04:54] vanetza | tx | on | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:04:54.026688
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 332.56 us
+    CPU          : 0.4 %
+[09:06:08] vanetza | tx | on | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:06:08.998971
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 329.83 us
+    CPU          : 0.3 %
+[09:07:23] vanetza | tx | on | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:07:23.974734
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 330.00 us
+    CPU          : 0.3 %
+[09:08:38] vanetza | tx | on | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:08:38.954699
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 328.52 us
+    CPU          : 0.4 %
+[09:09:53] vanetza | tx | on | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:09:53.930857
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 329.67 us
+    CPU          : 0.3 %
+================================================================
+  vanetza | security-verify | security=on | rate=100 | runs=10
+================================================================
+[09:10:58] vanetza | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:10:58.914497
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 440.22 us
+    CPU          : 4.4 %
+[09:12:13] vanetza | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:12:13.930497
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 442.56 us
+    CPU          : 4.5 %
+[09:13:28] vanetza | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:13:28.946364
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 440.06 us
+    CPU          : 4.4 %
+[09:14:43] vanetza | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:14:43.961819
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 440.04 us
+    CPU          : 4.4 %
+[09:15:58] vanetza | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:15:58.977480
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 440.83 us
+    CPU          : 4.4 %
+[09:17:13] vanetza | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:17:13.993354
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 440.32 us
+    CPU          : 4.4 %
+[09:18:28] vanetza | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:18:29.009139
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 440.83 us
+    CPU          : 4.5 %
+[09:19:44] vanetza | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:19:44.024849
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 438.69 us
+    CPU          : 4.4 %
+[09:20:59] vanetza | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:20:59.040858
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 440.06 us
+    CPU          : 4.4 %
+[09:22:14] vanetza | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:22:14.056478
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 440.61 us
+    CPU          : 4.4 %
+================================================================
+  vanetza | security-verify | security=on | rate=1000 | runs=10
+================================================================
+[09:23:19] vanetza | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:23:19.071247
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 439.85 us
+    CPU          : 44.3 %
+[09:24:34] vanetza | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:24:34.098548
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 440.07 us
+    CPU          : 44.3 %
+[09:25:49] vanetza | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:25:49.125746
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 439.52 us
+    CPU          : 44.2 %
+[09:27:04] vanetza | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:27:04.152934
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 438.46 us
+    CPU          : 44.2 %
+[09:28:19] vanetza | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:28:19.179870
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 438.54 us
+    CPU          : 44.1 %
+[09:29:34] vanetza | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:29:34.206849
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 438.41 us
+    CPU          : 44.2 %
+[09:30:49] vanetza | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:30:49.234527
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 438.20 us
+    CPU          : 44.1 %
+[09:32:04] vanetza | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:32:04.261635
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 438.04 us
+    CPU          : 44.1 %
+[09:33:19] vanetza | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:33:19.288734
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 441.93 us
+    CPU          : 44.5 %
+[09:34:34] vanetza | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv
+Starting runtime at 2026-Nov-24 08:34:34.316992
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 440.48 us
+    CPU          : 44.4 %
+[2026-11-24 09:35:39] all cells done: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261123T152256.csv

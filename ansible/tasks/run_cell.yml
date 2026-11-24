@@ -27,7 +27,7 @@
       echo "[$(date '+%H:%M:%S')] {{ cell_impl }} | {{ cell_mode }} | {{ cell_security }} | run $RUN/{{ bench_runs }}"
 
       {% if cell_impl == 'rust' %}
-      chrt -f 50 taskset -c {{ bench_cores }} \
+      chrt -r 50 taskset -c {{ bench_cores }} \
         {{ rust_bin }} \
         --mode {{ cell_mode }} --security {{ cell_security }} \
         --duration {{ bench_duration }} --warmup {{ cell_warmup }} \
@@ -35,7 +35,7 @@
         --platform {{ bench_platform }} \
         --interface {{ bench_interface }}
       {% elif cell_impl == 'cpython' %}
-      chrt -f 50 taskset -c {{ bench_cores }} \
+      chrt -r 50 taskset -c {{ bench_cores }} \
         {{ cpython_bin }} {{ python_bench }} \
         --mode {{ cell_mode }} --security {{ cell_security }} \
         --duration {{ bench_duration }} --warmup {{ cell_warmup }} \
@@ -43,7 +43,7 @@
         --platform {{ bench_platform }} \
         --interface {{ bench_interface }}
       {% elif cell_impl == 'pypy' %}
-      chrt -f 50 taskset -c {{ bench_cores }} \
+      chrt -r 50 taskset -c {{ bench_cores }} \
         {{ pypy_bin }} {{ python_bench }} \
         --mode {{ cell_mode }} --security {{ cell_security }} \
         --duration {{ bench_duration }} --warmup {{ cell_warmup }} \

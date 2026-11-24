@@ -1,0 +1,589 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+================================================================
+  rust | tx | security=off | rate=10 | runs=10
+================================================================
+[14:51:53] rust | tx | off | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 107.90 μs
+    Latency p50  : 100.45 μs
+    Latency p95  : 148.04 μs
+    Latency p99  : 154.82 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.60 MB, peak 2.61 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[14:53:09] rust | tx | off | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 111.55 μs
+    Latency p50  : 101.54 μs
+    Latency p95  : 151.68 μs
+    Latency p99  : 158.37 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.25 MB, peak 2.25 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[14:54:24] rust | tx | off | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 109.66 μs
+    Latency p50  : 100.83 μs
+    Latency p95  : 148.03 μs
+    Latency p99  : 155.07 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.52 MB, peak 2.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[14:55:39] rust | tx | off | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 108.96 μs
+    Latency p50  : 101.22 μs
+    Latency p95  : 149.19 μs
+    Latency p99  : 156.58 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.44 MB, peak 2.44 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[14:56:54] rust | tx | off | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 110.76 μs
+    Latency p50  : 102.15 μs
+    Latency p95  : 153.47 μs
+    Latency p99  : 157.99 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.52 MB, peak 2.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[14:58:09] rust | tx | off | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 110.95 μs
+    Latency p50  : 102.69 μs
+    Latency p95  : 148.39 μs
+    Latency p99  : 154.31 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.22 MB, peak 2.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[14:59:25] rust | tx | off | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 110.61 μs
+    Latency p50  : 102.72 μs
+    Latency p95  : 150.18 μs
+    Latency p99  : 156.48 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.62 MB, peak 2.63 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:00:40] rust | tx | off | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 110.87 μs
+    Latency p50  : 101.89 μs
+    Latency p95  : 154.40 μs
+    Latency p99  : 160.26 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.11 MB, peak 2.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:01:55] rust | tx | off | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 110.14 μs
+    Latency p50  : 101.57 μs
+    Latency p95  : 151.72 μs
+    Latency p99  : 157.67 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.12 MB, peak 2.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:03:10] rust | tx | off | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 111.20 μs
+    Latency p50  : 101.95 μs
+    Latency p95  : 152.03 μs
+    Latency p99  : 156.96 μs
+    CPU          : 0.2 % (100 = one core)
+    RSS start    : 2.21 MB, peak 4.15 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+================================================================
+  rust | tx | security=on | rate=10 | runs=10
+================================================================
+[15:04:15] rust | tx | on | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 533.49 μs
+    Latency p50  : 522.44 μs
+    Latency p95  : 596.08 μs
+    Latency p99  : 606.76 μs
+    CPU          : 1.1 % (100 = one core)
+    RSS start    : 2.95 MB, peak 2.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:05:31] rust | tx | on | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 536.18 μs
+    Latency p50  : 524.59 μs
+    Latency p95  : 593.55 μs
+    Latency p99  : 620.53 μs
+    CPU          : 1.1 % (100 = one core)
+    RSS start    : 3.03 MB, peak 3.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:06:46] rust | tx | on | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 535.71 μs
+    Latency p50  : 525.13 μs
+    Latency p95  : 592.72 μs
+    Latency p99  : 603.47 μs
+    CPU          : 1.1 % (100 = one core)
+    RSS start    : 2.96 MB, peak 3.04 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:08:01] rust | tx | on | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 548.59 μs
+    Latency p50  : 536.40 μs
+    Latency p95  : 612.43 μs
+    Latency p99  : 625.04 μs
+    CPU          : 1.1 % (100 = one core)
+    RSS start    : 3.10 MB, peak 3.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:09:16] rust | tx | on | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 525.56 μs
+    Latency p50  : 518.51 μs
+    Latency p95  : 585.77 μs
+    Latency p99  : 600.43 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.82 MB, peak 2.82 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:10:31] rust | tx | on | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 527.25 μs
+    Latency p50  : 519.02 μs
+    Latency p95  : 592.62 μs
+    Latency p99  : 605.55 μs
+    CPU          : 1.0 % (100 = one core)
+    RSS start    : 2.89 MB, peak 2.89 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:11:47] rust | tx | on | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 533.81 μs
+    Latency p50  : 521.29 μs
+    Latency p95  : 596.88 μs
+    Latency p99  : 608.78 μs
+    CPU          : 1.1 % (100 = one core)
+    RSS start    : 2.90 MB, peak 2.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:13:02] rust | tx | on | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 537.47 μs
+    Latency p50  : 524.97 μs
+    Latency p95  : 598.48 μs
+    Latency p99  : 611.37 μs
+    CPU          : 1.1 % (100 = one core)
+    RSS start    : 2.91 MB, peak 2.93 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:14:17] rust | tx | on | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 546.20 μs
+    Latency p50  : 528.94 μs
+    Latency p95  : 618.25 μs
+    Latency p99  : 631.98 μs
+    CPU          : 1.1 % (100 = one core)
+    RSS start    : 2.90 MB, peak 2.91 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[15:15:32] rust | tx | on | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : orin-nano
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 533.70 μs
+    Latency p50  : 521.39 μs
+    Latency p95  : 600.40 μs
+    Latency p99  : 610.89 μs
+    CPU          : 1.1 % (100 = one core)
+    RSS start    : 2.93 MB, peak 2.98 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv
+[2026-11-24 15:16:37] all cells done: /home/<user>/FlexStackBenchmarking/results/results_orin-nano_after_20261124T145152.csv

@@ -1,0 +1,16 @@
+# Rust harness of the Rust TX rerun (campaign_2026-11, known issue 7)
+built_utc: 2026-11-24T14:01:49Z
+source: FlexStackBenchmarking rust/ with the closed-loop warm-up (pacing::wait_quiescent)
+rustflexstack: same as ../../MANIFEST.txt (rust/Cargo.lock, crates.io 0.4.0)
+rustc: rustc 1.95.0 (59807616e 2026-04-14)
+build: cargo zigbuild --release --locked --target <arch>-unknown-linux-musl --bin flexstack-bench
+# Published Rust binaries: the measured files with the build user name in the
+# 76-77 embedded Cargo source paths of panic messages (/home/<user>/.cargo/...)
+# overwritten by 'x' of the same length; no other byte differs, and writing the
+# name back reproduces the measured file. The results sidecars record the
+# measured SHA-256 (rust_bin_sha256); measured -> published:
+#   f489affa721e7b3388e64b7a72962e0fec45dccdcc03e38f000615424a372c90 -> f910f780a8b1129c49039d3395140e03f65ef723a740438770082c5a63eed660  flexstack-bench-aarch64-linux
+#   7fc044cdf7649429abfca84cf9d2a12f83b303a18135ba1406ab2afd4c08325d -> 4f1e9ce1f5a49117322a2c7c2f98ebb291006336444902dc599131eb33f08221  flexstack-bench-x86_64-linux
+## sha256
+f910f780a8b1129c49039d3395140e03f65ef723a740438770082c5a63eed660  flexstack-bench-aarch64-linux
+4f1e9ce1f5a49117322a2c7c2f98ebb291006336444902dc599131eb33f08221  flexstack-bench-x86_64-linux

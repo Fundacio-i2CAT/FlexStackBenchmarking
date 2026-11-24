@@ -1,0 +1,24 @@
+# FlexStack benchmark campaign artefacts
+built_utc: 2026-11-23T12:55:19Z
+built_on: Linux 7.0.0-31-generic x86_64
+flexstack_version: 0.12.0 (PyPI)
+flexstack_wheel: bb4a90cedf1fba2a6404004b1d5f345493866d17bb7e3b9b5fd4041ba73208d8  v2xflexstack-0.12.0-py3-none-any.whl
+rustflexstack: version 0.4.0, crates.io checksum d9840f38d30f825a7ba3d26f6f271b181369d739e4de542de4a29f507d44f5e2
+flexstack_benchmarking: commit 57b50866899530c990693f311f8ced4719e5f86f, changed files 31, changes sha256 3807a17d8411f3fb870a64cc14592597319ee410a08e28dc7031cc8185dacaf4
+rustc: rustc 1.95.0 (59807616e 2026-04-14)
+python_build: Python 3.12.3
+## sha256
+2989b8dc3e15ac003dec50313fe140491e575b8f6e78350a7fad591b5075c738  bin/flexstack-bench-aarch64-linux
+89bdb26a0cd0acfc81ed607f7a1bba407ae90db55e0dd29c2992e98df75fe37c  bin/flexstack-bench-x86_64-linux
+92b5624e898dc653c412764d9bd9c81b40e7be81ccda427da22d9ea4a5137d42  certs/aa.cert
+02488f4ccd3967f74328df9b89960a0680cdf7858b855f88728a38913b15e626  certs/aa.key
+e869f43e0db82a20afca3cef71bb9213949323c359bf2ee1fe23543572605f1f  certs/aa.pem
+530ab07dfdbe0750001e54e4ac63412f41c58e15a5ed44ad36749bfda526e68b  certs/at1.cert
+df2a52d4af9b75a6a973f3608d651c11d25b074347f98e97ca09a09db1187f9c  certs/at1.key
+28b1a844ec0394477007689409d83efe21301fa5f25ecbdfc67680ca1af1e4d5  certs/at1.pem
+bbf1151227529e082d4f5be72f0b1ca5f478c63057587f70985944ddb1ba006b  certs/at2.cert
+481443ad9474292c815fe4c978b05d807ddc600db3b522d10e9c98b0aafda79c  certs/at2.key
+ca6044e943a7b114b995cf8584aabc149bd55d33b28ca93c54a92e7335fcf0ab  certs/at2.pem
+4576dad4b81a51668762c7faa15ec7d19450f25ba4b7bf14e0a5f342ee637a75  certs/root_ca.cert
+112dc64520493ead54aca6587cb3ace304d2b1c798db0219183a242c73b2db14  certs/root_ca.key
+72aaba18a7938b5a45e5f93e46600d4c3b1d8fa43f36e75f353808145d44735d  certs/root_ca.pem

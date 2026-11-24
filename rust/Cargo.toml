@@ -1,12 +1,16 @@
 [package]
 name = "flexstack-bench"
-version = "0.2.8"
+version = "0.2.9"
 edition = "2021"
 description = "Benchmark harness for RustFlexStack"
 
 [[bin]]
 name = "flexstack-bench"
 path = "src/main.rs"
+
+[[bin]]
+name = "flexstack-interop-node"
+path = "src/interop_node.rs"
 
 [[bin]]
 name = "flexstack-bench-cv2x"
@@ -17,7 +21,7 @@ required-features = ["cv2x"]
 cv2x = ["rustflexstack/cv2x"]
 
 [dependencies]
-rustflexstack = "0.3.0"
+rustflexstack = "0.4.0"
 clap = { version = "4", features = ["derive"] }
 rasn = "0.26"
 lazy_static = "1.5.0"

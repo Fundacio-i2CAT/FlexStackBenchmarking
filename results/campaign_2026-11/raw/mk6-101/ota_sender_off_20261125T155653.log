@@ -1,0 +1,157 @@
+============================================================
+FlexStack Benchmark — Rust C-V2X (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 2700s
+  Warm-up  : 2s
+  Platform : mk6
+  Run ID   : 1
+  Rate     : max
+  Output   : results/ota_sender_off_20261125T155653.csv
+
+[cv2x_wrapper] Step 1/4: getting Cv2xRadioManager...
+diag: Unable to get remote processor info. Continuing with just the local processor
+[cv2x_wrapper] Step 1/4: RadioManager ready
+[cv2x_wrapper] Step 2/4: checking radio status...
+[cv2x_wrapper] TX=ACTIVE RX=ACTIVE
+[cv2x_wrapper] Waiting for radio to be ready...
+INFO1: QCMAP_Client.cpp 200:
+INFO1: Entering function QCMAP_Client
+
+INFO3: Client Handles, MDM/Standalone=(nil), EAP=(nil), Preferred=(nil)
+INFO1: qmi_client_get_service_list: num_e 2 num_s 2
+INFO1: qmi_client_get_service_list: num_e 2 num_s 2 error 0
+INFO1: Creating Client Handle for QCMAP Instance=0, arch=1
+INFO1: qmi_client_init_instance() instance_id=0, arch_type=1, result=0
+INFO1: Creating Client Handle for QCMAP Instance=1, arch=1
+INFO1: qmi_client_init_instance() instance_id=1, arch_type=1, result=0
+INFO1: QCMAP Server Instance status, service_event=0
+INFO1: QCMAP_Client.cpp 16347:
+INFO1: Entering function SetClientConfig
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO3: qcmap_arch=1, client_config=0
+INFO3: Client Preferred handle modified: MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO1: QCMAP_Client.cpp 885:
+INFO1: Entering function EnableMobileAP_Ext
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO1: QCMAP_Client.cpp 1568:
+INFO1: Entering function RegisterForIndications
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO1: qmi_client_send_msg_sync: error 0 result 0
+INFO1: Successfully Registered for Indications
+INFO1: Registered for Indications
+INFO1: qmi_client_send_msg_sync: error 0 result 0 valid 1
+INFO1: QCMAP Enabled
+
+INFO1: QCMAP_Client.cpp 16347:
+INFO1: Entering function SetClientConfig
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO3: qcmap_arch=1, client_config=1
+INFO3: Client Preferred handle modified: MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO1: QCMAP_Client.cpp 885:
+INFO1: Entering function EnableMobileAP_Ext
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO1: QCMAP_Client.cpp 1568:
+INFO1: Entering function RegisterForIndications
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO1: qmi_client_send_msg_sync: error 0 result 0
+INFO1: Successfully Registered for Indications
+INFO1: Registered for Indications
+INFO1: qmi_client_send_msg_sync: error 0 result 0 valid 1
+INFO1: QCMAP Enabled
+
+INFO1: QCMAP_Client.cpp 16347:
+INFO1: Entering function SetClientConfig
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO3: qcmap_arch=1, client_config=0
+INFO3: Client Preferred handle modified: MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO1: QCMAP_Client.cpp 1568:
+INFO1: Entering function RegisterForIndications
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO1: qmi_client_send_msg_sync: error 0 result 0
+INFO1: Successfully Registered for Indications
+INFO1: QCMAP_Client.cpp 16347:
+INFO1: Entering function SetClientConfig
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO3: qcmap_arch=1, client_config=1
+INFO3: Client Preferred handle modified: MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO1: QCMAP_Client.cpp 1568:
+INFO1: Entering function RegisterForIndications
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO1: qmi_client_send_msg_sync: error 0 result 0
+INFO1: Successfully Registered for Indications
+INFO1: QCMAP_Client.cpp 16347:
+INFO1: Entering function SetClientConfig
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO3: qcmap_arch=1, client_config=0
+INFO3: Client Preferred handle modified: MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO1: QCMAP_Client.cpp 16759:
+INFO1: Entering function GetAllConnectedPDNEx
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO1: wwan_with_subs_info_valid=1, wwan_with_subs_info_len=2
+INFO1: QCMAP_Client.cpp 16347:
+INFO1: Entering function SetClientConfig
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO3: qcmap_arch=1, client_config=1
+INFO3: Client Preferred handle modified: MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO1: QCMAP_Client.cpp 16759:
+INFO1: Entering function GetAllConnectedPDNEx
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO1: wwan_with_subs_info_valid=0, wwan_with_subs_info_len=0
+INFO1: QCMAP_Client.cpp 16347:
+INFO1: Entering function SetClientConfig
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xa
+INFO3: qcmap_arch=1, client_config=0
+INFO3: Client Preferred handle modified: MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO1: QCMAP_Client.cpp 16759:
+INFO1: Entering function GetAllConnectedPDNEx
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb
+INFO1: wwan_with_subs_info_valid=1, wwan_with_subs_info_len=2
+[cv2x_wrapper] Step 2/4: radio ready
+[cv2x_wrapper] Step 3/4: creating TX flows...
+[cv2x_wrapper] SPS flow created (sock=38, port=2500)
+[cv2x_wrapper] Event flow created (sock=39, port=2501)
+[cv2x_wrapper] Step 3/4: TX flows created
+[cv2x_wrapper] Step 4/4: creating RX subscription...
+[cv2x_wrapper] RX subscription created (sock=40)
+[cv2x_wrapper] Step 4/4: RX subscription ready
+[cv2x_wrapper] Initialisation complete
+  Warm-up phase (2s)...
+  Measurement phase (2700s)...
+  TX: 12704234 CAMs (4705/s)
+tearing down C-V2X flows...
+[CV2X TX] Channel closed, thread exiting
+[CV2X RX] Thread exiting
+shutdown complete
+
+  Results:
+    Total        : 12704234
+    Throughput   : 4705.3 CAMs/s
+    Latency mean : 211.54 μs
+    Latency p50  : 201.01 μs
+    Latency p95  : 258.27 μs
+    Latency p99  : 385.65 μs
+    CPU          : 153.8 % (100 = one core)
+    RSS start    : 14.22 MB, peak 112.62 MB
+  Written to: results/ota_sender_off_20261125T155653.csv
+INFO1: QCMAP_Client.cpp 380:
+INFO1: Entering function ~QCMAP_Client
+
+INFO3: Client Handles, MDM/Standalone=0xa, EAP=0xb, Preferred=0xb

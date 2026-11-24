@@ -1,129 +1,258 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Release: on a tag v*, publish the binaries that were measured in the paper
+# campaign (verified against their manifests), the campaign data and the
+# tables recomputed from it. The harnesses are also rebuilt and tested from
+# the tagged sources, as a check that they still build; those rebuilds are not
+# published, because they are not byte-identical to the measured binaries.
+# Run by hand (workflow_dispatch) to do every check without releasing.
 name: Release
 
 on:
   push:
     tags:
       - "v*"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 env:
   CARGO_TERM_COLOR: always
+  # Toolchain of the 2026-11 campaign (artefacts/MANIFEST.txt: rustc 1.95.0)
+  RUST_TOOLCHAIN: "1.95.0"
+  CAMPAIGN: campaign_2026-11
 
 jobs:
-  build:
-    name: Build portable binary (${{ matrix.target }})
+  rust:
+    name: Rust harness builds and tests (${{ matrix.target }})
     strategy:
       matrix:
-        include:
-          - target: x86_64-unknown-linux-musl
-            binary_name: flexstack-bench-x86_64-linux
-          - target: aarch64-unknown-linux-musl
-            binary_name: flexstack-bench-aarch64-linux
-
+        target: [x86_64-unknown-linux-musl, aarch64-unknown-linux-musl]
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
       - name: Install Rust toolchain
-        uses: dtolnay/rust-toolchain@stable
+        uses: dtolnay/rust-toolchain@master
         with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
           targets: ${{ matrix.target }}
 
       - name: Install cargo-zigbuild
         run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install ziglang
+          python3 -m pip install --upgrade pip ziglang
           cargo install cargo-zigbuild --locked
 
-      - name: Install ELF inspection tools
-        run: sudo apt-get update && sudo apt-get install -y binutils
-
-      - name: Rust cache
-        uses: Swatinem/rust-cache@v2
+      - uses: Swatinem/rust-cache@v2
         with:
           workspaces: rust
           key: ${{ matrix.target }}
 
-      - name: Build release binary (musl static)
+      - name: Unit tests
+        if: matrix.target == 'x86_64-unknown-linux-musl'
         working-directory: rust
-        env:
-          RUSTFLAGS: "-C target-feature=+crt-static"
-        run: cargo zigbuild --release --target ${{ matrix.target }}
+        run: cargo test --locked
 
-      - name: Verify binary is truly portable (static, no dynamic loader)
+      - name: Build as the campaign did (scripts/prepare_campaign.sh)
+        working-directory: rust
+        run: cargo zigbuild --release --locked --target ${{ matrix.target }} --bin flexstack-bench
+
+      - name: Check the binary is static
         run: |
           BIN="rust/target/${{ matrix.target }}/release/flexstack-bench"
-
           file "$BIN"
+          if readelf -d "$BIN" | grep -q '(NEEDED)'; then echo "dynamically linked"; exit 1; fi
+          if readelf -l "$BIN" | grep -q 'Requesting program interpreter'; then echo "has an interpreter"; exit 1; fi
 
-          # Static binary must not have DT_NEEDED entries.
-          if readelf -d "$BIN" | grep -q '(NEEDED)'; then
-            echo "Binary is dynamically linked (DT_NEEDED found), aborting."
-            exit 1
-          fi
+      - name: Smoke test with the campaign certificates (x86_64)
+        if: matrix.target == 'x86_64-unknown-linux-musl'
+        run: |
+          BIN="rust/target/${{ matrix.target }}/release/flexstack-bench"
+          for mode in codec-encode codec-decode security-sign security-verify; do
+            "$BIN" --mode "$mode" --security on --duration 1 --warmup 0 \
+              --certs-dir "results/$CAMPAIGN/artefacts/certs" --output smoke.csv
+          done
+          cat smoke.csv
 
-          # Static binary must not request a runtime ELF interpreter.
-          if readelf -l "$BIN" | grep -q 'Requesting program interpreter'; then
-            echo "Binary has a dynamic loader/interpreter, aborting."
-            exit 1
-          fi
+  vanetza:
+    name: Vanetza harness build (${{ matrix.arch }})
+    strategy:
+      matrix:
+        include:
+          - arch: x86_64
+            runner: ubuntu-24.04
+          - arch: aarch64
+            runner: ubuntu-24.04-arm
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
 
-          echo "Binary passed static-link portability checks."
+      - name: Build the bundle at the pinned Vanetza commit
+        run: vanetza/build.sh
 
-      - name: Rename binary
-        run: cp rust/target/${{ matrix.target }}/release/flexstack-bench ${{ matrix.binary_name }}
+      - name: Smoke test
+        run: |
+          dist/vanetza/${{ matrix.arch }}/run.sh --mode codec-encode --duration 1 --warmup 0 \
+            --certs-dir "results/$CAMPAIGN/artefacts/certs" --output smoke.csv
+          cat smoke.csv
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+  binaries:
+    name: Measured binaries
+    strategy:
+      matrix:
+        include:
+          - arch: x86_64
+            runner: ubuntu-24.04
+          - arch: aarch64
+            runner: ubuntu-24.04-arm
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stage and verify against the campaign manifests
+        run: scripts/stage_release.sh "$CAMPAIGN" release
+
+      - name: Smoke test the measured ${{ matrix.arch }} binaries
+        run: |
+          CERTS="results/$CAMPAIGN/artefacts/certs"
+          for bin in release/flexstack-bench-${{ matrix.arch }}-linux \
+                     release/flexstack-bench-${{ matrix.arch }}-linux-campaign-20261123; do
+            "$bin" --mode security-verify --security on --duration 1 --warmup 0 \
+              --certs-dir "$CERTS" --output smoke.csv
+          done
+          tar -xzf release/flexstack-bench-vanetza-${{ matrix.arch }}-linux.tar.gz -C "$RUNNER_TEMP"
+          "$RUNNER_TEMP/flexstack-bench-vanetza-${{ matrix.arch }}-linux/run.sh" --mode security-verify \
+            --security on --duration 1 --warmup 0 --certs-dir "$CERTS" --output smoke.csv
+          cat smoke.csv
+          # the MK6 binaries need the device's Telux libraries: check the format only
+          file release/flexstack-bench-cv2x-* | tee /dev/stderr | grep -c 'ARM aarch64' | grep -qx 3
+
+      - uses: actions/upload-artifact@v4
+        if: matrix.arch == 'x86_64'
         with:
-          name: ${{ matrix.binary_name }}
-          path: ${{ matrix.binary_name }}
+          name: binaries
+          path: release/
+
+  data:
+    name: Campaign data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify the checksums of the raw data
+        working-directory: results/${{ env.CAMPAIGN }}
+        run: sha256sum -c --quiet SHA256SUMS
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Re-analyse the raw data
+        working-directory: analysis
+        run: |
+          pip install -r requirements.txt pytest
+          python -m pytest -q test_analyze_results.py
+          python analyze_results.py --campaign "../results/$CAMPAIGN" \
+            --output-summary "../summary_$CAMPAIGN.csv" --latex-dir ../tables
+
+      - name: Python harness compiles
+        run: python -m py_compile python/benchmark.py python/generate_certs.py
+
+      - name: Package
+        run: |
+          tar -czf "flexstack-benchmarking-data-$CAMPAIGN.tar.gz" -C results "$CAMPAIGN"
+          tar -czf "flexstack-benchmarking-tables-$CAMPAIGN.tar.gz" tables
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: data
+          path: |
+            flexstack-benchmarking-data-*.tar.gz
+            flexstack-benchmarking-tables-*.tar.gz
+            summary_*.csv
 
   release:
-    name: Create GitHub Release
-    needs: build
+    name: GitHub release
+    needs: [rust, vanetza, binaries, data]
+    if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
-
     steps:
-      - name: Download all artifacts
-        uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v4
         with:
           path: artifacts
+          merge-multiple: true
 
-      - name: Prepare release files
+      - name: Checksums
         run: |
           mkdir release
-          cp artifacts/flexstack-bench-x86_64-linux/flexstack-bench-x86_64-linux release/
-          cp artifacts/flexstack-bench-aarch64-linux/flexstack-bench-aarch64-linux release/
-          chmod +x release/*
+          cp artifacts/* release/
+          rm -f release/SHA256SUMS.binaries
+          chmod +x release/flexstack-bench-*-linux release/flexstack-bench-*-linux-campaign-* \
+                   release/flexstack-bench-cv2x-*
+          cd release && sha256sum * > SHA256SUMS && cat SHA256SUMS
 
-      - name: Generate checksums
-        run: |
-          cd release
-          sha256sum flexstack-bench-x86_64-linux flexstack-bench-aarch64-linux > SHA256SUMS
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@v2
         with:
           generate_release_notes: true
-          append_body: true
           files: release/*
           body: |
-            ## Included binaries
+            Binaries, raw data and analysis of the performance evaluation of
+            V2X FlexStack (paper campaign `campaign_2026-11`). Every binary
+            below is the file that was measured: the release workflow takes it
+            from `results/campaign_2026-11/artefacts/` and checks it against
+            the SHA-256 in the `MANIFEST.txt` there before publishing it. The
+            MK6 and Vanetza binaries are byte for byte the measured ones. In
+            the four FlexStack Rust binaries, only the build user name inside
+            the Cargo source paths embedded for panic messages was overwritten
+            with `x` (same length; no other byte differs); the manifests give
+            the measured SHA-256, recorded next to every results CSV, and the
+            published one.
 
-            - `flexstack-bench-x86_64-linux`: Benchmark runner for Linux x86_64 hosts.
-            - `flexstack-bench-aarch64-linux`: Benchmark runner for Linux ARM64 hosts.
+            ## Binaries
 
-            Both binaries are built as static musl executables for broad Linux portability.
+            | File | Platform | Harness | Cells of the paper measured with it |
+            |---|---|---|---|
+            | `flexstack-bench-x86_64-linux` | Linux x86-64 | FlexStack Rust (rustflexstack 0.4.0), static musl | TX and RX |
+            | `flexstack-bench-aarch64-linux` | Linux aarch64 (Raspberry Pi, Jetson) | same | TX and RX |
+            | `flexstack-bench-x86_64-linux-campaign-20261123` | Linux x86-64 | FlexStack Rust, main campaign build (before the TX warm-up fix) | codec, sign, verify |
+            | `flexstack-bench-aarch64-linux-campaign-20261123` | Linux aarch64 | same | codec, sign, verify |
+            | `flexstack-bench-cv2x-mk6-fw19` | Cohda MK6, firmware 19 (`Cv2xFactory`) | FlexStack Rust over the C-V2X PC5 radio | all MK6 cells |
+            | `flexstack-bench-cv2x-mk6-fw20` | Cohda MK6, firmware 20 (`Cv2xFactoryImpl`) | same | built, not measured |
+            | `flexstack-bench-cv2x-mk6c` | Cohda MK6C / ag15 (Qualcomm MDM9150) | same | built, not measured |
+            | `flexstack-bench-vanetza-<arch>-linux.tar.gz` | Linux x86-64 / aarch64 | Vanetza (commit `3b9a544`), with its own glibc and libraries; start `run.sh` | all Vanetza cells |
+            | `campaign-certs.tar.gz` | any | certificate chain of the signed cells (Root CA, AA, two ATs). **Test keys only** | all secured cells |
 
-            ## Integrity verification
+            The Python harness is `python/benchmark.py` of this tag with
+            `v2xflexstack` 0.12.0 from PyPI (`python/requirements.txt`).
 
-            This release includes `SHA256SUMS`.
-            Verify downloads with:
+            **Which MK6 binary?** On the device:
+            `grep -q Cv2xFactoryImpl /usr/lib/libtelux_cv2x.so` → `mk6-fw20`;
+            otherwise, if the library has `Cv2xRadio` but not `DsiCv2xRadio` → `mk6c`;
+            otherwise → `mk6-fw19`. The MK6 binaries link the Qualcomm Telux
+            libraries already on the device; they are rebuilt with
+            `scripts/build_cv2x_variants.sh`, which needs the Telux sysroots
+            (proprietary, not redistributed), so CI cannot build them.
+
+            ## Data
+
+            | File | Content |
+            |---|---|
+            | `flexstack-benchmarking-data-campaign_2026-11.tar.gz` | raw data of the campaign with its sidecars, the measured artefacts and `SHA256SUMS` |
+            | `summary_campaign_2026-11.csv` | per-cell statistics recomputed from the raw data by this workflow |
+            | `flexstack-benchmarking-tables-campaign_2026-11.tar.gz` | LaTeX tables recomputed from the raw data |
+            | `SHA256SUMS` | checksums of every asset: `sha256sum -c SHA256SUMS` |
+
+            ## Quick start
 
             ```bash
-            sha256sum -c SHA256SUMS
+            curl -LO https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/flexstack-bench-x86_64-linux
+            curl -LO https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/campaign-certs.tar.gz
+            curl -LO https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/SHA256SUMS
+            sha256sum -c --ignore-missing SHA256SUMS
+            chmod +x flexstack-bench-x86_64-linux && tar -xzf campaign-certs.tar.gz
+            ./flexstack-bench-x86_64-linux --mode security-verify --security on \
+              --duration 60 --warmup 5 --certs-dir certs --output mine.csv
             ```
+
+            The protocol of the paper (pinning, priority, 30 runs) and the
+            RX set-up are in `REPRODUCING.md`.

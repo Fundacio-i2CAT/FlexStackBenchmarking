@@ -1,0 +1,6 @@
+image: flexstack-interop:dev sha256:77b422308f74e877085a74077fad57c20d82f45a924796d035109d1e14b3b19a
+vanetza_commit: 3b9a54446685979f467aefbeaaf6065c3c7dd902
+flexstack_python: 0.11.4
+flexstack_rust_node: c6c28502fb6b9c2275ff081122fc4451316d42f1fc91306d21a437a9178a0431
+duration_s: 120
+started_utc: 2026-11-20T19:10:29Z

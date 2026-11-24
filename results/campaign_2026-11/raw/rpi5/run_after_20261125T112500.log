@@ -1,0 +1,2275 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+================================================================
+  rust | tx | security=off | rate=0 | runs=30
+================================================================
+[11:25:02] rust | tx | off | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2425212
+    Throughput   : 40420.2 CAMs/s
+    Latency mean : 24.25 μs
+    Latency p50  : 24.04 μs
+    Latency p95  : 25.83 μs
+    Latency p99  : 28.91 μs
+    CPU          : 159.5 % (100 = one core)
+    RSS start    : 2.39 MB, peak 21.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:26:17] rust | tx | off | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2412576
+    Throughput   : 40209.6 CAMs/s
+    Latency mean : 24.38 μs
+    Latency p50  : 24.17 μs
+    Latency p95  : 26.00 μs
+    Latency p99  : 29.07 μs
+    CPU          : 160.2 % (100 = one core)
+    RSS start    : 2.45 MB, peak 21.17 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:27:32] rust | tx | off | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2414232
+    Throughput   : 40237.2 CAMs/s
+    Latency mean : 24.36 μs
+    Latency p50  : 24.17 μs
+    Latency p95  : 25.96 μs
+    Latency p99  : 29.02 μs
+    CPU          : 160.5 % (100 = one core)
+    RSS start    : 2.38 MB, peak 21.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:28:47] rust | tx | off | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2423016
+    Throughput   : 40383.6 CAMs/s
+    Latency mean : 24.27 μs
+    Latency p50  : 24.07 μs
+    Latency p95  : 25.89 μs
+    Latency p99  : 28.93 μs
+    CPU          : 160.1 % (100 = one core)
+    RSS start    : 2.36 MB, peak 21.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:30:03] rust | tx | off | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2418738
+    Throughput   : 40312.3 CAMs/s
+    Latency mean : 24.32 μs
+    Latency p50  : 24.11 μs
+    Latency p95  : 25.94 μs
+    Latency p99  : 29.02 μs
+    CPU          : 160.3 % (100 = one core)
+    RSS start    : 2.41 MB, peak 21.11 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:31:18] rust | tx | off | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2413183
+    Throughput   : 40219.7 CAMs/s
+    Latency mean : 24.37 μs
+    Latency p50  : 24.17 μs
+    Latency p95  : 25.96 μs
+    Latency p99  : 29.06 μs
+    CPU          : 160.5 % (100 = one core)
+    RSS start    : 2.41 MB, peak 21.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:32:33] rust | tx | off | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2425441
+    Throughput   : 40424.0 CAMs/s
+    Latency mean : 24.25 μs
+    Latency p50  : 24.04 μs
+    Latency p95  : 25.85 μs
+    Latency p99  : 28.91 μs
+    CPU          : 160.1 % (100 = one core)
+    RSS start    : 2.41 MB, peak 21.17 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:33:49] rust | tx | off | run 8/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2418628
+    Throughput   : 40310.5 CAMs/s
+    Latency mean : 24.32 μs
+    Latency p50  : 24.11 μs
+    Latency p95  : 25.91 μs
+    Latency p99  : 29.00 μs
+    CPU          : 160.2 % (100 = one core)
+    RSS start    : 2.41 MB, peak 21.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:35:04] rust | tx | off | run 9/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2414742
+    Throughput   : 40245.7 CAMs/s
+    Latency mean : 24.36 μs
+    Latency p50  : 24.15 μs
+    Latency p95  : 25.98 μs
+    Latency p99  : 29.04 μs
+    CPU          : 160.4 % (100 = one core)
+    RSS start    : 2.42 MB, peak 21.19 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:36:19] rust | tx | off | run 10/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2419508
+    Throughput   : 40325.1 CAMs/s
+    Latency mean : 24.31 μs
+    Latency p50  : 24.09 μs
+    Latency p95  : 25.91 μs
+    Latency p99  : 28.95 μs
+    CPU          : 160.3 % (100 = one core)
+    RSS start    : 2.36 MB, peak 20.95 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:37:34] rust | tx | off | run 11/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2414677
+    Throughput   : 40244.6 CAMs/s
+    Latency mean : 24.36 μs
+    Latency p50  : 24.15 μs
+    Latency p95  : 25.96 μs
+    Latency p99  : 29.02 μs
+    CPU          : 160.2 % (100 = one core)
+    RSS start    : 2.42 MB, peak 21.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:38:50] rust | tx | off | run 12/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2413001
+    Throughput   : 40216.7 CAMs/s
+    Latency mean : 24.38 μs
+    Latency p50  : 24.17 μs
+    Latency p95  : 25.98 μs
+    Latency p99  : 29.06 μs
+    CPU          : 160.4 % (100 = one core)
+    RSS start    : 2.34 MB, peak 20.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:40:05] rust | tx | off | run 13/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2424414
+    Throughput   : 40406.9 CAMs/s
+    Latency mean : 24.26 μs
+    Latency p50  : 24.05 μs
+    Latency p95  : 25.85 μs
+    Latency p99  : 28.93 μs
+    CPU          : 160.0 % (100 = one core)
+    RSS start    : 2.39 MB, peak 21.06 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:41:20] rust | tx | off | run 14/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2425054
+    Throughput   : 40417.6 CAMs/s
+    Latency mean : 24.25 μs
+    Latency p50  : 24.04 μs
+    Latency p95  : 25.85 μs
+    Latency p99  : 28.91 μs
+    CPU          : 159.7 % (100 = one core)
+    RSS start    : 2.38 MB, peak 20.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:42:36] rust | tx | off | run 15/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2421687
+    Throughput   : 40361.4 CAMs/s
+    Latency mean : 24.29 μs
+    Latency p50  : 24.09 μs
+    Latency p95  : 25.89 μs
+    Latency p99  : 28.95 μs
+    CPU          : 160.0 % (100 = one core)
+    RSS start    : 2.48 MB, peak 21.23 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:43:51] rust | tx | off | run 16/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2422202
+    Throughput   : 40370.0 CAMs/s
+    Latency mean : 24.28 μs
+    Latency p50  : 24.07 μs
+    Latency p95  : 25.85 μs
+    Latency p99  : 28.98 μs
+    CPU          : 159.9 % (100 = one core)
+    RSS start    : 2.47 MB, peak 21.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:45:06] rust | tx | off | run 17/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2408371
+    Throughput   : 40139.5 CAMs/s
+    Latency mean : 24.42 μs
+    Latency p50  : 24.22 μs
+    Latency p95  : 26.02 μs
+    Latency p99  : 29.13 μs
+    CPU          : 160.2 % (100 = one core)
+    RSS start    : 2.45 MB, peak 21.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:46:21] rust | tx | off | run 18/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2422800
+    Throughput   : 40380.0 CAMs/s
+    Latency mean : 24.28 μs
+    Latency p50  : 24.07 μs
+    Latency p95  : 25.89 μs
+    Latency p99  : 28.94 μs
+    CPU          : 160.2 % (100 = one core)
+    RSS start    : 2.41 MB, peak 21.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:47:37] rust | tx | off | run 19/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2420030
+    Throughput   : 40333.8 CAMs/s
+    Latency mean : 24.30 μs
+    Latency p50  : 24.09 μs
+    Latency p95  : 25.89 μs
+    Latency p99  : 28.96 μs
+    CPU          : 160.1 % (100 = one core)
+    RSS start    : 2.39 MB, peak 21.17 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:48:52] rust | tx | off | run 20/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2420038
+    Throughput   : 40334.0 CAMs/s
+    Latency mean : 24.30 μs
+    Latency p50  : 24.09 μs
+    Latency p95  : 25.91 μs
+    Latency p99  : 28.96 μs
+    CPU          : 160.1 % (100 = one core)
+    RSS start    : 2.42 MB, peak 21.08 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:50:07] rust | tx | off | run 21/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2427104
+    Throughput   : 40451.7 CAMs/s
+    Latency mean : 24.23 μs
+    Latency p50  : 24.02 μs
+    Latency p95  : 25.83 μs
+    Latency p99  : 28.93 μs
+    CPU          : 160.3 % (100 = one core)
+    RSS start    : 2.47 MB, peak 21.08 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:51:23] rust | tx | off | run 22/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2415827
+    Throughput   : 40263.8 CAMs/s
+    Latency mean : 24.35 μs
+    Latency p50  : 24.15 μs
+    Latency p95  : 25.94 μs
+    Latency p99  : 29.02 μs
+    CPU          : 160.3 % (100 = one core)
+    RSS start    : 2.45 MB, peak 21.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:52:38] rust | tx | off | run 23/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2416889
+    Throughput   : 40281.5 CAMs/s
+    Latency mean : 24.34 μs
+    Latency p50  : 24.13 μs
+    Latency p95  : 25.94 μs
+    Latency p99  : 29.02 μs
+    CPU          : 160.3 % (100 = one core)
+    RSS start    : 2.39 MB, peak 21.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:53:53] rust | tx | off | run 24/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2422025
+    Throughput   : 40367.1 CAMs/s
+    Latency mean : 24.28 μs
+    Latency p50  : 24.07 μs
+    Latency p95  : 25.87 μs
+    Latency p99  : 28.94 μs
+    CPU          : 160.0 % (100 = one core)
+    RSS start    : 2.38 MB, peak 21.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:55:08] rust | tx | off | run 25/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2419278
+    Throughput   : 40321.3 CAMs/s
+    Latency mean : 24.31 μs
+    Latency p50  : 24.11 μs
+    Latency p95  : 25.91 μs
+    Latency p99  : 28.96 μs
+    CPU          : 160.0 % (100 = one core)
+    RSS start    : 2.39 MB, peak 21.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:56:24] rust | tx | off | run 26/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2420199
+    Throughput   : 40336.6 CAMs/s
+    Latency mean : 24.30 μs
+    Latency p50  : 24.09 μs
+    Latency p95  : 25.87 μs
+    Latency p99  : 28.96 μs
+    CPU          : 160.1 % (100 = one core)
+    RSS start    : 2.34 MB, peak 20.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:57:39] rust | tx | off | run 27/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2408535
+    Throughput   : 40142.2 CAMs/s
+    Latency mean : 24.42 μs
+    Latency p50  : 24.22 μs
+    Latency p95  : 26.02 μs
+    Latency p99  : 29.11 μs
+    CPU          : 160.0 % (100 = one core)
+    RSS start    : 2.36 MB, peak 21.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[11:58:54] rust | tx | off | run 28/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2411026
+    Throughput   : 40183.8 CAMs/s
+    Latency mean : 24.40 μs
+    Latency p50  : 24.18 μs
+    Latency p95  : 26.00 μs
+    Latency p99  : 29.05 μs
+    CPU          : 160.0 % (100 = one core)
+    RSS start    : 2.41 MB, peak 20.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:00:10] rust | tx | off | run 29/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2414840
+    Throughput   : 40247.3 CAMs/s
+    Latency mean : 24.36 μs
+    Latency p50  : 24.15 μs
+    Latency p95  : 25.95 μs
+    Latency p99  : 29.04 μs
+    CPU          : 160.8 % (100 = one core)
+    RSS start    : 2.38 MB, peak 21.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:01:25] rust | tx | off | run 30/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 2411146
+    Throughput   : 40185.8 CAMs/s
+    Latency mean : 24.39 μs
+    Latency p50  : 24.17 μs
+    Latency p95  : 26.04 μs
+    Latency p99  : 29.09 μs
+    CPU          : 160.5 % (100 = one core)
+    RSS start    : 2.41 MB, peak 21.42 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+================================================================
+  rust | tx | security=on | rate=0 | runs=30
+================================================================
+[12:02:30] rust | tx | on | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135241
+    Throughput   : 2254.0 CAMs/s
+    Latency mean : 443.17 μs
+    Latency p50  : 442.78 μs
+    Latency p95  : 445.05 μs
+    Latency p99  : 448.39 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.06 MB, peak 4.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:03:45] rust | tx | on | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135245
+    Throughput   : 2254.1 CAMs/s
+    Latency mean : 443.15 μs
+    Latency p50  : 442.76 μs
+    Latency p95  : 445.02 μs
+    Latency p99  : 448.39 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.09 MB, peak 4.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:05:01] rust | tx | on | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135245
+    Throughput   : 2254.1 CAMs/s
+    Latency mean : 443.15 μs
+    Latency p50  : 442.76 μs
+    Latency p95  : 445.02 μs
+    Latency p99  : 448.33 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.09 MB, peak 4.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:06:16] rust | tx | on | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135197
+    Throughput   : 2253.3 CAMs/s
+    Latency mean : 443.31 μs
+    Latency p50  : 442.96 μs
+    Latency p95  : 445.11 μs
+    Latency p99  : 448.54 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.06 MB, peak 4.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:07:31] rust | tx | on | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135248
+    Throughput   : 2254.1 CAMs/s
+    Latency mean : 443.15 μs
+    Latency p50  : 442.78 μs
+    Latency p95  : 444.89 μs
+    Latency p99  : 448.37 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.09 MB, peak 4.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:08:46] rust | tx | on | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135254
+    Throughput   : 2254.2 CAMs/s
+    Latency mean : 443.12 μs
+    Latency p50  : 442.74 μs
+    Latency p95  : 444.96 μs
+    Latency p99  : 448.35 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.06 MB, peak 4.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:10:02] rust | tx | on | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135268
+    Throughput   : 2254.5 CAMs/s
+    Latency mean : 443.08 μs
+    Latency p50  : 442.70 μs
+    Latency p95  : 444.91 μs
+    Latency p99  : 448.30 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.05 MB, peak 4.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:11:17] rust | tx | on | run 8/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135230
+    Throughput   : 2253.8 CAMs/s
+    Latency mean : 443.20 μs
+    Latency p50  : 442.82 μs
+    Latency p95  : 445.11 μs
+    Latency p99  : 448.43 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.12 MB, peak 4.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:12:32] rust | tx | on | run 9/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135237
+    Throughput   : 2253.9 CAMs/s
+    Latency mean : 443.18 μs
+    Latency p50  : 442.78 μs
+    Latency p95  : 445.10 μs
+    Latency p99  : 448.38 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.09 MB, peak 4.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:13:47] rust | tx | on | run 10/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135221
+    Throughput   : 2253.7 CAMs/s
+    Latency mean : 443.23 μs
+    Latency p50  : 442.84 μs
+    Latency p95  : 445.13 μs
+    Latency p99  : 448.45 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.88 MB, peak 5.39 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:15:02] rust | tx | on | run 11/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135253
+    Throughput   : 2254.2 CAMs/s
+    Latency mean : 443.13 μs
+    Latency p50  : 442.75 μs
+    Latency p95  : 445.06 μs
+    Latency p99  : 448.36 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.09 MB, peak 4.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:16:18] rust | tx | on | run 12/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135253
+    Throughput   : 2254.2 CAMs/s
+    Latency mean : 443.13 μs
+    Latency p50  : 442.74 μs
+    Latency p95  : 445.02 μs
+    Latency p99  : 448.34 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.11 MB, peak 4.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:17:33] rust | tx | on | run 13/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135232
+    Throughput   : 2253.9 CAMs/s
+    Latency mean : 443.20 μs
+    Latency p50  : 442.82 μs
+    Latency p95  : 445.12 μs
+    Latency p99  : 448.37 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.09 MB, peak 4.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:18:48] rust | tx | on | run 14/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135201
+    Throughput   : 2253.3 CAMs/s
+    Latency mean : 443.30 μs
+    Latency p50  : 442.91 μs
+    Latency p95  : 445.22 μs
+    Latency p99  : 448.58 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.06 MB, peak 4.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:20:03] rust | tx | on | run 15/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135116
+    Throughput   : 2251.9 CAMs/s
+    Latency mean : 443.57 μs
+    Latency p50  : 442.87 μs
+    Latency p95  : 448.24 μs
+    Latency p99  : 451.10 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.11 MB, peak 4.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:21:19] rust | tx | on | run 16/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135264
+    Throughput   : 2254.4 CAMs/s
+    Latency mean : 443.09 μs
+    Latency p50  : 442.71 μs
+    Latency p95  : 445.02 μs
+    Latency p99  : 448.34 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.06 MB, peak 4.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:22:34] rust | tx | on | run 17/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135246
+    Throughput   : 2254.1 CAMs/s
+    Latency mean : 443.15 μs
+    Latency p50  : 442.76 μs
+    Latency p95  : 445.08 μs
+    Latency p99  : 448.37 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.12 MB, peak 4.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:23:49] rust | tx | on | run 18/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135242
+    Throughput   : 2254.0 CAMs/s
+    Latency mean : 443.16 μs
+    Latency p50  : 442.76 μs
+    Latency p95  : 445.08 μs
+    Latency p99  : 448.35 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.11 MB, peak 4.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:25:04] rust | tx | on | run 19/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135237
+    Throughput   : 2253.9 CAMs/s
+    Latency mean : 443.18 μs
+    Latency p50  : 442.80 μs
+    Latency p95  : 445.06 μs
+    Latency p99  : 448.35 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.11 MB, peak 4.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:26:20] rust | tx | on | run 20/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135242
+    Throughput   : 2254.0 CAMs/s
+    Latency mean : 443.16 μs
+    Latency p50  : 442.78 μs
+    Latency p95  : 445.00 μs
+    Latency p99  : 448.37 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.14 MB, peak 4.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:27:35] rust | tx | on | run 21/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135178
+    Throughput   : 2253.0 CAMs/s
+    Latency mean : 443.37 μs
+    Latency p50  : 442.98 μs
+    Latency p95  : 445.28 μs
+    Latency p99  : 448.59 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.09 MB, peak 4.23 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:28:50] rust | tx | on | run 22/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135225
+    Throughput   : 2253.7 CAMs/s
+    Latency mean : 443.22 μs
+    Latency p50  : 442.83 μs
+    Latency p95  : 445.06 μs
+    Latency p99  : 448.41 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.84 MB, peak 5.70 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:30:05] rust | tx | on | run 23/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135288
+    Throughput   : 2254.8 CAMs/s
+    Latency mean : 443.01 μs
+    Latency p50  : 442.65 μs
+    Latency p95  : 444.76 μs
+    Latency p99  : 448.24 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.81 MB, peak 5.44 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:31:20] rust | tx | on | run 24/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135256
+    Throughput   : 2254.3 CAMs/s
+    Latency mean : 443.12 μs
+    Latency p50  : 442.76 μs
+    Latency p95  : 444.93 μs
+    Latency p99  : 448.37 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.11 MB, peak 4.23 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:32:36] rust | tx | on | run 25/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135206
+    Throughput   : 2253.4 CAMs/s
+    Latency mean : 443.28 μs
+    Latency p50  : 442.89 μs
+    Latency p95  : 445.15 μs
+    Latency p99  : 448.48 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.14 MB, peak 4.66 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:33:51] rust | tx | on | run 26/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135276
+    Throughput   : 2254.6 CAMs/s
+    Latency mean : 443.05 μs
+    Latency p50  : 442.69 μs
+    Latency p95  : 444.80 μs
+    Latency p99  : 448.28 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.08 MB, peak 4.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:35:06] rust | tx | on | run 27/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135236
+    Throughput   : 2253.9 CAMs/s
+    Latency mean : 443.18 μs
+    Latency p50  : 442.81 μs
+    Latency p95  : 445.02 μs
+    Latency p99  : 448.32 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.14 MB, peak 4.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:36:21] rust | tx | on | run 28/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135199
+    Throughput   : 2253.3 CAMs/s
+    Latency mean : 443.30 μs
+    Latency p50  : 442.93 μs
+    Latency p95  : 445.20 μs
+    Latency p99  : 448.54 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.09 MB, peak 4.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:37:36] rust | tx | on | run 29/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135240
+    Throughput   : 2254.0 CAMs/s
+    Latency mean : 443.17 μs
+    Latency p50  : 442.80 μs
+    Latency p95  : 445.02 μs
+    Latency p99  : 448.39 μs
+    CPU          : 197.8 % (100 = one core)
+    RSS start    : 3.12 MB, peak 4.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:38:52] rust | tx | on | run 30/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+
+  Results:
+    Total        : 135236
+    Throughput   : 2253.9 CAMs/s
+    Latency mean : 443.18 μs
+    Latency p50  : 442.80 μs
+    Latency p95  : 445.09 μs
+    Latency p99  : 448.39 μs
+    CPU          : 197.7 % (100 = one core)
+    RSS start    : 3.03 MB, peak 4.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+================================================================
+  rust | tx | security=off | rate=10 | runs=10
+================================================================
+[12:39:57] rust | tx | off | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.25 μs
+    Latency p50  : 25.43 μs
+    Latency p95  : 31.24 μs
+    Latency p99  : 33.04 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.41 MB, peak 2.41 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:41:12] rust | tx | off | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.18 μs
+    Latency p50  : 25.33 μs
+    Latency p95  : 31.46 μs
+    Latency p99  : 32.80 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.42 MB, peak 2.42 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:42:27] rust | tx | off | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.50 μs
+    Latency p50  : 25.56 μs
+    Latency p95  : 31.59 μs
+    Latency p99  : 33.07 μs
+    CPU          : 0.0 % (100 = one core)
+    RSS start    : 2.38 MB, peak 2.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:43:42] rust | tx | off | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.52 μs
+    Latency p50  : 25.57 μs
+    Latency p95  : 31.83 μs
+    Latency p99  : 33.04 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.39 MB, peak 2.39 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:44:57] rust | tx | off | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.72 μs
+    Latency p50  : 25.78 μs
+    Latency p95  : 31.89 μs
+    Latency p99  : 34.04 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.38 MB, peak 2.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:46:12] rust | tx | off | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.51 μs
+    Latency p50  : 25.56 μs
+    Latency p95  : 31.74 μs
+    Latency p99  : 35.15 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.41 MB, peak 2.41 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:47:28] rust | tx | off | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.76 μs
+    Latency p50  : 25.80 μs
+    Latency p95  : 32.35 μs
+    Latency p99  : 36.11 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.34 MB, peak 2.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:48:43] rust | tx | off | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.77 μs
+    Latency p50  : 25.85 μs
+    Latency p95  : 32.09 μs
+    Latency p99  : 35.28 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.38 MB, peak 2.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:49:58] rust | tx | off | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.74 μs
+    Latency p50  : 25.80 μs
+    Latency p95  : 32.41 μs
+    Latency p99  : 35.48 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.36 MB, peak 2.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:51:13] rust | tx | off | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 26.78 μs
+    Latency p50  : 25.85 μs
+    Latency p95  : 32.33 μs
+    Latency p99  : 36.04 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 2.41 MB, peak 2.41 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+================================================================
+  rust | tx | security=on | rate=10 | runs=10
+================================================================
+[12:52:18] rust | tx | on | run 1/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 1
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 446.30 μs
+    Latency p50  : 444.56 μs
+    Latency p95  : 456.19 μs
+    Latency p99  : 458.67 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.12 MB, peak 3.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:53:33] rust | tx | on | run 2/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 2
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 446.31 μs
+    Latency p50  : 444.63 μs
+    Latency p95  : 457.04 μs
+    Latency p99  : 459.32 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.09 MB, peak 3.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:54:48] rust | tx | on | run 3/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 3
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 446.10 μs
+    Latency p50  : 444.20 μs
+    Latency p95  : 457.41 μs
+    Latency p99  : 459.80 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.11 MB, peak 3.11 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:56:03] rust | tx | on | run 4/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 4
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 446.52 μs
+    Latency p50  : 444.83 μs
+    Latency p95  : 457.48 μs
+    Latency p99  : 459.59 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.12 MB, peak 3.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:57:19] rust | tx | on | run 5/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 5
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 446.47 μs
+    Latency p50  : 444.48 μs
+    Latency p95  : 457.39 μs
+    Latency p99  : 460.74 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.14 MB, peak 3.17 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:58:34] rust | tx | on | run 6/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 6
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 445.88 μs
+    Latency p50  : 444.17 μs
+    Latency p95  : 456.13 μs
+    Latency p99  : 458.85 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.12 MB, peak 3.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[12:59:49] rust | tx | on | run 7/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 7
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 445.83 μs
+    Latency p50  : 444.11 μs
+    Latency p95  : 457.41 μs
+    Latency p99  : 459.91 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.06 MB, peak 3.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[13:01:04] rust | tx | on | run 8/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 8
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 445.65 μs
+    Latency p50  : 444.04 μs
+    Latency p95  : 456.65 μs
+    Latency p99  : 460.17 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.19 MB, peak 3.19 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[13:02:19] rust | tx | on | run 9/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 9
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 446.38 μs
+    Latency p50  : 444.39 μs
+    Latency p95  : 458.13 μs
+    Latency p99  : 463.00 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.11 MB, peak 3.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[13:03:34] rust | tx | on | run 10/10
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : tx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: lo
+  Run ID   : 10
+  Rate     : 10 msg/s
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+  Paced at 10 msg/s (0 late releases)
+
+  Results:
+    Total        : 600
+    Throughput   : 10.0 CAMs/s
+    Latency mean : 446.10 μs
+    Latency p50  : 444.32 μs
+    Latency p95  : 457.61 μs
+    Latency p99  : 460.00 μs
+    CPU          : 0.9 % (100 = one core)
+    RSS start    : 3.06 MB, peak 3.08 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv
+[2026-11-25 13:04:39] all cells done: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T112500.csv

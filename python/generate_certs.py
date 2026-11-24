@@ -11,6 +11,7 @@ stored under ../certs/ for use by the secured benchmarks in both Python and Rust
 import os
 import sys
 import time
+import ecdsa  # dependency of v2xflexstack
 
 from flexstack.security.ecdsa_backend import PythonECDSABackend
 from flexstack.security.certificate import OwnCertificate
@@ -21,6 +22,8 @@ ITS_EPOCH = 1072915200
 PSID_CAM = 36
 PSID_DENM = 37
 PSID_VAM = 638
+# GN-MGMT: secured GeoNetworking Beacons, SSP absent (ETSI TS 103 836-4-1 V2.2.1 table 22)
+PSID_GN_MGMT = 141
 
 CERT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "certs")
 
@@ -47,9 +50,10 @@ def main():
             "certIssuePermissions": [
                 {
                     "subjectPermissions": ("all", None),
+                    # Root CA -> AA -> AT: two certificates below the Root CA.
+                    # chainLengthRange 0 and eeType {app} are DEFAULTs
+                    # (IEEE 1609.2 PsidGroupPermissions), hence omitted.
                     "minChainLength": 2,
-                    "chainLengthRange": 0,
-                    "eeType": (b"\x00", 1),
                 }
             ],
             "verifyKeyIndicator": (
@@ -88,11 +92,17 @@ def main():
                                 "psid": PSID_VAM,
                                 "sspRange": ("all", None),
                             },
+                            {
+                                "psid": PSID_GN_MGMT,
+                                "sspRange": ("all", None),
+                            },
                         ],
                     ),
-                    "minChainLength": 0,
-                    "chainLengthRange": 0,
-                    "eeType": (b"\x00", 1),
+                    # minChainLength 1 (the AA issues end-entity ATs),
+                    # chainLengthRange 0 and eeType {app} are the DEFAULTs,
+                    # hence omitted. Before 2026-11-20 this profile had
+                    # minChainLength 0 and an empty eeType, i.e. a CA
+                    # certificate that may not issue application ATs.
                 }
             ],
             "verifyKeyIndicator": (
@@ -120,6 +130,7 @@ def main():
                     {"psid": PSID_CAM},
                     {"psid": PSID_DENM},
                     {"psid": PSID_VAM},
+                    {"psid": PSID_GN_MGMT},
                 ],
                 "verifyKeyIndicator": (
                     "verificationKey",
@@ -134,12 +145,20 @@ def main():
     def save(name, cert, backend_ref):
         cert_path = os.path.join(CERT_DIR, f"{name}.cert")
         key_path = os.path.join(CERT_DIR, f"{name}.pem")
+        raw_key_path = os.path.join(CERT_DIR, f"{name}.key")
+        pem = backend_ref.export_signing_key(cert.key_id)
         with open(cert_path, "wb") as f:
             f.write(cert.encode())
+        # PEM for the Python harness (PythonECDSABackend.import_signing_key).
         with open(key_path, "wb") as f:
-            f.write(backend_ref.export_signing_key(cert.key_id))
+            f.write(pem)
+        # Raw 32-byte big-endian P-256 scalar for the Rust harness
+        # (rustflexstack EcdsaBackend::import_signing_key -> SigningKey::from_slice).
+        with open(raw_key_path, "wb") as f:
+            f.write(ecdsa.SigningKey.from_pem(pem).to_string())
         print(f"  {cert_path}")
         print(f"  {key_path}")
+        print(f"  {raw_key_path}")
 
     print("Generated certificate chain:")
     save("root_ca", root_ca, backend)

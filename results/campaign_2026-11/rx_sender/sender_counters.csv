@@ -1,0 +1,5 @@
+# Ethernet RX sender (this computer, enp3s0): tx_packets interface counter at the start (t0,p0) and end (t2,p2) of each phase; rate = (p2-p0)/(t2-t0).
+phase,security,stamp,t0_unix,t2_unix,tx_packets_t0,tx_packets_t2,sender_slots,sender
+main,off,20261125T145746,1795615106,1795626604,76015861,1229615262,3,vanetza-3b9a544
+main,on,20261125T181109,1795626709,1795637599,1232862690,1336177600,3,vanetza-3b9a544
+rerun,off,20261125T211440,1795637720,1795644108,1340254682,1979981496,3,vanetza-3b9a544

@@ -1,0 +1,34 @@
+\begin{table}[t]
+    \centering
+    \caption{Unit tests traced to ETSI conformance test purposes (TPs), per protocol, for the Python (Py) and Rust (Rs) implementations. Cov.: a unit test asserts the TP's expected behaviour; Part.: exercised, not all TP conditions; Untest.: implemented, no unit test; N/I: not implemented; N/A: outside the implementation's PICS. These are unit tests traced to TPs, not an execution of the ETSI abstract test suites.}
+    \label{tab:tp_traceability}
+    \setlength{\tabcolsep}{3pt}
+    \adjustbox{max width=\columnwidth}{%
+    \begin{tabular}{l r l r r r r r}
+        \toprule
+        \textbf{Protocol (TSS\&TP)} & \textbf{TPs} & & \textbf{Cov.} & \textbf{Part.} & \textbf{Untest.} & \textbf{N/I} & \textbf{N/A} \\
+        \midrule
+        BTP & 5 & Py & 5 & 0 & 0 & 0 & 0 \\
+         &  & Rs & 5 & 0 & 0 & 0 & 0 \\
+        \midrule
+        GeoNetworking & 138 & Py & 129 & 0 & 0 & 1 & 8 \\
+         &  & Rs & 129 & 0 & 0 & 1 & 8 \\
+        \midrule
+        CA basic service & 32 & Py & 30 & 0 & 0 & 0 & 2 \\
+         &  & Rs & 30 & 0 & 0 & 0 & 2 \\
+        \midrule
+        DEN basic service & 57 & Py & 56 & 0 & 0 & 1 & 0 \\
+         &  & Rs & 56 & 0 & 0 & 1 & 0 \\
+        \midrule
+        Security & 91 & Py & 91 & 0 & 0 & 0 & 0 \\
+         &  & Rs & 91 & 0 & 0 & 0 & 0 \\
+        \midrule
+        PKI (ITS-S) & 76 & Py & 69 & 0 & 0 & 6 & 1 \\
+         &  & Rs & 69 & 0 & 0 & 6 & 1 \\
+        \midrule
+        \textbf{Total} & 399 & Py & 380 & 0 & 0 & 8 & 11 \\
+         &  & Rs & 380 & 0 & 0 & 8 & 11 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}

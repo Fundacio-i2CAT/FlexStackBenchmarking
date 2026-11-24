@@ -1,0 +1,21 @@
+# One row per raw/<dir>/ host folder. "platform" is the label the analysis
+# uses for the cells (it replaces the CSV's platform column). The three
+# Orin Nano boards ran disjoint subsets of the cells in the same
+# configuration and share one label; the two AGX Orin boards ran all cells
+# in different power modes and get separate labels. The two Cohda MK6 units
+# ran disjoint cells (101: radio TX and fixed-rate verify; 107: in-memory
+# codec and security) of one configuration and share the label mk6. The
+# RPi3 boards b (raw/rpi3: TX, codec, security) and a (raw/rpi3-a: the
+# Ethernet RX cells, which board b did not run) share the label rpi3.
+dir,platform
+laptop,laptop
+rpi5,rpi5
+rpi3,rpi3
+agx-orin-50w,agx-orin-50w
+agx-orin-30w,agx-orin-30w
+orin-nano-1,orin-nano
+orin-nano-2,orin-nano
+orin-nano-4,orin-nano
+mk6-101,mk6
+mk6-107,mk6
+rpi3-a,rpi3

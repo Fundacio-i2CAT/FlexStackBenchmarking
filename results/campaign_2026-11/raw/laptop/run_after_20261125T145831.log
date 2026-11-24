@@ -1,0 +1,3414 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+================================================================
+  cpython | rx | security=off | rate=0 | runs=30
+================================================================
+[14:58:32] cpython | rx | off | run 1/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30752 packets
+  Measurement phase (60s)...
+  RX: 357659 CAMs (5959/s)
+
+  Results:
+    Total        : 357659
+    Throughput   : 5958.9 CAMs/s
+    Latency mean : 159.19 μs
+    Latency p50  : 153.27 μs
+    Latency p95  : 156.88 μs
+    Latency p99  : 160.02 μs
+    CPU          : 96.7 % (100 = one core)
+    RSS start    : 68.96 MB, peak 83.69 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[14:59:50] cpython | rx | off | run 2/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31038 packets
+  Measurement phase (60s)...
+  RX: 356046 CAMs (5933/s)
+
+  Results:
+    Total        : 356046
+    Throughput   : 5932.7 CAMs/s
+    Latency mean : 160.83 μs
+    Latency p50  : 153.80 μs
+    Latency p95  : 157.04 μs
+    Latency p99  : 159.88 μs
+    CPU          : 96.0 % (100 = one core)
+    RSS start    : 68.87 MB, peak 83.25 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:01:08] cpython | rx | off | run 3/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31548 packets
+  Measurement phase (60s)...
+  RX: 360361 CAMs (6003/s)
+
+  Results:
+    Total        : 360361
+    Throughput   : 6002.9 CAMs/s
+    Latency mean : 158.79 μs
+    Latency p50  : 152.22 μs
+    Latency p95  : 155.54 μs
+    Latency p99  : 158.48 μs
+    CPU          : 96.5 % (100 = one core)
+    RSS start    : 69.18 MB, peak 83.60 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:02:26] cpython | rx | off | run 4/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30918 packets
+  Measurement phase (60s)...
+  RX: 358149 CAMs (5968/s)
+
+  Results:
+    Total        : 358149
+    Throughput   : 5968.5 CAMs/s
+    Latency mean : 158.69 μs
+    Latency p50  : 152.17 μs
+    Latency p95  : 155.66 μs
+    Latency p99  : 158.83 μs
+    CPU          : 96.2 % (100 = one core)
+    RSS start    : 69.16 MB, peak 83.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:03:44] cpython | rx | off | run 5/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31131 packets
+  Measurement phase (60s)...
+  RX: 361894 CAMs (6028/s)
+
+  Results:
+    Total        : 361894
+    Throughput   : 6028.4 CAMs/s
+    Latency mean : 157.55 μs
+    Latency p50  : 153.12 μs
+    Latency p95  : 156.25 μs
+    Latency p99  : 159.40 μs
+    CPU          : 97.6 % (100 = one core)
+    RSS start    : 68.72 MB, peak 83.14 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:05:01] cpython | rx | off | run 6/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31335 packets
+  Measurement phase (60s)...
+  RX: 365817 CAMs (6093/s)
+
+  Results:
+    Total        : 365817
+    Throughput   : 6093.0 CAMs/s
+    Latency mean : 156.93 μs
+    Latency p50  : 153.80 μs
+    Latency p95  : 157.16 μs
+    Latency p99  : 160.38 μs
+    CPU          : 98.5 % (100 = one core)
+    RSS start    : 69.21 MB, peak 83.87 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:06:19] cpython | rx | off | run 7/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31276 packets
+  Measurement phase (60s)...
+  RX: 363136 CAMs (6051/s)
+
+  Results:
+    Total        : 363136
+    Throughput   : 6051.2 CAMs/s
+    Latency mean : 157.36 μs
+    Latency p50  : 153.30 μs
+    Latency p95  : 156.96 μs
+    Latency p99  : 160.28 μs
+    CPU          : 97.9 % (100 = one core)
+    RSS start    : 69.05 MB, peak 84.08 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:07:37] cpython | rx | off | run 8/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30875 packets
+  Measurement phase (60s)...
+  RX: 360497 CAMs (6008/s)
+
+  Results:
+    Total        : 360497
+    Throughput   : 6007.7 CAMs/s
+    Latency mean : 157.13 μs
+    Latency p50  : 153.69 μs
+    Latency p95  : 157.09 μs
+    Latency p99  : 160.13 μs
+    CPU          : 97.8 % (100 = one core)
+    RSS start    : 68.88 MB, peak 83.29 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:08:55] cpython | rx | off | run 9/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/local/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+    ~~~~~~~~~^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+    ~~~~~~~~~~~~~~^^^^^^^^
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30981 packets
+  Measurement phase (60s)...
+  RX: 360515 CAMs (6006/s)
+
+  Results:
+    Total        : 360515
+    Throughput   : 6005.7 CAMs/s
+    Latency mean : 157.63 μs
+    Latency p50  : 153.12 μs
+    Latency p95  : 157.14 μs
+    Latency p99  : 160.06 μs
+    CPU          : 97.5 % (100 = one core)
+    RSS start    : 68.85 MB, peak 83.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:10:13] cpython | rx | off | run 10/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31164 packets
+  Measurement phase (60s)...
+  RX: 359373 CAMs (5987/s)
+
+  Results:
+    Total        : 359373
+    Throughput   : 5987.1 CAMs/s
+    Latency mean : 157.74 μs
+    Latency p50  : 153.00 μs
+    Latency p95  : 156.43 μs
+    Latency p99  : 159.62 μs
+    CPU          : 97.1 % (100 = one core)
+    RSS start    : 68.93 MB, peak 83.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:11:30] cpython | rx | off | run 11/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30917 packets
+  Measurement phase (60s)...
+  RX: 358933 CAMs (5980/s)
+
+  Results:
+    Total        : 358933
+    Throughput   : 5980.3 CAMs/s
+    Latency mean : 158.74 μs
+    Latency p50  : 154.05 μs
+    Latency p95  : 157.31 μs
+    Latency p99  : 160.52 μs
+    CPU          : 97.4 % (100 = one core)
+    RSS start    : 68.93 MB, peak 83.91 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:12:48] cpython | rx | off | run 12/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30548 packets
+  Measurement phase (60s)...
+  RX: 357121 CAMs (5950/s)
+
+  Results:
+    Total        : 357121
+    Throughput   : 5949.9 CAMs/s
+    Latency mean : 159.31 μs
+    Latency p50  : 154.26 μs
+    Latency p95  : 157.45 μs
+    Latency p99  : 160.77 μs
+    CPU          : 97.2 % (100 = one core)
+    RSS start    : 68.72 MB, peak 83.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:14:05] cpython | rx | off | run 13/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30397 packets
+  Measurement phase (60s)...
+  RX: 359179 CAMs (5980/s)
+
+  Results:
+    Total        : 359179
+    Throughput   : 5980.5 CAMs/s
+    Latency mean : 158.87 μs
+    Latency p50  : 154.32 μs
+    Latency p95  : 157.80 μs
+    Latency p99  : 161.03 μs
+    CPU          : 97.5 % (100 = one core)
+    RSS start    : 69.14 MB, peak 82.29 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:15:23] cpython | rx | off | run 14/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/local/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+    ~~~~~~~~~^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+    ~~~~~~~~~~~~~~^^^^^^^^
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31108 packets
+  Measurement phase (60s)...
+  RX: 355875 CAMs (5931/s)
+
+  Results:
+    Total        : 355875
+    Throughput   : 5931.2 CAMs/s
+    Latency mean : 159.46 μs
+    Latency p50  : 153.43 μs
+    Latency p95  : 156.75 μs
+    Latency p99  : 159.81 μs
+    CPU          : 96.3 % (100 = one core)
+    RSS start    : 69.05 MB, peak 82.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:16:41] cpython | rx | off | run 15/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30243 packets
+  Measurement phase (60s)...
+  RX: 361920 CAMs (6030/s)
+
+  Results:
+    Total        : 361920
+    Throughput   : 6030.2 CAMs/s
+    Latency mean : 157.02 μs
+    Latency p50  : 153.05 μs
+    Latency p95  : 156.59 μs
+    Latency p99  : 159.78 μs
+    CPU          : 97.7 % (100 = one core)
+    RSS start    : 69.18 MB, peak 82.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:17:58] cpython | rx | off | run 16/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31360 packets
+  Measurement phase (60s)...
+  RX: 364889 CAMs (6076/s)
+
+  Results:
+    Total        : 364889
+    Throughput   : 6075.8 CAMs/s
+    Latency mean : 155.90 μs
+    Latency p50  : 152.04 μs
+    Latency p95  : 155.53 μs
+    Latency p99  : 158.57 μs
+    CPU          : 97.7 % (100 = one core)
+    RSS start    : 69.10 MB, peak 84.00 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:19:16] cpython | rx | off | run 17/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30149 packets
+  Measurement phase (60s)...
+  RX: 361330 CAMs (6019/s)
+
+  Results:
+    Total        : 361330
+    Throughput   : 6018.8 CAMs/s
+    Latency mean : 157.94 μs
+    Latency p50  : 152.83 μs
+    Latency p95  : 156.06 μs
+    Latency p99  : 159.21 μs
+    CPU          : 97.2 % (100 = one core)
+    RSS start    : 69.28 MB, peak 84.26 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:20:34] cpython | rx | off | run 18/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31161 packets
+  Measurement phase (60s)...
+  RX: 364552 CAMs (6075/s)
+
+  Results:
+    Total        : 364552
+    Throughput   : 6075.5 CAMs/s
+    Latency mean : 155.97 μs
+    Latency p50  : 152.28 μs
+    Latency p95  : 155.84 μs
+    Latency p99  : 159.03 μs
+    CPU          : 98.0 % (100 = one core)
+    RSS start    : 68.96 MB, peak 84.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:21:52] cpython | rx | off | run 19/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31520 packets
+  Measurement phase (60s)...
+  RX: 361480 CAMs (6021/s)
+
+  Results:
+    Total        : 361480
+    Throughput   : 6020.8 CAMs/s
+    Latency mean : 156.94 μs
+    Latency p50  : 152.70 μs
+    Latency p95  : 155.96 μs
+    Latency p99  : 159.25 μs
+    CPU          : 97.4 % (100 = one core)
+    RSS start    : 69.09 MB, peak 81.96 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:23:09] cpython | rx | off | run 20/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31532 packets
+  Measurement phase (60s)...
+  RX: 362511 CAMs (6036/s)
+
+  Results:
+    Total        : 362511
+    Throughput   : 6036.2 CAMs/s
+    Latency mean : 157.48 μs
+    Latency p50  : 152.66 μs
+    Latency p95  : 156.54 μs
+    Latency p99  : 159.34 μs
+    CPU          : 97.4 % (100 = one core)
+    RSS start    : 68.79 MB, peak 83.19 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:24:27] cpython | rx | off | run 21/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30103 packets
+  Measurement phase (60s)...
+  RX: 362895 CAMs (6047/s)
+
+  Results:
+    Total        : 362895
+    Throughput   : 6046.6 CAMs/s
+    Latency mean : 156.65 μs
+    Latency p50  : 153.57 μs
+    Latency p95  : 157.05 μs
+    Latency p99  : 160.25 μs
+    CPU          : 98.4 % (100 = one core)
+    RSS start    : 69.07 MB, peak 84.21 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:25:45] cpython | rx | off | run 22/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/local/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+    ~~~~~~~~~^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/venv/lib/python3.13/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+    ~~~~~~~~~~~~~~^^^^^^^^
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30461 packets
+  Measurement phase (60s)...
+  RX: 360221 CAMs (6001/s)
+
+  Results:
+    Total        : 360221
+    Throughput   : 6000.9 CAMs/s
+    Latency mean : 157.77 μs
+    Latency p50  : 153.89 μs
+    Latency p95  : 157.33 μs
+    Latency p99  : 160.39 μs
+    CPU          : 97.7 % (100 = one core)
+    RSS start    : 69.21 MB, peak 83.62 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:27:02] cpython | rx | off | run 23/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30680 packets
+  Measurement phase (60s)...
+  RX: 355232 CAMs (5917/s)
+
+  Results:
+    Total        : 355232
+    Throughput   : 5916.7 CAMs/s
+    Latency mean : 159.70 μs
+    Latency p50  : 153.06 μs
+    Latency p95  : 156.15 μs
+    Latency p99  : 159.12 μs
+    CPU          : 95.9 % (100 = one core)
+    RSS start    : 69.19 MB, peak 84.37 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:28:20] cpython | rx | off | run 24/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30523 packets
+  Measurement phase (60s)...
+  RX: 362195 CAMs (6035/s)
+
+  Results:
+    Total        : 362195
+    Throughput   : 6034.5 CAMs/s
+    Latency mean : 156.72 μs
+    Latency p50  : 152.82 μs
+    Latency p95  : 156.10 μs
+    Latency p99  : 159.18 μs
+    CPU          : 97.6 % (100 = one core)
+    RSS start    : 68.78 MB, peak 81.93 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:29:37] cpython | rx | off | run 25/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30828 packets
+  Measurement phase (60s)...
+  RX: 351962 CAMs (5862/s)
+
+  Results:
+    Total        : 351962
+    Throughput   : 5862.4 CAMs/s
+    Latency mean : 161.44 μs
+    Latency p50  : 154.34 μs
+    Latency p95  : 157.66 μs
+    Latency p99  : 160.73 μs
+    CPU          : 95.7 % (100 = one core)
+    RSS start    : 69.10 MB, peak 81.62 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:30:55] cpython | rx | off | run 26/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31231 packets
+  Measurement phase (60s)...
+  RX: 363811 CAMs (6062/s)
+
+  Results:
+    Total        : 363811
+    Throughput   : 6062.2 CAMs/s
+    Latency mean : 156.74 μs
+    Latency p50  : 152.14 μs
+    Latency p95  : 155.74 μs
+    Latency p99  : 158.59 μs
+    CPU          : 97.4 % (100 = one core)
+    RSS start    : 68.99 MB, peak 83.96 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:32:13] cpython | rx | off | run 27/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30485 packets
+  Measurement phase (60s)...
+  RX: 362812 CAMs (6047/s)
+
+  Results:
+    Total        : 362812
+    Throughput   : 6046.9 CAMs/s
+    Latency mean : 156.61 μs
+    Latency p50  : 152.57 μs
+    Latency p95  : 156.32 μs
+    Latency p99  : 159.20 μs
+    CPU          : 97.7 % (100 = one core)
+    RSS start    : 69.05 MB, peak 83.45 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:33:30] cpython | rx | off | run 28/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 32021 packets
+  Measurement phase (60s)...
+  RX: 362503 CAMs (6039/s)
+
+  Results:
+    Total        : 362503
+    Throughput   : 6038.8 CAMs/s
+    Latency mean : 157.25 μs
+    Latency p50  : 152.06 μs
+    Latency p95  : 155.26 μs
+    Latency p99  : 158.30 μs
+    CPU          : 97.1 % (100 = one core)
+    RSS start    : 69.28 MB, peak 84.71 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:34:48] cpython | rx | off | run 29/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 30317 packets
+  Measurement phase (60s)...
+  RX: 361836 CAMs (6030/s)
+
+  Results:
+    Total        : 361836
+    Throughput   : 6029.9 CAMs/s
+    Latency mean : 156.75 μs
+    Latency p50  : 153.29 μs
+    Latency p95  : 156.80 μs
+    Latency p99  : 159.89 μs
+    CPU          : 97.7 % (100 = one core)
+    RSS start    : 68.93 MB, peak 83.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:36:05] cpython | rx | off | run 30/30
+============================================================
+FlexStack Benchmark — cpython 3.13.7
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 31539 packets
+  Measurement phase (60s)...
+  RX: 362922 CAMs (6046/s)
+
+  Results:
+    Total        : 362922
+    Throughput   : 6046.0 CAMs/s
+    Latency mean : 157.30 μs
+    Latency p50  : 153.58 μs
+    Latency p95  : 156.90 μs
+    Latency p99  : 160.08 μs
+    CPU          : 98.0 % (100 = one core)
+    RSS start    : 68.88 MB, peak 81.66 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+================================================================
+  pypy | rx | security=off | rate=0 | runs=30
+================================================================
+[15:37:13] pypy | rx | off | run 1/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 541152 packets
+  Measurement phase (60s)...
+  RX: 2247551 CAMs (37459/s)
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+Traceback (most recent call last):
+  [WARN] exited with error
+[15:38:44] pypy | rx | off | run 2/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 531279 packets
+  Measurement phase (60s)...
+  RX: 2266317 CAMs (37766/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[15:40:14] pypy | rx | off | run 3/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 547788 packets
+  Measurement phase (60s)...
+  RX: 2283975 CAMs (38066/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[15:41:45] pypy | rx | off | run 4/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 541641 packets
+  Measurement phase (60s)...
+  RX: 2314425 CAMs (38574/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+Exception in thread Thread-1 (_timer_loop):
+  [WARN] exited with error
+[15:43:16] pypy | rx | off | run 5/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 554279 packets
+  Measurement phase (60s)...
+  RX: 2346226 CAMs (39101/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[15:44:46] pypy | rx | off | run 6/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 548515 packets
+  Measurement phase (60s)...
+  RX: 2335657 CAMs (38928/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+Exception in thread Thread-1 (_timer_loop):
+  [WARN] exited with error
+[15:46:17] pypy | rx | off | run 7/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 551267 packets
+  Measurement phase (60s)...
+  RX: 2317578 CAMs (38626/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[15:47:47] pypy | rx | off | run 8/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 554606 packets
+  Measurement phase (60s)...
+  RX: 2322984 CAMs (38716/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[15:49:18] pypy | rx | off | run 9/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 553681 packets
+  Measurement phase (60s)...
+  RX: 2358548 CAMs (39309/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[15:50:49] pypy | rx | off | run 10/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 554250 packets
+  Measurement phase (60s)...
+  RX: 2332092 CAMs (38868/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[15:52:20] pypy | rx | off | run 11/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 539663 packets
+  Measurement phase (60s)...
+  RX: 2318134 CAMs (38635/s)
+
+  Results:
+    Total        : 2318134
+    Throughput   : 38635.3 CAMs/s
+    Latency mean : 23.46 μs
+    Latency p50  : 22.39 μs
+    Latency p95  : 24.22 μs
+    Latency p99  : 34.01 μs
+    CPU          : 98.1 % (100 = one core)
+    RSS start    : 183.76 MB, peak 237.70 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:53:52] pypy | rx | off | run 12/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 541859 packets
+  Measurement phase (60s)...
+  RX: 2301597 CAMs (38360/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+Exception in thread Thread-1 (_timer_loop):
+  [WARN] exited with error
+[15:55:23] pypy | rx | off | run 13/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 537957 packets
+  Measurement phase (60s)...
+  RX: 2284300 CAMs (38072/s)
+
+  Results:
+    Total        : 2284300
+    Throughput   : 38071.6 CAMs/s
+    Latency mean : 23.79 μs
+    Latency p50  : 22.16 μs
+    Latency p95  : 25.28 μs
+    Latency p99  : 33.97 μs
+    CPU          : 96.5 % (100 = one core)
+    RSS start    : 186.57 MB, peak 225.93 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[15:56:55] pypy | rx | off | run 14/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 540988 packets
+  Measurement phase (60s)...
+  RX: 2316148 CAMs (38602/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[15:58:26] pypy | rx | off | run 15/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 564352 packets
+  Measurement phase (60s)...
+  RX: 2314783 CAMs (38580/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[15:59:56] pypy | rx | off | run 16/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 547630 packets
+  Measurement phase (60s)...
+  RX: 2322895 CAMs (38714/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[16:01:27] pypy | rx | off | run 17/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 538333 packets
+  Measurement phase (60s)...
+  RX: 2272537 CAMs (37876/s)
+
+  Results:
+    Total        : 2272537
+    Throughput   : 37875.5 CAMs/s
+    Latency mean : 23.98 μs
+    Latency p50  : 22.48 μs
+    Latency p95  : 23.63 μs
+    Latency p99  : 34.10 μs
+    CPU          : 96.4 % (100 = one core)
+    RSS start    : 184.34 MB, peak 224.30 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:02:59] pypy | rx | off | run 18/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 545799 packets
+  Measurement phase (60s)...
+  RX: 2304866 CAMs (38413/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[16:04:29] pypy | rx | off | run 19/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 544972 packets
+  Measurement phase (60s)...
+  RX: 2236428 CAMs (37274/s)
+
+  Results:
+    Total        : 2236428
+    Throughput   : 37273.7 CAMs/s
+    Latency mean : 24.19 μs
+    Latency p50  : 22.24 μs
+    Latency p95  : 23.41 μs
+    Latency p99  : 33.85 μs
+    CPU          : 95.2 % (100 = one core)
+    RSS start    : 186.89 MB, peak 230.74 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:06:01] pypy | rx | off | run 20/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 536155 packets
+  Measurement phase (60s)...
+  RX: 2259812 CAMs (37663/s)
+
+  Results:
+    Total        : 2259812
+    Throughput   : 37663.4 CAMs/s
+    Latency mean : 24.13 μs
+    Latency p50  : 22.17 μs
+    Latency p95  : 23.29 μs
+    Latency p99  : 33.93 μs
+    CPU          : 95.0 % (100 = one core)
+    RSS start    : 185.20 MB, peak 230.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:07:34] pypy | rx | off | run 21/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 544136 packets
+  Measurement phase (60s)...
+  RX: 2276324 CAMs (37939/s)
+
+  Results:
+    Total        : 2276324
+    Throughput   : 37938.6 CAMs/s
+    Latency mean : 23.74 μs
+    Latency p50  : 22.17 μs
+    Latency p95  : 23.47 μs
+    Latency p99  : 33.81 μs
+    CPU          : 95.7 % (100 = one core)
+    RSS start    : 188.04 MB, peak 226.88 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:09:06] pypy | rx | off | run 22/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 547427 packets
+  Measurement phase (60s)...
+  RX: 2317803 CAMs (38630/s)
+
+  Results:
+    Total        : 2317803
+    Throughput   : 38630.0 CAMs/s
+    Latency mean : 23.26 μs
+    Latency p50  : 22.20 μs
+    Latency p95  : 23.55 μs
+    Latency p99  : 34.04 μs
+    CPU          : 97.9 % (100 = one core)
+    RSS start    : 182.68 MB, peak 225.62 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:10:38] pypy | rx | off | run 23/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 540457 packets
+  Measurement phase (60s)...
+  RX: 2306857 CAMs (38448/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+Exception in thread Thread-1 (_timer_loop):
+  [WARN] exited with error
+[16:12:09] pypy | rx | off | run 24/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 547341 packets
+  Measurement phase (60s)...
+  RX: 2290578 CAMs (38176/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[16:13:40] pypy | rx | off | run 25/30
+Exception in thread Thread-1 (_timer_loop):
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 330, in _timer_loop
+    self.tick()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 304, in tick
+    self.gn_data_request_beacon()
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/geonet/router.py", line 254, in gn_data_request_beacon
+    self.link_layer.send(packet)
+  File "/home/<user>/FlexStackBenchmarking/pypy/lib/pypy3.11/site-packages/flexstack/linklayer/raw_link_layer.py", line 118, in send
+    self.sock.send(packet)
+OSError: [Errno 9] Bad file descriptor
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 545022 packets
+  Measurement phase (60s)...
+  RX: 2292075 CAMs (38200/s)
+
+  Results:
+    Total        : 2292075
+    Throughput   : 38200.0 CAMs/s
+    Latency mean : 23.55 μs
+    Latency p50  : 22.21 μs
+    Latency p95  : 23.97 μs
+    Latency p99  : 35.10 μs
+    CPU          : 97.3 % (100 = one core)
+    RSS start    : 186.87 MB, peak 235.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:15:12] pypy | rx | off | run 26/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 538503 packets
+  Measurement phase (60s)...
+  RX: 2270012 CAMs (37833/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[16:16:43] pypy | rx | off | run 27/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 552034 packets
+  Measurement phase (60s)...
+  RX: 2314667 CAMs (38578/s)
+
+  Results:
+    Total        : 2314667
+    Throughput   : 38577.7 CAMs/s
+    Latency mean : 23.33 μs
+    Latency p50  : 22.06 μs
+    Latency p95  : 23.82 μs
+    Latency p99  : 34.45 μs
+    CPU          : 97.5 % (100 = one core)
+    RSS start    : 187.61 MB, peak 226.66 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:18:15] pypy | rx | off | run 28/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 541161 packets
+  Measurement phase (60s)...
+  RX: 2223140 CAMs (37052/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[16:19:46] pypy | rx | off | run 29/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 530910 packets
+  Measurement phase (60s)...
+  RX: 2237579 CAMs (37293/s)
+Traceback (most recent call last):
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1295, in <module>
+    main()
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1265, in main
+    row = bench_rx(args)
+          ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 859, in bench_rx
+    return compute_stats(
+           ^^^^^^^^^^^^^^
+  File "/home/<user>/FlexStackBenchmarking/python/benchmark.py", line 1111, in compute_stats
+    arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inconsistent object during array creation? Content of sequences changed (length inconsistent).
+  [WARN] exited with error
+[16:21:16] pypy | rx | off | run 30/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 532768 packets
+  Measurement phase (60s)...
+  RX: 2279891 CAMs (37997/s)
+
+  Results:
+    Total        : 2279891
+    Throughput   : 37997.4 CAMs/s
+    Latency mean : 23.71 μs
+    Latency p50  : 22.08 μs
+    Latency p95  : 24.00 μs
+    Latency p99  : 34.63 μs
+    CPU          : 96.1 % (100 = one core)
+    RSS start    : 179.20 MB, peak 237.76 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+================================================================
+  rust | rx | security=off | rate=0 | runs=30
+================================================================
+[16:22:39] rust | rx | off | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510888 packets
+  Measurement phase (60s)...
+  RX: 6031090 CAMs (100518/s), errors: 0
+
+  Results:
+    Total        : 6031090
+    Throughput   : 100518.1 CAMs/s
+    Latency mean : 169.67 μs
+    Latency p50  : 151.16 μs
+    Latency p95  : 383.17 μs
+    Latency p99  : 472.66 μs
+    CPU          : 114.9 % (100 = one core)
+    RSS start    : 5.27 MB, peak 69.24 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:23:55] rust | rx | off | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 513136 packets
+  Measurement phase (60s)...
+  RX: 6031157 CAMs (100519/s), errors: 0
+
+  Results:
+    Total        : 6031157
+    Throughput   : 100519.3 CAMs/s
+    Latency mean : 200.16 μs
+    Latency p50  : 171.42 μs
+    Latency p95  : 402.64 μs
+    Latency p99  : 486.06 μs
+    CPU          : 114.2 % (100 = one core)
+    RSS start    : 5.36 MB, peak 69.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:25:10] rust | rx | off | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 509994 packets
+  Measurement phase (60s)...
+  RX: 6022989 CAMs (100383/s), errors: 0
+
+  Results:
+    Total        : 6022989
+    Throughput   : 100383.1 CAMs/s
+    Latency mean : 227.04 μs
+    Latency p50  : 191.58 μs
+    Latency p95  : 461.20 μs
+    Latency p99  : 523.40 μs
+    CPU          : 114.3 % (100 = one core)
+    RSS start    : 4.07 MB, peak 68.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:26:26] rust | rx | off | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510037 packets
+  Measurement phase (60s)...
+  RX: 6032857 CAMs (100548/s), errors: 0
+
+  Results:
+    Total        : 6032857
+    Throughput   : 100547.6 CAMs/s
+    Latency mean : 154.77 μs
+    Latency p50  : 142.58 μs
+    Latency p95  : 327.84 μs
+    Latency p99  : 439.98 μs
+    CPU          : 114.5 % (100 = one core)
+    RSS start    : 4.37 MB, peak 71.51 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:27:43] rust | rx | off | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 493794 packets
+  Measurement phase (60s)...
+  RX: 6029150 CAMs (100486/s), errors: 0
+
+  Results:
+    Total        : 6029150
+    Throughput   : 100485.8 CAMs/s
+    Latency mean : 241.51 μs
+    Latency p50  : 197.91 μs
+    Latency p95  : 476.60 μs
+    Latency p99  : 542.79 μs
+    CPU          : 114.4 % (100 = one core)
+    RSS start    : 4.96 MB, peak 67.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:28:59] rust | rx | off | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510838 packets
+  Measurement phase (60s)...
+  RX: 6028148 CAMs (100469/s), errors: 0
+
+  Results:
+    Total        : 6028148
+    Throughput   : 100469.1 CAMs/s
+    Latency mean : 151.64 μs
+    Latency p50  : 139.94 μs
+    Latency p95  : 338.92 μs
+    Latency p99  : 453.45 μs
+    CPU          : 114.4 % (100 = one core)
+    RSS start    : 4.60 MB, peak 68.84 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:30:14] rust | rx | off | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 511137 packets
+  Measurement phase (60s)...
+  RX: 6009754 CAMs (100162/s), errors: 0
+
+  Results:
+    Total        : 6009754
+    Throughput   : 100162.5 CAMs/s
+    Latency mean : 238.16 μs
+    Latency p50  : 197.59 μs
+    Latency p95  : 459.59 μs
+    Latency p99  : 563.70 μs
+    CPU          : 113.9 % (100 = one core)
+    RSS start    : 4.46 MB, peak 68.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:31:30] rust | rx | off | run 8/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510794 packets
+  Measurement phase (60s)...
+  RX: 6013847 CAMs (100231/s), errors: 0
+
+  Results:
+    Total        : 6013847
+    Throughput   : 100230.8 CAMs/s
+    Latency mean : 177.36 μs
+    Latency p50  : 154.83 μs
+    Latency p95  : 394.35 μs
+    Latency p99  : 490.96 μs
+    CPU          : 114.0 % (100 = one core)
+    RSS start    : 4.23 MB, peak 68.81 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:32:46] rust | rx | off | run 9/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 478129 packets
+  Measurement phase (60s)...
+  RX: 6031079 CAMs (100518/s), errors: 0
+
+  Results:
+    Total        : 6031079
+    Throughput   : 100518.0 CAMs/s
+    Latency mean : 199.84 μs
+    Latency p50  : 171.87 μs
+    Latency p95  : 400.23 μs
+    Latency p99  : 470.59 μs
+    CPU          : 114.7 % (100 = one core)
+    RSS start    : 4.61 MB, peak 66.28 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:34:02] rust | rx | off | run 10/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 509122 packets
+  Measurement phase (60s)...
+  RX: 6062477 CAMs (101041/s), errors: 0
+
+  Results:
+    Total        : 6062477
+    Throughput   : 101041.1 CAMs/s
+    Latency mean : 227.96 μs
+    Latency p50  : 189.81 μs
+    Latency p95  : 467.32 μs
+    Latency p99  : 535.77 μs
+    CPU          : 114.8 % (100 = one core)
+    RSS start    : 4.83 MB, peak 64.88 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:35:18] rust | rx | off | run 11/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 509113 packets
+  Measurement phase (60s)...
+  RX: 6014153 CAMs (100236/s), errors: 0
+
+  Results:
+    Total        : 6014153
+    Throughput   : 100235.9 CAMs/s
+    Latency mean : 156.06 μs
+    Latency p50  : 144.27 μs
+    Latency p95  : 331.38 μs
+    Latency p99  : 430.52 μs
+    CPU          : 114.3 % (100 = one core)
+    RSS start    : 5.00 MB, peak 69.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:36:34] rust | rx | off | run 12/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510736 packets
+  Measurement phase (60s)...
+  RX: 6051675 CAMs (100861/s), errors: 0
+
+  Results:
+    Total        : 6051675
+    Throughput   : 100861.1 CAMs/s
+    Latency mean : 234.53 μs
+    Latency p50  : 195.31 μs
+    Latency p95  : 465.89 μs
+    Latency p99  : 529.18 μs
+    CPU          : 115.3 % (100 = one core)
+    RSS start    : 4.90 MB, peak 64.88 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:37:50] rust | rx | off | run 13/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 498927 packets
+  Measurement phase (60s)...
+  RX: 6044877 CAMs (100747/s), errors: 0
+
+  Results:
+    Total        : 6044877
+    Throughput   : 100747.4 CAMs/s
+    Latency mean : 158.24 μs
+    Latency p50  : 145.34 μs
+    Latency p95  : 353.10 μs
+    Latency p99  : 444.92 μs
+    CPU          : 115.4 % (100 = one core)
+    RSS start    : 5.67 MB, peak 65.69 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:39:06] rust | rx | off | run 14/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 465027 packets
+  Measurement phase (60s)...
+  RX: 6023504 CAMs (100392/s), errors: 0
+
+  Results:
+    Total        : 6023504
+    Throughput   : 100391.5 CAMs/s
+    Latency mean : 216.41 μs
+    Latency p50  : 183.94 μs
+    Latency p95  : 436.06 μs
+    Latency p99  : 495.87 μs
+    CPU          : 114.6 % (100 = one core)
+    RSS start    : 4.23 MB, peak 62.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:40:22] rust | rx | off | run 15/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 484903 packets
+  Measurement phase (60s)...
+  RX: 6037421 CAMs (100624/s), errors: 0
+
+  Results:
+    Total        : 6037421
+    Throughput   : 100623.7 CAMs/s
+    Latency mean : 194.19 μs
+    Latency p50  : 169.24 μs
+    Latency p95  : 422.76 μs
+    Latency p99  : 496.17 μs
+    CPU          : 115.0 % (100 = one core)
+    RSS start    : 15.31 MB, peak 73.37 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:41:38] rust | rx | off | run 16/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 484184 packets
+  Measurement phase (60s)...
+  RX: 5997525 CAMs (99959/s), errors: 0
+
+  Results:
+    Total        : 5997525
+    Throughput   : 99958.7 CAMs/s
+    Latency mean : 185.72 μs
+    Latency p50  : 162.41 μs
+    Latency p95  : 379.09 μs
+    Latency p99  : 460.26 μs
+    CPU          : 113.8 % (100 = one core)
+    RSS start    : 3.96 MB, peak 68.43 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:42:53] rust | rx | off | run 17/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 509550 packets
+  Measurement phase (60s)...
+  RX: 6028287 CAMs (100471/s), errors: 0
+
+  Results:
+    Total        : 6028287
+    Throughput   : 100471.2 CAMs/s
+    Latency mean : 239.71 μs
+    Latency p50  : 198.08 μs
+    Latency p95  : 474.71 μs
+    Latency p99  : 534.17 μs
+    CPU          : 114.7 % (100 = one core)
+    RSS start    : 4.77 MB, peak 66.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:44:09] rust | rx | off | run 18/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 511605 packets
+  Measurement phase (60s)...
+  RX: 6012547 CAMs (100209/s), errors: 0
+
+  Results:
+    Total        : 6012547
+    Throughput   : 100209.1 CAMs/s
+    Latency mean : 137.18 μs
+    Latency p50  : 130.74 μs
+    Latency p95  : 222.38 μs
+    Latency p99  : 412.42 μs
+    CPU          : 114.3 % (100 = one core)
+    RSS start    : 5.16 MB, peak 64.96 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:45:25] rust | rx | off | run 19/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510864 packets
+  Measurement phase (60s)...
+  RX: 6021995 CAMs (100366/s), errors: 0
+
+  Results:
+    Total        : 6021995
+    Throughput   : 100366.3 CAMs/s
+    Latency mean : 238.85 μs
+    Latency p50  : 200.41 μs
+    Latency p95  : 472.73 μs
+    Latency p99  : 530.61 μs
+    CPU          : 114.6 % (100 = one core)
+    RSS start    : 5.04 MB, peak 71.71 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:46:41] rust | rx | off | run 20/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 459707 packets
+  Measurement phase (60s)...
+  RX: 6004624 CAMs (100077/s), errors: 0
+
+  Results:
+    Total        : 6004624
+    Throughput   : 100077.1 CAMs/s
+    Latency mean : 171.22 μs
+    Latency p50  : 153.81 μs
+    Latency p95  : 366.63 μs
+    Latency p99  : 453.58 μs
+    CPU          : 114.6 % (100 = one core)
+    RSS start    : 4.51 MB, peak 74.11 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:47:57] rust | rx | off | run 21/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510349 packets
+  Measurement phase (60s)...
+  RX: 6024350 CAMs (100406/s), errors: 0
+
+  Results:
+    Total        : 6024350
+    Throughput   : 100405.6 CAMs/s
+    Latency mean : 217.82 μs
+    Latency p50  : 184.60 μs
+    Latency p95  : 427.23 μs
+    Latency p99  : 498.56 μs
+    CPU          : 115.1 % (100 = one core)
+    RSS start    : 3.95 MB, peak 67.04 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:49:13] rust | rx | off | run 22/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 506519 packets
+  Measurement phase (60s)...
+  RX: 6022592 CAMs (100376/s), errors: 0
+
+  Results:
+    Total        : 6022592
+    Throughput   : 100376.4 CAMs/s
+    Latency mean : 194.17 μs
+    Latency p50  : 166.59 μs
+    Latency p95  : 425.48 μs
+    Latency p99  : 509.57 μs
+    CPU          : 114.7 % (100 = one core)
+    RSS start    : 4.34 MB, peak 71.70 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:50:29] rust | rx | off | run 23/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510737 packets
+  Measurement phase (60s)...
+  RX: 6011171 CAMs (100186/s), errors: 0
+
+  Results:
+    Total        : 6011171
+    Throughput   : 100186.2 CAMs/s
+    Latency mean : 179.76 μs
+    Latency p50  : 159.97 μs
+    Latency p95  : 370.54 μs
+    Latency p99  : 444.93 μs
+    CPU          : 114.6 % (100 = one core)
+    RSS start    : 3.95 MB, peak 65.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:51:44] rust | rx | off | run 24/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 455190 packets
+  Measurement phase (60s)...
+  RX: 6068711 CAMs (101145/s), errors: 0
+
+  Results:
+    Total        : 6068711
+    Throughput   : 101145.2 CAMs/s
+    Latency mean : 149.85 μs
+    Latency p50  : 140.16 μs
+    Latency p95  : 309.34 μs
+    Latency p99  : 416.88 μs
+    CPU          : 115.5 % (100 = one core)
+    RSS start    : 4.83 MB, peak 71.53 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:53:00] rust | rx | off | run 25/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 511285 packets
+  Measurement phase (60s)...
+  RX: 5992368 CAMs (99873/s), errors: 0
+
+  Results:
+    Total        : 5992368
+    Throughput   : 99872.8 CAMs/s
+    Latency mean : 136.38 μs
+    Latency p50  : 130.64 μs
+    Latency p95  : 214.69 μs
+    Latency p99  : 399.70 μs
+    CPU          : 114.2 % (100 = one core)
+    RSS start    : 5.70 MB, peak 69.64 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:54:16] rust | rx | off | run 26/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 509974 packets
+  Measurement phase (60s)...
+  RX: 6004709 CAMs (100078/s), errors: 0
+
+  Results:
+    Total        : 6004709
+    Throughput   : 100078.5 CAMs/s
+    Latency mean : 132.17 μs
+    Latency p50  : 127.85 μs
+    Latency p95  : 205.73 μs
+    Latency p99  : 383.72 μs
+    CPU          : 114.6 % (100 = one core)
+    RSS start    : 4.09 MB, peak 65.08 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:55:32] rust | rx | off | run 27/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510397 packets
+  Measurement phase (60s)...
+  RX: 6012819 CAMs (100214/s), errors: 0
+
+  Results:
+    Total        : 6012819
+    Throughput   : 100213.6 CAMs/s
+    Latency mean : 140.88 μs
+    Latency p50  : 133.69 μs
+    Latency p95  : 253.04 μs
+    Latency p99  : 413.25 μs
+    CPU          : 114.5 % (100 = one core)
+    RSS start    : 4.29 MB, peak 62.52 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:56:48] rust | rx | off | run 28/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510797 packets
+  Measurement phase (60s)...
+  RX: 5988503 CAMs (99808/s), errors: 0
+
+  Results:
+    Total        : 5988503
+    Throughput   : 99808.0 CAMs/s
+    Latency mean : 148.78 μs
+    Latency p50  : 138.80 μs
+    Latency p95  : 309.27 μs
+    Latency p99  : 428.99 μs
+    CPU          : 114.0 % (100 = one core)
+    RSS start    : 4.59 MB, peak 66.32 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:58:04] rust | rx | off | run 29/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 509942 packets
+  Measurement phase (60s)...
+  RX: 5986616 CAMs (99777/s), errors: 0
+
+  Results:
+    Total        : 5986616
+    Throughput   : 99776.8 CAMs/s
+    Latency mean : 138.11 μs
+    Latency p50  : 129.36 μs
+    Latency p95  : 227.66 μs
+    Latency p99  : 506.86 μs
+    CPU          : 113.7 % (100 = one core)
+    RSS start    : 4.84 MB, peak 67.68 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+[16:59:20] rust | rx | off | run 30/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 510430 packets
+  Measurement phase (60s)...
+  RX: 5987466 CAMs (99791/s), errors: 0
+
+  Results:
+    Total        : 5987466
+    Throughput   : 99790.8 CAMs/s
+    Latency mean : 140.63 μs
+    Latency p50  : 132.84 μs
+    Latency p95  : 241.48 μs
+    Latency p99  : 417.31 μs
+    CPU          : 114.3 % (100 = one core)
+    RSS start    : 5.19 MB, peak 68.82 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+================================================================
+  vanetza | rx | security=off | rate=0 | runs=30
+================================================================
+[17:00:25] vanetza | rx | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:00:25.820941
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 5998339 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:01:41] vanetza | rx | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:01:41.511942
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 5986189 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:02:57] vanetza | rx | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:02:57.179870
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 5991035 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:04:12] vanetza | rx | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:04:12.836280
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 5996613 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:05:28] vanetza | rx | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:05:28.515866
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6024530 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:06:44] vanetza | rx | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:06:44.188346
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6003312 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:07:59] vanetza | rx | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:07:59.883779
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6006548 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:09:15] vanetza | rx | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:09:15.575358
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6004162 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:10:31] vanetza | rx | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:10:31.264256
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6019933 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:11:46] vanetza | rx | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:11:46.948041
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6028972 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:13:02] vanetza | rx | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:13:02.648714
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6024052 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:14:18] vanetza | rx | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:14:18.344700
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6020971 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:15:33] vanetza | rx | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:15:34.064232
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6004348 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:16:49] vanetza | rx | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:16:49.744172
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6012831 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:18:05] vanetza | rx | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:18:05.387857
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6006592 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:19:21] vanetza | rx | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:19:21.071657
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6021897 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:20:36] vanetza | rx | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:20:36.739716
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6067452 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:21:52] vanetza | rx | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:21:52.411889
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6027068 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:23:08] vanetza | rx | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:23:08.100163
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 5720949 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:24:23] vanetza | rx | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:24:23.731568
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 5554944 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:25:39] vanetza | rx | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:25:39.363960
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6036446 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:26:54] vanetza | rx | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:26:55.043813
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6001288 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:28:10] vanetza | rx | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:28:10.735985
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6042946 CAMs, 5 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:29:26] vanetza | rx | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:29:26.436467
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6008597 CAMs, 5 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:30:42] vanetza | rx | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:30:42.104025
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6046643 CAMs, 5 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:31:57] vanetza | rx | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:31:57.788190
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6009629 CAMs, 5 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:33:13] vanetza | rx | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:33:13.452663
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6037699 CAMs, 5 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:34:29] vanetza | rx | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:34:29.120154
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6034427 CAMs, 5 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:35:44] vanetza | rx | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:35:44.804570
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6030982 CAMs, 5 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[17:37:00] vanetza | rx | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv
+Starting runtime at 2026-Nov-25 16:37:00.492739
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 6025957 CAMs, 4 frames not delivered as CAM
+ERROR: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv has a different CSV header (older schema?). Use a new output file.
+  [WARN] exited with error
+[2026-11-25 17:38:06] all cells done: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T145831.csv

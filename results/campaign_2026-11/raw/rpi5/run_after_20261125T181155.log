@@ -1,0 +1,3255 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+================================================================
+  cpython | rx | security=on | rate=0 | runs=30
+================================================================
+[18:11:56] cpython | rx | on | run 1/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 751 packets
+  Measurement phase (60s)...
+  RX: 8946 CAMs (149/s)
+
+  Results:
+    Total        : 8946
+    Throughput   : 149.1 CAMs/s
+    Latency mean : 6701.44 μs
+    Latency p50  : 6700.64 μs
+    Latency p95  : 6775.60 μs
+    Latency p99  : 6809.42 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.22 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:13:13] cpython | rx | on | run 2/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 752 packets
+  Measurement phase (60s)...
+  RX: 9014 CAMs (150/s)
+
+  Results:
+    Total        : 9014
+    Throughput   : 150.2 CAMs/s
+    Latency mean : 6650.72 μs
+    Latency p50  : 6649.81 μs
+    Latency p95  : 6727.43 μs
+    Latency p99  : 6760.31 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:14:30] cpython | rx | on | run 3/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8947 CAMs (149/s)
+
+  Results:
+    Total        : 8947
+    Throughput   : 149.1 CAMs/s
+    Latency mean : 6699.25 μs
+    Latency p50  : 6698.56 μs
+    Latency p95  : 6774.83 μs
+    Latency p99  : 6811.39 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.22 MB, peak 71.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:15:46] cpython | rx | on | run 4/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 759 packets
+  Measurement phase (60s)...
+  RX: 9035 CAMs (151/s)
+
+  Results:
+    Total        : 9035
+    Throughput   : 150.6 CAMs/s
+    Latency mean : 6634.70 μs
+    Latency p50  : 6634.65 μs
+    Latency p95  : 6705.60 μs
+    Latency p99  : 6737.35 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.00 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:17:03] cpython | rx | on | run 5/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8963 CAMs (149/s)
+
+  Results:
+    Total        : 8963
+    Throughput   : 149.4 CAMs/s
+    Latency mean : 6688.45 μs
+    Latency p50  : 6688.00 μs
+    Latency p95  : 6761.14 μs
+    Latency p99  : 6798.13 μs
+    CPU          : 100.1 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:18:20] cpython | rx | on | run 6/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8893 CAMs (148/s)
+
+  Results:
+    Total        : 8893
+    Throughput   : 148.2 CAMs/s
+    Latency mean : 6740.33 μs
+    Latency p50  : 6742.52 μs
+    Latency p95  : 6826.79 μs
+    Latency p99  : 6865.30 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:19:37] cpython | rx | on | run 7/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8960 CAMs (149/s)
+
+  Results:
+    Total        : 8960
+    Throughput   : 149.3 CAMs/s
+    Latency mean : 6690.25 μs
+    Latency p50  : 6689.74 μs
+    Latency p95  : 6762.24 μs
+    Latency p99  : 6799.91 μs
+    CPU          : 100.1 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.06 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:20:54] cpython | rx | on | run 8/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 759 packets
+  Measurement phase (60s)...
+  RX: 9074 CAMs (151/s)
+
+  Results:
+    Total        : 9074
+    Throughput   : 151.2 CAMs/s
+    Latency mean : 6606.91 μs
+    Latency p50  : 6605.81 μs
+    Latency p95  : 6677.12 μs
+    Latency p99  : 6713.71 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:22:11] cpython | rx | on | run 9/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 751 packets
+  Measurement phase (60s)...
+  RX: 8976 CAMs (150/s)
+
+  Results:
+    Total        : 8976
+    Throughput   : 149.6 CAMs/s
+    Latency mean : 6678.07 μs
+    Latency p50  : 6677.43 μs
+    Latency p95  : 6750.69 μs
+    Latency p99  : 6787.06 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:23:27] cpython | rx | on | run 10/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8959 CAMs (149/s)
+
+  Results:
+    Total        : 8959
+    Throughput   : 149.3 CAMs/s
+    Latency mean : 6691.69 μs
+    Latency p50  : 6690.88 μs
+    Latency p95  : 6769.66 μs
+    Latency p99  : 6806.09 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:24:44] cpython | rx | on | run 11/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 758 packets
+  Measurement phase (60s)...
+  RX: 9062 CAMs (151/s)
+
+  Results:
+    Total        : 9062
+    Throughput   : 151.0 CAMs/s
+    Latency mean : 6615.14 μs
+    Latency p50  : 6613.99 μs
+    Latency p95  : 6686.97 μs
+    Latency p99  : 6722.70 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.00 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:26:01] cpython | rx | on | run 12/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 757 packets
+  Measurement phase (60s)...
+  RX: 9039 CAMs (151/s)
+
+  Results:
+    Total        : 9039
+    Throughput   : 150.6 CAMs/s
+    Latency mean : 6631.74 μs
+    Latency p50  : 6631.65 μs
+    Latency p95  : 6703.79 μs
+    Latency p99  : 6742.83 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:27:18] cpython | rx | on | run 13/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8974 CAMs (150/s)
+
+  Results:
+    Total        : 8974
+    Throughput   : 149.6 CAMs/s
+    Latency mean : 6679.54 μs
+    Latency p50  : 6679.01 μs
+    Latency p95  : 6750.96 μs
+    Latency p99  : 6787.01 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.19 MB, peak 71.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:28:35] cpython | rx | on | run 14/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8967 CAMs (149/s)
+
+  Results:
+    Total        : 8967
+    Throughput   : 149.4 CAMs/s
+    Latency mean : 6685.32 μs
+    Latency p50  : 6684.71 μs
+    Latency p95  : 6755.52 μs
+    Latency p99  : 6788.72 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.19 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:29:52] cpython | rx | on | run 15/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8965 CAMs (149/s)
+
+  Results:
+    Total        : 8965
+    Throughput   : 149.4 CAMs/s
+    Latency mean : 6686.35 μs
+    Latency p50  : 6685.74 μs
+    Latency p95  : 6758.61 μs
+    Latency p99  : 6796.38 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:31:08] cpython | rx | on | run 16/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8945 CAMs (149/s)
+
+  Results:
+    Total        : 8945
+    Throughput   : 149.1 CAMs/s
+    Latency mean : 6701.01 μs
+    Latency p50  : 6699.89 μs
+    Latency p95  : 6772.85 μs
+    Latency p99  : 6811.30 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.22 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:32:25] cpython | rx | on | run 17/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 751 packets
+  Measurement phase (60s)...
+  RX: 8880 CAMs (148/s)
+
+  Results:
+    Total        : 8880
+    Throughput   : 148.0 CAMs/s
+    Latency mean : 6749.78 μs
+    Latency p50  : 6751.34 μs
+    Latency p95  : 6832.43 μs
+    Latency p99  : 6869.77 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:33:42] cpython | rx | on | run 18/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8949 CAMs (149/s)
+
+  Results:
+    Total        : 8949
+    Throughput   : 149.1 CAMs/s
+    Latency mean : 6698.28 μs
+    Latency p50  : 6697.61 μs
+    Latency p95  : 6771.24 μs
+    Latency p99  : 6802.75 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.22 MB, peak 71.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:34:59] cpython | rx | on | run 19/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 759 packets
+  Measurement phase (60s)...
+  RX: 8990 CAMs (150/s)
+
+  Results:
+    Total        : 8990
+    Throughput   : 149.8 CAMs/s
+    Latency mean : 6668.29 μs
+    Latency p50  : 6670.05 μs
+    Latency p95  : 6746.79 μs
+    Latency p99  : 6780.43 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:36:16] cpython | rx | on | run 20/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8965 CAMs (149/s)
+
+  Results:
+    Total        : 8965
+    Throughput   : 149.4 CAMs/s
+    Latency mean : 6686.92 μs
+    Latency p50  : 6686.28 μs
+    Latency p95  : 6759.22 μs
+    Latency p99  : 6796.16 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.22 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:37:33] cpython | rx | on | run 21/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 756 packets
+  Measurement phase (60s)...
+  RX: 9040 CAMs (151/s)
+
+  Results:
+    Total        : 9040
+    Throughput   : 150.7 CAMs/s
+    Latency mean : 6631.00 μs
+    Latency p50  : 6630.51 μs
+    Latency p95  : 6702.95 μs
+    Latency p99  : 6737.65 μs
+    CPU          : 100.1 % (100 = one core)
+    RSS start    : 70.20 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:38:49] cpython | rx | on | run 22/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 759 packets
+  Measurement phase (60s)...
+  RX: 9055 CAMs (151/s)
+
+  Results:
+    Total        : 9055
+    Throughput   : 150.9 CAMs/s
+    Latency mean : 6620.73 μs
+    Latency p50  : 6620.70 μs
+    Latency p95  : 6693.60 μs
+    Latency p99  : 6726.78 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.19 MB, peak 71.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:40:06] cpython | rx | on | run 23/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 757 packets
+  Measurement phase (60s)...
+  RX: 8994 CAMs (150/s)
+
+  Results:
+    Total        : 8994
+    Throughput   : 149.9 CAMs/s
+    Latency mean : 6665.57 μs
+    Latency p50  : 6665.83 μs
+    Latency p95  : 6742.79 μs
+    Latency p99  : 6779.51 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.19 MB, peak 71.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:41:23] cpython | rx | on | run 24/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8979 CAMs (150/s)
+
+  Results:
+    Total        : 8979
+    Throughput   : 149.6 CAMs/s
+    Latency mean : 6676.29 μs
+    Latency p50  : 6676.09 μs
+    Latency p95  : 6747.91 μs
+    Latency p99  : 6783.49 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.22 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:42:40] cpython | rx | on | run 25/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 763 packets
+  Measurement phase (60s)...
+  RX: 8976 CAMs (150/s)
+
+  Results:
+    Total        : 8976
+    Throughput   : 149.6 CAMs/s
+    Latency mean : 6677.62 μs
+    Latency p50  : 6677.52 μs
+    Latency p95  : 6750.82 μs
+    Latency p99  : 6785.37 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.22 MB, peak 71.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:43:57] cpython | rx | on | run 26/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8940 CAMs (149/s)
+
+  Results:
+    Total        : 8940
+    Throughput   : 149.0 CAMs/s
+    Latency mean : 6705.01 μs
+    Latency p50  : 6705.03 μs
+    Latency p95  : 6775.94 μs
+    Latency p99  : 6806.78 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 70.98 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:45:13] cpython | rx | on | run 27/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8982 CAMs (150/s)
+
+  Results:
+    Total        : 8982
+    Throughput   : 149.7 CAMs/s
+    Latency mean : 6673.78 μs
+    Latency p50  : 6673.54 μs
+    Latency p95  : 6746.45 μs
+    Latency p99  : 6779.84 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.19 MB, peak 71.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:46:30] cpython | rx | on | run 28/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 750 packets
+  Measurement phase (60s)...
+  RX: 8955 CAMs (149/s)
+
+  Results:
+    Total        : 8955
+    Throughput   : 149.2 CAMs/s
+    Latency mean : 6694.64 μs
+    Latency p50  : 6694.03 μs
+    Latency p95  : 6766.55 μs
+    Latency p99  : 6804.27 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.22 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:47:47] cpython | rx | on | run 29/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 751 packets
+  Measurement phase (60s)...
+  RX: 9043 CAMs (151/s)
+
+  Results:
+    Total        : 9043
+    Throughput   : 150.7 CAMs/s
+    Latency mean : 6629.82 μs
+    Latency p50  : 6629.77 μs
+    Latency p95  : 6701.15 μs
+    Latency p99  : 6737.19 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.22 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:49:04] cpython | rx | on | run 30/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 752 packets
+  Measurement phase (60s)...
+  RX: 8989 CAMs (150/s)
+
+  Results:
+    Total        : 8989
+    Throughput   : 149.8 CAMs/s
+    Latency mean : 6669.10 μs
+    Latency p50  : 6668.38 μs
+    Latency p95  : 6740.03 μs
+    Latency p99  : 6772.82 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 70.20 MB, peak 70.98 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+================================================================
+  pypy | rx | security=on | rate=0 | runs=30
+================================================================
+[18:50:11] pypy | rx | on | run 1/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1411 packets
+  Measurement phase (60s)...
+  RX: 6506 CAMs (108/s)
+
+  Results:
+    Total        : 6506
+    Throughput   : 108.4 CAMs/s
+    Latency mean : 9186.83 μs
+    Latency p50  : 9098.65 μs
+    Latency p95  : 9263.18 μs
+    Latency p99  : 9480.43 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 176.67 MB, peak 181.27 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:51:40] pypy | rx | on | run 2/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1402 packets
+  Measurement phase (60s)...
+  RX: 6470 CAMs (108/s)
+
+  Results:
+    Total        : 6470
+    Throughput   : 107.8 CAMs/s
+    Latency mean : 9237.14 μs
+    Latency p50  : 9145.27 μs
+    Latency p95  : 9315.72 μs
+    Latency p99  : 9627.21 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 176.92 MB, peak 181.11 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:53:10] pypy | rx | on | run 3/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1393 packets
+  Measurement phase (60s)...
+  RX: 6470 CAMs (108/s)
+
+  Results:
+    Total        : 6470
+    Throughput   : 107.8 CAMs/s
+    Latency mean : 9243.14 μs
+    Latency p50  : 9143.31 μs
+    Latency p95  : 9310.66 μs
+    Latency p99  : 9584.32 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 176.86 MB, peak 181.48 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:54:39] pypy | rx | on | run 4/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1413 packets
+  Measurement phase (60s)...
+  RX: 6513 CAMs (109/s)
+
+  Results:
+    Total        : 6513
+    Throughput   : 108.5 CAMs/s
+    Latency mean : 9176.20 μs
+    Latency p50  : 9086.93 μs
+    Latency p95  : 9245.32 μs
+    Latency p99  : 9434.65 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 180.89 MB, peak 185.23 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:56:09] pypy | rx | on | run 5/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1409 packets
+  Measurement phase (60s)...
+  RX: 6529 CAMs (109/s)
+
+  Results:
+    Total        : 6529
+    Throughput   : 108.8 CAMs/s
+    Latency mean : 9153.96 μs
+    Latency p50  : 9059.69 μs
+    Latency p95  : 9243.97 μs
+    Latency p99  : 9517.51 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 178.45 MB, peak 182.94 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:57:38] pypy | rx | on | run 6/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1408 packets
+  Measurement phase (60s)...
+  RX: 6546 CAMs (109/s)
+
+  Results:
+    Total        : 6546
+    Throughput   : 109.1 CAMs/s
+    Latency mean : 9130.98 μs
+    Latency p50  : 9039.15 μs
+    Latency p95  : 9213.59 μs
+    Latency p99  : 9505.59 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 177.03 MB, peak 181.62 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[18:59:08] pypy | rx | on | run 7/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1417 packets
+  Measurement phase (60s)...
+  RX: 6493 CAMs (108/s)
+
+  Results:
+    Total        : 6493
+    Throughput   : 108.2 CAMs/s
+    Latency mean : 9206.54 μs
+    Latency p50  : 9113.61 μs
+    Latency p95  : 9293.68 μs
+    Latency p99  : 9608.04 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 178.33 MB, peak 182.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:00:37] pypy | rx | on | run 8/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1405 packets
+  Measurement phase (60s)...
+  RX: 6483 CAMs (108/s)
+
+  Results:
+    Total        : 6483
+    Throughput   : 108.0 CAMs/s
+    Latency mean : 9217.93 μs
+    Latency p50  : 9127.93 μs
+    Latency p95  : 9293.38 μs
+    Latency p99  : 9482.46 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 181.05 MB, peak 184.62 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:02:07] pypy | rx | on | run 9/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1437 packets
+  Measurement phase (60s)...
+  RX: 6560 CAMs (109/s)
+
+  Results:
+    Total        : 6560
+    Throughput   : 109.3 CAMs/s
+    Latency mean : 9108.28 μs
+    Latency p50  : 9001.57 μs
+    Latency p95  : 9178.67 μs
+    Latency p99  : 9477.36 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 179.36 MB, peak 183.56 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:03:36] pypy | rx | on | run 10/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1397 packets
+  Measurement phase (60s)...
+  RX: 6481 CAMs (108/s)
+
+  Results:
+    Total        : 6481
+    Throughput   : 108.0 CAMs/s
+    Latency mean : 9221.33 μs
+    Latency p50  : 9131.32 μs
+    Latency p95  : 9287.91 μs
+    Latency p99  : 9510.44 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 181.02 MB, peak 185.34 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:05:05] pypy | rx | on | run 11/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1423 packets
+  Measurement phase (60s)...
+  RX: 6489 CAMs (108/s)
+
+  Results:
+    Total        : 6489
+    Throughput   : 108.1 CAMs/s
+    Latency mean : 9215.17 μs
+    Latency p50  : 9115.97 μs
+    Latency p95  : 9291.07 μs
+    Latency p99  : 9483.00 μs
+    CPU          : 100.1 % (100 = one core)
+    RSS start    : 179.98 MB, peak 183.86 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:06:35] pypy | rx | on | run 12/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1401 packets
+  Measurement phase (60s)...
+  RX: 6491 CAMs (108/s)
+
+  Results:
+    Total        : 6491
+    Throughput   : 108.2 CAMs/s
+    Latency mean : 9204.15 μs
+    Latency p50  : 9111.37 μs
+    Latency p95  : 9276.61 μs
+    Latency p99  : 9521.17 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 180.48 MB, peak 184.84 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:08:05] pypy | rx | on | run 13/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1391 packets
+  Measurement phase (60s)...
+  RX: 6487 CAMs (108/s)
+
+  Results:
+    Total        : 6487
+    Throughput   : 108.1 CAMs/s
+    Latency mean : 9212.56 μs
+    Latency p50  : 9119.35 μs
+    Latency p95  : 9293.73 μs
+    Latency p99  : 9509.30 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 181.72 MB, peak 186.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:09:35] pypy | rx | on | run 14/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1409 packets
+  Measurement phase (60s)...
+  RX: 6524 CAMs (109/s)
+
+  Results:
+    Total        : 6524
+    Throughput   : 108.7 CAMs/s
+    Latency mean : 9159.57 μs
+    Latency p50  : 9071.98 μs
+    Latency p95  : 9222.00 μs
+    Latency p99  : 9422.25 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 177.86 MB, peak 181.91 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:11:04] pypy | rx | on | run 15/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1409 packets
+  Measurement phase (60s)...
+  RX: 6487 CAMs (108/s)
+
+  Results:
+    Total        : 6487
+    Throughput   : 108.1 CAMs/s
+    Latency mean : 9213.03 μs
+    Latency p50  : 9107.45 μs
+    Latency p95  : 9281.21 μs
+    Latency p99  : 9586.44 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 178.55 MB, peak 183.20 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:12:33] pypy | rx | on | run 16/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1399 packets
+  Measurement phase (60s)...
+  RX: 6514 CAMs (109/s)
+
+  Results:
+    Total        : 6514
+    Throughput   : 108.6 CAMs/s
+    Latency mean : 9173.86 μs
+    Latency p50  : 9083.21 μs
+    Latency p95  : 9252.23 μs
+    Latency p99  : 9516.27 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 179.00 MB, peak 183.56 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:14:03] pypy | rx | on | run 17/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1403 packets
+  Measurement phase (60s)...
+  RX: 6499 CAMs (108/s)
+
+  Results:
+    Total        : 6499
+    Throughput   : 108.3 CAMs/s
+    Latency mean : 9195.95 μs
+    Latency p50  : 9103.50 μs
+    Latency p95  : 9265.86 μs
+    Latency p99  : 9466.01 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 179.08 MB, peak 183.72 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:15:32] pypy | rx | on | run 18/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1412 packets
+  Measurement phase (60s)...
+  RX: 6489 CAMs (108/s)
+
+  Results:
+    Total        : 6489
+    Throughput   : 108.1 CAMs/s
+    Latency mean : 9210.67 μs
+    Latency p50  : 9123.04 μs
+    Latency p95  : 9283.00 μs
+    Latency p99  : 9484.41 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 179.05 MB, peak 183.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:17:02] pypy | rx | on | run 19/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1414 packets
+  Measurement phase (60s)...
+  RX: 6503 CAMs (108/s)
+
+  Results:
+    Total        : 6503
+    Throughput   : 108.4 CAMs/s
+    Latency mean : 9189.87 μs
+    Latency p50  : 9096.73 μs
+    Latency p95  : 9264.13 μs
+    Latency p99  : 9483.04 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 178.69 MB, peak 182.22 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:18:31] pypy | rx | on | run 20/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1396 packets
+  Measurement phase (60s)...
+  RX: 6505 CAMs (108/s)
+
+  Results:
+    Total        : 6505
+    Throughput   : 108.4 CAMs/s
+    Latency mean : 9189.57 μs
+    Latency p50  : 9098.67 μs
+    Latency p95  : 9273.47 μs
+    Latency p99  : 9557.30 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 176.92 MB, peak 181.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:20:01] pypy | rx | on | run 21/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1399 packets
+  Measurement phase (60s)...
+  RX: 6442 CAMs (107/s)
+
+  Results:
+    Total        : 6442
+    Throughput   : 107.3 CAMs/s
+    Latency mean : 9274.96 μs
+    Latency p50  : 9170.70 μs
+    Latency p95  : 9337.12 μs
+    Latency p99  : 9707.66 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 179.23 MB, peak 184.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:21:30] pypy | rx | on | run 22/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1402 packets
+  Measurement phase (60s)...
+  RX: 6477 CAMs (108/s)
+
+  Results:
+    Total        : 6477
+    Throughput   : 107.9 CAMs/s
+    Latency mean : 9225.14 μs
+    Latency p50  : 9136.10 μs
+    Latency p95  : 9292.98 μs
+    Latency p99  : 9509.28 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 177.91 MB, peak 182.12 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:22:59] pypy | rx | on | run 23/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1424 packets
+  Measurement phase (60s)...
+  RX: 6540 CAMs (109/s)
+
+  Results:
+    Total        : 6540
+    Throughput   : 109.0 CAMs/s
+    Latency mean : 9136.83 μs
+    Latency p50  : 9029.65 μs
+    Latency p95  : 9229.37 μs
+    Latency p99  : 9485.89 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 180.73 MB, peak 184.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:24:29] pypy | rx | on | run 24/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1394 packets
+  Measurement phase (60s)...
+  RX: 6526 CAMs (109/s)
+
+  Results:
+    Total        : 6526
+    Throughput   : 108.7 CAMs/s
+    Latency mean : 9158.04 μs
+    Latency p50  : 9063.16 μs
+    Latency p95  : 9240.86 μs
+    Latency p99  : 9480.67 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 177.41 MB, peak 182.47 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:25:58] pypy | rx | on | run 25/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1418 packets
+  Measurement phase (60s)...
+  RX: 6525 CAMs (109/s)
+
+  Results:
+    Total        : 6525
+    Throughput   : 108.7 CAMs/s
+    Latency mean : 9159.61 μs
+    Latency p50  : 9071.85 μs
+    Latency p95  : 9238.66 μs
+    Latency p99  : 9447.40 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 178.03 MB, peak 182.53 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:27:28] pypy | rx | on | run 26/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1410 packets
+  Measurement phase (60s)...
+  RX: 6550 CAMs (109/s)
+
+  Results:
+    Total        : 6550
+    Throughput   : 109.2 CAMs/s
+    Latency mean : 9123.65 μs
+    Latency p50  : 9035.04 μs
+    Latency p95  : 9188.72 μs
+    Latency p99  : 9433.68 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 177.73 MB, peak 181.94 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:28:57] pypy | rx | on | run 27/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1385 packets
+  Measurement phase (60s)...
+  RX: 6423 CAMs (107/s)
+
+  Results:
+    Total        : 6423
+    Throughput   : 107.0 CAMs/s
+    Latency mean : 9303.33 μs
+    Latency p50  : 9215.63 μs
+    Latency p95  : 9376.96 μs
+    Latency p99  : 9634.80 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 177.14 MB, peak 181.55 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:30:26] pypy | rx | on | run 28/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1424 packets
+  Measurement phase (60s)...
+  RX: 6531 CAMs (109/s)
+
+  Results:
+    Total        : 6531
+    Throughput   : 108.8 CAMs/s
+    Latency mean : 9151.91 μs
+    Latency p50  : 9059.61 μs
+    Latency p95  : 9233.15 μs
+    Latency p99  : 9461.41 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 177.34 MB, peak 181.11 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:31:56] pypy | rx | on | run 29/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1400 packets
+  Measurement phase (60s)...
+  RX: 6502 CAMs (108/s)
+
+  Results:
+    Total        : 6502
+    Throughput   : 108.4 CAMs/s
+    Latency mean : 9189.67 μs
+    Latency p50  : 9095.13 μs
+    Latency p95  : 9267.38 μs
+    Latency p99  : 9468.27 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 178.81 MB, peak 183.56 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:33:25] pypy | rx | on | run 30/30
+============================================================
+FlexStack Benchmark — pypy 3.11.15
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 15s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (15s) — waiting for packets from remote sender...
+  Warm-up received 1386 packets
+  Measurement phase (60s)...
+  RX: 6452 CAMs (108/s)
+
+  Results:
+    Total        : 6452
+    Throughput   : 107.5 CAMs/s
+    Latency mean : 9261.56 μs
+    Latency p50  : 9170.22 μs
+    Latency p95  : 9335.33 μs
+    Latency p99  : 9579.14 μs
+    CPU          : 100.0 % (100 = one core)
+    RSS start    : 181.38 MB, peak 185.72 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+================================================================
+  rust | rx | security=on | rate=0 | runs=30
+================================================================
+[19:34:45] rust | rx | on | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7039 packets
+  Measurement phase (60s)...
+  RX: 84861 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84861
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 720.93 μs
+    Latency p50  : 719.98 μs
+    Latency p95  : 726.84 μs
+    Latency p99  : 731.30 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 13.97 MB, peak 151.41 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:36:00] rust | rx | on | run 2/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7049 packets
+  Measurement phase (60s)...
+  RX: 84854 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84854
+    Throughput   : 1414.2 CAMs/s
+    Latency mean : 720.97 μs
+    Latency p50  : 720.04 μs
+    Latency p95  : 726.89 μs
+    Latency p99  : 731.33 μs
+    CPU          : 103.7 % (100 = one core)
+    RSS start    : 15.06 MB, peak 149.75 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:37:15] rust | rx | on | run 3/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7107 packets
+  Measurement phase (60s)...
+  RX: 84863 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84863
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 720.92 μs
+    Latency p50  : 719.97 μs
+    Latency p95  : 726.87 μs
+    Latency p99  : 731.56 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 15.08 MB, peak 151.25 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:38:31] rust | rx | on | run 4/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7120 packets
+  Measurement phase (60s)...
+  RX: 84858 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84858
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 720.98 μs
+    Latency p50  : 720.02 μs
+    Latency p95  : 726.95 μs
+    Latency p99  : 731.58 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 15.41 MB, peak 156.69 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:39:46] rust | rx | on | run 5/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7093 packets
+  Measurement phase (60s)...
+  RX: 84864 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84864
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 1428.00 μs
+    Latency p50  : 1427.10 μs
+    Latency p95  : 1434.63 μs
+    Latency p99  : 1440.21 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 14.38 MB, peak 151.95 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:41:01] rust | rx | on | run 6/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 6921 packets
+  Measurement phase (60s)...
+  RX: 84864 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84864
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 720.93 μs
+    Latency p50  : 720.00 μs
+    Latency p95  : 726.78 μs
+    Latency p99  : 731.43 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 13.45 MB, peak 149.61 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:42:16] rust | rx | on | run 7/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7104 packets
+  Measurement phase (60s)...
+  RX: 84857 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84857
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 721.14 μs
+    Latency p50  : 720.06 μs
+    Latency p95  : 727.41 μs
+    Latency p99  : 733.43 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 15.61 MB, peak 153.64 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:43:31] rust | rx | on | run 8/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7122 packets
+  Measurement phase (60s)...
+  RX: 84863 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84863
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 1351.65 μs
+    Latency p50  : 1426.76 μs
+    Latency p95  : 1434.17 μs
+    Latency p99  : 1439.84 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 14.77 MB, peak 147.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:44:46] rust | rx | on | run 9/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7100 packets
+  Measurement phase (60s)...
+  RX: 84861 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84861
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 1255.72 μs
+    Latency p50  : 1426.32 μs
+    Latency p95  : 1433.65 μs
+    Latency p99  : 1439.45 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 13.50 MB, peak 150.30 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:46:02] rust | rx | on | run 10/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7114 packets
+  Measurement phase (60s)...
+  RX: 84854 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84854
+    Throughput   : 1414.2 CAMs/s
+    Latency mean : 720.96 μs
+    Latency p50  : 720.02 μs
+    Latency p95  : 726.91 μs
+    Latency p99  : 731.52 μs
+    CPU          : 103.7 % (100 = one core)
+    RSS start    : 12.45 MB, peak 147.02 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:47:17] rust | rx | on | run 11/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7105 packets
+  Measurement phase (60s)...
+  RX: 84866 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84866
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 1351.90 μs
+    Latency p50  : 1426.67 μs
+    Latency p95  : 1434.08 μs
+    Latency p99  : 1439.67 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 14.86 MB, peak 148.72 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:48:32] rust | rx | on | run 12/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7042 packets
+  Measurement phase (60s)...
+  RX: 84855 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84855
+    Throughput   : 1414.2 CAMs/s
+    Latency mean : 1159.00 μs
+    Latency p50  : 1425.69 μs
+    Latency p95  : 1432.80 μs
+    Latency p99  : 1438.54 μs
+    CPU          : 103.7 % (100 = one core)
+    RSS start    : 13.30 MB, peak 149.47 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:49:47] rust | rx | on | run 13/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7050 packets
+  Measurement phase (60s)...
+  RX: 84865 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84865
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 1050.26 μs
+    Latency p50  : 725.43 μs
+    Latency p95  : 1431.34 μs
+    Latency p99  : 1437.45 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 14.52 MB, peak 151.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:51:02] rust | rx | on | run 14/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7115 packets
+  Measurement phase (60s)...
+  RX: 84856 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84856
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 721.08 μs
+    Latency p50  : 720.13 μs
+    Latency p95  : 727.00 μs
+    Latency p99  : 731.56 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 15.23 MB, peak 154.66 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:52:17] rust | rx | on | run 15/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7111 packets
+  Measurement phase (60s)...
+  RX: 84861 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84861
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 1135.85 μs
+    Latency p50  : 1425.29 μs
+    Latency p95  : 1432.36 μs
+    Latency p99  : 1438.19 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 12.95 MB, peak 148.59 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:53:32] rust | rx | on | run 16/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7110 packets
+  Measurement phase (60s)...
+  RX: 84862 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84862
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 914.82 μs
+    Latency p50  : 721.24 μs
+    Latency p95  : 1429.69 μs
+    Latency p99  : 1435.69 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 15.64 MB, peak 151.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:54:47] rust | rx | on | run 17/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 17
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7098 packets
+  Measurement phase (60s)...
+  RX: 84860 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84860
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 799.14 μs
+    Latency p50  : 720.23 μs
+    Latency p95  : 1427.47 μs
+    Latency p99  : 1432.28 μs
+    CPU          : 103.7 % (100 = one core)
+    RSS start    : 15.02 MB, peak 149.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:56:03] rust | rx | on | run 18/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 18
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7104 packets
+  Measurement phase (60s)...
+  RX: 84862 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84862
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 720.94 μs
+    Latency p50  : 720.02 μs
+    Latency p95  : 726.86 μs
+    Latency p99  : 731.32 μs
+    CPU          : 103.7 % (100 = one core)
+    RSS start    : 15.38 MB, peak 149.83 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:57:18] rust | rx | on | run 19/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 19
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7096 packets
+  Measurement phase (60s)...
+  RX: 84852 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84852
+    Throughput   : 1414.2 CAMs/s
+    Latency mean : 937.76 μs
+    Latency p50  : 721.45 μs
+    Latency p95  : 1430.10 μs
+    Latency p99  : 1436.26 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 14.33 MB, peak 155.39 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:58:33] rust | rx | on | run 20/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 20
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7093 packets
+  Measurement phase (60s)...
+  RX: 84863 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84863
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 720.88 μs
+    Latency p50  : 719.95 μs
+    Latency p95  : 726.74 μs
+    Latency p99  : 731.17 μs
+    CPU          : 103.7 % (100 = one core)
+    RSS start    : 15.52 MB, peak 148.58 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[19:59:48] rust | rx | on | run 21/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 21
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7110 packets
+  Measurement phase (60s)...
+  RX: 84860 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84860
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 720.94 μs
+    Latency p50  : 720.00 μs
+    Latency p95  : 726.85 μs
+    Latency p99  : 731.35 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 15.36 MB, peak 152.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[20:01:03] rust | rx | on | run 22/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 22
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7038 packets
+  Measurement phase (60s)...
+  RX: 84856 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84856
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 721.07 μs
+    Latency p50  : 720.13 μs
+    Latency p95  : 726.93 μs
+    Latency p99  : 731.54 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 15.31 MB, peak 151.86 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[20:02:18] rust | rx | on | run 23/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 23
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7100 packets
+  Measurement phase (60s)...
+  RX: 84862 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84862
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 720.91 μs
+    Latency p50  : 719.97 μs
+    Latency p95  : 726.78 μs
+    Latency p99  : 731.19 μs
+    CPU          : 103.7 % (100 = one core)
+    RSS start    : 15.47 MB, peak 149.47 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[20:03:33] rust | rx | on | run 24/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 24
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7111 packets
+  Measurement phase (60s)...
+  RX: 84863 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84863
+    Throughput   : 1414.4 CAMs/s
+    Latency mean : 721.03 μs
+    Latency p50  : 720.08 μs
+    Latency p95  : 726.93 μs
+    Latency p99  : 731.63 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 12.47 MB, peak 148.03 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[20:04:48] rust | rx | on | run 25/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 25
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7112 packets
+  Measurement phase (60s)...
+  RX: 84868 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84868
+    Throughput   : 1414.5 CAMs/s
+    Latency mean : 720.85 μs
+    Latency p50  : 719.93 μs
+    Latency p95  : 726.72 μs
+    Latency p99  : 730.95 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 15.55 MB, peak 153.97 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[20:06:04] rust | rx | on | run 26/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 26
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7110 packets
+  Measurement phase (60s)...
+  RX: 84860 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84860
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 720.94 μs
+    Latency p50  : 720.00 μs
+    Latency p95  : 726.82 μs
+    Latency p99  : 731.43 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 13.30 MB, peak 148.92 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[20:07:19] rust | rx | on | run 27/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 27
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7111 packets
+  Measurement phase (60s)...
+  RX: 84870 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84870
+    Throughput   : 1414.5 CAMs/s
+    Latency mean : 720.92 μs
+    Latency p50  : 720.00 μs
+    Latency p95  : 726.69 μs
+    Latency p99  : 730.85 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 14.95 MB, peak 146.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[20:08:34] rust | rx | on | run 28/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 28
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7044 packets
+  Measurement phase (60s)...
+  RX: 84859 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84859
+    Throughput   : 1414.3 CAMs/s
+    Latency mean : 720.91 μs
+    Latency p50  : 719.98 μs
+    Latency p95  : 726.69 μs
+    Latency p99  : 730.97 μs
+    CPU          : 103.7 % (100 = one core)
+    RSS start    : 15.14 MB, peak 147.45 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[20:09:49] rust | rx | on | run 29/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 29
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7104 packets
+  Measurement phase (60s)...
+  RX: 84871 CAMs (1415/s), errors: 0
+
+  Results:
+    Total        : 84871
+    Throughput   : 1414.5 CAMs/s
+    Latency mean : 1427.84 μs
+    Latency p50  : 1426.97 μs
+    Latency p95  : 1434.21 μs
+    Latency p99  : 1439.37 μs
+    CPU          : 103.8 % (100 = one core)
+    RSS start    : 14.69 MB, peak 147.69 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+[20:11:04] rust | rx | on | run 30/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : on
+  AT index : 1
+  Certs    : /home/<user>/FlexStackBenchmarking/certs/
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 30
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 7105 packets
+  Measurement phase (60s)...
+  RX: 84868 CAMs (1414/s), errors: 0
+
+  Results:
+    Total        : 84868
+    Throughput   : 1414.5 CAMs/s
+    Latency mean : 1314.30 μs
+    Latency p50  : 1426.41 μs
+    Latency p95  : 1433.54 μs
+    Latency p99  : 1438.73 μs
+    CPU          : 103.7 % (100 = one core)
+    RSS start    : 14.77 MB, peak 149.62 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+================================================================
+  vanetza | rx | security=on | rate=0 | runs=30
+================================================================
+[20:12:09] vanetza | rx | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:12:09.706906
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135099 CAMs, 0 frames not delivered as CAM
+    Throughput   : 2251.6 CAMs/s
+    Latency p50  : 440.91 us
+    CPU          : 100.0 %
+[20:13:24] vanetza | rx | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:13:24.816437
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 134968 CAMs, 2 frames not delivered as CAM
+    Throughput   : 2249.5 CAMs/s
+    Latency p50  : 441.24 us
+    CPU          : 100.0 %
+[20:14:39] vanetza | rx | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:14:39.888128
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135247 CAMs, 2 frames not delivered as CAM
+    Throughput   : 2254.1 CAMs/s
+    Latency p50  : 440.33 us
+    CPU          : 100.0 %
+[20:15:54] vanetza | rx | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:15:54.972049
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 134990 CAMs, 0 frames not delivered as CAM
+    Throughput   : 2249.8 CAMs/s
+    Latency p50  : 441.24 us
+    CPU          : 100.0 %
+[20:17:10] vanetza | rx | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:17:10.060155
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135462 CAMs, 1 frames not delivered as CAM
+    Throughput   : 2257.7 CAMs/s
+    Latency p50  : 439.82 us
+    CPU          : 100.0 %
+[20:18:25] vanetza | rx | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:18:25.144115
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 134987 CAMs, 1 frames not delivered as CAM
+    Throughput   : 2249.8 CAMs/s
+    Latency p50  : 441.13 us
+    CPU          : 100.0 %
+[20:19:40] vanetza | rx | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:19:40.204359
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 134903 CAMs, 3 frames not delivered as CAM
+    Throughput   : 2248.4 CAMs/s
+    Latency p50  : 441.37 us
+    CPU          : 100.0 %
+[20:20:55] vanetza | rx | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:20:55.264422
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135368 CAMs, 0 frames not delivered as CAM
+    Throughput   : 2256.1 CAMs/s
+    Latency p50  : 439.96 us
+    CPU          : 100.0 %
+[20:22:10] vanetza | rx | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:22:10.336148
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135189 CAMs, 2 frames not delivered as CAM
+    Throughput   : 2253.1 CAMs/s
+    Latency p50  : 440.63 us
+    CPU          : 100.0 %
+[20:23:25] vanetza | rx | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:23:25.408077
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135165 CAMs, 1 frames not delivered as CAM
+    Throughput   : 2252.7 CAMs/s
+    Latency p50  : 440.74 us
+    CPU          : 100.0 %
+[20:24:40] vanetza | rx | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:24:40.472183
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135006 CAMs, 0 frames not delivered as CAM
+    Throughput   : 2250.1 CAMs/s
+    Latency p50  : 441.20 us
+    CPU          : 100.0 %
+[20:25:55] vanetza | rx | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:25:55.568210
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135423 CAMs, 1 frames not delivered as CAM
+    Throughput   : 2257.0 CAMs/s
+    Latency p50  : 439.80 us
+    CPU          : 100.0 %
+[20:27:10] vanetza | rx | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:27:10.632311
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135169 CAMs, 1 frames not delivered as CAM
+    Throughput   : 2252.8 CAMs/s
+    Latency p50  : 440.63 us
+    CPU          : 100.0 %
+[20:28:25] vanetza | rx | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:28:25.704418
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135443 CAMs, 0 frames not delivered as CAM
+    Throughput   : 2257.4 CAMs/s
+    Latency p50  : 439.80 us
+    CPU          : 100.0 %
+[20:29:40] vanetza | rx | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:29:40.764183
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135003 CAMs, 2 frames not delivered as CAM
+    Throughput   : 2250.0 CAMs/s
+    Latency p50  : 441.17 us
+    CPU          : 100.0 %
+[20:30:55] vanetza | rx | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:30:55.840267
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135049 CAMs, 3 frames not delivered as CAM
+    Throughput   : 2250.8 CAMs/s
+    Latency p50  : 440.95 us
+    CPU          : 100.0 %
+[20:32:10] vanetza | rx | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:32:10.924145
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 134923 CAMs, 3 frames not delivered as CAM
+    Throughput   : 2248.7 CAMs/s
+    Latency p50  : 441.50 us
+    CPU          : 100.0 %
+[20:33:26] vanetza | rx | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:33:26.075018
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135344 CAMs, 0 frames not delivered as CAM
+    Throughput   : 2255.7 CAMs/s
+    Latency p50  : 440.07 us
+    CPU          : 100.0 %
+[20:34:41] vanetza | rx | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:34:41.148250
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135238 CAMs, 1 frames not delivered as CAM
+    Throughput   : 2254.0 CAMs/s
+    Latency p50  : 440.39 us
+    CPU          : 100.0 %
+[20:35:56] vanetza | rx | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:35:56.224429
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135138 CAMs, 2 frames not delivered as CAM
+    Throughput   : 2252.3 CAMs/s
+    Latency p50  : 440.69 us
+    CPU          : 100.0 %
+[20:37:11] vanetza | rx | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:37:11.313219
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135469 CAMs, 3 frames not delivered as CAM
+    Throughput   : 2257.8 CAMs/s
+    Latency p50  : 439.59 us
+    CPU          : 100.0 %
+[20:38:26] vanetza | rx | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:38:26.388390
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 134840 CAMs, 2 frames not delivered as CAM
+    Throughput   : 2247.3 CAMs/s
+    Latency p50  : 441.63 us
+    CPU          : 100.0 %
+[20:39:41] vanetza | rx | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:39:41.460057
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135137 CAMs, 3 frames not delivered as CAM
+    Throughput   : 2252.3 CAMs/s
+    Latency p50  : 440.74 us
+    CPU          : 100.0 %
+[20:40:56] vanetza | rx | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:40:56.527985
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 134584 CAMs, 4 frames not delivered as CAM
+    Throughput   : 2243.1 CAMs/s
+    Latency p50  : 442.45 us
+    CPU          : 100.0 %
+[20:42:11] vanetza | rx | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:42:11.705158
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135075 CAMs, 2 frames not delivered as CAM
+    Throughput   : 2251.2 CAMs/s
+    Latency p50  : 440.78 us
+    CPU          : 100.0 %
+[20:43:26] vanetza | rx | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:43:26.791915
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 134887 CAMs, 3 frames not delivered as CAM
+    Throughput   : 2248.1 CAMs/s
+    Latency p50  : 441.50 us
+    CPU          : 100.0 %
+[20:44:41] vanetza | rx | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:44:41.868010
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 134797 CAMs, 2 frames not delivered as CAM
+    Throughput   : 2246.6 CAMs/s
+    Latency p50  : 441.87 us
+    CPU          : 100.0 %
+[20:45:56] vanetza | rx | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:45:56.940181
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135450 CAMs, 1 frames not delivered as CAM
+    Throughput   : 2257.5 CAMs/s
+    Latency p50  : 439.70 us
+    CPU          : 100.0 %
+[20:47:11] vanetza | rx | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:47:12.004415
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135096 CAMs, 1 frames not delivered as CAM
+    Throughput   : 2251.6 CAMs/s
+    Latency p50  : 440.76 us
+    CPU          : 100.0 %
+[20:48:27] vanetza | rx | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : rx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi5
+  Interface: eth0
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv
+Starting runtime at 2026-Nov-25 19:48:27.064155
+  Warm-up phase (5s) - waiting for packets from remote sender...
+  Measurement phase (60s)...
+  RX: 135291 CAMs, 3 frames not delivered as CAM
+    Throughput   : 2254.8 CAMs/s
+    Latency p50  : 440.28 us
+    CPU          : 100.0 %
+[2026-11-25 20:49:32] all cells done: /home/<user>/FlexStackBenchmarking/results/results_rpi5_after_20261125T181155.csv

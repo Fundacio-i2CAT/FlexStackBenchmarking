@@ -1,0 +1,38 @@
+sender,receiver,message,signer,own_packet,sent,received,verified,refused_at_unknown,refused,refusal_reports
+python,python,DENM,certificate,True,57,132,132,0,0,{}
+python,rogue,CAM,certificate,False,539,539,0,0,539,"{""INCONSISTENT_CHAIN"": 539}"
+python,rogue,CAM,digest,False,3,3,0,3,0,{}
+python,rogue,DENM,certificate,False,58,250,0,0,250,"{""INCONSISTENT_CHAIN"": 250}"
+python,rust,CAM,certificate,False,541,541,541,0,0,{}
+python,rust,CAM,digest,False,9,9,9,0,0,{}
+python,rust,DENM,certificate,False,58,192,192,0,0,{}
+python,vanetza,CAM,certificate,False,541,541,1,0,540,"{""False_Signature"": 540}"
+python,vanetza,CAM,digest,False,9,9,5,1,3,"{""False_Signature"": 3}"
+python,vanetza,DENM,certificate,False,58,173,173,0,0,{}
+rogue,python,CAM,certificate,False,553,555,0,0,555,"{""INCONSISTENT_CHAIN"": 555}"
+rogue,python,DENM,certificate,False,57,192,0,0,192,"{""INCONSISTENT_CHAIN"": 192}"
+rogue,rogue,DENM,certificate,True,58,78,78,0,0,{}
+rogue,rust,CAM,certificate,False,563,565,0,0,565,"{""InconsistentChain"": 565}"
+rogue,rust,DENM,certificate,False,58,194,0,0,194,"{""InconsistentChain"": 194}"
+rogue,vanetza,CAM,certificate,False,565,567,0,0,567,"{""False_Signature"": 567}"
+rogue,vanetza,DENM,certificate,False,58,116,116,0,0,{}
+rust,python,CAM,certificate,False,560,562,562,0,0,{}
+rust,python,CAM,digest,False,21,21,20,1,0,{}
+rust,python,DENM,certificate,False,116,210,210,0,0,{}
+rust,rogue,CAM,certificate,False,571,571,0,0,571,"{""INCONSISTENT_CHAIN"": 571}"
+rust,rogue,CAM,digest,False,15,15,0,15,0,{}
+rust,rogue,DENM,certificate,False,116,268,0,0,268,"{""INCONSISTENT_CHAIN"": 268}"
+rust,rust,DENM,certificate,True,122,158,158,0,0,{}
+rust,vanetza,CAM,certificate,False,576,576,5,0,571,"{""False_Signature"": 571}"
+rust,vanetza,CAM,digest,False,40,40,25,1,14,"{""False_Signature"": 14}"
+rust,vanetza,DENM,certificate,False,122,180,180,0,0,{}
+vanetza,python,CAM,certificate,False,554,556,556,0,0,{}
+vanetza,python,CAM,digest,False,27,27,27,0,0,{}
+vanetza,python,DENM,certificate,False,58,168,168,0,0,{}
+vanetza,rogue,CAM,certificate,False,566,567,0,0,567,"{""INCONSISTENT_CHAIN"": 567}"
+vanetza,rogue,CAM,digest,False,21,21,0,21,0,{}
+vanetza,rogue,DENM,certificate,False,58,228,0,0,228,"{""INCONSISTENT_CHAIN"": 228}"
+vanetza,rust,CAM,certificate,False,569,571,571,0,0,{}
+vanetza,rust,CAM,digest,False,45,45,45,0,0,{}
+vanetza,rust,DENM,certificate,False,61,174,174,0,0,{}
+vanetza,vanetza,DENM,certificate,True,61,119,119,0,0,{}

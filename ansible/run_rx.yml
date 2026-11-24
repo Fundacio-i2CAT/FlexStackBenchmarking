@@ -31,6 +31,10 @@
 #     --limit "rpi5-node1,laptop-1" \
 #     -e tx_interface=eno1 -e rx_interface=eth0
 #
+#   # Fixed-rate RX (sender paced at 1000 msg/s = 100 neighbours at 10 Hz):
+#   ansible-playbook -i inventory.yml run_rx.yml \
+#     --limit "rpi5-node1,laptop-1" -e rx_interface=eth0 -e rx_rate=1000
+#
 #   # Or with security=on sender:
 #   ansible-playbook -i inventory.yml run_rx.yml \
 #     --limit "rpi5-node1,laptop-1" \
@@ -116,7 +120,7 @@
     # Example: -e 'rx_security_filter=[on]'
     rx_security_filter: "{{ rx_security_filter | default([]) }}"
     # Number of active impl×security cells, accounting for both filters.
-    _rx_active_impls: "{{ (['rust','cpython','pypy'] | select('in', rx_impl_filter) | list) if rx_impl_filter else ['rust','cpython','pypy'] }}"
+    _rx_active_impls: "{{ (['rust','cpython','pypy','vanetza'] | select('in', rx_impl_filter) | list) if rx_impl_filter else ['rust','cpython','pypy','vanetza'] }}"
     _rx_active_securities: "{{ (['off','on'] | select('in', rx_security_filter) | list) if rx_security_filter else ['off','on'] }}"
     _rx_cell_count: "{{ (_rx_active_impls | length) * (_rx_active_securities | length) }}"
     # Send long enough to cover all receiver runs plus a 30-min buffer.
@@ -171,7 +175,7 @@
           echo "[$(date '+%H:%M:%S')] Phase 1: Sending unsecured CAMs (security=off)..."
           cd {{ bench_dir }}
           {{ rust_bin }} \
-            --mode tx --security off \
+            --mode tx --security off --rate {{ rx_rate | default(0) }} \
             --duration {{ rx_send_duration }} --warmup 0 \
             --interface {{ tx_interface }} \
             --output /dev/null --platform {{ bench_platform }} --run-id 1 \
@@ -183,7 +187,8 @@
           echo "[$(date '+%H:%M:%S')] Phase 2: Sending secured CAMs (security=on, AT1)..."
           cd {{ bench_dir }}
           {{ rust_bin }} \
-            --mode tx --security on \
+            --mode tx --security on --at 1 --rate {{ rx_rate | default(0) }} \
+            --certs-dir {{ bench_dir }}/certs \
             --duration {{ rx_send_duration }} --warmup 0 \
             --interface {{ tx_interface }} \
             --output /dev/null --platform {{ bench_platform }} --run-id 1 \
@@ -232,8 +237,8 @@
 
     # RX modes to benchmark
     rx_modes:
-      - { security: "off", impl: [rust, cpython, pypy] }
-      - { security: "on",  impl: [rust, cpython, pypy] }
+      - { security: "off", impl: [rust, cpython, pypy, vanetza] }
+      - { security: "on",  impl: [rust, cpython, pypy, vanetza] }
 
     # Optional implementation filter — when set via -e, only the listed
     # implementations are run.  Default (empty list) means run all.
@@ -279,6 +284,15 @@
           # Run from bench_dir so the Rust binary finds certs/ by relative path
           cd {{ bench_dir }}
 
+          # Environment record + per-run thermal/throttling sidecar
+          source {{ bench_dir }}/scripts/lib_monitor.sh
+          RUST_BIN={{ rust_bin }} CARGO_LOCK={{ bench_dir }}/rust/Cargo.lock \
+            CPYTHON={{ cpython_bin }} PYPY={{ pypy_bin }} \
+            record_environment {{ results_csv | regex_replace('[.]csv$', '_env.txt') }} {{ bench_platform }} {{ bench_cores }}
+          monitor_init {{ results_csv | regex_replace('[.]csv$', '_thermal.csv') }} {{ bench_cores }}
+          # Revision under test (scripts/prepare_campaign.sh), next to the results
+          cp {{ bench_dir }}/MANIFEST.txt {{ results_csv | regex_replace('[.]csv$', '_MANIFEST.txt') }} 2>/dev/null || true
+
           echo "============================================================"
           echo "RX Benchmark — Receiver on {{ inventory_hostname }} ({{ bench_platform }})"
           echo "Interface: {{ rx_interface }}"
@@ -297,32 +311,45 @@
           echo "================================================================"
           for RUN in $(seq 1 {{ bench_runs }}); do
             echo "[$(date '+%H:%M:%S')] {{ impl }} | rx | {{ cell.security }} | run $RUN/{{ bench_runs }}"
+            monitor_run_start
           {% if impl == 'rust' %}
-            chrt -f 50 taskset -c {{ bench_cores }} \
+            timeout -k 10 {{ bench_duration | int + warmup | int + 120 }} chrt -r 50 taskset -c {{ bench_cores }} \
               {{ rust_bin }} \
               --mode rx --security {{ cell.security }} \
-              --at 2 \
+              --at 2 --rate {{ rx_rate | default(0) }} \
               --duration {{ bench_duration }} --warmup {{ warmup }} \
               --output {{ results_csv }} --run-id $RUN \
               --platform {{ bench_platform }} \
-              --interface {{ rx_interface }} || echo "  [WARN] exited with error"
+              --interface {{ rx_interface }} \
+              --certs-dir {{ bench_dir }}/certs || echo "  [WARN] exited with error"
           {% elif impl == 'cpython' %}
-            chrt -f 50 taskset -c {{ bench_cores }} \
+            timeout -k 10 {{ bench_duration | int + warmup | int + 120 }} chrt -r 50 taskset -c {{ bench_cores }} \
               {{ cpython_bin }} {{ python_bench }} \
-              --mode rx --security {{ cell.security }} \
+              --mode rx --security {{ cell.security }} --rate {{ rx_rate | default(0) }} \
               --duration {{ bench_duration }} --warmup {{ warmup }} \
               --output {{ results_csv }} --run-id $RUN \
               --platform {{ bench_platform }} \
               --interface {{ rx_interface }} || echo "  [WARN] exited with error"
           {% elif impl == 'pypy' %}
-            chrt -f 50 taskset -c {{ bench_cores }} \
+            timeout -k 10 {{ bench_duration | int + warmup | int + 120 }} chrt -r 50 taskset -c {{ bench_cores }} \
               {{ pypy_bin }} {{ python_bench }} \
-              --mode rx --security {{ cell.security }} \
+              --mode rx --security {{ cell.security }} --rate {{ rx_rate | default(0) }} \
               --duration {{ bench_duration }} --warmup {{ warmup }} \
               --output {{ results_csv }} --run-id $RUN \
               --platform {{ bench_platform }} \
               --interface {{ rx_interface }} || echo "  [WARN] exited with error"
+          {% elif impl == 'vanetza' %}
+            timeout -k 10 {{ bench_duration | int + warmup | int + 120 }} chrt -r 50 taskset -c {{ bench_cores }} \
+              {{ bench_dir }}/vanetza/run.sh \
+              --mode rx --security {{ cell.security }} \
+              --at 2 --rate {{ rx_rate | default(0) }} \
+              --duration {{ bench_duration }} --warmup {{ warmup }} \
+              --output {{ results_csv }} --run-id $RUN \
+              --platform {{ bench_platform }} \
+              --interface {{ rx_interface }} \
+              --certs-dir {{ bench_dir }}/certs || echo "  [WARN] exited with error"
           {% endif %}
+            monitor_run_end {{ impl }} {{ cell.security }} rx "$RUN" {{ rx_rate | default(0) }}
             if [ "$RUN" -lt {{ bench_runs }} ]; then
               echo "  Cooling down ({{ bench_cooldown }}s)..."
               sleep {{ bench_cooldown }}

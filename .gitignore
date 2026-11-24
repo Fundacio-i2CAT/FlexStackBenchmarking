@@ -36,3 +36,16 @@ RustFlexstack/
 rust/cohda-toolchain/
 *.csv
 *.pdf
+# Published raw data of the paper campaign (kept despite *.csv above)
+!results/campaign_2026-11/**/*.csv
+!results/archive/**/*.csv
+!conformance/*.csv
+!results/interop/**/*.csv
+!results/tables/**/*.csv
+
+# Local, setup-specific files: credentials, real host inventories, scratch
+*.pass
+.env.*
+!.env.example
+ansible/inventory.local.yml
+ansible/host_vars/

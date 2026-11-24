@@ -1,0 +1,674 @@
+{
+  "nodes": [
+    "python",
+    "rust",
+    "vanetza",
+    "rogue"
+  ],
+  "security": [
+    {
+      "sender": "python",
+      "receiver": "python",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": true,
+      "sent": 296,
+      "received": 740,
+      "verified": 740,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "python",
+      "receiver": "rogue",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2796,
+      "received": 2796,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 2796,
+      "refusal_reports": {
+        "INCONSISTENT_CHAIN": 2796
+      }
+    },
+    {
+      "sender": "python",
+      "receiver": "rogue",
+      "message": "CAM",
+      "signer": "digest",
+      "own_packet": false,
+      "sent": 24,
+      "received": 24,
+      "verified": 0,
+      "refused_at_unknown": 24,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "python",
+      "receiver": "rogue",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 296,
+      "received": 1332,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 1332,
+      "refusal_reports": {
+        "INCONSISTENT_CHAIN": 1332
+      }
+    },
+    {
+      "sender": "python",
+      "receiver": "rust",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2798,
+      "received": 2798,
+      "verified": 2798,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "python",
+      "receiver": "rust",
+      "message": "CAM",
+      "signer": "digest",
+      "own_packet": false,
+      "sent": 31,
+      "received": 31,
+      "verified": 31,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "python",
+      "receiver": "rust",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 296,
+      "received": 1036,
+      "verified": 1036,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "python",
+      "receiver": "vanetza",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2798,
+      "received": 2798,
+      "verified": 1,
+      "refused_at_unknown": 0,
+      "refused": 2797,
+      "refusal_reports": {
+        "False_Signature": 2797
+      }
+    },
+    {
+      "sender": "python",
+      "receiver": "vanetza",
+      "message": "CAM",
+      "signer": "digest",
+      "own_packet": false,
+      "sent": 31,
+      "received": 31,
+      "verified": 7,
+      "refused_at_unknown": 1,
+      "refused": 23,
+      "refusal_reports": {
+        "False_Signature": 23
+      }
+    },
+    {
+      "sender": "python",
+      "receiver": "vanetza",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 296,
+      "received": 888,
+      "verified": 888,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "rogue",
+      "receiver": "python",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2870,
+      "received": 2872,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 2872,
+      "refusal_reports": {
+        "INCONSISTENT_CHAIN": 2872
+      }
+    },
+    {
+      "sender": "rogue",
+      "receiver": "python",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 296,
+      "received": 974,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 974,
+      "refusal_reports": {
+        "INCONSISTENT_CHAIN": 974
+      }
+    },
+    {
+      "sender": "rogue",
+      "receiver": "rogue",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": true,
+      "sent": 297,
+      "received": 384,
+      "verified": 384,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "rogue",
+      "receiver": "rust",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2881,
+      "received": 2883,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 2883,
+      "refusal_reports": {
+        "InconsistentChain": 2883
+      }
+    },
+    {
+      "sender": "rogue",
+      "receiver": "rust",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 297,
+      "received": 978,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 978,
+      "refusal_reports": {
+        "InconsistentChain": 978
+      }
+    },
+    {
+      "sender": "rogue",
+      "receiver": "vanetza",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2882,
+      "received": 2884,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 2884,
+      "refusal_reports": {
+        "False_Signature": 2884
+      }
+    },
+    {
+      "sender": "rogue",
+      "receiver": "vanetza",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 297,
+      "received": 594,
+      "verified": 594,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "rust",
+      "receiver": "python",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2894,
+      "received": 2896,
+      "verified": 2896,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "rust",
+      "receiver": "python",
+      "message": "CAM",
+      "signer": "digest",
+      "own_packet": false,
+      "sent": 83,
+      "received": 83,
+      "verified": 82,
+      "refused_at_unknown": 1,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "rust",
+      "receiver": "python",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 596,
+      "received": 1040,
+      "verified": 1040,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "rust",
+      "receiver": "rogue",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2906,
+      "received": 2906,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 2906,
+      "refusal_reports": {
+        "INCONSISTENT_CHAIN": 2906
+      }
+    },
+    {
+      "sender": "rust",
+      "receiver": "rogue",
+      "message": "CAM",
+      "signer": "digest",
+      "own_packet": false,
+      "sent": 75,
+      "received": 75,
+      "verified": 0,
+      "refused_at_unknown": 75,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "rust",
+      "receiver": "rogue",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 596,
+      "received": 1338,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 1338,
+      "refusal_reports": {
+        "INCONSISTENT_CHAIN": 1338
+      }
+    },
+    {
+      "sender": "rust",
+      "receiver": "rust",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": true,
+      "sent": 602,
+      "received": 748,
+      "verified": 748,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "rust",
+      "receiver": "vanetza",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2910,
+      "received": 2910,
+      "verified": 4,
+      "refused_at_unknown": 0,
+      "refused": 2906,
+      "refusal_reports": {
+        "False_Signature": 2906
+      }
+    },
+    {
+      "sender": "rust",
+      "receiver": "vanetza",
+      "message": "CAM",
+      "signer": "digest",
+      "own_packet": false,
+      "sent": 102,
+      "received": 102,
+      "verified": 27,
+      "refused_at_unknown": 1,
+      "refused": 74,
+      "refusal_reports": {
+        "False_Signature": 74
+      }
+    },
+    {
+      "sender": "rust",
+      "receiver": "vanetza",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 602,
+      "received": 900,
+      "verified": 900,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "python",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2871,
+      "received": 2873,
+      "verified": 2873,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "python",
+      "message": "CAM",
+      "signer": "digest",
+      "own_packet": false,
+      "sent": 108,
+      "received": 108,
+      "verified": 108,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "python",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 298,
+      "received": 846,
+      "verified": 846,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "rogue",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2883,
+      "received": 2884,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 2884,
+      "refusal_reports": {
+        "INCONSISTENT_CHAIN": 2884
+      }
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "rogue",
+      "message": "CAM",
+      "signer": "digest",
+      "own_packet": false,
+      "sent": 102,
+      "received": 102,
+      "verified": 0,
+      "refused_at_unknown": 102,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "rogue",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 298,
+      "received": 1144,
+      "verified": 0,
+      "refused_at_unknown": 0,
+      "refused": 1144,
+      "refusal_reports": {
+        "INCONSISTENT_CHAIN": 1144
+      }
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "rust",
+      "message": "CAM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 2886,
+      "received": 2888,
+      "verified": 2888,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "rust",
+      "message": "CAM",
+      "signer": "digest",
+      "own_packet": false,
+      "sent": 127,
+      "received": 127,
+      "verified": 127,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "rust",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": false,
+      "sent": 301,
+      "received": 852,
+      "verified": 852,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "vanetza",
+      "message": "DENM",
+      "signer": "certificate",
+      "own_packet": true,
+      "sent": 301,
+      "received": 599,
+      "verified": 599,
+      "refused_at_unknown": 0,
+      "refused": 0,
+      "refusal_reports": {}
+    }
+  ],
+  "facility": [
+    {
+      "sender": "python",
+      "receiver": "rust",
+      "message": "CAM",
+      "sent": 2829,
+      "verified": 2829,
+      "delivered": 2829,
+      "verified_not_delivered": 0
+    },
+    {
+      "sender": "python",
+      "receiver": "rust",
+      "message": "DENM",
+      "sent": 296,
+      "verified": 1036,
+      "delivered": 296,
+      "verified_not_delivered": null
+    },
+    {
+      "sender": "python",
+      "receiver": "vanetza",
+      "message": "CAM",
+      "sent": 2829,
+      "verified": 8,
+      "delivered": 8,
+      "verified_not_delivered": 0
+    },
+    {
+      "sender": "python",
+      "receiver": "vanetza",
+      "message": "DENM",
+      "sent": 296,
+      "verified": 888,
+      "delivered": 888,
+      "verified_not_delivered": null
+    },
+    {
+      "sender": "rogue",
+      "receiver": "vanetza",
+      "message": "DENM",
+      "sent": 297,
+      "verified": 594,
+      "delivered": 594,
+      "verified_not_delivered": null
+    },
+    {
+      "sender": "rust",
+      "receiver": "python",
+      "message": "CAM",
+      "sent": 2977,
+      "verified": 2978,
+      "delivered": 2978,
+      "verified_not_delivered": 0
+    },
+    {
+      "sender": "rust",
+      "receiver": "python",
+      "message": "DENM",
+      "sent": 596,
+      "verified": 1040,
+      "delivered": 298,
+      "verified_not_delivered": null
+    },
+    {
+      "sender": "rust",
+      "receiver": "vanetza",
+      "message": "CAM",
+      "sent": 3012,
+      "verified": 31,
+      "delivered": 31,
+      "verified_not_delivered": 0
+    },
+    {
+      "sender": "rust",
+      "receiver": "vanetza",
+      "message": "DENM",
+      "sent": 602,
+      "verified": 900,
+      "delivered": 900,
+      "verified_not_delivered": null
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "python",
+      "message": "CAM",
+      "sent": 2979,
+      "verified": 2981,
+      "delivered": 2981,
+      "verified_not_delivered": 0
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "python",
+      "message": "DENM",
+      "sent": 298,
+      "verified": 846,
+      "delivered": 298,
+      "verified_not_delivered": null
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "rust",
+      "message": "CAM",
+      "sent": 3013,
+      "verified": 3015,
+      "delivered": 3015,
+      "verified_not_delivered": 0
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "rust",
+      "message": "DENM",
+      "sent": 301,
+      "verified": 852,
+      "delivered": 301,
+      "verified_not_delivered": null
+    },
+    {
+      "sender": "vanetza",
+      "receiver": "vanetza",
+      "message": "DENM",
+      "sent": 301,
+      "verified": 599,
+      "delivered": 599,
+      "verified_not_delivered": null
+    }
+  ],
+  "tx": {
+    "python": {
+      "Beacon/certificate": 1,
+      "CAM/certificate": 2798,
+      "CAM/digest": 31,
+      "DENM/certificate": 296
+    },
+    "rust": {
+      "CAM/certificate": 2911,
+      "CAM/digest": 103,
+      "DENM/certificate": 602
+    },
+    "vanetza": {
+      "Beacon/certificate": 1,
+      "CAM/certificate": 2890,
+      "CAM/digest": 127,
+      "DENM/certificate": 301
+    },
+    "rogue": {
+      "Beacon/certificate": 1,
+      "CAM/certificate": 2885,
+      "DENM/certificate": 297,
+      "CAM/digest": 1
+    }
+  }
+}

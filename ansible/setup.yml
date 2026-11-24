@@ -7,8 +7,17 @@
 #   1. Syncs project files (python/, scripts/, certs/ dirs)
 #   2. Creates a CPython venv and installs Python requirements
 #   3. Downloads and installs PyPy 3.11 with Python requirements
-#   4. Downloads Rust benchmark binary from GitHub release (musl static)
-#   5. Syncs certificate chain (Rust-generated COER certs + raw/PEM keys) to remote hosts
+#   4. Installs the Rust benchmark binary (musl static)
+#   5. Syncs certificate chain (COER certs + raw/PEM keys) to remote hosts
+#
+# Python packages: python/requirements.txt (v2xflexstack pinned, from PyPI).
+# artifact_source (inventory.yml) selects the Rust harness and certificates:
+#   local    (default) built on the controller by scripts/prepare_campaign.sh
+#            into ../dist/ (harness against the rustflexstack of
+#            rust/Cargo.lock, certificates made with the pinned FlexStack,
+#            MANIFEST.txt, copied to every host and next to the results);
+#   release  the harness binary of the GitHub release rust_release_tag and
+#            ../certs/.
 #
 # Usage:
 #   ansible-playbook -i inventory.yml setup.yml
@@ -45,6 +54,9 @@
       file:
         path: "{{ bench_dir }}"
         state: absent
+      # -e setup_clean=false keeps the folder (and any results in it), e.g. to
+      # add the Vanetza bundle with --tags vanetza while a campaign runs.
+      when: setup_clean | default(true) | bool
       tags: [always]
 
     # ── Project files ──────────────────────────────────────────────────────
@@ -87,22 +99,45 @@
 
     - name: Create CPython virtual environment
       command:
-        cmd: python3 -m venv "{{ venv_dir }}"
+        cmd: "{{ bench_python | default('python3') }} -m venv {{ venv_dir }}"
         creates: "{{ venv_dir }}/bin/python3"
       tags: [cpython]
 
-    - name: Install Python requirements in CPython venv
+    - name: Check the local campaign artefacts (scripts/prepare_campaign.sh)
+      delegate_to: localhost
+      run_once: true
+      stat:
+        path: "{{ project_src }}/dist/MANIFEST.txt"
+      register: dist_manifest
+      when: artifact_source == 'local'
+      tags: [always]
+
+    - name: Fail without local artefacts
+      fail:
+        msg: "artifact_source=local needs ../dist/: run scripts/prepare_campaign.sh on the controller first."
+      when: artifact_source == 'local' and not dist_manifest.stat.exists
+      tags: [always]
+
+    - name: Sync the campaign MANIFEST
+      copy:
+        src: "{{ project_src }}/dist/MANIFEST.txt"
+        dest: "{{ bench_dir }}/MANIFEST.txt"
+        mode: "0644"
+      when: artifact_source == 'local'
+      tags: [always]
+
+    - name: Install Python requirements in CPython venv (PyPI)
       pip:
         requirements: "{{ bench_dir }}/python/requirements.txt"
         virtualenv: "{{ venv_dir }}"
-        virtualenv_command: python3 -m venv
+        virtualenv_command: "{{ bench_python | default('python3') }} -m venv"
       tags: [cpython]
 
     # ── PyPy 3.11 ──────────────────────────────────────────────────────────
     - name: Detect host architecture
       set_fact:
         host_arch: "{{ ansible_architecture }}"
-      tags: [pypy, rust]
+      tags: [pypy, rust, vanetza]
 
     - name: Set PyPy download URL for architecture
       set_fact:
@@ -146,7 +181,7 @@
       changed_when: true
       tags: [pypy]
 
-    - name: Install Python requirements in PyPy
+    - name: Install Python requirements in PyPy (PyPI)
       command:
         cmd: "{{ pypy_dir }}/bin/pypy3 -m pip install -r {{ bench_dir }}/python/requirements.txt"
       changed_when: true
@@ -164,9 +199,18 @@
         rust_bin_url: "{{ rust_release_base }}/{{ rust_bin_names[host_arch] }}"
       tags: [rust]
 
-    - name: Download Rust benchmark binary from GitHub release
+    - name: Download Rust benchmark binary from GitHub release (release)
       command:
         cmd: curl -L -f -o "{{ rust_bin }}" "{{ rust_bin_url }}"
+      when: artifact_source != 'local'
+      tags: [rust]
+
+    - name: Copy Rust benchmark binary built by prepare_campaign.sh (local)
+      copy:
+        src: "{{ project_src }}/dist/bin/{{ rust_bin_names[host_arch] }}"
+        dest: "{{ rust_bin }}"
+        mode: "0755"
+      when: artifact_source == 'local'
       tags: [rust]
 
     - name: Make Rust benchmark binary executable
@@ -174,6 +218,22 @@
         path: "{{ rust_bin }}"
         mode: "0755"
       tags: [rust]
+
+    # ── Vanetza benchmark bundle (WP-D, vanetza/build.sh) ─────────────────
+    - name: Check the Vanetza bundle for this architecture
+      delegate_to: localhost
+      stat:
+        path: "{{ project_src }}/dist/vanetza/{{ host_arch }}/run.sh"
+      register: vanetza_bundle
+      tags: [vanetza]
+
+    - name: Copy the Vanetza benchmark bundle
+      copy:
+        src: "{{ project_src }}/dist/vanetza/{{ host_arch }}/"
+        dest: "{{ bench_dir }}/vanetza/"
+        mode: preserve
+      when: vanetza_bundle.stat.exists
+      tags: [vanetza]
 
     # ── Certificates ───────────────────────────────────────────────────────
     # Certs are generated once locally using the Rust generate_certificate_chain
@@ -185,7 +245,7 @@
     # Do NOT create .key from .pem — they are different formats.
     - name: Sync certificate chain to remote host
       copy:
-        src: "{{ project_src }}/certs/"
+        src: "{{ project_src }}/{{ 'dist/certs/' if artifact_source == 'local' else 'certs/' }}"
         dest: "{{ bench_dir }}/certs/"
         mode: "0600"
       tags: [certs]
@@ -200,14 +260,14 @@
     # ── Verification ───────────────────────────────────────────────────────
     - name: Verify CPython venv
       command:
-        cmd: "{{ venv_dir }}/bin/python3 -c 'import flexstack; print(\"flexstack OK\")'"
+        cmd: "{{ venv_dir }}/bin/python3 -c 'import importlib.metadata as m; print(\"v2xflexstack\", m.version(\"v2xflexstack\"))'"
       register: cpython_check
       changed_when: false
       tags: [cpython, verify]
 
     - name: Verify PyPy installation
       command:
-        cmd: "{{ pypy_dir }}/bin/pypy3 -c 'import flexstack; print(\"flexstack OK\")'"
+        cmd: "{{ pypy_dir }}/bin/pypy3 -c 'import importlib.metadata as m; print(\"v2xflexstack\", m.version(\"v2xflexstack\"))'"
       register: pypy_check
       changed_when: false
       tags: [pypy, verify]

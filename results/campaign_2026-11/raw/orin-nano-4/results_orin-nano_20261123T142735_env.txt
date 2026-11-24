@@ -1,0 +1,83 @@
+# FlexStack benchmark environment
+date_utc                : 2026-11-23T13:27:45Z
+platform                : orin-nano
+hostname                : <host>
+kernel                  : Linux 6.8.12-1021-tegra #1 SMP PREEMPT Mon Jun  1 13:25:46 PDT 2026 aarch64
+os                      : Ubuntu 24.04.4 LTS
+cpu_model               : 
+board                   : NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super
+online_cpus             : 0-5
+smt_active              : 0
+intel_no_turbo          : 
+pinned_cores            : 2,3
+cpu2_governor           : performance
+cpu2_freq_khz           : 1344000
+cpu2_max_freq_khz       : 1344000
+cpu3_governor           : performance
+cpu3_freq_khz           : 1344000
+cpu3_max_freq_khz       : 1344000
+mem_total               : 7727372 kB
+swap_active             : 0 device(s)
+soc_temp_c              : 49.2
+throttle_state          : 
+
+# Software under test
+rust_bin                : /home/<user>/FlexStackBenchmarking/rust/target/release/flexstack-bench
+rust_bin_size_bytes     : 2388856
+rust_bin_sha256         : 2989b8dc3e15ac003dec50313fe140491e575b8f6e78350a7fad591b5075c738
+interpreter             : /home/<user>/FlexStackBenchmarking/venv/bin/python3 | 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]
+  v2xflexstack          : 0.12.0
+  v2xflexstack_size_kb  : 5836
+  asn1tools             : 0.165.0
+  cryptography          : 50.0.2
+interpreter             : /home/<user>/FlexStackBenchmarking/pypy/bin/pypy3 | 3.11.15 (2a098039edb5, Mar 12 2026, 16:01:16) [PyPy 7.3.21 with GCC 10.2.1 20210130 (Red Hat 10.2.1-11)]
+  v2xflexstack          : 0.12.0
+  v2xflexstack_size_kb  : 5908
+  asn1tools             : 0.165.0
+  cryptography          : 50.0.2
+
+# Running services (background load)
+  accounts-daemon.service
+  auditd.service
+  avahi-daemon.service
+  bluetooth.service
+  colord.service
+  containerd.service
+  cron.service
+  dbus.service
+  docker.service
+  fwupd.service
+  gdm.service
+  gnome-remote-desktop.service
+  haveged.service
+  iperf3.service
+  k3s-agent.service
+  kerneloops.service
+  ModemManager.service
+  NetworkManager.service
+  nv-tee-supplicant.service
+  nvargus-daemon.service
+  nvfancontrol.service
+  nvidia-pva-allowd.service
+  nvmemwarning.service
+  ollama.service
+  polkit.service
+  power-profiles-daemon.service
+  rsyslog.service
+  rtkit-daemon.service
+  seatd.service
+  serial-getty@ttyGS0.service
+  serial-getty@ttyTCU0.service
+  ssh.service
+  switcheroo-control.service
+  systemd-journald.service
+  systemd-logind.service
+  systemd-networkd.service
+  systemd-resolved.service
+  systemd-timesyncd.service
+  systemd-udevd.service
+  udisks2.service
+  upower.service
+  user@121.service
+  user@2002.service
+  wpa_supplicant.service

@@ -1,0 +1,470 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+================================================================
+  cpython | rx | security=off | rate=0 | runs=30
+================================================================
+[13:32:06] cpython | rx | off | run 1/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 3560 packets
+  Measurement phase (60s)...
+  RX: 43243 CAMs (721/s)
+
+  Results:
+    Total        : 43243
+    Throughput   : 720.6 CAMs/s
+    Latency mean : 1291.99 μs
+    Latency p50  : 1268.18 μs
+    Latency p95  : 1475.30 μs
+    Latency p99  : 1583.09 μs
+    CPU          : 99.8 % (100 = one core)
+    RSS start    : 69.23 MB, peak 70.77 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:33:40] cpython | rx | off | run 2/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 2
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 3609 packets
+  Measurement phase (60s)...
+  RX: 43387 CAMs (723/s)
+
+  Results:
+    Total        : 43387
+    Throughput   : 722.9 CAMs/s
+    Latency mean : 1287.03 μs
+    Latency p50  : 1263.96 μs
+    Latency p95  : 1463.63 μs
+    Latency p99  : 1579.08 μs
+    CPU          : 99.9 % (100 = one core)
+    RSS start    : 69.52 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:35:13] cpython | rx | off | run 3/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 3
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 3643 packets
+  Measurement phase (60s)...
+  RX: 43565 CAMs (726/s)
+
+  Results:
+    Total        : 43565
+    Throughput   : 725.9 CAMs/s
+    Latency mean : 1285.64 μs
+    Latency p50  : 1264.80 μs
+    Latency p95  : 1464.54 μs
+    Latency p99  : 1575.60 μs
+    CPU          : 100.1 % (100 = one core)
+    RSS start    : 69.51 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:36:45] cpython | rx | off | run 4/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 4
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 3631 packets
+  Measurement phase (60s)...
+  RX: 45065 CAMs (751/s)
+
+  Results:
+    Total        : 45065
+    Throughput   : 750.9 CAMs/s
+    Latency mean : 1219.90 μs
+    Latency p50  : 1213.39 μs
+    Latency p95  : 1386.62 μs
+    Latency p99  : 1507.68 μs
+    CPU          : 97.9 % (100 = one core)
+    RSS start    : 69.50 MB, peak 71.09 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:38:18] cpython | rx | off | run 5/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 5
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 3799 packets
+  Measurement phase (60s)...
+  RX: 46028 CAMs (767/s)
+
+  Results:
+    Total        : 46028
+    Throughput   : 767.1 CAMs/s
+    Latency mean : 1215.11 μs
+    Latency p50  : 1202.92 μs
+    Latency p95  : 1336.25 μs
+    Latency p99  : 1435.40 μs
+    CPU          : 100.1 % (100 = one core)
+    RSS start    : 69.54 MB, peak 71.16 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:39:49] cpython | rx | off | run 6/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 6
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 3836 packets
+  Measurement phase (60s)...
+  RX: 43552 CAMs (726/s)
+
+  Results:
+    Total        : 43552
+    Throughput   : 725.6 CAMs/s
+    Latency mean : 1211.00 μs
+    Latency p50  : 1199.85 μs
+    Latency p95  : 1334.71 μs
+    Latency p99  : 1441.59 μs
+    CPU          : 94.4 % (100 = one core)
+    RSS start    : 69.53 MB, peak 71.05 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:41:21] cpython | rx | off | run 7/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 7
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 3826 packets
+  Measurement phase (60s)...
+  RX: 8919 CAMs (149/s)
+
+  Results:
+    Total        : 8919
+    Throughput   : 148.6 CAMs/s
+    Latency mean : 1188.05 μs
+    Latency p50  : 1193.65 μs
+    Latency p95  : 1319.41 μs
+    Latency p99  : 1419.44 μs
+    CPU          : 18.8 % (100 = one core)
+    RSS start    : 69.52 MB, peak 69.71 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:42:53] cpython | rx | off | run 8/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 8
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 0 packets
+  Measurement phase (60s)...
+  RX: 0 CAMs (0/s)
+
+  Results:
+    Total        : 0
+    Throughput   : 0.0 CAMs/s
+    Latency mean : 0.00 μs
+    Latency p50  : 0.00 μs
+    Latency p95  : 0.00 μs
+    Latency p99  : 0.00 μs
+    CPU          : 0.0 % (100 = one core)
+    RSS start    : 69.35 MB, peak 69.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:44:20] cpython | rx | off | run 9/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 9
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 0 packets
+  Measurement phase (60s)...
+  RX: 0 CAMs (0/s)
+
+  Results:
+    Total        : 0
+    Throughput   : 0.0 CAMs/s
+    Latency mean : 0.00 μs
+    Latency p50  : 0.00 μs
+    Latency p95  : 0.00 μs
+    Latency p99  : 0.00 μs
+    CPU          : 0.0 % (100 = one core)
+    RSS start    : 69.36 MB, peak 69.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:45:48] cpython | rx | off | run 10/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 10
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 0 packets
+  Measurement phase (60s)...
+  RX: 0 CAMs (0/s)
+
+  Results:
+    Total        : 0
+    Throughput   : 0.0 CAMs/s
+    Latency mean : 0.00 μs
+    Latency p50  : 0.00 μs
+    Latency p95  : 0.00 μs
+    Latency p99  : 0.00 μs
+    CPU          : 0.0 % (100 = one core)
+    RSS start    : 69.36 MB, peak 69.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:47:16] cpython | rx | off | run 11/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 11
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 0 packets
+  Measurement phase (60s)...
+  RX: 0 CAMs (0/s)
+
+  Results:
+    Total        : 0
+    Throughput   : 0.0 CAMs/s
+    Latency mean : 0.00 μs
+    Latency p50  : 0.00 μs
+    Latency p95  : 0.00 μs
+    Latency p99  : 0.00 μs
+    CPU          : 0.0 % (100 = one core)
+    RSS start    : 69.38 MB, peak 69.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:48:44] cpython | rx | off | run 12/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 12
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 0 packets
+  Measurement phase (60s)...
+  RX: 0 CAMs (0/s)
+
+  Results:
+    Total        : 0
+    Throughput   : 0.0 CAMs/s
+    Latency mean : 0.00 μs
+    Latency p50  : 0.00 μs
+    Latency p95  : 0.00 μs
+    Latency p99  : 0.00 μs
+    CPU          : 0.0 % (100 = one core)
+    RSS start    : 69.37 MB, peak 69.37 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:50:11] cpython | rx | off | run 13/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 13
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 0 packets
+  Measurement phase (60s)...
+  RX: 0 CAMs (0/s)
+
+  Results:
+    Total        : 0
+    Throughput   : 0.0 CAMs/s
+    Latency mean : 0.00 μs
+    Latency p50  : 0.00 μs
+    Latency p95  : 0.00 μs
+    Latency p99  : 0.00 μs
+    CPU          : 0.1 % (100 = one core)
+    RSS start    : 69.38 MB, peak 69.38 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:51:39] cpython | rx | off | run 14/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 14
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 0 packets
+  Measurement phase (60s)...
+  RX: 0 CAMs (0/s)
+
+  Results:
+    Total        : 0
+    Throughput   : 0.0 CAMs/s
+    Latency mean : 0.00 μs
+    Latency p50  : 0.00 μs
+    Latency p95  : 0.00 μs
+    Latency p99  : 0.00 μs
+    CPU          : 0.0 % (100 = one core)
+    RSS start    : 69.36 MB, peak 69.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:53:07] cpython | rx | off | run 15/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 15
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 0 packets
+  Measurement phase (60s)...
+  RX: 0 CAMs (0/s)
+
+  Results:
+    Total        : 0
+    Throughput   : 0.0 CAMs/s
+    Latency mean : 0.00 μs
+    Latency p50  : 0.00 μs
+    Latency p95  : 0.00 μs
+    Latency p99  : 0.00 μs
+    CPU          : 0.0 % (100 = one core)
+    RSS start    : 69.36 MB, peak 69.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:54:35] cpython | rx | off | run 16/30
+============================================================
+FlexStack Benchmark — cpython 3.13.5
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : rpi3
+  Interface: eth0
+  Run ID   : 16
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 0 packets
+  Measurement phase (60s)...
+  RX: 0 CAMs (0/s)
+
+  Results:
+    Total        : 0
+    Throughput   : 0.0 CAMs/s
+    Latency mean : 0.00 μs
+    Latency p50  : 0.00 μs
+    Latency p95  : 0.00 μs
+    Latency p99  : 0.00 μs
+    CPU          : 0.0 % (100 = one core)
+    RSS start    : 69.36 MB, peak 69.36 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_rpi3_after_20261125T133159.csv
+[13:56:02] cpython | rx | off | run 17/30

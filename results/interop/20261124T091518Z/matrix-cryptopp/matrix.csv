@@ -1,0 +1,22 @@
+sender,receiver,message,signer,own_packet,sent,received,verified,refused_at_unknown,refused,refusal_reports
+python,python,DENM,certificate,True,295,766,766,0,0,{}
+python,rust,CAM,certificate,False,286,286,286,0,0,{}
+python,rust,CAM,digest,False,2556,2556,2556,0,0,{}
+python,rust,DENM,certificate,False,296,1064,1064,0,0,{}
+python,vanetza,CAM,certificate,False,286,286,284,0,2,"{""False_Signature"": 2}"
+python,vanetza,CAM,digest,False,2556,2556,2555,1,0,{}
+python,vanetza,DENM,certificate,False,296,887,887,0,0,{}
+rust,python,CAM,certificate,False,297,298,298,0,0,{}
+rust,python,CAM,digest,False,2673,2674,2673,1,0,{}
+rust,python,DENM,certificate,False,596,1032,1032,0,0,{}
+rust,rust,DENM,certificate,True,600,738,738,0,0,{}
+rust,vanetza,CAM,certificate,False,301,301,301,0,0,{}
+rust,vanetza,CAM,digest,False,2700,2700,2699,1,0,{}
+rust,vanetza,DENM,certificate,False,600,898,898,0,0,{}
+vanetza,python,CAM,certificate,False,295,295,295,0,0,{}
+vanetza,python,CAM,digest,False,2640,2642,2641,1,0,{}
+vanetza,python,DENM,certificate,False,297,810,810,0,0,{}
+vanetza,rust,CAM,certificate,False,299,299,299,0,0,{}
+vanetza,rust,CAM,digest,False,2665,2667,2667,0,0,{}
+vanetza,rust,DENM,certificate,False,299,815,815,0,0,{}
+vanetza,vanetza,DENM,certificate,True,300,597,597,0,0,{}

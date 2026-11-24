@@ -1,0 +1,36 @@
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T142950_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T142950.csv
+unsupported impl cpython
+unsupported impl pypy
+================================================================
+  rust | rx | security=off | rate=0 | runs=30
+================================================================
+[14:29:52] rust | rx | off | run 1/30
+============================================================
+FlexStack Benchmark — Rust (release, LTO)
+============================================================
+  Mode     : rx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: enp0s31f6
+  Run ID   : 1
+  Rate     : max
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T142950.csv
+
+  Warm-up phase (5s) — waiting for packets from remote sender...
+  Warm-up received 511592 packets
+  Measurement phase (60s)...
+  RX: 6097858 CAMs (101631/s), errors: 0
+
+  Results:
+    Total        : 6097858
+    Throughput   : 101630.9 CAMs/s
+    Latency mean : 119.25 μs
+    Latency p50  : 121.53 μs
+    Latency p95  : 183.52 μs
+    Latency p99  : 211.65 μs
+    CPU          : 116.8 % (100 = one core)
+    RSS start    : 4.50 MB, peak 67.80 MB
+  Written to: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261125T142950.csv

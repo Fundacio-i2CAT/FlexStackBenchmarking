@@ -1,0 +1,3875 @@
+[2026-11-23 15:21:53] waiting for the campaign (PID 380094) to finish
+[2026-11-24 05:06:55] campaign finished
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+================================================================
+  vanetza | tx | security=off | rate=0 | runs=30
+================================================================
+[05:06:56] vanetza | tx | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:06:56.984569
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66127.5 CAMs/s
+    Latency p50  : 14.20 us
+    CPU          : 95.1 %
+[05:08:12] vanetza | tx | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:08:12.820615
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66355.6 CAMs/s
+    Latency p50  : 14.15 us
+    CPU          : 95.0 %
+[05:09:28] vanetza | tx | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:09:28.692416
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66427.3 CAMs/s
+    Latency p50  : 14.14 us
+    CPU          : 95.0 %
+[05:10:44] vanetza | tx | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:10:44.488567
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65111.6 CAMs/s
+    Latency p50  : 14.39 us
+    CPU          : 95.0 %
+[05:12:00] vanetza | tx | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:12:00.284377
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65979.9 CAMs/s
+    Latency p50  : 14.25 us
+    CPU          : 95.1 %
+[05:13:16] vanetza | tx | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:13:16.068508
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66479.7 CAMs/s
+    Latency p50  : 14.12 us
+    CPU          : 95.0 %
+[05:14:31] vanetza | tx | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:14:31.828878
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65805.7 CAMs/s
+    Latency p50  : 14.24 us
+    CPU          : 95.0 %
+[05:15:47] vanetza | tx | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:15:47.679867
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66267.8 CAMs/s
+    Latency p50  : 14.16 us
+    CPU          : 95.0 %
+[05:17:03] vanetza | tx | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:17:03.460457
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65841.3 CAMs/s
+    Latency p50  : 14.27 us
+    CPU          : 95.0 %
+[05:18:19] vanetza | tx | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:18:19.232521
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65406.1 CAMs/s
+    Latency p50  : 14.35 us
+    CPU          : 95.0 %
+[05:19:34] vanetza | tx | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:19:35.004669
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65495.1 CAMs/s
+    Latency p50  : 14.32 us
+    CPU          : 95.1 %
+[05:20:50] vanetza | tx | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:20:50.860772
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65948.0 CAMs/s
+    Latency p50  : 14.22 us
+    CPU          : 95.0 %
+[05:22:06] vanetza | tx | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:22:06.688477
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66072.0 CAMs/s
+    Latency p50  : 14.17 us
+    CPU          : 95.0 %
+[05:23:22] vanetza | tx | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:23:22.480047
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 64951.1 CAMs/s
+    Latency p50  : 14.47 us
+    CPU          : 95.1 %
+[05:24:38] vanetza | tx | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:24:38.268601
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65822.1 CAMs/s
+    Latency p50  : 14.28 us
+    CPU          : 95.2 %
+[05:25:54] vanetza | tx | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:25:54.096437
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 67452.6 CAMs/s
+    Latency p50  : 13.93 us
+    CPU          : 95.2 %
+[05:27:09] vanetza | tx | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:27:09.872501
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 67816.5 CAMs/s
+    Latency p50  : 13.81 us
+    CPU          : 95.0 %
+[05:28:25] vanetza | tx | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:28:25.668451
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66474.5 CAMs/s
+    Latency p50  : 14.15 us
+    CPU          : 95.2 %
+[05:29:41] vanetza | tx | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:29:41.460600
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 64776.6 CAMs/s
+    Latency p50  : 14.49 us
+    CPU          : 95.1 %
+[05:30:57] vanetza | tx | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:30:57.224730
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66424.0 CAMs/s
+    Latency p50  : 14.17 us
+    CPU          : 95.1 %
+[05:32:12] vanetza | tx | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:32:13.024808
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66178.4 CAMs/s
+    Latency p50  : 14.22 us
+    CPU          : 95.0 %
+[05:33:28] vanetza | tx | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:33:28.812709
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 67508.5 CAMs/s
+    Latency p50  : 13.90 us
+    CPU          : 95.0 %
+[05:34:44] vanetza | tx | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:34:44.604537
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66014.1 CAMs/s
+    Latency p50  : 14.23 us
+    CPU          : 95.0 %
+[05:36:00] vanetza | tx | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:36:00.412541
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66595.9 CAMs/s
+    Latency p50  : 14.07 us
+    CPU          : 95.0 %
+[05:37:16] vanetza | tx | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:37:16.204549
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65182.2 CAMs/s
+    Latency p50  : 14.45 us
+    CPU          : 95.0 %
+[05:38:31] vanetza | tx | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:38:32.052421
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66021.7 CAMs/s
+    Latency p50  : 14.24 us
+    CPU          : 95.0 %
+[05:39:47] vanetza | tx | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:39:47.820534
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 64869.7 CAMs/s
+    Latency p50  : 14.52 us
+    CPU          : 95.0 %
+[05:41:03] vanetza | tx | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:41:03.592493
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 66409.6 CAMs/s
+    Latency p50  : 14.13 us
+    CPU          : 95.0 %
+[05:42:19] vanetza | tx | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:42:19.448536
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65220.5 CAMs/s
+    Latency p50  : 14.38 us
+    CPU          : 95.0 %
+[05:43:35] vanetza | tx | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:43:35.276587
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 65740.7 CAMs/s
+    Latency p50  : 14.27 us
+    CPU          : 95.0 %
+================================================================
+  vanetza | tx | security=on | rate=0 | runs=30
+================================================================
+[05:44:41] vanetza | tx | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:44:41.051679
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3859.8 CAMs/s
+    Latency p50  : 245.28 us
+    CPU          : 95.0 %
+[05:45:56] vanetza | tx | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:45:56.276373
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3862.9 CAMs/s
+    Latency p50  : 245.09 us
+    CPU          : 95.0 %
+[05:47:11] vanetza | tx | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:47:11.508565
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3852.3 CAMs/s
+    Latency p50  : 245.83 us
+    CPU          : 95.0 %
+[05:48:26] vanetza | tx | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:48:26.744664
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3819.2 CAMs/s
+    Latency p50  : 248.41 us
+    CPU          : 95.1 %
+[05:49:41] vanetza | tx | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:49:41.996627
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3849.2 CAMs/s
+    Latency p50  : 245.97 us
+    CPU          : 95.0 %
+[05:50:57] vanetza | tx | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:50:57.232749
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3864.9 CAMs/s
+    Latency p50  : 244.95 us
+    CPU          : 95.0 %
+[05:52:12] vanetza | tx | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:52:12.460552
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3869.7 CAMs/s
+    Latency p50  : 244.66 us
+    CPU          : 95.0 %
+[05:53:27] vanetza | tx | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:53:27.684226
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3858.0 CAMs/s
+    Latency p50  : 245.46 us
+    CPU          : 95.0 %
+[05:54:42] vanetza | tx | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:54:42.932602
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3866.2 CAMs/s
+    Latency p50  : 244.90 us
+    CPU          : 95.0 %
+[05:55:58] vanetza | tx | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:55:58.153035
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3835.6 CAMs/s
+    Latency p50  : 246.91 us
+    CPU          : 95.0 %
+[05:57:13] vanetza | tx | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:57:13.384388
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3828.6 CAMs/s
+    Latency p50  : 247.38 us
+    CPU          : 95.0 %
+[05:58:28] vanetza | tx | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:58:28.612575
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3860.4 CAMs/s
+    Latency p50  : 245.25 us
+    CPU          : 95.0 %
+[05:59:43] vanetza | tx | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 04:59:43.848680
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3872.0 CAMs/s
+    Latency p50  : 244.54 us
+    CPU          : 95.0 %
+[06:00:59] vanetza | tx | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:00:59.076434
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3811.1 CAMs/s
+    Latency p50  : 248.75 us
+    CPU          : 95.0 %
+[06:02:14] vanetza | tx | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:02:14.320608
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3862.3 CAMs/s
+    Latency p50  : 245.16 us
+    CPU          : 95.0 %
+[06:03:29] vanetza | tx | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:03:29.580138
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3833.2 CAMs/s
+    Latency p50  : 246.94 us
+    CPU          : 95.0 %
+[06:04:44] vanetza | tx | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:04:44.824705
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3846.1 CAMs/s
+    Latency p50  : 246.15 us
+    CPU          : 95.0 %
+[06:06:00] vanetza | tx | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:06:00.076517
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3863.4 CAMs/s
+    Latency p50  : 245.45 us
+    CPU          : 95.2 %
+[06:07:15] vanetza | tx | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:07:15.336609
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3830.1 CAMs/s
+    Latency p50  : 247.53 us
+    CPU          : 95.1 %
+[06:08:30] vanetza | tx | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:08:30.568550
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3810.2 CAMs/s
+    Latency p50  : 248.75 us
+    CPU          : 95.0 %
+[06:09:45] vanetza | tx | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:09:45.804518
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3818.4 CAMs/s
+    Latency p50  : 248.06 us
+    CPU          : 95.0 %
+[06:11:00] vanetza | tx | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:11:01.032565
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3863.7 CAMs/s
+    Latency p50  : 245.02 us
+    CPU          : 95.0 %
+[06:12:16] vanetza | tx | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:12:16.272408
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3830.4 CAMs/s
+    Latency p50  : 247.17 us
+    CPU          : 95.0 %
+[06:13:31] vanetza | tx | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:13:31.496609
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3825.3 CAMs/s
+    Latency p50  : 247.59 us
+    CPU          : 95.0 %
+[06:14:46] vanetza | tx | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:14:46.728673
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3859.9 CAMs/s
+    Latency p50  : 245.46 us
+    CPU          : 95.1 %
+[06:16:01] vanetza | tx | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:16:01.972699
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3834.2 CAMs/s
+    Latency p50  : 246.98 us
+    CPU          : 95.0 %
+[06:17:17] vanetza | tx | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:17:17.220586
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3871.6 CAMs/s
+    Latency p50  : 244.59 us
+    CPU          : 95.0 %
+[06:18:32] vanetza | tx | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:18:32.460637
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3849.3 CAMs/s
+    Latency p50  : 245.99 us
+    CPU          : 95.0 %
+[06:19:47] vanetza | tx | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:19:47.704626
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3878.7 CAMs/s
+    Latency p50  : 244.16 us
+    CPU          : 95.0 %
+[06:21:02] vanetza | tx | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 05:21:02.956682
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3816.3 CAMs/s
+    Latency p50  : 248.33 us
+    CPU          : 95.0 %
+================================================================
+  vanetza | codec-encode | security=off | rate=0 | runs=30
+================================================================
+[06:22:08] vanetza | codec-encode | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 317369.7 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.0 %
+[06:23:24] vanetza | codec-encode | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 317959.2 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.1 %
+[06:24:41] vanetza | codec-encode | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 317228.3 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.0 %
+[06:25:58] vanetza | codec-encode | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 317536.6 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.0 %
+[06:27:15] vanetza | codec-encode | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 317830.7 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.0 %
+[06:28:31] vanetza | codec-encode | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 317748.4 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.1 %
+[06:29:48] vanetza | codec-encode | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 318633.4 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.3 %
+[06:31:05] vanetza | codec-encode | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 318095.0 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.1 %
+[06:32:22] vanetza | codec-encode | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 317080.9 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.0 %
+[06:33:38] vanetza | codec-encode | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 318210.1 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.1 %
+[06:34:55] vanetza | codec-encode | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 316985.1 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.0 %
+[06:36:12] vanetza | codec-encode | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 318157.0 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.2 %
+[06:37:29] vanetza | codec-encode | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 318179.2 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.1 %
+[06:38:46] vanetza | codec-encode | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 321681.8 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 96.3 %
+[06:40:02] vanetza | codec-encode | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 321927.4 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 96.2 %
+[06:41:19] vanetza | codec-encode | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 319321.9 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.6 %
+[06:42:36] vanetza | codec-encode | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 320790.7 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 96.0 %
+[06:43:53] vanetza | codec-encode | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 316636.7 CAMs/s
+    Latency p50  : 2.91 us
+    CPU          : 95.0 %
+[06:45:09] vanetza | codec-encode | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 318746.2 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.4 %
+[06:46:26] vanetza | codec-encode | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 317067.3 CAMs/s
+    Latency p50  : 2.91 us
+    CPU          : 95.1 %
+[06:47:43] vanetza | codec-encode | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 318555.2 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.3 %
+[06:49:00] vanetza | codec-encode | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 319659.9 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 95.7 %
+[06:50:16] vanetza | codec-encode | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 320999.4 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 96.0 %
+[06:51:33] vanetza | codec-encode | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 321132.1 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 96.2 %
+[06:52:50] vanetza | codec-encode | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 320403.7 CAMs/s
+    Latency p50  : 2.91 us
+    CPU          : 96.0 %
+[06:54:07] vanetza | codec-encode | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 322437.8 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 96.3 %
+[06:55:24] vanetza | codec-encode | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 319980.7 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 96.0 %
+[06:56:40] vanetza | codec-encode | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 320386.3 CAMs/s
+    Latency p50  : 2.91 us
+    CPU          : 96.2 %
+[06:57:57] vanetza | codec-encode | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 321591.2 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 96.2 %
+[06:59:14] vanetza | codec-encode | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 322392.6 CAMs/s
+    Latency p50  : 2.90 us
+    CPU          : 96.5 %
+================================================================
+  vanetza | codec-decode | security=off | rate=0 | runs=30
+================================================================
+[07:00:21] vanetza | codec-decode | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 292927.5 CAMs/s
+    Latency p50  : 3.20 us
+    CPU          : 96.4 %
+[07:01:37] vanetza | codec-decode | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 292415.6 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 96.0 %
+[07:02:54] vanetza | codec-decode | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 288003.3 CAMs/s
+    Latency p50  : 3.21 us
+    CPU          : 95.1 %
+[07:04:11] vanetza | codec-decode | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 289689.3 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.0 %
+[07:05:27] vanetza | codec-decode | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290241.6 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.2 %
+[07:06:44] vanetza | codec-decode | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 289068.8 CAMs/s
+    Latency p50  : 3.20 us
+    CPU          : 95.1 %
+[07:08:00] vanetza | codec-decode | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290424.8 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.3 %
+[07:09:17] vanetza | codec-decode | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 289715.7 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.1 %
+[07:10:34] vanetza | codec-decode | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 291187.7 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.6 %
+[07:11:50] vanetza | codec-decode | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 293564.9 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 96.4 %
+[07:13:07] vanetza | codec-decode | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 293874.4 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 96.4 %
+[07:14:24] vanetza | codec-decode | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 291424.9 CAMs/s
+    Latency p50  : 3.18 us
+    CPU          : 95.4 %
+[07:15:40] vanetza | codec-decode | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290567.8 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.5 %
+[07:16:57] vanetza | codec-decode | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290172.9 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.2 %
+[07:18:13] vanetza | codec-decode | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290376.8 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.2 %
+[07:19:30] vanetza | codec-decode | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 289216.0 CAMs/s
+    Latency p50  : 3.21 us
+    CPU          : 95.4 %
+[07:20:47] vanetza | codec-decode | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 292015.0 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.8 %
+[07:22:03] vanetza | codec-decode | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 293026.0 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 96.1 %
+[07:23:20] vanetza | codec-decode | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290790.0 CAMs/s
+    Latency p50  : 3.21 us
+    CPU          : 95.8 %
+[07:24:37] vanetza | codec-decode | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290450.4 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.1 %
+[07:25:53] vanetza | codec-decode | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 294418.9 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 96.5 %
+[07:27:10] vanetza | codec-decode | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290724.4 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.4 %
+[07:28:26] vanetza | codec-decode | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 294292.9 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 96.4 %
+[07:29:43] vanetza | codec-decode | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 292422.2 CAMs/s
+    Latency p50  : 3.21 us
+    CPU          : 96.5 %
+[07:31:00] vanetza | codec-decode | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 292759.8 CAMs/s
+    Latency p50  : 3.20 us
+    CPU          : 96.2 %
+[07:32:16] vanetza | codec-decode | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 291571.7 CAMs/s
+    Latency p50  : 3.20 us
+    CPU          : 96.1 %
+[07:33:33] vanetza | codec-decode | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 293092.7 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 96.2 %
+[07:34:49] vanetza | codec-decode | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290455.9 CAMs/s
+    Latency p50  : 3.20 us
+    CPU          : 95.6 %
+[07:36:06] vanetza | codec-decode | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 289046.1 CAMs/s
+    Latency p50  : 3.19 us
+    CPU          : 95.0 %
+[07:37:23] vanetza | codec-decode | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 290466.5 CAMs/s
+    Latency p50  : 3.18 us
+    CPU          : 95.0 %
+================================================================
+  vanetza | security-sign | security=on | rate=0 | runs=30
+================================================================
+[07:38:29] vanetza | security-sign | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:38:29.707562
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4442.5 CAMs/s
+    Latency p50  : 213.87 us
+    CPU          : 95.2 %
+[07:39:44] vanetza | security-sign | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:39:44.860494
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4453.5 CAMs/s
+    Latency p50  : 213.95 us
+    CPU          : 95.4 %
+[07:40:59] vanetza | security-sign | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:41:00.012500
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4453.8 CAMs/s
+    Latency p50  : 213.72 us
+    CPU          : 95.3 %
+[07:42:15] vanetza | security-sign | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:42:15.164431
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4455.4 CAMs/s
+    Latency p50  : 213.79 us
+    CPU          : 95.4 %
+[07:43:30] vanetza | security-sign | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:43:30.321044
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4446.3 CAMs/s
+    Latency p50  : 213.91 us
+    CPU          : 95.3 %
+[07:44:45] vanetza | security-sign | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:44:45.472567
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4456.1 CAMs/s
+    Latency p50  : 213.78 us
+    CPU          : 95.4 %
+[07:46:00] vanetza | security-sign | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:46:00.624504
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4461.1 CAMs/s
+    Latency p50  : 213.55 us
+    CPU          : 95.4 %
+[07:47:15] vanetza | security-sign | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:47:15.780473
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4456.9 CAMs/s
+    Latency p50  : 213.82 us
+    CPU          : 95.4 %
+[07:48:30] vanetza | security-sign | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:48:30.932475
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4448.3 CAMs/s
+    Latency p50  : 213.96 us
+    CPU          : 95.3 %
+[07:49:46] vanetza | security-sign | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:49:46.087823
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4453.0 CAMs/s
+    Latency p50  : 213.76 us
+    CPU          : 95.3 %
+[07:51:01] vanetza | security-sign | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:51:01.236449
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4469.9 CAMs/s
+    Latency p50  : 213.57 us
+    CPU          : 95.6 %
+[07:52:16] vanetza | security-sign | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:52:16.388365
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4484.4 CAMs/s
+    Latency p50  : 213.57 us
+    CPU          : 95.9 %
+[07:53:31] vanetza | security-sign | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:53:31.536768
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4519.9 CAMs/s
+    Latency p50  : 213.76 us
+    CPU          : 96.8 %
+[07:54:46] vanetza | security-sign | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:54:46.688499
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4482.5 CAMs/s
+    Latency p50  : 213.46 us
+    CPU          : 95.8 %
+[07:56:01] vanetza | security-sign | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:56:01.840560
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4501.7 CAMs/s
+    Latency p50  : 213.61 us
+    CPU          : 96.3 %
+[07:57:16] vanetza | security-sign | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:57:16.992215
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4506.3 CAMs/s
+    Latency p50  : 213.59 us
+    CPU          : 96.4 %
+[07:58:32] vanetza | security-sign | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:58:32.148641
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4485.8 CAMs/s
+    Latency p50  : 213.83 us
+    CPU          : 96.0 %
+[07:59:47] vanetza | security-sign | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 06:59:47.296423
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4484.9 CAMs/s
+    Latency p50  : 213.56 us
+    CPU          : 95.9 %
+[08:01:02] vanetza | security-sign | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:01:02.456602
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4517.2 CAMs/s
+    Latency p50  : 213.48 us
+    CPU          : 96.6 %
+[08:02:17] vanetza | security-sign | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:02:17.616523
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4502.4 CAMs/s
+    Latency p50  : 213.53 us
+    CPU          : 96.3 %
+[08:03:32] vanetza | security-sign | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:03:32.808523
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4482.0 CAMs/s
+    Latency p50  : 213.96 us
+    CPU          : 96.0 %
+[08:04:47] vanetza | security-sign | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:04:47.960614
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4509.2 CAMs/s
+    Latency p50  : 213.56 us
+    CPU          : 96.4 %
+[08:06:03] vanetza | security-sign | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:06:03.112454
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4504.0 CAMs/s
+    Latency p50  : 213.64 us
+    CPU          : 96.4 %
+[08:07:18] vanetza | security-sign | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:07:18.268655
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4506.6 CAMs/s
+    Latency p50  : 213.66 us
+    CPU          : 96.4 %
+[08:08:33] vanetza | security-sign | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:08:33.428680
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4524.9 CAMs/s
+    Latency p50  : 213.65 us
+    CPU          : 96.8 %
+[08:09:48] vanetza | security-sign | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:09:48.580545
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4503.3 CAMs/s
+    Latency p50  : 213.86 us
+    CPU          : 96.5 %
+[08:11:03] vanetza | security-sign | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:11:03.728449
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4485.4 CAMs/s
+    Latency p50  : 213.94 us
+    CPU          : 96.1 %
+[08:12:18] vanetza | security-sign | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:12:18.884296
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4504.5 CAMs/s
+    Latency p50  : 213.89 us
+    CPU          : 96.5 %
+[08:13:33] vanetza | security-sign | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:13:34.036463
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4491.1 CAMs/s
+    Latency p50  : 213.57 us
+    CPU          : 96.0 %
+[08:14:49] vanetza | security-sign | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:14:49.196392
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 4466.9 CAMs/s
+    Latency p50  : 213.98 us
+    CPU          : 95.7 %
+================================================================
+  vanetza | security-verify | security=on | rate=0 | runs=30
+================================================================
+[08:15:54] vanetza | security-verify | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:15:54.331170
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2848.9 CAMs/s
+    Latency p50  : 333.04 us
+    CPU          : 95.0 %
+[08:17:09] vanetza | security-verify | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:17:09.472672
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2854.4 CAMs/s
+    Latency p50  : 332.41 us
+    CPU          : 95.0 %
+[08:18:24] vanetza | security-verify | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:18:24.616629
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2857.9 CAMs/s
+    Latency p50  : 332.89 us
+    CPU          : 95.2 %
+[08:19:39] vanetza | security-verify | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:19:39.760811
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2899.0 CAMs/s
+    Latency p50  : 332.42 us
+    CPU          : 96.5 %
+[08:20:54] vanetza | security-verify | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:20:54.908902
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2884.7 CAMs/s
+    Latency p50  : 332.36 us
+    CPU          : 96.0 %
+[08:22:09] vanetza | security-verify | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:22:10.048938
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2903.1 CAMs/s
+    Latency p50  : 332.80 us
+    CPU          : 96.7 %
+[08:23:25] vanetza | security-verify | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:23:25.188312
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2858.4 CAMs/s
+    Latency p50  : 332.55 us
+    CPU          : 95.1 %
+[08:24:40] vanetza | security-verify | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:24:40.328527
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2853.8 CAMs/s
+    Latency p50  : 333.08 us
+    CPU          : 95.2 %
+[08:25:55] vanetza | security-verify | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:25:55.472488
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2864.3 CAMs/s
+    Latency p50  : 332.27 us
+    CPU          : 95.3 %
+[08:27:10] vanetza | security-verify | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:27:10.612594
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2852.7 CAMs/s
+    Latency p50  : 332.96 us
+    CPU          : 95.1 %
+[08:28:25] vanetza | security-verify | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:28:25.784079
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2866.9 CAMs/s
+    Latency p50  : 332.39 us
+    CPU          : 95.4 %
+[08:29:40] vanetza | security-verify | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:29:40.928722
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2858.6 CAMs/s
+    Latency p50  : 333.07 us
+    CPU          : 95.3 %
+[08:30:56] vanetza | security-verify | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:30:56.068595
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2863.6 CAMs/s
+    Latency p50  : 333.04 us
+    CPU          : 95.5 %
+[08:32:11] vanetza | security-verify | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:32:11.212531
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2874.8 CAMs/s
+    Latency p50  : 333.25 us
+    CPU          : 95.9 %
+[08:33:26] vanetza | security-verify | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:33:26.356592
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2879.7 CAMs/s
+    Latency p50  : 332.75 us
+    CPU          : 95.9 %
+[08:34:41] vanetza | security-verify | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:34:41.500958
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2880.6 CAMs/s
+    Latency p50  : 332.33 us
+    CPU          : 95.8 %
+[08:35:56] vanetza | security-verify | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:35:56.640748
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2886.1 CAMs/s
+    Latency p50  : 332.54 us
+    CPU          : 96.1 %
+[08:37:11] vanetza | security-verify | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:37:11.784464
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2868.6 CAMs/s
+    Latency p50  : 333.18 us
+    CPU          : 95.7 %
+[08:38:26] vanetza | security-verify | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:38:26.924531
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2897.0 CAMs/s
+    Latency p50  : 332.56 us
+    CPU          : 96.5 %
+[08:39:42] vanetza | security-verify | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:39:42.068723
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2882.6 CAMs/s
+    Latency p50  : 332.62 us
+    CPU          : 96.0 %
+[08:40:57] vanetza | security-verify | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:40:57.212483
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2882.2 CAMs/s
+    Latency p50  : 332.43 us
+    CPU          : 95.9 %
+[08:42:12] vanetza | security-verify | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:42:12.360693
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2885.4 CAMs/s
+    Latency p50  : 332.87 us
+    CPU          : 96.1 %
+[08:43:27] vanetza | security-verify | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:43:27.504780
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2856.4 CAMs/s
+    Latency p50  : 333.31 us
+    CPU          : 95.3 %
+[08:44:42] vanetza | security-verify | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:44:42.652637
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2864.4 CAMs/s
+    Latency p50  : 332.73 us
+    CPU          : 95.4 %
+[08:45:57] vanetza | security-verify | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:45:57.800490
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2894.8 CAMs/s
+    Latency p50  : 332.47 us
+    CPU          : 96.4 %
+[08:47:12] vanetza | security-verify | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:47:12.940718
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2901.4 CAMs/s
+    Latency p50  : 332.71 us
+    CPU          : 96.6 %
+[08:48:28] vanetza | security-verify | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:48:28.084379
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2886.9 CAMs/s
+    Latency p50  : 332.32 us
+    CPU          : 96.0 %
+[08:49:43] vanetza | security-verify | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:49:43.228717
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2887.1 CAMs/s
+    Latency p50  : 332.73 us
+    CPU          : 96.2 %
+[08:50:58] vanetza | security-verify | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:50:58.376662
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2868.6 CAMs/s
+    Latency p50  : 332.73 us
+    CPU          : 95.6 %
+[08:52:13] vanetza | security-verify | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:52:13.528461
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2859.0 CAMs/s
+    Latency p50  : 333.01 us
+    CPU          : 95.3 %
+================================================================
+  vanetza | tx | security=off | rate=10 | runs=10
+================================================================
+[08:53:18] vanetza | tx | off | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:53:18.651771
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 83.17 us
+    CPU          : 0.1 %
+[08:54:33] vanetza | tx | off | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:54:33.764603
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 90.50 us
+    CPU          : 0.1 %
+[08:55:48] vanetza | tx | off | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:55:48.864903
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 91.01 us
+    CPU          : 0.1 %
+[08:57:03] vanetza | tx | off | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:57:03.968570
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 90.89 us
+    CPU          : 0.1 %
+[08:58:18] vanetza | tx | off | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:58:19.060713
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 92.07 us
+    CPU          : 0.1 %
+[08:59:34] vanetza | tx | off | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 07:59:34.172452
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 91.79 us
+    CPU          : 0.1 %
+[09:00:49] vanetza | tx | off | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:00:49.264697
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 91.12 us
+    CPU          : 0.1 %
+[09:02:04] vanetza | tx | off | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:02:04.376724
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 91.13 us
+    CPU          : 0.1 %
+[09:03:19] vanetza | tx | off | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:03:19.484476
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 90.28 us
+    CPU          : 0.1 %
+[09:04:34] vanetza | tx | off | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:04:34.572782
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 91.06 us
+    CPU          : 0.1 %
+================================================================
+  vanetza | tx | security=on | rate=10 | runs=10
+================================================================
+[09:05:39] vanetza | tx | on | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:05:39.647047
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 443.27 us
+    CPU          : 0.5 %
+[09:06:54] vanetza | tx | on | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:06:54.732675
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 448.61 us
+    CPU          : 0.5 %
+[09:08:09] vanetza | tx | on | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:08:09.840662
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 450.04 us
+    CPU          : 0.5 %
+[09:09:24] vanetza | tx | on | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:09:24.932696
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 427.26 us
+    CPU          : 0.5 %
+[09:10:39] vanetza | tx | on | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:10:40.028746
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 451.48 us
+    CPU          : 0.5 %
+[09:11:55] vanetza | tx | on | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:11:55.132549
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 440.78 us
+    CPU          : 0.5 %
+[09:13:10] vanetza | tx | on | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:13:10.228634
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 447.08 us
+    CPU          : 0.5 %
+[09:14:25] vanetza | tx | on | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:14:25.304514
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 450.31 us
+    CPU          : 0.5 %
+[09:15:40] vanetza | tx | on | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:15:40.376591
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 449.91 us
+    CPU          : 0.5 %
+[09:16:55] vanetza | tx | on | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:16:55.448633
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 449.67 us
+    CPU          : 0.5 %
+================================================================
+  vanetza | security-verify | security=on | rate=100 | runs=10
+================================================================
+[09:18:00] vanetza | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:18:00.496329
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 448.69 us
+    CPU          : 4.8 %
+[09:19:15] vanetza | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:19:15.612592
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 445.37 us
+    CPU          : 4.8 %
+[09:20:30] vanetza | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:20:30.736604
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 459.08 us
+    CPU          : 4.8 %
+[09:21:45] vanetza | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:21:45.852677
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 443.95 us
+    CPU          : 4.7 %
+[09:23:00] vanetza | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:23:00.964722
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 449.70 us
+    CPU          : 4.8 %
+[09:24:16] vanetza | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:24:16.080517
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 458.94 us
+    CPU          : 4.8 %
+[09:25:31] vanetza | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:25:31.196614
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 458.30 us
+    CPU          : 4.8 %
+[09:26:46] vanetza | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:26:46.312600
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 444.24 us
+    CPU          : 4.7 %
+[09:28:01] vanetza | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:28:01.428940
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 456.56 us
+    CPU          : 4.8 %
+[09:29:16] vanetza | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:29:16.544528
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 444.70 us
+    CPU          : 4.8 %
+================================================================
+  vanetza | security-verify | security=on | rate=1000 | runs=10
+================================================================
+[09:30:21] vanetza | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:30:21.640720
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 346.50 us
+    CPU          : 35.5 %
+[09:31:36] vanetza | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:31:36.776825
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 346.46 us
+    CPU          : 36.0 %
+[09:32:51] vanetza | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:32:51.912463
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 346.20 us
+    CPU          : 36.0 %
+[09:34:06] vanetza | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:34:07.048502
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 345.98 us
+    CPU          : 36.0 %
+[09:35:22] vanetza | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:35:22.180787
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 347.04 us
+    CPU          : 36.0 %
+[09:36:37] vanetza | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:36:37.312437
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 346.31 us
+    CPU          : 35.9 %
+[09:37:52] vanetza | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:37:52.448606
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 345.95 us
+    CPU          : 35.9 %
+[09:39:07] vanetza | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:39:07.588134
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 345.68 us
+    CPU          : 35.9 %
+[09:40:22] vanetza | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:40:22.720493
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 345.45 us
+    CPU          : 35.9 %
+[09:41:37] vanetza | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : laptop
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv
+Starting runtime at 2026-Nov-24 08:41:37.856633
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 346.32 us
+    CPU          : 35.9 %
+[2026-11-24 09:42:42] all cells done: /home/<user>/FlexStackBenchmarking/results/results_laptop_after_20261123T152153.csv

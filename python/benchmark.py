@@ -90,7 +90,143 @@ CSV_HEADER = [
     "latency_min_us",
     "latency_max_us",
     "sign_latency_mean_us",
+    "cpu_pct",
+    "rss_start_mb",
+    "peak_rss_mb",
+    "target_rate",
 ]
+
+
+# ── Resource accounting (mirrors rust/src/resources.rs) ────────────────────
+# USER_HZ, the unit of utime/stime in /proc/<pid>/stat; fixed at 100 in the
+# Linux user-space ABI on x86_64 and aarch64.
+_USER_HZ = 100.0
+
+
+def _parse_stat_cpu_ticks(stat):
+    """utime (field 14) + stime (field 15) from a /proc/<pid>/stat line.
+    Fields are counted from the last ')' because the command name may
+    contain spaces."""
+    try:
+        fields = stat[stat.rindex(")") + 1:].split()
+        return int(fields[11]) + int(fields[12])
+    except (ValueError, IndexError):
+        return None
+
+
+def _parse_status_kb(status, key):
+    for line in status.splitlines():
+        if line.startswith(key):
+            try:
+                return int(line.split()[1])
+            except (ValueError, IndexError):
+                return None
+    return None
+
+
+def _read(path):
+    try:
+        with open(path, encoding="ascii", errors="replace") as fh:
+            return fh.read()
+    except OSError:
+        return None
+
+
+def _cpu_ticks():
+    stat = _read("/proc/self/stat")
+    return _parse_stat_cpu_ticks(stat) if stat is not None else None
+
+
+def _status_kb(key):
+    status = _read("/proc/self/status")
+    return _parse_status_kb(status, key) if status is not None else None
+
+
+class ResourceSnapshot:
+    """
+    CPU and memory over the measurement window, identical to the Rust harness:
+
+    * ``cpu_pct``: process utime + stime (all threads, including kernel time
+      on its behalf) during the window / wall time x 100 (100 = one core).
+    * ``rss_start_mb``: resident set size when the window opens (stack warmed
+      up, no latency samples recorded yet): steady-state stack footprint.
+    * ``peak_rss_mb``: VmHWM, includes the latency sample buffer (upper bound).
+
+    Values are NaN when /proc is unavailable.
+    """
+
+    def __init__(self):
+        self._ticks = _cpu_ticks()
+        self._rss_kb = _status_kb("VmRSS:")
+        self._wall = time.monotonic()
+
+    def finish(self):
+        wall = time.monotonic() - self._wall
+        end_ticks = _cpu_ticks()
+        nan = float("nan")
+        if self._ticks is not None and end_ticks is not None and wall > 0:
+            cpu_pct = (end_ticks - self._ticks) / _USER_HZ / wall * 100.0
+        else:
+            cpu_pct = nan
+        hwm = _status_kb("VmHWM:")
+        return {
+            "cpu_pct": cpu_pct,
+            "rss_start_mb": self._rss_kb / 1024.0 if self._rss_kb is not None else nan,
+            "peak_rss_mb": hwm / 1024.0 if hwm is not None else nan,
+        }
+
+
+class Pacer:
+    """
+    Fixed-rate pacing for the measurement loops (``--rate``), mirroring
+    ``rust/src/pacing.rs``.
+
+    Message ``i`` is released at ``start + i / rate`` (absolute schedule). The
+    thread *sleeps* until the release time, so the CPU time measured over the
+    window is the cost of the work, not of waiting. Late messages are released
+    immediately and counted; the schedule is never compressed to catch up.
+    """
+
+    def __init__(self, rate, start_ns):
+        self._start = start_ns
+        self._interval = 1e9 / rate
+        self._next = 0
+        self.late = 0
+
+    @staticmethod
+    def create(rate, start_ns):
+        """A Pacer, or None when ``rate <= 0`` (as fast as possible)."""
+        return Pacer(rate, start_ns) if rate and rate > 0 else None
+
+    def wait(self, end_ns):
+        """Sleep until the next release; False when it falls at/after ``end_ns``."""
+        release = self._start + int(self._next * self._interval)
+        if release >= end_ns:
+            return False
+        self._next += 1
+        now = time.monotonic_ns()
+        if release > now:
+            time.sleep((release - now) / 1e9)
+        elif self._next > 1:
+            self.late += 1
+        return True
+
+
+def pace(pacer, end_ns):
+    """Wait for the next slot if pacing is enabled; False ends the loop."""
+    return True if pacer is None else pacer.wait(end_ns)
+
+
+def ensure_csv_header(path):
+    """Exit if ``path`` exists with a different header (older schema)."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            first = fh.readline().strip()
+    except OSError:
+        return
+    if first and first != ",".join(CSV_HEADER):
+        print(f"ERROR: {path} has a different CSV header (older schema?). Use a new output file.")
+        sys.exit(2)
 
 
 def generate_random_mac() -> bytes:
@@ -172,7 +308,8 @@ def build_stack(security_on: bool, interface: str = "lo"):
         sign_service, verify_service = setup_security(at_index=1)
         try:
             from flexstack.geonet.mib import GnSecurity
-            mib = MIB(itsGnLocalGnAddr=gn_addr, itsGnSecurity=GnSecurity.ENABLED)
+            mib = MIB(itsGnLocalGnAddr=gn_addr, itsGnSecurity=GnSecurity.ENABLED,
+                      itsGnBeaconServiceRetransmitTimer=0)  # no Beacons, as the Rust benchmark
         except ImportError:
             mib = MIB(itsGnLocalGnAddr=gn_addr)
         gn_router = GNRouter(
@@ -409,11 +546,17 @@ def bench_tx(args):
     # Measurement — each call is synchronous to wire
     print(f"  Measurement phase ({args.duration}s)...")
     latencies = []
+    res_window = ResourceSnapshot()
     t_start = time.monotonic_ns()
     deadline = t_start + args.duration * 10**9
+    pacer = Pacer.create(args.rate, t_start)
     count = 0
 
     while time.monotonic_ns() < deadline:
+
+        if not pace(pacer, deadline):
+
+            break
         t0 = time.monotonic_ns()
         btp_router.btp_data_request(make_btp_request(coder.encode(cam_value)))
         t1 = time.monotonic_ns()
@@ -421,13 +564,16 @@ def bench_tx(args):
         count += 1
 
     t_end = time.monotonic_ns()
+    resources = res_window.finish()
+    if pacer is not None:
+        print(f"  Paced at {args.rate:g} msg/s ({pacer.late} late releases)")
     elapsed = (t_end - t_start) / 1e9
     throughput = count / elapsed
 
     # Cleanup
     teardown_stack(ca_svc, link_layer, loc_svc)
 
-    return compute_stats(args, "tx", count, elapsed, throughput, latencies, [])
+    return compute_stats(args, "tx", count, elapsed, throughput, latencies, [], resources)
 
 
 # ── Benchmark: Concurrent TX/RX ────────────────────────────────────────────
@@ -467,7 +613,8 @@ def bench_concurrent(args):
         rx_sign_svc, rx_verify_svc = setup_security(at_index=2)
         try:
             from flexstack.geonet.mib import GnSecurity
-            rx_mib = MIB(itsGnLocalGnAddr=rx_gn_addr, itsGnSecurity=GnSecurity.ENABLED)
+            rx_mib = MIB(itsGnLocalGnAddr=rx_gn_addr, itsGnSecurity=GnSecurity.ENABLED,
+                         itsGnBeaconServiceRetransmitTimer=0)  # no Beacons, as the Rust benchmark
         except ImportError:
             rx_mib = MIB(itsGnLocalGnAddr=rx_gn_addr)
         rx_gn_router = GNRouter(
@@ -546,10 +693,16 @@ def bench_concurrent(args):
     # late callback from the previous packet spuriously unblocks the wait early.
     print(f"  Measurement phase ({args.duration}s)...")
     latencies = []
+    res_window = ResourceSnapshot()
     t_start = time.monotonic_ns()
     deadline = t_start + args.duration * 10**9
+    pacer = Pacer.create(args.rate, t_start)
 
     while time.monotonic_ns() < deadline:
+
+        if not pace(pacer, deadline):
+
+            break
         with rx_lock:
             prev_rx = rx_counter["count"]
         t0 = time.monotonic_ns()
@@ -566,6 +719,9 @@ def bench_concurrent(args):
         latencies.append((t1 - t0) / 1000)  # μs
 
     t_end = time.monotonic_ns()
+    resources = res_window.finish()
+    if pacer is not None:
+        print(f"  Paced at {args.rate:g} msg/s ({pacer.late} late releases)")
     elapsed = (t_end - t_start) / 1e9
     tx_count = len(latencies)
     throughput = tx_count / elapsed
@@ -579,7 +735,7 @@ def bench_concurrent(args):
     except Exception:
         pass
 
-    return compute_stats(args, "concurrent", tx_count, elapsed, throughput, latencies, [])
+    return compute_stats(args, "concurrent", tx_count, elapsed, throughput, latencies, [], resources)
 
 
 # ── Benchmark: RX Throughput ────────────────────────────────────────────────
@@ -598,11 +754,24 @@ def bench_rx(args):
     rx_mac = generate_random_mac()
     rx_gn_addr = GNAddress(m=M.GN_MULTICAST, st=ST.PASSENGER_CAR, mid=MID(rx_mac))
 
+    verify_latencies = []
     if security_on:
         rx_sign_svc, rx_verify_svc = setup_security(at_index=2)
+        # Time each ECDSA verification inside the GN router (mirrors the Rust
+        # harness, which reports the mean as sign_latency_mean_us).
+        original_verify = rx_verify_svc.verify
+
+        def timed_verify(*v_args, **v_kwargs):
+            t_v0 = time.monotonic_ns()
+            result = original_verify(*v_args, **v_kwargs)
+            verify_latencies.append((time.monotonic_ns() - t_v0) / 1000)  # μs
+            return result
+
+        rx_verify_svc.verify = timed_verify
         try:
             from flexstack.geonet.mib import GnSecurity
-            rx_mib = MIB(itsGnLocalGnAddr=rx_gn_addr, itsGnSecurity=GnSecurity.ENABLED)
+            rx_mib = MIB(itsGnLocalGnAddr=rx_gn_addr, itsGnSecurity=GnSecurity.ENABLED,
+                         itsGnBeaconServiceRetransmitTimer=0)  # no Beacons, as the Rust benchmark
         except ImportError:
             rx_mib = MIB(itsGnLocalGnAddr=rx_gn_addr)
         rx_gn_router = GNRouter(
@@ -660,31 +829,45 @@ def bench_rx(args):
     while time.monotonic_ns() < warmup_end:
         time.sleep(0.1)
 
-    warmup_count = rx_counter["count"]
+    with rx_lock:
+        warmup_count = rx_counter["count"]
+        rx_counter["count"] = 0
+        rx_counter["latencies"] = []
     print(f"  Warm-up received {warmup_count} packets")
-    rx_counter["count"] = 0
-    rx_counter["latencies"] = []
 
     # Measurement
     print(f"  Measurement phase ({args.duration}s)...")
+    verify_latencies.clear()  # discard warm-up samples
+    res_window = ResourceSnapshot()
     t_start = time.monotonic_ns()
     time.sleep(args.duration)
-    t_end = time.monotonic_ns()
+    # Close the window: the receive thread keeps delivering CAMs after t_end,
+    # so take the count and the latency list under the lock (the callback
+    # then appends to a fresh list) and copy the verification list in one
+    # slice. Iterating the live lists in compute_stats would include samples
+    # from after the window and, on PyPy, fail ("Content of sequences
+    # changed"). The Rust harness collects both inside its measurement loop.
+    with rx_lock:
+        t_end = time.monotonic_ns()
+        rx_total = rx_counter["count"]
+        latencies = rx_counter["latencies"]
+        rx_counter["latencies"] = []
+    verify_window = verify_latencies[:]
+    resources = res_window.finish()
 
     elapsed = (t_end - t_start) / 1e9
-    rx_total = rx_counter["count"]
     throughput = rx_total / elapsed if elapsed > 0 else 0
 
     print(f"  RX: {rx_total} CAMs ({throughput:.0f}/s)")
-
-    latencies = rx_counter["latencies"]
 
     try:
         rx_link_layer.sock.close()
     except Exception:
         pass
 
-    return compute_stats(args, "rx", rx_total, elapsed, throughput, latencies, [])
+    return compute_stats(
+        args, "rx", rx_total, elapsed, throughput, latencies, verify_window, resources
+    )
 
 
 # ── Benchmark: Codec ────────────────────────────────────────────────────────
@@ -783,11 +966,17 @@ def _bench_codec_with_flexstack_coder(args, coder):
     # Measurement
     print(f"  Measurement phase ({args.duration}s)...")
     latencies = []
+    res_window = ResourceSnapshot()
     t_start = time.monotonic_ns()
     deadline = t_start + args.duration * 10**9
+    pacer = Pacer.create(args.rate, t_start)
     count = 0
 
     while time.monotonic_ns() < deadline:
+
+        if not pace(pacer, deadline):
+
+            break
         t0 = time.monotonic_ns()
         if is_encode:
             coder.encode(cam_value)
@@ -798,10 +987,15 @@ def _bench_codec_with_flexstack_coder(args, coder):
         count += 1
 
     t_end = time.monotonic_ns()
+    resources = res_window.finish()
+    if pacer is not None:
+        print(f"  Paced at {args.rate:g} msg/s ({pacer.late} late releases)")
     elapsed = (t_end - t_start) / 1e9
     throughput = count / elapsed
 
-    return compute_stats(args, args.mode, count, elapsed, throughput, latencies, [])
+    return compute_stats(
+        args, args.mode, count, elapsed, throughput, latencies, [], resources, security="off"
+    )
 
 
 # ── Benchmark: Security Layer (Sign / Verify) ──────────────────────────────
@@ -863,12 +1057,16 @@ def bench_security(args):
     # Measurement
     print(f"  Measurement phase ({args.duration}s)...")
     latencies = []
+    res_window = ResourceSnapshot()
     t_start = time.monotonic_ns()
     deadline = t_start + args.duration * 10**9
+    pacer = Pacer.create(args.rate, t_start)
     count = 0
 
     if is_sign:
         while time.monotonic_ns() < deadline:
+            if not pace(pacer, deadline):
+                break
             t0 = time.monotonic_ns()
             sign_service.sign_cam(SNSIGNRequest(
                 tbs_message_length=len(tbs_message),
@@ -882,6 +1080,8 @@ def bench_security(args):
             count += 1
     else:
         while time.monotonic_ns() < deadline:
+            if not pace(pacer, deadline):
+                break
             t0 = time.monotonic_ns()
             verify_service.verify(SNVERIFYRequest(
                 sec_header_length=0,
@@ -894,19 +1094,29 @@ def bench_security(args):
             count += 1
 
     t_end = time.monotonic_ns()
+    resources = res_window.finish()
+    if pacer is not None:
+        print(f"  Paced at {args.rate:g} msg/s ({pacer.late} late releases)")
     elapsed = (t_end - t_start) / 1e9
     throughput = count / elapsed
 
     label = "Sign" if is_sign else "Verify"
     print(f"  {label}: {count} ops ({throughput:.0f}/s)")
 
-    return compute_stats(args, args.mode, count, elapsed, throughput, latencies, latencies)
+    return compute_stats(
+        args, args.mode, count, elapsed, throughput, latencies, latencies, resources, security="on"
+    )
 
 
 
 # ── Statistics ──────────────────────────────────────────────────────────────
-def compute_stats(args, benchmark, total, elapsed, throughput, latencies, sign_latencies):
-    """Compute summary statistics and return as a dict for CSV output."""
+def compute_stats(args, benchmark, total, elapsed, throughput, latencies, sign_latencies,
+                  resources, security=None):
+    """Compute summary statistics and return as a dict for CSV output.
+
+    ``security`` overrides ``args.security`` for modes where it is fixed by
+    the benchmark itself (codec: "off", sign/verify: "on"), as in Rust.
+    """
     arr = np.array(latencies, dtype=np.float64) if latencies else np.array([0.0])
 
     impl_name = sys.implementation.name  # 'cpython' or 'pypy'
@@ -916,7 +1126,7 @@ def compute_stats(args, benchmark, total, elapsed, throughput, latencies, sign_l
         "run_id": args.run_id,
         "implementation": f"{impl_name}_{impl_version}",
         "platform": args.platform,
-        "security": args.security,
+        "security": security if security is not None else args.security,
         "benchmark": benchmark,
         "duration_s": f"{elapsed:.3f}",
         "total_cams": total,
@@ -931,6 +1141,10 @@ def compute_stats(args, benchmark, total, elapsed, throughput, latencies, sign_l
         "sign_latency_mean_us": (
             f"{np.mean(np.array(sign_latencies)):.2f}" if sign_latencies else "0.00"
         ),
+        "cpu_pct": f"{resources['cpu_pct']:.1f}",
+        "rss_start_mb": f"{resources['rss_start_mb']:.2f}",
+        "peak_rss_mb": f"{resources['peak_rss_mb']:.2f}",
+        "target_rate": f"{args.rate:g}",
     }
 
     return row
@@ -940,7 +1154,10 @@ def write_csv_row(output_path, row):
     """Append a single CSV row. Creates the file with header if it doesn't exist."""
     file_exists = os.path.exists(output_path)
     with open(output_path, "a", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=CSV_HEADER)
+        # LF line ends, as the Rust and Vanetza harnesses write: the Vanetza
+        # harness compares the header line byte for byte, so it could not
+        # append to a file created here with the csv default ("\r\n").
+        writer = csv.DictWriter(f, fieldnames=CSV_HEADER, lineterminator="\n")
         if not file_exists:
             writer.writeheader()
         writer.writerow(row)
@@ -992,6 +1209,14 @@ Cross-machine RX example:
         help="Measurement duration in seconds (default: 60)",
     )
     parser.add_argument(
+        "--rate",
+        type=float,
+        default=0.0,
+        help="Fixed message rate in msg/s for tx, concurrent, codec and security "
+        "modes (default: 0 = as fast as possible). In rx mode nothing is paced: "
+        "pass the remote sender's rate so it is recorded in the CSV.",
+    )
+    parser.add_argument(
         "--warmup",
         type=int,
         default=5,
@@ -1015,7 +1240,7 @@ Cross-machine RX example:
         "--platform",
         type=str,
         default="laptop",
-        choices=["laptop", "rpi3", "rpi5"],
+        choices=["laptop", "rpi3", "rpi5", "agx-orin", "orin-nano"],
         help="Platform identifier for CSV output",
     )
     parser.add_argument(
@@ -1029,6 +1254,7 @@ Cross-machine RX example:
 
 def main():
     args = parse_args()
+    ensure_csv_header(args.output)
 
     impl = sys.implementation.name
     print(f"{'=' * 60}")
@@ -1041,6 +1267,7 @@ def main():
     print(f"  Platform : {args.platform}")
     print(f"  Interface: {args.interface}")
     print(f"  Run ID   : {args.run_id}")
+    print(f"  Rate     : {f'{args.rate:g} msg/s' if args.rate > 0 else 'max'}")
     print(f"  Output   : {args.output}")
     print()
 
@@ -1071,6 +1298,8 @@ def main():
     print(f"    Latency p50  : {row['latency_p50_us']} μs")
     print(f"    Latency p95  : {row['latency_p95_us']} μs")
     print(f"    Latency p99  : {row['latency_p99_us']} μs")
+    print(f"    CPU          : {row['cpu_pct']} % (100 = one core)")
+    print(f"    RSS start    : {row['rss_start_mb']} MB, peak {row['peak_rss_mb']} MB")
     print(f"  Written to: {args.output}")
 
 

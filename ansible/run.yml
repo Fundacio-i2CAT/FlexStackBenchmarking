@@ -86,6 +86,16 @@
           set -euo pipefail
           echo $$ > {{ run_pidfile }}
           exec > >(tee -a {{ run_log }}) 2>&1
+          cd {{ bench_dir }}
+
+          # Environment record + per-run thermal/throttling sidecar
+          source {{ bench_dir }}/scripts/lib_monitor.sh
+          RUST_BIN={{ rust_bin }} CARGO_LOCK={{ bench_dir }}/rust/Cargo.lock \
+            CPYTHON={{ cpython_bin }} PYPY={{ pypy_bin }} \
+            record_environment {{ results_csv | regex_replace('[.]csv$', '_env.txt') }} {{ bench_platform }} {{ bench_cores }}
+          monitor_init {{ results_csv | regex_replace('[.]csv$', '_thermal.csv') }} {{ bench_cores }}
+          # Revision under test (scripts/prepare_campaign.sh), next to the results
+          cp {{ bench_dir }}/MANIFEST.txt {{ results_csv | regex_replace('[.]csv$', '_MANIFEST.txt') }} 2>/dev/null || true
 
           echo "============================================================"
           echo "FlexStack Benchmark — {{ inventory_hostname }} ({{ bench_platform }})"
@@ -98,36 +108,48 @@
           {% set warmup = bench_warmup_pypy if impl == 'pypy' else (bench_warmup_cpython if impl == 'cpython' else bench_warmup_rust) %}
           echo ""
           echo "================================================================"
-          echo "  {{ impl }} | {{ cell.mode }} | security={{ cell.security }}"
+          echo "  {{ impl }} | {{ cell.mode }} | security={{ cell.security }} | rate={{ cell.rate | default('max') }}"
           echo "================================================================"
-          for RUN in $(seq 1 {{ bench_runs }}); do
-            echo "[$(date '+%H:%M:%S')] {{ impl }} | {{ cell.mode }} | {{ cell.security }} | run $RUN/{{ bench_runs }}"
+          for RUN in $(seq 1 {{ cell.runs | default(bench_runs) }}); do
+            echo "[$(date '+%H:%M:%S')] {{ impl }} | {{ cell.mode }} | {{ cell.security }} | run $RUN/{{ cell.runs | default(bench_runs) }}"
+            monitor_run_start
           {% if impl == 'rust' %}
-            chrt -f 50 taskset -c {{ bench_cores }} \
+            timeout -k 10 {{ bench_duration | int + warmup | int + 120 }} chrt -r 50 taskset -c {{ bench_cores }} \
               {{ rust_bin }} \
-              --mode {{ cell.mode }} --security {{ cell.security }} \
+              --mode {{ cell.mode }} --security {{ cell.security }} --rate {{ cell.rate | default(0) }} \
               --duration {{ bench_duration }} --warmup {{ warmup }} \
               --output {{ results_csv }} --run-id $RUN \
               --platform {{ bench_platform }} \
-              --interface {{ bench_interface }} || echo "  [WARN] exited with error"
+              --interface {{ bench_interface }} \
+              --certs-dir {{ bench_dir }}/certs || echo "  [WARN] exited with error"
           {% elif impl == 'cpython' %}
-            chrt -f 50 taskset -c {{ bench_cores }} \
+            timeout -k 10 {{ bench_duration | int + warmup | int + 120 }} chrt -r 50 taskset -c {{ bench_cores }} \
               {{ cpython_bin }} {{ python_bench }} \
-              --mode {{ cell.mode }} --security {{ cell.security }} \
+              --mode {{ cell.mode }} --security {{ cell.security }} --rate {{ cell.rate | default(0) }} \
               --duration {{ bench_duration }} --warmup {{ warmup }} \
               --output {{ results_csv }} --run-id $RUN \
               --platform {{ bench_platform }} \
               --interface {{ bench_interface }} || echo "  [WARN] exited with error"
           {% elif impl == 'pypy' %}
-            chrt -f 50 taskset -c {{ bench_cores }} \
+            timeout -k 10 {{ bench_duration | int + warmup | int + 120 }} chrt -r 50 taskset -c {{ bench_cores }} \
               {{ pypy_bin }} {{ python_bench }} \
-              --mode {{ cell.mode }} --security {{ cell.security }} \
+              --mode {{ cell.mode }} --security {{ cell.security }} --rate {{ cell.rate | default(0) }} \
               --duration {{ bench_duration }} --warmup {{ warmup }} \
               --output {{ results_csv }} --run-id $RUN \
               --platform {{ bench_platform }} \
               --interface {{ bench_interface }} || echo "  [WARN] exited with error"
+          {% elif impl == 'vanetza' %}
+            timeout -k 10 {{ bench_duration | int + warmup | int + 120 }} chrt -r 50 taskset -c {{ bench_cores }} \
+              {{ bench_dir }}/vanetza/run.sh \
+              --mode {{ cell.mode }} --security {{ cell.security }} --rate {{ cell.rate | default(0) }} \
+              --duration {{ bench_duration }} --warmup {{ warmup }} \
+              --output {{ results_csv }} --run-id $RUN \
+              --platform {{ bench_platform }} \
+              --interface {{ bench_interface }} \
+              --certs-dir {{ bench_dir }}/certs || echo "  [WARN] exited with error"
           {% endif %}
-            if [ "$RUN" -lt {{ bench_runs }} ]; then
+            monitor_run_end {{ impl }} {{ cell.security }} {{ cell.mode }} "$RUN" {{ cell.rate | default(0) }}
+            if [ "$RUN" -lt {{ cell.runs | default(bench_runs) }} ]; then
               echo "  Cooling down ({{ bench_cooldown }}s)..."
               sleep {{ bench_cooldown }}
             fi

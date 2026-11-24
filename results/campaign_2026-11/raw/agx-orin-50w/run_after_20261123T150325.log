@@ -1,0 +1,3875 @@
+[2026-11-23 15:03:25] waiting for the campaign (PID 404323) to finish
+[2026-11-24 05:28:58] campaign finished
+  Environment recorded in /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325_env.txt
+Results: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+================================================================
+  vanetza | tx | security=off | rate=0 | runs=30
+================================================================
+[05:28:59] vanetza | tx | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:28:59.859251
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55214.7 CAMs/s
+    Latency p50  : 17.28 us
+    CPU          : 95.0 %
+[05:30:15] vanetza | tx | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:30:15.426589
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55724.0 CAMs/s
+    Latency p50  : 17.12 us
+    CPU          : 95.0 %
+[05:31:30] vanetza | tx | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:31:30.980503
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 54982.3 CAMs/s
+    Latency p50  : 17.34 us
+    CPU          : 95.0 %
+[05:32:46] vanetza | tx | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:32:46.532018
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55095.2 CAMs/s
+    Latency p50  : 17.31 us
+    CPU          : 95.0 %
+[05:34:02] vanetza | tx | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:34:02.107401
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 54838.2 CAMs/s
+    Latency p50  : 17.38 us
+    CPU          : 95.0 %
+[05:35:17] vanetza | tx | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:35:17.696769
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55324.4 CAMs/s
+    Latency p50  : 17.25 us
+    CPU          : 95.0 %
+[05:36:33] vanetza | tx | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:36:33.256921
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55210.0 CAMs/s
+    Latency p50  : 17.28 us
+    CPU          : 95.0 %
+[05:37:48] vanetza | tx | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:37:48.856274
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55608.8 CAMs/s
+    Latency p50  : 17.18 us
+    CPU          : 95.0 %
+[05:39:04] vanetza | tx | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:39:04.438344
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55801.8 CAMs/s
+    Latency p50  : 17.12 us
+    CPU          : 95.0 %
+[05:40:19] vanetza | tx | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:40:19.990604
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55823.3 CAMs/s
+    Latency p50  : 17.09 us
+    CPU          : 95.0 %
+[05:41:35] vanetza | tx | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:41:35.585050
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55743.6 CAMs/s
+    Latency p50  : 17.12 us
+    CPU          : 95.0 %
+[05:42:51] vanetza | tx | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:42:51.162021
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55463.5 CAMs/s
+    Latency p50  : 17.18 us
+    CPU          : 95.0 %
+[05:44:06] vanetza | tx | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:44:06.756626
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 54622.7 CAMs/s
+    Latency p50  : 17.47 us
+    CPU          : 95.0 %
+[05:45:22] vanetza | tx | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:45:22.357187
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55023.7 CAMs/s
+    Latency p50  : 17.34 us
+    CPU          : 95.0 %
+[05:46:37] vanetza | tx | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:46:37.939547
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 56655.7 CAMs/s
+    Latency p50  : 16.83 us
+    CPU          : 95.0 %
+[05:47:53] vanetza | tx | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:47:53.508063
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55848.1 CAMs/s
+    Latency p50  : 17.09 us
+    CPU          : 95.0 %
+[05:49:09] vanetza | tx | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:49:09.089375
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55785.4 CAMs/s
+    Latency p50  : 17.12 us
+    CPU          : 95.0 %
+[05:50:24] vanetza | tx | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:50:24.695977
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 56198.0 CAMs/s
+    Latency p50  : 16.99 us
+    CPU          : 95.0 %
+[05:51:40] vanetza | tx | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:51:40.287446
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55716.1 CAMs/s
+    Latency p50  : 17.15 us
+    CPU          : 95.0 %
+[05:52:55] vanetza | tx | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:52:55.883982
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55761.7 CAMs/s
+    Latency p50  : 17.12 us
+    CPU          : 95.0 %
+[05:54:11] vanetza | tx | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:54:11.450148
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55554.9 CAMs/s
+    Latency p50  : 17.15 us
+    CPU          : 95.0 %
+[05:55:26] vanetza | tx | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:55:27.040970
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55891.0 CAMs/s
+    Latency p50  : 17.06 us
+    CPU          : 95.0 %
+[05:56:42] vanetza | tx | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:56:42.645851
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55713.1 CAMs/s
+    Latency p50  : 17.12 us
+    CPU          : 95.0 %
+[05:57:58] vanetza | tx | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:57:58.228844
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55782.9 CAMs/s
+    Latency p50  : 17.09 us
+    CPU          : 95.0 %
+[05:59:13] vanetza | tx | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 04:59:13.771693
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55657.0 CAMs/s
+    Latency p50  : 17.15 us
+    CPU          : 95.0 %
+[06:00:29] vanetza | tx | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:00:29.333333
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55865.3 CAMs/s
+    Latency p50  : 17.09 us
+    CPU          : 95.0 %
+[06:01:44] vanetza | tx | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:01:44.951501
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55876.5 CAMs/s
+    Latency p50  : 17.06 us
+    CPU          : 95.0 %
+[06:03:00] vanetza | tx | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:03:00.516453
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 55173.0 CAMs/s
+    Latency p50  : 17.28 us
+    CPU          : 95.0 %
+[06:04:16] vanetza | tx | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:04:16.072983
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 56544.7 CAMs/s
+    Latency p50  : 16.86 us
+    CPU          : 95.0 %
+[06:05:31] vanetza | tx | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:05:31.632062
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 56086.2 CAMs/s
+    Latency p50  : 16.99 us
+    CPU          : 95.0 %
+================================================================
+  vanetza | tx | security=on | rate=0 | runs=30
+================================================================
+[06:06:37] vanetza | tx | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:06:37.205580
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3032.6 CAMs/s
+    Latency p50  : 313.89 us
+    CPU          : 95.0 %
+[06:07:52] vanetza | tx | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:07:52.392898
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3030.2 CAMs/s
+    Latency p50  : 314.24 us
+    CPU          : 95.0 %
+[06:09:07] vanetza | tx | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:09:07.577723
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 2981.4 CAMs/s
+    Latency p50  : 319.39 us
+    CPU          : 95.0 %
+[06:10:22] vanetza | tx | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:10:22.760381
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 2982.3 CAMs/s
+    Latency p50  : 319.30 us
+    CPU          : 95.0 %
+[06:11:37] vanetza | tx | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:11:37.966521
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3009.2 CAMs/s
+    Latency p50  : 316.39 us
+    CPU          : 95.0 %
+[06:12:53] vanetza | tx | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:12:53.156878
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3017.3 CAMs/s
+    Latency p50  : 315.62 us
+    CPU          : 95.0 %
+[06:14:08] vanetza | tx | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:14:08.352199
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3017.5 CAMs/s
+    Latency p50  : 315.43 us
+    CPU          : 95.0 %
+[06:15:23] vanetza | tx | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:15:23.537561
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3019.1 CAMs/s
+    Latency p50  : 315.36 us
+    CPU          : 95.0 %
+[06:16:38] vanetza | tx | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:16:38.744985
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3047.7 CAMs/s
+    Latency p50  : 312.26 us
+    CPU          : 95.0 %
+[06:17:53] vanetza | tx | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:17:53.911895
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3033.8 CAMs/s
+    Latency p50  : 313.73 us
+    CPU          : 95.0 %
+[06:19:09] vanetza | tx | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:19:09.099983
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3018.1 CAMs/s
+    Latency p50  : 315.33 us
+    CPU          : 95.0 %
+[06:20:24] vanetza | tx | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:20:24.296827
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3009.5 CAMs/s
+    Latency p50  : 316.45 us
+    CPU          : 95.0 %
+[06:21:39] vanetza | tx | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:21:39.484856
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3024.5 CAMs/s
+    Latency p50  : 314.75 us
+    CPU          : 95.0 %
+[06:22:54] vanetza | tx | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:22:54.677489
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 2994.5 CAMs/s
+    Latency p50  : 317.95 us
+    CPU          : 95.0 %
+[06:24:09] vanetza | tx | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:24:09.889838
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3010.1 CAMs/s
+    Latency p50  : 316.35 us
+    CPU          : 95.0 %
+[06:25:25] vanetza | tx | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:25:25.093823
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3015.9 CAMs/s
+    Latency p50  : 315.71 us
+    CPU          : 95.0 %
+[06:26:40] vanetza | tx | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:26:40.301598
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3014.7 CAMs/s
+    Latency p50  : 315.91 us
+    CPU          : 95.0 %
+[06:27:55] vanetza | tx | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:27:55.500205
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3022.1 CAMs/s
+    Latency p50  : 315.07 us
+    CPU          : 95.0 %
+[06:29:10] vanetza | tx | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:29:10.711255
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3005.8 CAMs/s
+    Latency p50  : 316.74 us
+    CPU          : 95.0 %
+[06:30:25] vanetza | tx | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:30:25.932913
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 2990.4 CAMs/s
+    Latency p50  : 318.24 us
+    CPU          : 95.0 %
+[06:31:41] vanetza | tx | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:31:41.133735
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3002.8 CAMs/s
+    Latency p50  : 317.09 us
+    CPU          : 95.0 %
+[06:32:56] vanetza | tx | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:32:56.329868
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3019.4 CAMs/s
+    Latency p50  : 315.27 us
+    CPU          : 95.0 %
+[06:34:11] vanetza | tx | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:34:11.522073
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3034.4 CAMs/s
+    Latency p50  : 313.63 us
+    CPU          : 95.0 %
+[06:35:26] vanetza | tx | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:35:26.723805
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3003.8 CAMs/s
+    Latency p50  : 317.12 us
+    CPU          : 95.0 %
+[06:36:41] vanetza | tx | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:36:41.902731
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 2992.4 CAMs/s
+    Latency p50  : 318.59 us
+    CPU          : 95.0 %
+[06:37:57] vanetza | tx | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:37:57.095608
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 2983.1 CAMs/s
+    Latency p50  : 319.23 us
+    CPU          : 95.0 %
+[06:39:12] vanetza | tx | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:39:12.278056
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3000.8 CAMs/s
+    Latency p50  : 317.25 us
+    CPU          : 95.0 %
+[06:40:27] vanetza | tx | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:40:27.482282
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3007.5 CAMs/s
+    Latency p50  : 316.45 us
+    CPU          : 95.0 %
+[06:41:42] vanetza | tx | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:41:42.667888
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 3021.0 CAMs/s
+    Latency p50  : 315.17 us
+    CPU          : 95.0 %
+[06:42:57] vanetza | tx | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 05:42:57.866994
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 2996.4 CAMs/s
+    Latency p50  : 318.02 us
+    CPU          : 95.0 %
+================================================================
+  vanetza | codec-encode | security=off | rate=0 | runs=30
+================================================================
+[06:44:03] vanetza | codec-encode | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 259787.4 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[06:45:18] vanetza | codec-encode | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 261199.6 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[06:46:34] vanetza | codec-encode | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260766.9 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[06:47:50] vanetza | codec-encode | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260949.1 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[06:49:05] vanetza | codec-encode | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 261896.0 CAMs/s
+    Latency p50  : 3.49 us
+    CPU          : 95.0 %
+[06:50:21] vanetza | codec-encode | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 261178.4 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[06:51:37] vanetza | codec-encode | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 261429.4 CAMs/s
+    Latency p50  : 3.49 us
+    CPU          : 95.0 %
+[06:52:53] vanetza | codec-encode | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 261749.7 CAMs/s
+    Latency p50  : 3.49 us
+    CPU          : 95.0 %
+[06:54:08] vanetza | codec-encode | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 259951.7 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[06:55:24] vanetza | codec-encode | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 261274.9 CAMs/s
+    Latency p50  : 3.49 us
+    CPU          : 95.0 %
+[06:56:40] vanetza | codec-encode | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260247.8 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[06:57:56] vanetza | codec-encode | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 258897.6 CAMs/s
+    Latency p50  : 3.55 us
+    CPU          : 95.0 %
+[06:59:11] vanetza | codec-encode | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 259770.3 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:00:27] vanetza | codec-encode | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 258621.7 CAMs/s
+    Latency p50  : 3.55 us
+    CPU          : 95.0 %
+[07:01:43] vanetza | codec-encode | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260155.1 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:02:59] vanetza | codec-encode | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260231.8 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:04:14] vanetza | codec-encode | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260249.0 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:05:30] vanetza | codec-encode | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 259944.9 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:06:46] vanetza | codec-encode | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260507.7 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:08:02] vanetza | codec-encode | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 262838.8 CAMs/s
+    Latency p50  : 3.49 us
+    CPU          : 95.0 %
+[07:09:17] vanetza | codec-encode | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260588.7 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:10:33] vanetza | codec-encode | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260468.1 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:11:49] vanetza | codec-encode | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260563.1 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:13:05] vanetza | codec-encode | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 259909.8 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:14:20] vanetza | codec-encode | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260428.4 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:15:36] vanetza | codec-encode | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 259880.6 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:16:52] vanetza | codec-encode | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 261923.8 CAMs/s
+    Latency p50  : 3.49 us
+    CPU          : 95.0 %
+[07:18:08] vanetza | codec-encode | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260465.2 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:19:23] vanetza | codec-encode | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260483.6 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+[07:20:39] vanetza | codec-encode | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-encode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 260465.1 CAMs/s
+    Latency p50  : 3.52 us
+    CPU          : 95.0 %
+================================================================
+  vanetza | codec-decode | security=off | rate=0 | runs=30
+================================================================
+[07:21:45] vanetza | codec-decode | off | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 252631.7 CAMs/s
+    Latency p50  : 3.62 us
+    CPU          : 95.0 %
+[07:23:01] vanetza | codec-decode | off | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250067.2 CAMs/s
+    Latency p50  : 3.68 us
+    CPU          : 95.0 %
+[07:24:16] vanetza | codec-decode | off | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 254376.8 CAMs/s
+    Latency p50  : 3.62 us
+    CPU          : 95.0 %
+[07:25:32] vanetza | codec-decode | off | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 253962.4 CAMs/s
+    Latency p50  : 3.62 us
+    CPU          : 95.0 %
+[07:26:48] vanetza | codec-decode | off | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 248967.9 CAMs/s
+    Latency p50  : 3.68 us
+    CPU          : 95.0 %
+[07:28:03] vanetza | codec-decode | off | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 249456.5 CAMs/s
+    Latency p50  : 3.68 us
+    CPU          : 95.0 %
+[07:29:19] vanetza | codec-decode | off | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250686.6 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:30:35] vanetza | codec-decode | off | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 251244.1 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:31:51] vanetza | codec-decode | off | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250888.9 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:33:06] vanetza | codec-decode | off | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 249724.1 CAMs/s
+    Latency p50  : 3.68 us
+    CPU          : 95.0 %
+[07:34:22] vanetza | codec-decode | off | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 251376.8 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:35:38] vanetza | codec-decode | off | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 252482.5 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:36:53] vanetza | codec-decode | off | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 249973.5 CAMs/s
+    Latency p50  : 3.68 us
+    CPU          : 95.0 %
+[07:38:09] vanetza | codec-decode | off | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250439.9 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:39:25] vanetza | codec-decode | off | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 252877.9 CAMs/s
+    Latency p50  : 3.62 us
+    CPU          : 95.0 %
+[07:40:41] vanetza | codec-decode | off | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250388.8 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:41:56] vanetza | codec-decode | off | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 249099.5 CAMs/s
+    Latency p50  : 3.68 us
+    CPU          : 95.0 %
+[07:43:12] vanetza | codec-decode | off | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 253791.2 CAMs/s
+    Latency p50  : 3.62 us
+    CPU          : 95.0 %
+[07:44:28] vanetza | codec-decode | off | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 252271.5 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:45:43] vanetza | codec-decode | off | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 251046.2 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:46:59] vanetza | codec-decode | off | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250484.9 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:48:15] vanetza | codec-decode | off | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250594.0 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:49:30] vanetza | codec-decode | off | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 247717.6 CAMs/s
+    Latency p50  : 3.71 us
+    CPU          : 95.0 %
+[07:50:46] vanetza | codec-decode | off | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 248006.2 CAMs/s
+    Latency p50  : 3.71 us
+    CPU          : 95.0 %
+[07:52:02] vanetza | codec-decode | off | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250592.0 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:53:18] vanetza | codec-decode | off | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 252247.1 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:54:33] vanetza | codec-decode | off | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250790.7 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:55:49] vanetza | codec-decode | off | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 252019.0 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+[07:57:05] vanetza | codec-decode | off | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 249283.8 CAMs/s
+    Latency p50  : 3.68 us
+    CPU          : 95.0 %
+[07:58:20] vanetza | codec-decode | off | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : codec-decode
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+  CAM encoded size: 41 bytes
+    Throughput   : 250544.4 CAMs/s
+    Latency p50  : 3.65 us
+    CPU          : 95.0 %
+================================================================
+  vanetza | security-sign | security=on | rate=0 | runs=30
+================================================================
+[07:59:26] vanetza | security-sign | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 06:59:26.591061
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3669.1 CAMs/s
+    Latency p50  : 258.56 us
+    CPU          : 95.0 %
+[08:00:41] vanetza | security-sign | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:00:41.696682
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3661.0 CAMs/s
+    Latency p50  : 259.14 us
+    CPU          : 95.0 %
+[08:01:56] vanetza | security-sign | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:01:56.802688
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3670.9 CAMs/s
+    Latency p50  : 258.43 us
+    CPU          : 95.0 %
+[08:03:11] vanetza | security-sign | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:03:11.909120
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3660.3 CAMs/s
+    Latency p50  : 259.17 us
+    CPU          : 95.0 %
+[08:04:26] vanetza | security-sign | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:04:27.014385
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3666.7 CAMs/s
+    Latency p50  : 258.72 us
+    CPU          : 95.0 %
+[08:05:42] vanetza | security-sign | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:05:42.121487
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3667.8 CAMs/s
+    Latency p50  : 258.66 us
+    CPU          : 95.0 %
+[08:06:57] vanetza | security-sign | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:06:57.226750
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3676.3 CAMs/s
+    Latency p50  : 258.05 us
+    CPU          : 95.0 %
+[08:08:12] vanetza | security-sign | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:08:12.332427
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3676.7 CAMs/s
+    Latency p50  : 258.02 us
+    CPU          : 95.0 %
+[08:09:27] vanetza | security-sign | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:09:27.437813
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3667.7 CAMs/s
+    Latency p50  : 258.66 us
+    CPU          : 95.0 %
+[08:10:42] vanetza | security-sign | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:10:42.544106
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3682.3 CAMs/s
+    Latency p50  : 257.63 us
+    CPU          : 95.0 %
+[08:11:57] vanetza | security-sign | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:11:57.652262
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3683.7 CAMs/s
+    Latency p50  : 257.50 us
+    CPU          : 95.0 %
+[08:13:12] vanetza | security-sign | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:13:12.758584
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3679.0 CAMs/s
+    Latency p50  : 257.86 us
+    CPU          : 95.0 %
+[08:14:27] vanetza | security-sign | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:14:27.864366
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3660.2 CAMs/s
+    Latency p50  : 259.20 us
+    CPU          : 95.0 %
+[08:15:42] vanetza | security-sign | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:15:42.970128
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3680.2 CAMs/s
+    Latency p50  : 257.76 us
+    CPU          : 95.0 %
+[08:16:58] vanetza | security-sign | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:16:58.076257
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3677.3 CAMs/s
+    Latency p50  : 257.95 us
+    CPU          : 95.0 %
+[08:18:13] vanetza | security-sign | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:18:13.183505
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3690.5 CAMs/s
+    Latency p50  : 257.02 us
+    CPU          : 95.0 %
+[08:19:28] vanetza | security-sign | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:19:28.288930
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3675.7 CAMs/s
+    Latency p50  : 258.08 us
+    CPU          : 95.0 %
+[08:20:43] vanetza | security-sign | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:20:43.395323
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3665.9 CAMs/s
+    Latency p50  : 258.79 us
+    CPU          : 95.0 %
+[08:21:58] vanetza | security-sign | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:21:58.500770
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3675.6 CAMs/s
+    Latency p50  : 258.02 us
+    CPU          : 95.0 %
+[08:23:13] vanetza | security-sign | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:23:13.606996
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3683.8 CAMs/s
+    Latency p50  : 257.44 us
+    CPU          : 95.0 %
+[08:24:28] vanetza | security-sign | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:24:28.713774
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3676.8 CAMs/s
+    Latency p50  : 257.99 us
+    CPU          : 95.0 %
+[08:25:43] vanetza | security-sign | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:25:43.822671
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3673.3 CAMs/s
+    Latency p50  : 258.18 us
+    CPU          : 95.0 %
+[08:26:58] vanetza | security-sign | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:26:58.928583
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3690.9 CAMs/s
+    Latency p50  : 256.99 us
+    CPU          : 95.0 %
+[08:28:13] vanetza | security-sign | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:28:14.035359
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3675.1 CAMs/s
+    Latency p50  : 258.15 us
+    CPU          : 95.0 %
+[08:29:29] vanetza | security-sign | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:29:29.140677
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3666.4 CAMs/s
+    Latency p50  : 258.79 us
+    CPU          : 95.0 %
+[08:30:44] vanetza | security-sign | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:30:44.247257
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3649.7 CAMs/s
+    Latency p50  : 259.94 us
+    CPU          : 95.0 %
+[08:31:59] vanetza | security-sign | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:31:59.352829
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3658.8 CAMs/s
+    Latency p50  : 259.33 us
+    CPU          : 95.0 %
+[08:33:14] vanetza | security-sign | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:33:14.460771
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3658.7 CAMs/s
+    Latency p50  : 259.33 us
+    CPU          : 95.0 %
+[08:34:29] vanetza | security-sign | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:34:29.566406
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3661.2 CAMs/s
+    Latency p50  : 259.11 us
+    CPU          : 95.0 %
+[08:35:44] vanetza | security-sign | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-sign
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:35:44.672876
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 3659.7 CAMs/s
+    Latency p50  : 259.23 us
+    CPU          : 95.0 %
+================================================================
+  vanetza | security-verify | security=on | rate=0 | runs=30
+================================================================
+[08:36:49] vanetza | security-verify | on | run 1/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:36:49.778839
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2561.2 CAMs/s
+    Latency p50  : 370.05 us
+    CPU          : 95.0 %
+[08:38:04] vanetza | security-verify | on | run 2/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:38:04.879660
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2553.4 CAMs/s
+    Latency p50  : 371.33 us
+    CPU          : 95.0 %
+[08:39:19] vanetza | security-verify | on | run 3/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:39:19.980067
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2556.7 CAMs/s
+    Latency p50  : 370.95 us
+    CPU          : 95.0 %
+[08:40:35] vanetza | security-verify | on | run 4/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:40:35.080912
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2573.0 CAMs/s
+    Latency p50  : 368.42 us
+    CPU          : 95.0 %
+[08:41:50] vanetza | security-verify | on | run 5/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:41:50.181369
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2572.1 CAMs/s
+    Latency p50  : 368.64 us
+    CPU          : 95.0 %
+[08:43:05] vanetza | security-verify | on | run 6/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:43:05.282582
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2564.9 CAMs/s
+    Latency p50  : 369.73 us
+    CPU          : 95.0 %
+[08:44:20] vanetza | security-verify | on | run 7/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:44:20.384314
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2569.3 CAMs/s
+    Latency p50  : 368.90 us
+    CPU          : 95.0 %
+[08:45:35] vanetza | security-verify | on | run 8/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:45:35.485126
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2569.8 CAMs/s
+    Latency p50  : 368.96 us
+    CPU          : 95.0 %
+[08:46:50] vanetza | security-verify | on | run 9/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:46:50.584881
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2571.7 CAMs/s
+    Latency p50  : 368.71 us
+    CPU          : 95.0 %
+[08:48:05] vanetza | security-verify | on | run 10/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:48:05.685650
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2568.0 CAMs/s
+    Latency p50  : 369.19 us
+    CPU          : 95.0 %
+[08:49:20] vanetza | security-verify | on | run 11/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 11
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:49:20.786808
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2574.4 CAMs/s
+    Latency p50  : 368.16 us
+    CPU          : 95.0 %
+[08:50:35] vanetza | security-verify | on | run 12/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 12
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:50:35.888458
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2573.9 CAMs/s
+    Latency p50  : 368.39 us
+    CPU          : 95.0 %
+[08:51:50] vanetza | security-verify | on | run 13/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 13
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:51:50.988544
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2567.7 CAMs/s
+    Latency p50  : 369.22 us
+    CPU          : 95.0 %
+[08:53:06] vanetza | security-verify | on | run 14/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 14
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:53:06.088934
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2572.0 CAMs/s
+    Latency p50  : 368.58 us
+    CPU          : 95.0 %
+[08:54:21] vanetza | security-verify | on | run 15/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 15
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:54:21.189966
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2570.4 CAMs/s
+    Latency p50  : 368.87 us
+    CPU          : 95.0 %
+[08:55:36] vanetza | security-verify | on | run 16/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 16
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:55:36.290654
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2568.7 CAMs/s
+    Latency p50  : 369.15 us
+    CPU          : 95.0 %
+[08:56:51] vanetza | security-verify | on | run 17/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 17
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:56:51.390104
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2561.8 CAMs/s
+    Latency p50  : 370.08 us
+    CPU          : 95.0 %
+[08:58:06] vanetza | security-verify | on | run 18/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 18
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:58:06.491301
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2564.5 CAMs/s
+    Latency p50  : 369.67 us
+    CPU          : 95.0 %
+[08:59:21] vanetza | security-verify | on | run 19/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 19
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 07:59:21.592082
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2569.7 CAMs/s
+    Latency p50  : 368.93 us
+    CPU          : 95.0 %
+[09:00:36] vanetza | security-verify | on | run 20/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 20
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:00:36.693400
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2569.2 CAMs/s
+    Latency p50  : 369.09 us
+    CPU          : 95.0 %
+[09:01:51] vanetza | security-verify | on | run 21/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 21
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:01:51.794999
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2559.7 CAMs/s
+    Latency p50  : 370.59 us
+    CPU          : 95.0 %
+[09:03:06] vanetza | security-verify | on | run 22/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 22
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:03:06.897475
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2550.1 CAMs/s
+    Latency p50  : 371.75 us
+    CPU          : 95.0 %
+[09:04:21] vanetza | security-verify | on | run 23/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 23
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:04:21.998321
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2556.9 CAMs/s
+    Latency p50  : 370.75 us
+    CPU          : 95.0 %
+[09:05:37] vanetza | security-verify | on | run 24/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 24
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:05:37.098474
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2566.7 CAMs/s
+    Latency p50  : 369.51 us
+    CPU          : 95.0 %
+[09:06:52] vanetza | security-verify | on | run 25/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 25
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:06:52.200171
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2554.7 CAMs/s
+    Latency p50  : 371.01 us
+    CPU          : 95.0 %
+[09:08:07] vanetza | security-verify | on | run 26/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 26
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:08:07.301323
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2560.4 CAMs/s
+    Latency p50  : 370.24 us
+    CPU          : 95.0 %
+[09:09:22] vanetza | security-verify | on | run 27/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 27
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:09:22.401913
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2553.7 CAMs/s
+    Latency p50  : 371.33 us
+    CPU          : 95.0 %
+[09:10:37] vanetza | security-verify | on | run 28/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 28
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:10:37.502843
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2559.7 CAMs/s
+    Latency p50  : 370.34 us
+    CPU          : 95.0 %
+[09:11:52] vanetza | security-verify | on | run 29/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 29
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:11:52.603873
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2563.9 CAMs/s
+    Latency p50  : 369.92 us
+    CPU          : 95.0 %
+[09:13:07] vanetza | security-verify | on | run 30/30
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 30
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:13:07.704709
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 2558.2 CAMs/s
+    Latency p50  : 370.75 us
+    CPU          : 95.0 %
+================================================================
+  vanetza | tx | security=off | rate=10 | runs=10
+================================================================
+[09:14:12] vanetza | tx | off | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:14:12.806563
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 28.22 us
+    CPU          : 0.0 %
+[09:15:27] vanetza | tx | off | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:15:27.889582
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 23.49 us
+    CPU          : 0.0 %
+[09:16:42] vanetza | tx | off | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:16:42.951786
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 23.97 us
+    CPU          : 0.0 %
+[09:17:57] vanetza | tx | off | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:17:58.017627
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 23.94 us
+    CPU          : 0.0 %
+[09:19:13] vanetza | tx | off | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:19:13.074062
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 24.03 us
+    CPU          : 0.1 %
+[09:20:28] vanetza | tx | off | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:20:28.134946
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 27.71 us
+    CPU          : 0.0 %
+[09:21:43] vanetza | tx | off | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:21:43.202163
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 24.38 us
+    CPU          : 0.1 %
+[09:22:58] vanetza | tx | off | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:22:58.264368
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 24.29 us
+    CPU          : 0.0 %
+[09:24:13] vanetza | tx | off | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:24:13.341758
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 27.62 us
+    CPU          : 0.0 %
+[09:25:28] vanetza | tx | off | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : off
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:25:28.422621
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 23.26 us
+    CPU          : 0.0 %
+================================================================
+  vanetza | tx | security=on | rate=10 | runs=10
+================================================================
+[09:26:33] vanetza | tx | on | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:26:33.493992
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 334.59 us
+    CPU          : 0.4 %
+[09:27:48] vanetza | tx | on | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:27:48.530496
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 352.64 us
+    CPU          : 0.4 %
+[09:29:03] vanetza | tx | on | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:29:03.595285
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 355.26 us
+    CPU          : 0.4 %
+[09:30:18] vanetza | tx | on | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:30:18.666783
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 345.82 us
+    CPU          : 0.3 %
+[09:31:33] vanetza | tx | on | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:31:33.726893
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 338.40 us
+    CPU          : 0.4 %
+[09:32:48] vanetza | tx | on | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:32:48.802887
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 339.14 us
+    CPU          : 0.3 %
+[09:34:03] vanetza | tx | on | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:34:03.902399
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 350.11 us
+    CPU          : 0.4 %
+[09:35:18] vanetza | tx | on | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:35:18.954268
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 341.22 us
+    CPU          : 0.3 %
+[09:36:33] vanetza | tx | on | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:36:34.014462
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 347.65 us
+    CPU          : 0.4 %
+[09:37:49] vanetza | tx | on | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : tx
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:37:49.086545
+  Warm-up phase (5s)...
+  Measurement phase (60s)...
+    Throughput   : 10.0 CAMs/s
+    Latency p50  : 334.72 us
+    CPU          : 0.4 %
+================================================================
+  vanetza | security-verify | security=on | rate=100 | runs=10
+================================================================
+[09:38:54] vanetza | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:38:54.158521
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 378.95 us
+    CPU          : 3.9 %
+[09:40:09] vanetza | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:40:09.239643
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 378.75 us
+    CPU          : 3.8 %
+[09:41:24] vanetza | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:41:24.319068
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 385.06 us
+    CPU          : 3.9 %
+[09:42:39] vanetza | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:42:39.401059
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 377.60 us
+    CPU          : 3.9 %
+[09:43:54] vanetza | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:43:54.512723
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 377.92 us
+    CPU          : 3.8 %
+[09:45:09] vanetza | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:45:09.592988
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 383.91 us
+    CPU          : 3.8 %
+[09:46:24] vanetza | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:46:24.673882
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 377.73 us
+    CPU          : 3.9 %
+[09:47:39] vanetza | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:47:39.754383
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 377.73 us
+    CPU          : 3.8 %
+[09:48:54] vanetza | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:48:54.836093
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 378.85 us
+    CPU          : 3.8 %
+[09:50:09] vanetza | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:50:09.916809
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 100.0 CAMs/s
+    Latency p50  : 377.51 us
+    CPU          : 3.8 %
+================================================================
+  vanetza | security-verify | security=on | rate=1000 | runs=10
+================================================================
+[09:51:14] vanetza | security-verify | on | run 1/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 1
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:51:14.996736
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 377.47 us
+    CPU          : 38.1 %
+[09:52:30] vanetza | security-verify | on | run 2/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 2
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:52:30.091925
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 377.41 us
+    CPU          : 38.1 %
+[09:53:45] vanetza | security-verify | on | run 3/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 3
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:53:45.186810
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 377.51 us
+    CPU          : 38.1 %
+[09:55:00] vanetza | security-verify | on | run 4/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 4
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:55:00.280951
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 377.03 us
+    CPU          : 38.0 %
+[09:56:15] vanetza | security-verify | on | run 5/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 5
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:56:15.374822
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 377.28 us
+    CPU          : 38.1 %
+[09:57:30] vanetza | security-verify | on | run 6/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 6
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:57:30.470351
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 376.45 us
+    CPU          : 38.0 %
+[09:58:45] vanetza | security-verify | on | run 7/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 7
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 08:58:45.563762
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 379.94 us
+    CPU          : 38.3 %
+[10:00:00] vanetza | security-verify | on | run 8/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 8
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 09:00:00.658717
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 379.75 us
+    CPU          : 38.3 %
+[10:01:15] vanetza | security-verify | on | run 9/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 9
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 09:01:15.752198
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 377.15 us
+    CPU          : 38.0 %
+[10:02:30] vanetza | security-verify | on | run 10/10
+============================================================
+FlexStack Benchmark - Vanetza (OpenSSL backend)
+============================================================
+  Mode     : security-verify
+  Security : on
+  Duration : 60s
+  Warm-up  : 5s
+  Platform : agx-orin
+  Interface: lo
+  Run ID   : 10
+  Output   : /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv
+Starting runtime at 2026-Nov-24 09:02:30.846099
+  CAM payload size: 41 bytes
+  Signed message size: 270 bytes
+    Throughput   : 1000.0 CAMs/s
+    Latency p50  : 378.69 us
+    CPU          : 38.2 %
+[2026-11-24 10:03:35] all cells done: /home/<user>/FlexStackBenchmarking/results/results_agx-orin_after_20261123T150325.csv

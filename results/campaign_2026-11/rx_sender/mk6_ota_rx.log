@@ -1,0 +1,24 @@
+[2026-11-25 11:54:35] waiting for the MK6 cells to finish
+[2026-11-25 13:48:41] waiting for the MK6 cells to finish
+ssh: connect to host <ip> port 22: Network is unreachable
+ssh: connect to host <ip> port 22: Network is unreachable
+ssh: connect to host <ip> port 22: Network is unreachable
+ssh: connect to host <ip> port 22: Connection timed out
+ssh: connect to host <ip> port 22: Connection timed out
+ssh: connect to host <ip> port 22: Connection timed out
+ssh: connect to host <ip> port 22: Connection timed out
+ssh: connect to host <ip> port 22: Connection timed out
+ssh: connect to host <ip> port 22: Connection timed out
+ssh: connect to host <ip> port 22: Connection timed out
+[2026-11-25 14:07:48] stopped: MK6 RX over C-V2X not run (decision of 2026-11-25)
+[2026-11-25 15:56:52] restart for the over-the-air RX cells (user request)
+[2026-11-25 15:56:52] waiting for the MK6 cells to finish
+[2026-11-25 15:56:53] phase rx off: start sender on .101 for 2700s
+[2026-11-25 15:57:09] phase rx off: receiver cell on .107
+[2026-11-25 16:34:56] phase rx off: receiver done; waiting for the sender to end
+[2026-11-25 16:42:05] phase rx off: sender ended
+[2026-11-25 16:42:05] phase rx on: start sender on .101 for 2700s
+[2026-11-25 16:42:20] phase rx on: receiver cell on .107
+[2026-11-25 17:20:07] phase rx on: receiver done; waiting for the sender to end
+[2026-11-25 17:27:15] phase rx on: sender ended
+[2026-11-25 17:27:15] MK6 over-the-air RX done

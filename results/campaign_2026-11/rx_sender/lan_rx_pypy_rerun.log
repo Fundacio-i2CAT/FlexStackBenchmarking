@@ -1,0 +1,29 @@
+[2026-11-25 21:14:34] lan_rx.sh finished
+[2026-11-25 21:14:40] data plane: wired, no IP; control plane: Wi-Fi
+[2026-11-25 21:14:40] phase rx off: starting 3 rolling Vanetza sender slots on enp3s0
+[2026-11-25 21:15:25] phase rx off: sender rate ~101720 frames/s on enp3s0
+tee: /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor: Invalid argument
+tee: /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor: Invalid argument
+[2026-11-25 21:16:29] phase rx off: running, sender ~101392 frames/s average
+[2026-11-25 21:21:30] phase rx off: running, sender ~100600 frames/s average
+[2026-11-25 21:26:30] phase rx off: running, sender ~100093 frames/s average
+[2026-11-25 21:31:30] phase rx off: running, sender ~100261 frames/s average
+[2026-11-25 21:36:31] phase rx off: running, sender ~100276 frames/s average
+[2026-11-25 21:41:31] phase rx off: running, sender ~100353 frames/s average
+[2026-11-25 21:46:31] phase rx off: running, sender ~100384 frames/s average
+[2026-11-25 21:51:32] phase rx off: running, sender ~100365 frames/s average
+[2026-11-25 21:56:32] phase rx off: running, sender ~100416 frames/s average
+[2026-11-25 22:01:32] phase rx off: running, sender ~100445 frames/s average
+[2026-11-25 22:06:33] phase rx off: running, sender ~100417 frames/s average
+[2026-11-25 22:11:33] phase rx off: running, sender ~100450 frames/s average
+[2026-11-25 22:16:33] phase rx off: running, sender ~100467 frames/s average
+[2026-11-25 22:21:34] phase rx off: running, sender ~100452 frames/s average
+[2026-11-25 22:26:34] phase rx off: running, sender ~100458 frames/s average
+[2026-11-25 22:31:34] phase rx off: running, sender ~100464 frames/s average
+[2026-11-25 22:36:34] phase rx off: running, sender ~100469 frames/s average
+[2026-11-25 22:41:37] phase rx off: running, sender ~100167 frames/s average
+[2026-11-25 22:46:39] phase rx off: running, sender ~100179 frames/s average
+[2026-11-25 22:51:42] phase rx off: running, sender ~100175 frames/s average
+[2026-11-25 22:56:44] phase rx off: running, sender ~100186 frames/s average
+[2026-11-25 23:01:48] phase rx off: receivers done; sender average 100145 frames/s over 6388 s
+[2026-11-25 23:02:53] PyPy RX rerun done

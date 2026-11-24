@@ -17,12 +17,21 @@ all:
     # Directory where benchmark files will be deployed on the remote host.
     bench_dir: /home/{{ ansible_user }}/FlexStackBenchmarking
 
+    # ── What to install (setup.yml) ─────────────────────────────────────────
+    # Python packages always come from PyPI (python/requirements.txt).
+    # local: Rust harness, certificates and MANIFEST.txt built by
+    #        scripts/prepare_campaign.sh into ../dist/ (harness against the
+    #        rustflexstack of rust/Cargo.lock, from crates.io).
+    # release: harness binary of the GitHub release rust_release_tag
+    #        (built against an older rustflexstack) and ../certs/.
+    artifact_source: local
+
     # ── PyPy version ────────────────────────────────────────────────────────
     pypy_version: "pypy3.11-v7.3.21"
 
     # ── Rust binary release ─────────────────────────────────────────────────
     rust_release_tag: "v0.2.8"
-    rust_release_base: "https://github.com/JordiMarias/FlexStackBenchmarking/releases/download/{{ rust_release_tag }}"
+    rust_release_base: "https://github.com/Fundacio-i2CAT/FlexStackBenchmarking/releases/download/{{ rust_release_tag }}"
 
     # ── Benchmark parameters ────────────────────────────────────────────────
     # Number of independent runs per benchmark cell.
@@ -61,6 +70,14 @@ all:
       # B5: Security Layer (in-memory sign/verify)
       - { mode: security-sign,   security: "on", impl: [rust, cpython, pypy] }
       - { mode: security-verify, security: "on", impl: [rust, cpython, pypy] }
+      # Fixed-rate cells (CPU/memory at realistic load, R4-7 / R2-2; omit
+      # `rate` = max rate): one station's CAM rate (10 Hz), and the
+      # verifications of 10 and 100 neighbours at 10 Hz. Rates a platform does
+      # not sustain are flagged by analyze_results.py.
+      - { mode: tx,              security: "off", rate: 10,   impl: [rust, cpython, pypy] }
+      - { mode: tx,              security: "on",  rate: 10,   impl: [rust, cpython, pypy] }
+      - { mode: security-verify, security: "on",  rate: 100,  impl: [rust, cpython, pypy] }
+      - { mode: security-verify, security: "on",  rate: 1000, impl: [rust, cpython, pypy] }
 
   children:
     # ── Platform groups ─────────────────────────────────────────────────────
@@ -73,8 +90,8 @@ all:
         bench_warmup_rust: 5
       hosts:
         # laptop-1:
-        #   ansible_host: 172.27.9.198
-        #   ansible_user: v2xi2cat
+        #   ansible_host: 192.0.2.10        # your host's address
+        #   ansible_user: bench
         #   ansible_become_password: [PASSWORD]
 
     rpi3:
@@ -86,11 +103,11 @@ all:
         bench_run_overhead: 60
       hosts:
         # rpi3-node1:
-        #   ansible_host: 192.168.0.103
-        #   ansible_user: pi
+        #   ansible_host: 192.0.2.31
+        #   ansible_user: bench
         # rpi3-node2:
-        #   ansible_host: 192.168.0.101
-        #   ansible_user: pi
+        #   ansible_host: 192.0.2.32
+        #   ansible_user: bench
 
     rpi5:
       vars:
@@ -100,6 +117,7 @@ all:
         bench_warmup_rust: 5
       hosts:
         rpi5-node1:
-          ansible_host: 192.168.0.107
-          ansible_user: v2xi2cat
-          ansible_become_password: REMOVED-PASSWORD
+          ansible_host: 192.0.2.51          # example address (RFC 5737): replace
+          ansible_user: bench
+          # sudo password from the environment: export BENCH_BECOME_PASSWORD=...
+          ansible_become_password: "{{ lookup('env', 'BENCH_BECOME_PASSWORD') }}"

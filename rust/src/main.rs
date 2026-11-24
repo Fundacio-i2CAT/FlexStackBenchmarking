@@ -12,7 +12,12 @@
 //!   sudo ./flexstack-bench --mode tx --security off --duration 60
 //!   sudo ./flexstack-bench --mode concurrent --security on --duration 60
 
+mod pacing;
+mod resources;
+
 use clap::Parser;
+use pacing::{pace, Pacer};
+use resources::{ResourceSnapshot, ResourceUsage};
 use std::fs::{self, OpenOptions};
 use std::io::Write;
 use std::path::{Path, PathBuf};
@@ -81,6 +86,12 @@ struct Args {
     #[arg(long, default_value_t = 60)]
     duration: u64,
 
+    /// Fixed message rate in msg/s for tx, concurrent, codec and security
+    /// modes (0 = as fast as possible). In rx mode nothing is paced: pass the
+    /// remote sender's rate here so it is recorded in the CSV.
+    #[arg(long, default_value_t = 0.0)]
+    rate: f64,
+
     /// Warm-up duration in seconds
     #[arg(long, default_value_t = 5)]
     warmup: u64,
@@ -94,7 +105,7 @@ struct Args {
     run_id: u32,
 
     /// Platform identifier for CSV output
-    #[arg(long, default_value = "laptop", value_parser = ["laptop", "rpi3", "rpi5"])]
+    #[arg(long, default_value = "laptop", value_parser = ["laptop", "rpi3", "rpi5", "agx-orin", "orin-nano"])]
     platform: String,
 
     /// Network interface
@@ -112,7 +123,7 @@ struct Args {
 }
 
 // ── CSV output ──────────────────────────────────────────────────────────────
-const CSV_HEADER: &str = "run_id,implementation,platform,security,benchmark,duration_s,total_cams,throughput_cams_s,latency_mean_us,latency_std_us,latency_p50_us,latency_p95_us,latency_p99_us,latency_min_us,latency_max_us,sign_latency_mean_us";
+const CSV_HEADER: &str = "run_id,implementation,platform,security,benchmark,duration_s,total_cams,throughput_cams_s,latency_mean_us,latency_std_us,latency_p50_us,latency_p95_us,latency_p99_us,latency_min_us,latency_max_us,sign_latency_mean_us,cpu_pct,rss_start_mb,peak_rss_mb,target_rate";
 
 struct BenchmarkResult {
     run_id: u32,
@@ -130,12 +141,15 @@ struct BenchmarkResult {
     latency_min: f64,
     latency_max: f64,
     sign_latency_mean: f64,
+    resources: ResourceUsage,
+    /// Requested rate in msg/s (0 = max rate). For rx: the remote sender's rate.
+    target_rate: f64,
 }
 
 impl BenchmarkResult {
     fn to_csv_row(&self) -> String {
         format!(
-            "{},rust,{},{},{},{:.3},{},{:.1},{:.2},{:.2},{:.2},{:.2},{:.2},{:.2},{:.2},{:.2}",
+            "{},rust,{},{},{},{:.3},{},{:.1},{:.2},{:.2},{:.2},{:.2},{:.2},{:.2},{:.2},{:.2},{:.1},{:.2},{:.2},{}",
             self.run_id,
             self.platform,
             self.security,
@@ -151,6 +165,10 @@ impl BenchmarkResult {
             self.latency_min,
             self.latency_max,
             self.sign_latency_mean,
+            self.resources.cpu_pct,
+            self.resources.rss_start_mb,
+            self.resources.peak_rss_mb,
+            self.target_rate,
         )
     }
 }
@@ -410,8 +428,10 @@ fn spawn_stack(
                             for event in &result.1 {
                                 match event {
                                     VerifyEvent::UnknownAt(h8) => s.notify_unknown_at(h8),
+                                    VerifyEvent::KnownAt(h8) => s.notify_known_at(h8),
                                     VerifyEvent::InlineP2pcdRequest(h3s) => s.notify_inline_p2pcd_request(h3s),
                                     VerifyEvent::ReceivedCaCertificate(cert) => s.notify_received_ca_certificate(cert.as_ref().clone()),
+                                    VerifyEvent::TrustListRequests(..) => {}
                                 }
                             }
                             result
@@ -442,7 +462,7 @@ fn spawn_stack(
             // Intercept GN→LL to count packets
             let (counted_ll_tx, counted_ll_rx) = mpsc::channel::<Vec<u8>>();
             thread::spawn(move || {
-                while let Ok(packet) = gn_to_ll_rx.recv() { println!("gn_to_ll_rx len: {}", packet.len());
+                while let Ok(packet) = gn_to_ll_rx.recv() {
                     cnt.fetch_add(1, Ordering::Relaxed);
                     let _ = counted_ll_tx.send(packet);
                 }
@@ -601,34 +621,50 @@ fn bench_tx(args: &Args) -> Vec<BenchmarkResult> {
 
     let coder = CamCoder::new();
     let template = make_cam(station_id);
-    // Warm-up: feed packets to saturate the pipeline
+    // Warm-up: same closed loop as the measurement (one packet in flight), so
+    // no backlog builds up in the stack's queues. Flooding the pipeline here
+    // left the signer working through warm-up packets during the measurement.
     println!("  Warm-up phase ({}s)...", args.warmup);
     let warmup_end = Instant::now() + Duration::from_secs(args.warmup);
     while Instant::now() < warmup_end {
         if let Ok(data) = coder.encode(&template) {
+            let prev = wire_counter.load(Ordering::SeqCst);
             btp_handle.send_btp_data_request(cam_btp_request(data, security_on));
+            pacing::wait_for_change(&wire_counter, prev);
         }
     }
 
-    // Let pipeline drain after warmup
-    thread::sleep(Duration::from_millis(200));
+    // Wait until the stack is idle (no packet reached the wire for 100 ms)
+    if !pacing::wait_quiescent(&wire_counter) {
+        println!("  WARNING: stack still busy after the warm-up drain timeout");
+    }
 
     // Measurement: send packets sequentially, measure full-stack TX latency per packet
     // (encode → BTP → GN → optional security sign → link layer)
     println!("  Measurement phase ({}s)...", args.duration);
     let mut latencies: Vec<f64> = Vec::with_capacity(500_000);
     wire_counter.store(0, Ordering::SeqCst);
+    let res_window = ResourceSnapshot::take();
     let bench_start = Instant::now();
     let bench_end = bench_start + Duration::from_secs(args.duration);
+    let mut pacer = Pacer::new(args.rate, bench_start);
+    let mut lost: u64 = 0;
 
     while Instant::now() < bench_end {
+
+        if !pace(&mut pacer, bench_end) {
+
+            break;
+
+        }
         let prev = wire_counter.load(Ordering::SeqCst);
         let t0 = Instant::now();
         if let Ok(data) = coder.encode(&make_cam(station_id)) {
             btp_handle.send_btp_data_request(cam_btp_request(data, security_on));
             // Spin-wait until the packet hits the wire (full stack traversal)
-            while wire_counter.load(Ordering::Acquire) == prev {
-                std::hint::spin_loop();
+            if !pacing::wait_for_change(&wire_counter, prev) {
+                lost += 1;
+                continue;
             }
             let t1 = Instant::now();
             latencies.push(t1.duration_since(t0).as_secs_f64() * 1e6);
@@ -636,6 +672,13 @@ fn bench_tx(args: &Args) -> Vec<BenchmarkResult> {
     }
 
     let elapsed = bench_start.elapsed().as_secs_f64();
+    let resources = res_window.finish();
+    if let Some(p) = &pacer {
+        println!("  Paced at {} msg/s ({} late releases)", args.rate, p.late());
+    }
+    if lost > 0 {
+        println!("  WARNING: {lost} packets did not complete within 1 s (not counted)");
+    }
     let total = latencies.len() as u64;
     let throughput = total as f64 / elapsed;
 
@@ -658,6 +701,8 @@ fn bench_tx(args: &Args) -> Vec<BenchmarkResult> {
         latency_min: lat_min,
         latency_max: lat_max,
         sign_latency_mean: 0.0,
+        resources,
+        target_rate: args.rate,
     }]
 }
 
@@ -740,17 +785,22 @@ fn bench_concurrent(args: &Args) -> Vec<BenchmarkResult> {
 
     let coder = CamCoder::new();
 
-    // Warm-up
+    // Warm-up: same closed loop as the measurement (one packet in flight), so
+    // no backlog builds up in the queues of either stack.
     println!("  Warm-up phase ({}s)...", args.warmup);
     let warmup_end = Instant::now() + Duration::from_secs(args.warmup);
     while Instant::now() < warmup_end {
         if let Ok(data) = coder.encode(&make_cam(station_id)) {
+            let prev = rx_count.load(Ordering::SeqCst);
             tx_btp.send_btp_data_request(cam_btp_request(data, security_on));
+            pacing::wait_for_change(&rx_count, prev);
         }
     }
 
-    // Let pipeline drain after warmup
-    thread::sleep(Duration::from_millis(200));
+    // Wait until both stacks are idle (nothing received for 100 ms)
+    if !pacing::wait_quiescent(&rx_count) {
+        println!("  WARNING: stacks still busy after the warm-up drain timeout");
+    }
 
     // Measurement: send packets sequentially, measure full end-to-end TX→RX latency
     // (encode → TX BTP → TX GN → optional sign → TX LL → wire →
@@ -761,17 +811,27 @@ fn bench_concurrent(args: &Args) -> Vec<BenchmarkResult> {
     rx_count.store(0, Ordering::SeqCst);
     rx_errors.store(0, Ordering::SeqCst);
 
+    let res_window = ResourceSnapshot::take();
     let bench_start = Instant::now();
     let bench_end = bench_start + Duration::from_secs(args.duration);
+    let mut pacer = Pacer::new(args.rate, bench_start);
+    let mut lost: u64 = 0;
 
     while Instant::now() < bench_end {
+
+        if !pace(&mut pacer, bench_end) {
+
+            break;
+
+        }
         let prev_rx = rx_count.load(Ordering::SeqCst);
         let t0 = Instant::now();
         if let Ok(data) = coder.encode(&make_cam(station_id)) {
             tx_btp.send_btp_data_request(cam_btp_request(data, security_on));
             // Wait for the packet to traverse the full TX→wire→RX pipeline
-            while rx_count.load(Ordering::Acquire) == prev_rx {
-                std::hint::spin_loop();
+            if !pacing::wait_for_change(&rx_count, prev_rx) {
+                lost += 1;
+                continue;
             }
             let t1 = Instant::now();
             latencies.push(t1.duration_since(t0).as_secs_f64() * 1e6);
@@ -781,6 +841,13 @@ fn bench_concurrent(args: &Args) -> Vec<BenchmarkResult> {
     let tx_total = wire_counter.load(Ordering::SeqCst);
     let rx_total = rx_count.load(Ordering::SeqCst);
     let elapsed = bench_start.elapsed().as_secs_f64();
+    let resources = res_window.finish();
+    if let Some(p) = &pacer {
+        println!("  Paced at {} msg/s ({} late releases)", args.rate, p.late());
+    }
+    if lost > 0 {
+        println!("  WARNING: {lost} packets did not complete within 1 s (not counted)");
+    }
 
     stop_flag.store(true, Ordering::Relaxed);
     thread::sleep(Duration::from_millis(200));
@@ -812,6 +879,8 @@ fn bench_concurrent(args: &Args) -> Vec<BenchmarkResult> {
         latency_min: lat_min,
         latency_max: lat_max,
         sign_latency_mean: 0.0,
+        resources,
+        target_rate: args.rate,
     }]
 }
 
@@ -862,6 +931,7 @@ fn bench_rx(args: &Args) -> Vec<BenchmarkResult> {
     println!("  Measurement phase ({}s)...", args.duration);
     let mut latencies: Vec<f64> = Vec::with_capacity(500_000);
     let coder_rx = CamCoder::new();
+    let res_window = ResourceSnapshot::take();
     let bench_start = Instant::now();
     let bench_end = bench_start + Duration::from_secs(args.duration);
     let mut rx_errors = 0u64;
@@ -886,6 +956,7 @@ fn bench_rx(args: &Args) -> Vec<BenchmarkResult> {
     }
 
     let elapsed = bench_start.elapsed().as_secs_f64();
+    let resources = res_window.finish();
     let total = latencies.len() as u64;
     let throughput = total as f64 / elapsed;
 
@@ -900,7 +971,7 @@ fn bench_rx(args: &Args) -> Vec<BenchmarkResult> {
     let (lat_mean, lat_std, lat_p50, lat_p95, lat_p99, lat_min, lat_max) =
         compute_stats(&mut latencies);
 
-    let mut results = vec![BenchmarkResult {
+    let results = vec![BenchmarkResult {
         run_id: args.run_id.clone(),
         platform: args.platform.clone(),
         security: args.security.clone(),
@@ -915,7 +986,9 @@ fn bench_rx(args: &Args) -> Vec<BenchmarkResult> {
         latency_p99: lat_p99,
         latency_min: lat_min,
         latency_max: lat_max,
-        sign_latency_mean: 0.0,
+        sign_latency_mean, // mean ECDSA verify latency (0 when unsecured)
+        resources,
+        target_rate: args.rate,
     }];
 
 
@@ -948,10 +1021,18 @@ fn bench_codec(args: &Args) -> Vec<BenchmarkResult> {
     // Measurement
     println!("  Measurement phase ({}s)...", args.duration);
     let mut latencies: Vec<f64> = Vec::with_capacity(5_000_000);
+    let res_window = ResourceSnapshot::take();
     let bench_start = Instant::now();
     let bench_end = bench_start + Duration::from_secs(args.duration);
+    let mut pacer = Pacer::new(args.rate, bench_start);
 
     while Instant::now() < bench_end {
+
+        if !pace(&mut pacer, bench_end) {
+
+            break;
+
+        }
         let t0 = Instant::now();
         if is_encode {
             let _ = coder.encode(&make_cam(station_id));
@@ -963,6 +1044,10 @@ fn bench_codec(args: &Args) -> Vec<BenchmarkResult> {
     }
 
     let elapsed = bench_start.elapsed().as_secs_f64();
+    let resources = res_window.finish();
+    if let Some(p) = &pacer {
+        println!("  Paced at {} msg/s ({} late releases)", args.rate, p.late());
+    }
     let total = latencies.len() as u64;
     let throughput = total as f64 / elapsed;
 
@@ -985,6 +1070,8 @@ fn bench_codec(args: &Args) -> Vec<BenchmarkResult> {
         latency_min: lat_min,
         latency_max: lat_max,
         sign_latency_mean: 0.0,
+        resources,
+        target_rate: args.rate,
     }]
 }
 
@@ -1046,11 +1133,16 @@ fn bench_security(args: &Args) -> Vec<BenchmarkResult> {
     // Measurement
     println!("  Measurement phase ({}s)...", args.duration);
     let mut latencies: Vec<f64> = Vec::with_capacity(500_000);
+    let res_window = ResourceSnapshot::take();
     let bench_start = Instant::now();
     let bench_end = bench_start + Duration::from_secs(args.duration);
+    let mut pacer = Pacer::new(args.rate, bench_start);
 
     if is_sign {
         while Instant::now() < bench_end {
+            if !pace(&mut pacer, bench_end) {
+                break;
+            }
             let request = SNSignRequest {
                 tbs_message: tbs_message.clone(),
                 its_aid: 36,
@@ -1067,6 +1159,9 @@ fn bench_security(args: &Args) -> Vec<BenchmarkResult> {
         }
     } else {
         while Instant::now() < bench_end {
+            if !pace(&mut pacer, bench_end) {
+                break;
+            }
             let request = SNVerifyRequest {
                 message: signed_message.clone(),
             };
@@ -1082,6 +1177,10 @@ fn bench_security(args: &Args) -> Vec<BenchmarkResult> {
     }
 
     let elapsed = bench_start.elapsed().as_secs_f64();
+    let resources = res_window.finish();
+    if let Some(p) = &pacer {
+        println!("  Paced at {} msg/s ({} late releases)", args.rate, p.late());
+    }
     let total = latencies.len() as u64;
     let throughput = total as f64 / elapsed;
 
@@ -1107,12 +1206,15 @@ fn bench_security(args: &Args) -> Vec<BenchmarkResult> {
         latency_min: lat_min,
         latency_max: lat_max,
         sign_latency_mean: lat_mean,
+        resources,
+        target_rate: args.rate,
     }]
 }
 
 // ── Main ────────────────────────────────────────────────────────────────────
 fn main() {
     let args = Args::parse();
+    resources::ensure_csv_header(&args.output, CSV_HEADER);
 
     println!("{}", "=".repeat(60));
     println!("FlexStack Benchmark — Rust (release, LTO)");
@@ -1128,6 +1230,7 @@ fn main() {
     println!("  Platform : {}", args.platform);
     println!("  Interface: {}", args.interface);
     println!("  Run ID   : {}", args.run_id);
+    println!("  Rate     : {}", if args.rate > 0.0 { format!("{} msg/s", args.rate) } else { "max".to_string() });
     println!("  Output   : {}", args.output);
     println!();
 
@@ -1156,6 +1259,8 @@ fn main() {
         println!("    Latency p50  : {:.2} μs", first.latency_p50);
         println!("    Latency p95  : {:.2} μs", first.latency_p95);
         println!("    Latency p99  : {:.2} μs", first.latency_p99);
+        println!("    CPU          : {:.1} % (100 = one core)", first.resources.cpu_pct);
+        println!("    RSS start    : {:.2} MB, peak {:.2} MB", first.resources.rss_start_mb, first.resources.peak_rss_mb);
     }
     println!("  Written to: {}", args.output);
 }

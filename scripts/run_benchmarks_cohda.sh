@@ -66,6 +66,22 @@ if [ ! -f "$CV2X_BIN" ]; then
   exit 1
 fi
 
+# ── Environment record + per-run thermal sidecar ─────────────────────────────
+# Copy lib_monitor.sh next to this script on the device to enable it.
+ENV_FILE="${OUTPUT%.csv}_env.txt"
+THERMAL_CSV="${OUTPUT%.csv}_thermal.csv"
+if [ -f "$SCRIPT_DIR/lib_monitor.sh" ]; then
+  # shellcheck source=lib_monitor.sh
+  source "$SCRIPT_DIR/lib_monitor.sh"
+  RUST_BIN="$CV2X_BIN"
+  record_environment "$ENV_FILE" "$PLATFORM" "0"
+  monitor_init "$THERMAL_CSV" "0"
+else
+  echo "  NOTE: lib_monitor.sh not found next to this script; no env/thermal records."
+  monitor_run_start() { :; }
+  monitor_run_end() { :; }
+fi
+
 # ── Helper: run a single benchmark cell ─────────────────────────────────────
 run_cell() {
   local SECURITY="$1"
@@ -77,12 +93,14 @@ run_cell() {
     echo "[$(date '+%H:%M:%S')] rust-cv2x | $SECURITY | $BENCH | run $RUN/$RUNS"
     echo "──────────────────────────────────────────────────────────"
 
+    monitor_run_start
     "$CV2X_BIN" \
       --mode "$BENCH" --security "$SECURITY" \
       --duration "$DURATION" --warmup "$WARMUP" \
       --output "$OUTPUT" --run-id "$RUN" \
       --platform "$PLATFORM" \
       2>&1 || echo "  [WARN] C-V2X benchmark exited with error"
+    monitor_run_end "rust-cv2x" "$SECURITY" "$BENCH" "$RUN"
 
     # Cool-down between runs
     if [ "$RUN" -lt "$RUNS" ]; then
