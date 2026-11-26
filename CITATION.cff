@@ -5,6 +5,8 @@ type: software
 authors:
   - family-names: "Marias-i-Parella"
     given-names: "Jordi"
+    orcid: "https://orcid.org/0000-0001-6968-789X"
+    affiliation: "Fundació i2CAT"
 repository-code: "https://github.com/Fundacio-i2CAT/FlexStackBenchmarking"
 license: AGPL-3.0-only
 keywords:

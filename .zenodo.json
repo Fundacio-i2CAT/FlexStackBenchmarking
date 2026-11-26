@@ -6,7 +6,11 @@
   "language": "eng",
   "description": "<p>Benchmark harnesses, orchestration, analysis and raw data of the performance evaluation of V2X FlexStack, an ETSI C-ITS Release 2 protocol stack implemented in Python and in Rust, compared with Vanetza.</p><p>Contents:</p><ul><li>Harnesses: FlexStack Python (CPython and PyPy, <code>v2xflexstack</code> 0.12.0), FlexStack Rust (<code>rustflexstack</code> 0.4.0), a C-V2X harness for the Cohda MK6, and Vanetza (pinned commit).</li><li>Raw data of the paper campaign (<code>results/campaign_2026-11/</code>): codec, signing, verification, TX and RX cells on an x86-64 laptop, Raspberry Pi 3 and 5, NVIDIA Jetson AGX Orin (two power modes) and Orin Nano, and C-V2X over the air on two Cohda MK6 units; with per-run thermal, environment and manifest sidecars, and the stopped attempts and reruns that are documented in the campaign README.</li><li>The binaries that were measured (<code>artefacts/</code>), each checked against the SHA-256 recorded at build time, and the test certificate chain of the signed cells.</li><li>The analysis that recomputes every statistic and table of the paper from the raw data (<code>analysis/</code>).</li></ul><p>How to check, re-analyse or re-run: <code>REPRODUCING.md</code>. Setup-specific identifiers (user names, host names, LAN addresses, MAC addresses) were replaced by placeholders in the text sidecars, and the build user name in the source paths embedded in the Rust binaries was overwritten; no measured value was changed (campaign README and <code>artefacts/README.md</code>).</p>",
   "creators": [
-    {"name": "Marias-i-Parella, Jordi", "affiliation": "Fundació i2CAT"}
+    {
+      "name": "Marias-i-Parella, Jordi",
+      "affiliation": "Fundació i2CAT",
+      "orcid": "0000-0001-6968-789X"
+    }
   ],
   "keywords": [
     "V2X",
@@ -21,9 +25,24 @@
     "Cohda MK6"
   ],
   "related_identifiers": [
-    {"identifier": "https://github.com/Fundacio-i2CAT/FlexStack", "relation": "references", "resource_type": "software", "scheme": "url"},
-    {"identifier": "https://github.com/Fundacio-i2CAT/RustFlexstack", "relation": "references", "resource_type": "software", "scheme": "url"},
-    {"identifier": "https://github.com/riebl/vanetza", "relation": "references", "resource_type": "software", "scheme": "url"}
+    {
+      "identifier": "https://github.com/Fundacio-i2CAT/FlexStack",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/Fundacio-i2CAT/RustFlexstack",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/riebl/vanetza",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "url"
+    }
   ],
   "notes": "The version of this record is the GitHub release tag. The measured binaries are also attached, under the names listed in the release notes, to the GitHub release of the same tag."
 }
