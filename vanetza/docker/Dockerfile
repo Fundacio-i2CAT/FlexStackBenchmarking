@@ -8,10 +8,18 @@
 # starts the binary through that loader: it runs on older systems too (the
 # laptop's Mint 20.3 has glibc 2.31) and on newer ones (RPi OS / Debian 13).
 FROM ubuntu:24.04 AS build
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-        build-essential ca-certificates cmake ninja-build \
-        libboost-date-time-dev libboost-program-options-dev libboost-system-dev \
-        libcrypto++-dev libgeographiclib-dev libssl-dev \
+# Retried: an Ubuntu mirror that is being synced serves index files that fail
+# their size or hash check ("Mirror sync in progress?") for a few minutes.
+RUN for i in 1 2 3 4 5; do \
+        apt-get -o Acquire::Retries=3 update \
+        && DEBIAN_FRONTEND=noninteractive apt-get -o Acquire::Retries=3 install -y --no-install-recommends \
+            build-essential ca-certificates cmake ninja-build \
+            libboost-date-time-dev libboost-program-options-dev libboost-system-dev \
+            libcrypto++-dev libgeographiclib-dev libssl-dev \
+        && break; \
+        [ "$i" = 5 ] && exit 1; \
+        echo "apt failed (attempt $i), retrying in 60 s"; rm -rf /var/lib/apt/lists/*; sleep 60; \
+    done \
     && rm -rf /var/lib/apt/lists/*
 COPY vanetza /src/vanetza
 RUN cmake -S /src/vanetza -B /build -G Ninja -DCMAKE_BUILD_TYPE=Release -DBUILD_SOCKTAP=ON \
